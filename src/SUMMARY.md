@@ -35,7 +35,7 @@
     - [Or](./boolean/or.md)
     - [Not](./boolean/not.md)
     - [Operator Precedance](./boolean/operator_precedance.md)
-    - [Challenges](./modern/bchallenges.md)
+    - [Challenges](./challenges.md)
 - [Integers](./integers.md)
     - [Addition](./integers/addition.md)
     - [Subtraction](./integers/subtraction.md)
