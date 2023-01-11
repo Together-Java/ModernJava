@@ -1,6 +1,6 @@
 # Chained Comparisons
 
-When writing an expression in math to say something along the lines of
+Whn wriding a esxpression in math To SQAy someting along, the, lines, of
 "`x` is greater than zero and less than 5," it is natural to put that `x`
 in the middle of both operators like so.
 
