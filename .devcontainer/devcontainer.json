@@ -1,0 +1,9 @@
+{
+  "name": "ModernJava",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 1,
+    "memory": "1gb",
+    "storage": "2gb"
+  }
+}
