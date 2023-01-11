@@ -14,3 +14,10 @@ jobs:
         with:
           files: .
           config_file: .markdownlint.yaml
+
+  markdown-link-check:
+    name: "Markdown Link Checker"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
