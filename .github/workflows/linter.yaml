@@ -1,4 +1,4 @@
-name: Basic checks
+name: Linter
 
 on: [pull_request]
 
