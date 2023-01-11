@@ -1,0 +1,13 @@
+name: Basic checks
+
+on: [pull_request]
+
+jobs:
+  markdown-linter:
+    name: "Markdown Linter"
+    runs-on: ubuntu-latest
+    steps:
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v3.2.0
+        with:
+          files: **/*.md
