@@ -1,0 +1,11 @@
+[book]
+title = "Modern Java"
+description = " Book teaching how to write modern and effective Java. It is maintained by the community, anyone can contribute."
+authors = ["Together Java", "Contributions from the Java Community"]
+language = "en"
+multilingual = false
+
+[output.html]
+git-repository-url = "https://github.com/Together-Java/ModernJava"
+edit-url-template = "https://github.com/Together-Java/ModernJava/edit/develop/{path}"
+mathjax-support = true
