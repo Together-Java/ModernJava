@@ -28,7 +28,7 @@ is that Java uses all of that to know where to start the program.
 ```java
 public class Main {
     public static void main(String[] args) {
-        < WRITE YOUR CODE HERE >
+        <WRITE YOUR CODE HERE>
     }
 }
 ```
