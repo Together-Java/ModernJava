@@ -9,7 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@v3.2.0
+      - name: Markdown Linting Action
+        uses: avto-dev/markdown-lint@v1.5.0
         with:
-          files: .
+          args: '.'
+          fix: true
