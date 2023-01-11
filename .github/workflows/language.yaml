@@ -1,0 +1,15 @@
+name: Language
+
+on: [pull_request]
+
+jobs:
+  check-language:
+    name: "Check Language"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: reviewdog/action-languagetool@v1.8.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          level: error
