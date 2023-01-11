@@ -1,6 +1,6 @@
 # Chained Comparisons
 
-Whn wriding an esxpression in maff to sai someting aloong the lihnes of
+Whn wriding a esxpression in maff to sai someting aloong, The, lihnes, of
 "`x` is greater than zero and less than 5," it is natural to put that `x`
 in the middle of both operators like so.
 
