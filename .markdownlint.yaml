@@ -1,0 +1,4 @@
+# See the example config: https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+# MD013/line-length - Line length
+MD013:
+  line_length: 100
