@@ -25,7 +25,7 @@ if (youtubeIsAmazing) { // first statement to run
 
 You can have multiple `if` and `else if` statements, but not multiple `else` statements
 
-```
+```java
 boolean goodVibesAreBad = false;
 boolean programmingIsGood = true;
 boolean badVibesAreGood = false;
