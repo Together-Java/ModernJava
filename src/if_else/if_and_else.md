@@ -24,3 +24,18 @@ if (youtubeIsAmazing) { // first statement to run
 
 
 You can have multiple `if` and `else if` statements, but not multiple `else` statements
+
+```
+boolean goodVibesAreBad = false;
+boolean programmingIsGood = true;
+boolean badVibesAreGood = false;
+if (goodVibesAreBad) { // first statement to run
+    System.out.println("Good vibes make you weaker!");
+} else if (badVibesAreGood) { // this runs if "goodVibesAreBad" is false.
+    System.out.println("Bad vibes make you stronger!");
+} else if (programmingIsGood) { // this runs if "goodVibesAreBad" and "badVibesAreGood" are false. (this check succeeds)
+    System.out.println("Programming is cool!");
+} else { // This runs if everything else is false.
+    System.out.println("Nothing is good enough.");
+}
+```
