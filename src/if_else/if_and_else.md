@@ -17,7 +17,7 @@ if (youtubeIsAmazing) { // first statement to run
     System.out.println("Youtube was always amazing!");
 } else if (badVibesAreGood) { // this runs if "youtubeIsAmazing" is false.
     System.out.println("Bad vibes make you strong!");
-} else { // This runs if both "youtubeIsAmazing" and "badVibesAreGood"
+} else { // This runs if both "youtubeIsAmazing" and "badVibesAreGood" are false. (this check succeeds)
     System.out.println("Nothing is good enough.");
 }
 ```
