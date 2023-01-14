@@ -11,6 +11,6 @@ jobs:
       - uses: reviewdog/action-languagetool@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-check
+          reporter: github-pr-review
           level: info
           enabled_categories: TYPOS
