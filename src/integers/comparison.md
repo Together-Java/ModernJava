@@ -1,6 +1,6 @@
 # Comparison
 
-In addition to comparing for equality with `==`, `int`s can be compared to see if one is bigger than another using
+In addition to comparing for equality with `==` and `!=`, `int`s can be compared to see if one is bigger than another using
 `>`, `<`, `>=`, and `<=`.
 
 `>` will evaluate to true if the number on the left is greater than the one on the right.

@@ -14,7 +14,7 @@ public class Main {
 Then, when there is a `}` everything is "de-dented" one level.
 
 I will kindly ask that you try to stick to this rule when writing your own code as well.
-If you try to find help online and you haven't, it will be dyslexically hard for people
+If you try to find help online and you haven't, it will be hard for people
 to read your code.
 
 So don't do this.
