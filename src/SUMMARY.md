@@ -69,7 +69,7 @@
 - [Characters](./characters.md)
     - [ASCII and Unicode](./characters/ascii_and_unicode.md)
     - [Character Literals](./characters/character_literals.md)
-    - [Escaped Characters](./characters/escaped_characters)
+    - [Escaped Characters](./characters/escaped_characters.md)
     - [New Line](./characters/new_line.md)
     - [Space](./characters/space.md)
     
