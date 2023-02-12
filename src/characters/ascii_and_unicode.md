@@ -1,2 +1,0 @@
-# ASCII and Unicode
-
