@@ -17,5 +17,7 @@ The initial value of a `char` can also be given by an integer literal if the int
 
 ```java
 char z = 122;
+
+System.out.println(z);
 ```
 

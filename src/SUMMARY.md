@@ -78,12 +78,12 @@
     - [Challenges](./characters/challenges.md)
 - [Strings](./strings.md)
     - [String Literals](./strings/string_literals.md)
-    - [Escaped Characters](./strings/escaped_characters.md)
-    - [Special Characters](./strings/newline.md)
+    - [Common Escape Sequences](./strings/common_escape_sequences.md)
     - [The Empty String](./strings/empty_string.md)
     - [Multiline String Literals](./strings/multiline.md)
-    - [Characters](./strings/characters.md)
-    - [Concatenation](./strings/concatenation)
+    - [Concatenation](./strings/concatenation.md)
+    - [Equality](./strings/equality.md)
+    - [Challenges](./strings/challenges.md)
 
 # Control Flow
 
