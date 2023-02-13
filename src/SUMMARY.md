@@ -71,13 +71,11 @@
     - [Challenges](./floating_point_numbers/challenges.md)
 - [Characters](./characters.md)
     - [Character Literals](./characters/character_literals.md)
-    - [Escaped Characters](./characters/escaped_characters.md)
-    - [New Line](./characters/new_line.md)
-    - [Space](./characters/space.md)
+    - [Common Escape Sequences](./characters/common_escape_sequences.md) 
     - [Conversion to Integers](./characters/conversion_to_integers.md)
     - [Conversion from Integers](./characters/conversion_from_integers.md)
     - [Unicode](./characters/unicode.md)
-    
+    - [Challenges](./characters/challenges.md)
 - [Strings](./strings.md)
     - [String Literals](./strings/string_literals.md)
     - [Escaped Characters](./strings/escaped_characters.md)
@@ -120,6 +118,10 @@
 <!--
 byte, short, long
 Multiversal Equality
+Reflection
+    Cover Invoking *public* constructs
+Annotations
+Javadoc and Documentation comments
 -->
 
 
