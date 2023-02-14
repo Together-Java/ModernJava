@@ -8,7 +8,7 @@ got away without having to.
 
 So while it is hypocritical for me to ask this of you,
 this book is written to be read linearly like a book. You can skip the rest
-of this prelude if you aren't interested and just dive in once you've [got your machine set up to code](../getting_started/hello_world.md), but keep that in mind.
+of this prelude if you aren't interested and just dive in once you've got your machine set up to code](./getting_started/hello_world.md), but keep that in mind.
 
 ## Background
 
