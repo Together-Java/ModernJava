@@ -1,6 +1,6 @@
 # First Steps
 
-If you made it through the [Getting Started](../getting_started/hello_world.md) you've successfully run this program.
+If you made it through the Getting Started section you've successfully run this program.
 
 ```java
 public class Main {
