@@ -32,7 +32,7 @@
 ```
 
 - Getting Started
-- [Hello, World](./hello_world.md)
+- [Hello, World]()
 - Data Types
     - int and long
         - Integer Division
