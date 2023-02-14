@@ -29,7 +29,7 @@ public class Main {
         x--;
         x--;
         x = x + x;
-        System.out.println(x + y);
+        System.out.println(x);
     }
 }
 ```
