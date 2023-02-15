@@ -1,4 +1,4 @@
-# Operator Precedance
+# Operator Precedence
 
 The operators that work on booleans have a "precedence order."
 
