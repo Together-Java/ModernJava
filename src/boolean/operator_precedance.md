@@ -1,6 +1,6 @@
 # Operator Precedance
 
-The operators that work on booleans have a "precedance order."
+The operators that work on booleans have a "precedence order."
 
 This is defines an order of operations similar to mathematics, where multiplication and division happen before
 addition and subtraction.
@@ -22,7 +22,7 @@ boolean result = a && !b || c;
 Also like mathematics, parentheses can be used to control this order.
 
 ```java
-// Even though || has a lower precedance than &&, we evaluate
+// Even though || has a lower precedence than &&, we evaluate
 // !b || c first because of the parentheses.
 boolean result = a && (!b || c);
 ```
