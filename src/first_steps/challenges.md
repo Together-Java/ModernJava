@@ -12,7 +12,7 @@ The rules for this are
 
 Write a program that prints your name twice. So if your name is "Jasmine", the output of the program should be this.
 
-```
+```text
 Jasmine
 Jasmine
 ```
@@ -21,7 +21,7 @@ Jasmine
 
 What will this program output when run? Write down your guess and then try actually running it.
 
-```
+```text
 public class Main {
     public static void main(String[] args) {
         System.out.println("A");
