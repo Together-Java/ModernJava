@@ -5,7 +5,6 @@ based on what it is initially assigned to.
 In these cases, you can write `var` in place of the type and let java "infer" what it should
 be.
 
-
 ```java
 // Since what is to the right hand side
 // of the = is in quotes, Java knows that
