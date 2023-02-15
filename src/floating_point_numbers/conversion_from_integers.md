@@ -2,7 +2,7 @@
 
 To convert from an `int` to a `double`, you don't need to do any special work. All `int`s are
 representable as `double`s so it is a "widening conversion" and will be handled automatically
-by the language when performing an assignment.
+by Java when performing an assignment.
 
 ```java
 int x = 5;

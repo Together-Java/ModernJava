@@ -1,6 +1,6 @@
 # Not
 
-Booleans can alsobe "negated" using the "not" operator - `!`. 
+Booleans can also be "negated" using the "not" operator - `!`. 
 
 ```java
 boolean haveOreosInHouse = true;

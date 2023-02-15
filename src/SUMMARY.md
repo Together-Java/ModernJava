@@ -31,6 +31,7 @@
     - [Final Variables](./variables/final_variables.md)
     - [Inferred Types](./variables/inferred_types.md)
     - [Challenges](./variables/challenges.md)
+
 # Basic Data Types
 - [Booleans](./boolean.md)
     - [And](./boolean/and.md)
@@ -85,43 +86,54 @@
     - [Equality](./strings/equality.md)
     - [Challenges](./strings/challenges.md)
 
-# Control Flow
+# Control Flow I
 
-
-- [If and Else]()
-    - [If Statement]()
-        - [Relation to Delayed Assignment]()
-    - [Integer Comparisons]()
-    - [Floating Point Number Comparisons]()
-    - [String Comparisons]()
+- [Branching Logic](./branching_logic.md)
+    - [If]()
+    - [Else]()
+    - [Else If]()
+    - [Relation to Delayed Assignment]()
     - [Ternary Expression]()
+- [Loops](./loops.md)
+    - [While]()
+    - [Termination Conditions]()
+    - [Break]()
+    - [Continue]()
+    - [Do]()
 
-- [While Loop]()
-- [Arrays]()
-    - ["String\[\] args"]()
-- [For Each Loop]()
-- [Counted For Loop]()
+# User Defined Types
+
+- [Classes]()
+    - [Primitive Classes]()
+    - [Reference Classes]()
+    - [null]()
+    - [Class Declaration]()
+    - [Naming]()
+- [Fields]()
+    - [Default Values of Fields]()
 - [Methods]()
     - [Arguments]()
-    - [Return Value]()
+    - [Return Values]()
     - [void]()
-- [String Methods]()
-    - [length]()
-- [User Defined Classes]()
-    - [Fields]()
-    - [Constructors]()
-    - [Methods]()
+- [Constructors]()
 
-    
-- [Control Flow]()
+# ...
+
+
+
 
 <!--
+Arrays
+Generics
+Maven
+XML
+Pom
 byte, short, long
 Multiversal Equality
 Reflection
     Cover Invoking *public* constructs
 Annotations
-Javadoc and Documentation comments
+Javadoc and Documentation comments 
 -->
 
 

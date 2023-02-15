@@ -14,7 +14,8 @@ System.out.println(hello);
 This will make a new `String` where the characters from the first one all appear followed by the characters in the second one.
 
 If you try to concatenate a `String` to something that is not a `String`, like an `int` or a `double`,
-then the result will be a new `String` with the characters from 
+then the result will be a new `String` with the characters from the "string representation" of that 
+other thing.
 
 ```java
 int numberOfApples = 5;

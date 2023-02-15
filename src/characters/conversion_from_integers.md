@@ -1,7 +1,7 @@
 # Conversion from Integers
 
 An `int` can represent more values than a `char`, so conversion from `int` to
-char requires the use of the cast operator `(char)`.
+`char` requires the use of the cast operator `(char)`.
 
 ```java
 int x = 120;

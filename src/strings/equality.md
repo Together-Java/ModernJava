@@ -1,6 +1,6 @@
 # Equality
 
-You can check if two `String`s are equal by using `.equals`.
+You can check if two `String`s have the same contents by using `.equals`.
 
 ```java
 String lyricOne = "Green, Green, Dress";
@@ -16,7 +16,7 @@ System.out.println(isMyName);
 You write one `String` on the left, `.equals`, and then the `String` you want to check it
 against inside of parentheses.
 
-To see if strings are not equal, you need to use the not operator (`!`) on
+To see if strings have different contents, you need to use the not operator (`!`) on
 the result of `.equals`.
 
 ```java

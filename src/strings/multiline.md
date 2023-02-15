@@ -22,5 +22,5 @@ String poem = """
     """;
 ```
 
-Inside of the this "Multi Line String Literal" you don't need to escape quotation marks `"`
+Inside of the this "Multiline String Literal" you don't need to escape quotation marks `"`
 and you gain the ability to write newlines without having to use `\n`.
