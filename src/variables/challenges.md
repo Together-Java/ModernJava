@@ -71,7 +71,7 @@ public class Main {
 
 ## Challenge 4
 
-Only adding lines in the middle and without writing `"A"` or `"B"` again, 
+Only adding lines in the middle and without writing `"A"` or `"B"` again,
 make it so that the output of the program is
 
 ```text
