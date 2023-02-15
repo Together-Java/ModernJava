@@ -4,7 +4,7 @@ Remember the rules for this are
 * Try to use only the information given up to this point in this book.
 * Try not to give up until you've given it a solid attempt
 
-## Challenge 1.
+## Challenge 1
 
 What will this program output when run? Write down your guess and then try running it.
 
@@ -18,7 +18,7 @@ public class Main {
 }
 ```
 
-## Challenge 2.
+## Challenge 2
 
 What will this program output when run? Write down your guess and then try running it.
 
@@ -32,7 +32,7 @@ public class Main {
 }
 ```
 
-## Challenge 3.
+## Challenge 3
 
 What will this program output when run? Write down your guess and then try running it. 
 
@@ -47,7 +47,7 @@ public class Main {
 }
 ```
 
-## Challenge 4.
+## Challenge 4
 
 These two expressions give different results. Why is that, and what results do they give?
 
@@ -59,7 +59,7 @@ System.out.println(resultOne);
 System.out.println(resultTwo);
 ```
 
-## Challenge 5.
+## Challenge 5
 
 The following is a quadratic equation.
 

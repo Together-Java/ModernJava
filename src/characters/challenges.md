@@ -5,7 +5,7 @@ Remember the rules for this are
 * Try not to give up until you've given it a solid attempt
 
 
-## Challenge 1.
+## Challenge 1
 
 A lot of math problems ask you to find \\( x^2 \\). What is the value of the character `x` squared?
 
@@ -21,7 +21,7 @@ public class Main {
 }
 ```
 
-## Challenge 2.
+## Challenge 2
 
 Alter the program below so that it will output `true` if the character declared at the top is a letter.
 
@@ -40,6 +40,6 @@ public class Main {
 }
 ```
 
-## Challenge 3.
+## Challenge 3
 
 How many UTF-16 code units does it take to represent this emoji? `👨‍🍳`.

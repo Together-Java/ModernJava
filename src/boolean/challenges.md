@@ -4,7 +4,7 @@ Remember the rules for this are
 * Try to use only the information given up to this point in this book.
 * Try not to give up until you've given it a solid attempt
 
-## Challenge 1.
+## Challenge 1
 
 What will this program output when run? Write down your guess and then try running it.
 
@@ -23,7 +23,7 @@ public class Main {
 }
 ```
 
-## Challenge 2.
+## Challenge 2
 
 What will this program output when run? Write down your guess and then try running it.
 
@@ -42,7 +42,7 @@ public class Main {
 }
 ```
 
-## Challenge 3.
+## Challenge 3
 
 Say you have two boolean variables, how could you use the operators we've covered to get the "exclusive or" of the two.
 
