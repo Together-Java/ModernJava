@@ -1,10 +1,11 @@
 # Challenges
 
 Remember the rules for this are
+
 * Try to use only the information given up to this point in this book.
 * Try not to give up until you've given it a solid attempt
 
-## Challenge 1.
+## Challenge 1
 
 What will this program output when run? Write down your guess and then try running it.
 
@@ -21,7 +22,7 @@ public class Main {
 }
 ```
 
-## Challenge 2.
+## Challenge 2
 
 Why won't this code run? Make it run by only changing one line.
 
@@ -70,9 +71,10 @@ public class Main {
 
 ## Challenge 4
 
-Only adding lines in the middle and without writing `"A"` or `"B"` again, make it so that the output of the program is 
+Only adding lines in the middle and without writing `"A"` or `"B"` again, 
+make it so that the output of the program is
 
-```
+```text
 B
 A
 ```
@@ -92,7 +94,6 @@ public class Main {
     }
 }
 ```
-
 
 ## Challenge 5
 
