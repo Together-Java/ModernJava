@@ -3,6 +3,6 @@
 MD007:
   indent: 4
 MD013:
-  line_length: 100
+  line_length: 300
 MD033:
   allowed_elements: ["iframe", "sup"]
