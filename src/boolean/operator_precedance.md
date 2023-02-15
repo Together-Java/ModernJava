@@ -1,6 +1,6 @@
 # Operator Precedance
 
-The operators that work on booleans have a "precedance order." 
+The operators that work on booleans have a "precedance order."
 
 This is defines an order of operations similar to mathematics, where multiplication and division happen before
 addition and subtraction.

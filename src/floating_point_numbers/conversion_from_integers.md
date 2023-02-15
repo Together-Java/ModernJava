@@ -36,4 +36,3 @@ double z = (double) x / y;
 
 System.out.println(z);
 ```
-

@@ -11,7 +11,7 @@ public class Main {
 ```
 
 This "prints" - not in the sense of a physical printer, but like "displays on the screen" -
-the text `"Hello, World!"`. 
+the text `"Hello, World!"`.
 
 Its a tradition for this to be your first program in
 any language. Unfortunately, for reasons that are impossible to explain with the context you have at this point,
@@ -23,7 +23,7 @@ public class Main {
 ```
 
 I don't _want_ it to stay cryptic nonsense, but until we get there all you truly need to know
-is that Java uses all of that to know where to start the program. 
+is that Java uses all of that to know where to start the program.
 
 ```java
 public class Main {

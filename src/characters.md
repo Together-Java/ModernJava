@@ -1,7 +1,7 @@
 # Characters
 
 A character, represented by the data type `char`, is a single
-letter or symbol. 
+letter or symbol.
 
 ```java
 char letter = 'a';

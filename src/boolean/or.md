@@ -26,4 +26,3 @@ An exclusive OR would be something like
 a child being allowed to have ice cream _or_ a cookie, but not both.
 
 The `||` operator is an "inclusive" OR, meaning the child is allowed ice cream, a cookie, or both ice cream and the cookie.
-

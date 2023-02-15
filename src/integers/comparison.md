@@ -40,5 +40,4 @@ boolean willBeTrue = 5 <= 5;
 boolean willBeFalse = 5 < 5;
 ```
 
-[^sharks]: Shark attacks are far more rare than people think they are. You are not a seal. 
-
+[^sharks]: Shark attacks are far more rare than people think they are. You are not a seal.

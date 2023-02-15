@@ -1,9 +1,9 @@
 # Challenges
 
 Remember the rules for this are
+
 * Try to use only the information given up to this point in this book.
 * Try not to give up until you've given it a solid attempt
-
 
 ## Challenge 1
 
@@ -26,7 +26,6 @@ public class Main {
 Alter the program below so that it will output `true` if the character declared at the top is a letter.
 
 Make use of the fact that the numeric values for `a` - `z` and `A` - `Z` are contiguous.
-
 
 ```java
 public class Main {

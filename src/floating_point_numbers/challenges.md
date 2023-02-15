@@ -1,6 +1,7 @@
 # Challenges
 
 Remember the rules for this are
+
 * Try to use only the information given up to this point in this book.
 * Try not to give up until you've given it a solid attempt
 
@@ -34,7 +35,7 @@ public class Main {
 
 ## Challenge 3
 
-What will this program output when run? Write down your guess and then try running it. 
+What will this program output when run? Write down your guess and then try running it.
 
 How can you make it give the "right" answer?
 
@@ -73,7 +74,7 @@ Where \\(a\\), \\(b\\), and \\(c\\) are the prefixes of each term in the followi
 
 \\[ ax^2 + bx + c = 0 \\]
 
-Write some code that finds both solutions to any quadratic equation defined by some variables 
+Write some code that finds both solutions to any quadratic equation defined by some variables
 `a`, `b`, and `c`. If the equation has imaginary solutions, you are allowed to just output `NaN`.
 
 ```java

@@ -27,7 +27,7 @@ If you happen to have an extra semi-colon or two that is technically okay. It ju
 System.out.print(
     "Hello, "
 );;
-``` 
+```
 
 Or even
 
@@ -47,4 +47,4 @@ System.out.print(
   ; ;       ; ;
   ; ;       ; ;
   ;;;       ;;;
-``` 
+```

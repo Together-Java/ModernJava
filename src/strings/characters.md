@@ -6,4 +6,3 @@ for individual characters.
 ```java
 char c = 'a';
 ```
-

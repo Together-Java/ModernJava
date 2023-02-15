@@ -27,7 +27,7 @@ None of this should be a surprise if you learned [PEMDAS](https://www.khanacadem
 // and the final result is 17;
 int result = 2 * 3 + 3 * 9 / 2 - 2;
 System.out.println(result);
-``` 
+```
 
 The `==`, `!=`, `>`, `<`, `>=`, and `<=` operators play a part here too[^theyalldo]. They all have a lower precedance order than all the math operators, so you can
 put them in the middle of any two math expressions.

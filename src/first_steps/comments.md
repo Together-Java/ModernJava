@@ -1,4 +1,5 @@
 # Comments
+
 At various points, I am going to leave "comments" in the code. Comments are parts of the code that
 are solely there for a human to be able to read as an explanation and can be written in regular
 words.
@@ -56,4 +57,3 @@ public class Main {
 ```
 
 So that's a mechanism you will see me use and you can use yourself however you see fit.
-

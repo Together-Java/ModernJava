@@ -14,8 +14,11 @@
     - [tutorialspoint paid course](./examples/tutorialspoint_paid.md)
     - [w3schools](./examples/w3schools.md) -->
 # Getting Started
+
 - [Hello, World](./getting_started/hello_world.md)
+
 # Modern Java
+
 - [Prelude](./prelude.md)
     - [Toy Problems](./prelude/toy_problems.md)
 - [First Steps](./first_steps.md)
@@ -33,6 +36,7 @@
     - [Challenges](./variables/challenges.md)
 
 # Basic Data Types
+
 - [Booleans](./boolean.md)
     - [And](./boolean/and.md)
     - [Or](./boolean/or.md)
@@ -72,7 +76,7 @@
     - [Challenges](./floating_point_numbers/challenges.md)
 - [Characters](./characters.md)
     - [Character Literals](./characters/character_literals.md)
-    - [Common Escape Sequences](./characters/common_escape_sequences.md) 
+    - [Common Escape Sequences](./characters/common_escape_sequences.md)
     - [Conversion to Integers](./characters/conversion_to_integers.md)
     - [Conversion from Integers](./characters/conversion_from_integers.md)
     - [Unicode](./characters/unicode.md)
@@ -117,11 +121,6 @@
     - [void]()
 - [Constructors]()
 
-# ...
-
-
-
-
 <!--
 Arrays
 Generics
@@ -135,7 +134,6 @@ Reflection
 Annotations
 Javadoc and Documentation comments 
 -->
-
 
 <!--
 # Legacy Java
@@ -171,7 +169,7 @@ Javadoc and Documentation comments
     - [Inner Classes]()
     - [Annotations]()
     - [Reflection]()
---> 
+-->
 
 <!--
 - Introduction
@@ -203,4 +201,83 @@ Javadoc and Documentation comments
 
 - Packages and Imports
 - Top Level Definitions in Packages
+
+- Virtual Threads
+- Foreign Memory API
+- jextract
+- Cleaner api
+
+- StructuredTaskScope
+- Executors
+
+    - [Build Tool]
+        - [Maven]
+            - Dependencies
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
+```
+
+- Getting Started
+- [Hello, World]()
+- Data Types
+    - int and long
+        - Integer Division
+    - float and double
+        - Floating Point Numbers
+    - booleans
+    - Arrays
+    - String
+        - String Literals
+        - Multiline String Literals
+- Expressions
+- Conditionals
+- Loops
+- Exceptions
+    - Checked Exceptions
+    - Unchecked Exceptions
+- Interfaces
+    - Sealed Interfaces
+- Visibility Modifiers
+- Types of Objects
+- Records
+- Enums
+- Inheritance
+    - Abstract Classes
+    - Final Classes
+    - Sealed Classes
+- Inversion of Control
+- JDBC
+    - ResultSet
+    - SQLException
+- Service Provider
+- jcmd
+- jfr
+- Custom JFR Events
+- Logging
+- XML
+- UncheckedIOException
+- Pattern Matching
+- instanceof
+
+- Maven before hikaricp
+    - HikariCP for connection pool
+
+System.console() over Scanner?
 -->

@@ -1,6 +1,7 @@
 # Challenges
 
 Remember the rules for this are
+
 * Try to use only the information given up to this point in this book.
 * Try not to give up until you've given it a solid attempt
 
@@ -35,6 +36,7 @@ public class Main {
 ```
 
 ## Challenge 3
+
 Make it so that this program correctly determines if the numbers are even or not.
 
 Assume that the values of `x`, `y`, and `z` could be changed. Don't just write out
@@ -59,10 +61,9 @@ public class Main {
 }
 ```
 
-
 ## Challenge 4
 
-Try dividing a number by zero. What happens? 
+Try dividing a number by zero. What happens?
 
 Write down your guess and then try running the program below to see.
 
@@ -101,6 +102,5 @@ public class Main {
     }
 }
 ```
-
 
 [^fbarticle]: [Now get in a fight with your relatives about it](https://slate.com/technology/2013/03/facebook-math-problem-why-pemdas-doesnt-always-give-a-clear-answer.html)

@@ -7,6 +7,6 @@ Modern Java is an open source project, and we love to receive contributions from
 ## How to contribute
 
 Please head over to the [Wiki](https://github.com/Together-Java/ModernJava/wiki) and
-in particular check out the article 
+in particular check out the article
 [Contributing](https://github.com/Together-Java/ModernJava/wiki/Contributing) to
 learn more about this project and how you can make it a better place.

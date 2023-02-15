@@ -1,6 +1,5 @@
 # Formatting
 
-
 You may have noticed that after each `{` all the code that comes after it is "indented" in one "level."
 
 ```java

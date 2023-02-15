@@ -1,8 +1,6 @@
 # Common Escape Sequences
 
-
 Inside of a string literal, there are some characters that cannot be written normally.
-
 
 An easy example is double quotes. You can't write double quotes in the middle of
 a string literal because Java will think the extra quote is the end of the `String`.

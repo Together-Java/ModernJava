@@ -1,10 +1,10 @@
 # Challenges
 
-
 At the end of each larger section, I am going to write down some things you can do
 to make sure you get what was just gone over.
 
 The rules for this are
+
 * Try to use only the information given up to this point in this book.
 * Try not to give up until you've given it a solid attempt
 

@@ -12,7 +12,7 @@ int valueOfA = 'a';
 System.out.println(valueOfA);
 ```
 
-`char`s will be automatically converted to `int`s when used with mathmatical operators like `+`, `-`, `>`, `<`, etc. 
+`char`s will be automatically converted to `int`s when used with mathmatical operators like `+`, `-`, `>`, `<`, etc.
 
 ```java
 char gee = 'g';
@@ -23,9 +23,7 @@ boolean isLetter = gee >= 'a' && gee <= 'z';
 System.out.println(isLetter);
 ```
 
-
 This can be useful if you are stranded on Mars[^onmars] or
 if you want to see if a character is in some range.
-
 
 [^onmars]: https://www.youtube.com/watch?v=k-GH3mbvUro

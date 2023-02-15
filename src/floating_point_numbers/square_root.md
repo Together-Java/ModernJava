@@ -30,4 +30,3 @@ If you try to take the square root of a negative number, the result will be `NaN
 // will output NaN
 System.out.println(Math.sqrt(-5.2));
 ```
-

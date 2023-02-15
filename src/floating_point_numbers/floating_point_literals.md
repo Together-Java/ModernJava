@@ -32,4 +32,3 @@ a floating point number using an integer literal.
 ```java
 double x = 5;
 ```
-

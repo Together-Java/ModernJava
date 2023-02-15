@@ -16,6 +16,4 @@ System.out.println(z);
 
 Unlike with integer division, floating point division will include the remainder in the result.[^caveat]
 
-
-
 [^caveat]: With the caveat that the result is now potentially inaccurate.

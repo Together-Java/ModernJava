@@ -9,7 +9,7 @@ int y = x;
 ```
 
 The reason for this is that there are numbers like `2.5`, the infinities, and `NaN` which do not have an
-obvious way to be represented as an integer. 
+obvious way to be represented as an integer.
 
 There are also numbers which a `double` can represent like `4207483647.0` and `-9999999999.0`
 which happen to be too big or too small to fit into the limits of an `int` even though they
@@ -53,7 +53,6 @@ double positiveInfinity = 5.0 / 0.0;
 System.out.println((int) positiveInfinity);
 ```
 
-
 Any number that is too small to store in an `int` will be converted to the smallest possible `int`, -2<sup>31</sup>.
 
 ```java
@@ -72,7 +71,7 @@ double nan = 0.0 / 0.0;
 System.out.println((int) nan);
 ```
 
-When you use `(int)` to convert, we call that a "cast[^cast] expression". The `(int)` is a "cast operator." It even has 
+When you use `(int)` to convert, we call that a "cast[^cast] expression". The `(int)` is a "cast operator." It even has
 a place in the operator precedence order just like `+`, `-`, `==`, etc.
 
 The main difference is that instead of appearing between two expressions like the `+` in `2 + 5`, it appears to the left of a single expression.

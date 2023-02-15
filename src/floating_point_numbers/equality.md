@@ -30,4 +30,3 @@ double y = 5.0;
 // will be true
 boolean fiveIsFive = x == y;
 ```
-
