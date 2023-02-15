@@ -20,7 +20,8 @@ Reassignments just involve the name and the new value. The type should not be re
 //  name   new value
 ```
 
-After a variable is reassigned, the value associated with the name will reflect the new value from that point in the program onwards .
+After a variable is reassigned, the value associated with the name will reflect 
+the new value from that point in the program onwards.
 
 ```java
 public class Main {
@@ -34,4 +35,3 @@ public class Main {
     }
 }
 ```
-
