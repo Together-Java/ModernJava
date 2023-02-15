@@ -17,7 +17,8 @@ String color = 8;
 This applies to all situations where a variable might be given a value,
 including delayed assignment and reassignment.
 
-One mental model is that types are like shapes. If the type of something is a circle, you can only put circles into it.
+One mental model is that types are like shapes. If the type of something is a circle, 
+you can only put circles into it.
 
 ```java
 ◯ thing = ◯;
