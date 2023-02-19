@@ -21,13 +21,13 @@ The `;` at the end is needed so that Java knows that the statement is over.
  You need to put a `;`
 at the end of every statement. If you do not, Java will get confused and your code will not work.
 
-If you happen to have an extra semi-colon or two that is technically okay. It just reads it as an "empty statement." Its pointless, but it is allowed.
+If you happen to have an extra semi-colon or two that is technically okay. It just reads it as an "empty statement." It's pointless, but it is allowed.
 
 ```java
 System.out.print(
     "Hello, "
 );;
-``` 
+```
 
 Or even
 
@@ -47,4 +47,4 @@ System.out.print(
   ; ;       ; ;
   ; ;       ; ;
   ;;;       ;;;
-``` 
+```

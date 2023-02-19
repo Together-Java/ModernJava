@@ -1,6 +1,6 @@
 # Comparison
 
-In addition to comparing for equality with `==`, `int`s can be compared to see if one is bigger than another using
+In addition to comparing for equality with `==` and `!=`, `int`s can be compared to see if one is bigger than another using
 `>`, `<`, `>=`, and `<=`.
 
 `>` will evaluate to true if the number on the left is greater than the one on the right.
@@ -40,5 +40,4 @@ boolean willBeTrue = 5 <= 5;
 boolean willBeFalse = 5 < 5;
 ```
 
-[^sharks]: Shark attacks are far more rare than people think they are. You are not a seal. 
-
+[^sharks]: Shark attacks are far more rare than people think they are. You are not a seal.

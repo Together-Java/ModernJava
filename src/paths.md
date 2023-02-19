@@ -2,18 +2,17 @@
 
 Hey folks,
 
-
 This is early days so I am going to use this first page as a message board of sorts to catch everyone up to speed.
 
 ## If you don't want to write
 
 If you want to get involved the (non-writing) tasks that provide the most value are
+
 - Provide feedback and suggestions
 - Offer any domain knowledge on things that the writers don't have (Has anyone used JavaFX for *real*?)
 - Start to investigate what it would take to have interactive code snippets or inline quizzes
 - Make art for pages that are "content complete." The wackier the better.
 - Share reference materials / tutorials you like or don't like.
-
 
 ## Examples
 
@@ -23,6 +22,7 @@ books and online tutorials that have been copied down rote for reference.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rCOmkrwQdFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Getting Started
+
 The section labeled "Getting Started" is where folks should work on making a guide for getting
 set up with the ability to run Java and develop on their machine.
 
@@ -32,8 +32,8 @@ In every chapter and guide we can assume that folks have gone through whatever s
 
 This should end with a successful "hello, world" and not have to be "redone" at any point for a learner to follow along.
 
-
 ## Modern Java
+
 In this section we are focusing on plotting the "learning path" for someone who wants to learn the "best version"
 of Java.
 
@@ -41,14 +41,13 @@ By "someone" I mean a "student" (loosely defined high school, college, or self l
 solid fundamentals. (due to bad curriculum, bad teacher, bad resources). Thats my current working hypothesis
 for a target audience.
 
-I don't imagine we will be able to make "101" type material that competes with a full curriculum. (Teaching for loops is way too hard!) but we should be able to make something that gives the proper foundation for 
-
+I don't imagine we will be able to make "101" type material that competes with a full curriculum. (Teaching for loops is way too hard!) but we should be able to make something that gives the proper foundation for
 
 Generally speaking, we are working on a "tutorial" in the [diataxis](https://diataxis.fr/) sense. As a rule of thumb, if someone has something that is
 an "Article" like you would see on Baeldung or geeksforgeeks or Medium, that is not the thing we want. (They are free to publish on those sites or self publish).
 
 At this point, we think the content should be written as if it is an interaction between a single author - "I" - and
-a hypothetical reader. 
+a hypothetical reader.
 
 In this we should use the latest Java uncompromisingly. There is no "as of Java 8" in this town. It is just Java, whatever the latest release is. Not latest LTS, latest release. I am not going to wait 2 years to talk about pattern matching.
 
@@ -83,5 +82,3 @@ or [rust by example](https://doc.rust-lang.org/rust-by-example/).
 
 Once a topic has been covered and fleshed out enough in the tutorial, someone can write a corresponding reference
 page in the tour.
-
-

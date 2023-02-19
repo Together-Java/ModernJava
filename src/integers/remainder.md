@@ -19,7 +19,7 @@ System.out.println(z);
 
 A common use for this is to make numbers "go in a circle."
 
-For instance, say you wanted to count from 0 up to 3 and then go back to 3.
+For instance, say you wanted to count from 0 up to 3 and then go back to 0.
 
 ```java
 int value = 0;
@@ -52,4 +52,3 @@ System.out.println(value);
 
 The fact that all the reassignments of value look identical is something that will be useful in tandem
 with loops.
-

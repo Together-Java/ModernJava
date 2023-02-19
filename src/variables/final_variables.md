@@ -1,6 +1,5 @@
 # Final Variables
 
-
 There is an optional extra part to a variable declaration where you can
 mark a variable as "final", meaning its value can never be reassigned.
 
