@@ -9,6 +9,18 @@ Remember the rules for this are
 
 What will this program output when run? Write down your guess and then try running it.
 
+~IF toplevel_anonymous_class
+
+```java
+void main() {
+    double x = 5.1;
+    double y = 2.4;
+    System.out.println(x + y);
+}
+```
+
+~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -19,9 +31,23 @@ public class Main {
 }
 ```
 
+~ENDIF
+
 ## Challenge 2
 
 What will this program output when run? Write down your guess and then try running it.
+
+~IF toplevel_anonymous_class
+
+```java
+void main() {
+    double x = 5.1;
+    double y = 2.1;
+    System.out.println(x + y);
+}
+```
+
+~ELSE
 
 ```java
 public class Main {
@@ -33,11 +59,24 @@ public class Main {
 }
 ```
 
+~ENDIF
+
 ## Challenge 3
 
 What will this program output when run? Write down your guess and then try running it.
 
 How can you make it give the "right" answer?
+
+~IF toplevel_anonymous_class
+
+```java
+void main() {
+    double x = 5 / 2;
+    System.out.println(x);
+}
+```
+
+~ELSE
 
 ```java
 public class Main {
@@ -47,6 +86,8 @@ public class Main {
     }
 }
 ```
+
+~ENDIF
 
 ## Challenge 4
 
@@ -77,6 +118,28 @@ Where \\(a\\), \\(b\\), and \\(c\\) are the prefixes of each term in the followi
 Write some code that finds both solutions to any quadratic equation defined by some variables
 `a`, `b`, and `c`. If the equation has imaginary solutions, you are allowed to just output `NaN`.
 
+~IF toplevel_anonymous_class
+
+```java
+void main() {
+    // For this one in particular, you should output
+    // -3.5811388300842 and -0.41886116991581
+    // but your code should work with these three numbers changed to
+    // represent any given quadratic equation.
+    double a = 2;
+    double b = 8;
+    double c = 3;
+
+    double resultOne = ???;
+    double resultTwo = ???;
+
+    System.out.println(resultOne);
+    System.out.println(resultTwo);
+}
+```
+
+~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -96,3 +159,5 @@ public class Main {
     }
 }
 ```
+
+~ENDIF
