@@ -13,8 +13,8 @@ mathjax-support = true
 [preprocessor.features]
 command = "python3 features.py"
 # Not ready
-toplevel_anonymous_class = true
+toplevel_anonymous_class = false
 # Not ready
-simple_io = true
+simple_io = false
 # Turn on when Java 21 released
 java_21 = false
