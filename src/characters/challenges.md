@@ -12,6 +12,7 @@ A lot of math problems ask you to find \\( x^2 \\). What is the value of the cha
 Try to work it out on paper before running the program below.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     char x = 'x';
@@ -19,7 +20,9 @@ void main() {
     System.out.println(x * x);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -29,8 +32,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 2
 
@@ -39,6 +42,7 @@ Alter the program below so that it will output `true` if the character declared 
 Make use of the fact that the numeric values for `a` - `z` and `A` - `Z` are contiguous.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     char c = 'a';
@@ -48,7 +52,9 @@ void main() {
     System.out.println(isLetter);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -60,8 +66,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 3
 

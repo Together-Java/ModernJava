@@ -24,7 +24,6 @@ void main() {
 
 ~ELSE
 
-
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -74,8 +73,7 @@ Find the Java template and click "Create".
 You should land on a screen with a big green run button, an open file called
 "Main.java", and a blank window labeled "console".
 
-
-<img 
+<img
 ~IF toplevel_anonymous_class
      src="/getting_started/repl_4_voidmain.png"
 ~ELSE
@@ -86,7 +84,7 @@ You should land on a screen with a big green run button, an open file called
 
 Click it and you should see the text `Hello, world!` appear under the console window.
 
-<img 
+<img
 ~IF toplevel_anonymous_class
      src="/getting_started/repl_5_voidmain.png"
 ~ELSE
@@ -94,4 +92,3 @@ Click it and you should see the text `Hello, world!` appear under the console wi
 ~ENDIF
      alt="Picture of a hello world program after running"
      width = "800">
-

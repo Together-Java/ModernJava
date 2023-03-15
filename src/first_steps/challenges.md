@@ -53,10 +53,7 @@ public class Main {
 }
 ```
 
-~ENDIF 
-
-
-
+~ENDIF
 
 ## Challenge 3
 

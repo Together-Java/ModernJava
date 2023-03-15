@@ -10,6 +10,7 @@ Remember the rules for this are
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```Java
 void main() {
     String first = "1";
@@ -19,7 +20,9 @@ void main() {
     System.out.println(result);
 }
 ```
+
 ~ELSE
+
 ```Java
 public class Main {
     public static void main(String[] args) {
@@ -31,14 +34,15 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 2
 
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```Java
 void main() {
     String first = "1";
@@ -47,7 +51,9 @@ void main() {
     System.out.println(first + second);
 }
 ```
+
 ~ELSE
+
 ```Java
 public class Main {
     public static void main(String[] args) {
@@ -58,6 +64,7 @@ public class Main {
     }
 }
 ```
+
 ~ENDIF
 
 ## Challenge 3
@@ -65,6 +72,7 @@ public class Main {
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```Java
 void main() {
     char first = 'a';
@@ -74,7 +82,9 @@ void main() {
     System.out.println((first + second).equals(second));
 }
 ```
+
 ~ELSE
+
 ```Java
 public class Main {
     public static void main(String[] args) {
@@ -86,6 +96,7 @@ public class Main {
     }
 }
 ```
+
 ~ENDIF
 
 ## Challenge 4
@@ -96,6 +107,7 @@ not altering the `println` statement.
 Before your change, why does it output `294`?
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     char a = 'a';
@@ -104,7 +116,9 @@ void main() {
     System.out.println(a + b + c);
 }
 ```
+
 ~ELSE
+
 ```Java
 public class Main {
     public static void main(String[] args) {
@@ -116,16 +130,18 @@ public class Main {
     }
 }
 ```
+
 ~ENDIF
 
 ## Challenge 5
 
-Without adding any new `println`s, 
+Without adding any new `println`s,
 change one line in this program so that it outputs `racecar`.
 
 Try to find two ways to do that.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     String racecar = "racecar";
@@ -149,7 +165,9 @@ void main() {
     System.out.println(racecar.charAt(index));
 }
 ```
+
 ~ELSE
+
 ```Java
 public class Main {
     public static void main(String[] args) {
@@ -175,4 +193,5 @@ public class Main {
     }
 }
 ```
+
 ~ENDIF

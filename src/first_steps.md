@@ -10,7 +10,7 @@ void main() {
 }
 ```
 
-~ELSE 
+~ELSE
 
 ```java
 public class Main {
@@ -36,7 +36,6 @@ void main() {
     < WRITE YOUR CODE HERE >
 }
 ```
-
 
 ~ELSE
 
@@ -106,8 +105,6 @@ public class Main {
 ```
 
 ~ENDIF
-
-
 
 You should get in the habit of, whenever you see some bit of code, trying to physically type it out, run it,
 tweak it, and play with it.

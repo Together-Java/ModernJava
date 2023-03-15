@@ -16,7 +16,7 @@ When you do, keep in mind these basic rules.
 
 ## 1. You get what you pay for
 
-Often the people willing to help you will be volunteers. 
+Often the people willing to help you will be volunteers.
 
 Do not expect them to do your
 assignments for you, do not expect them to be available at a moments notice, and accept
@@ -34,6 +34,3 @@ Asking questions well before a deadline is best for all those involved.
 Don't ask to ask, nor only say hello, just ask your actual question right away.
 
 Consult [https://dontasktoask.com/](https://dontasktoask.com/) for what that means exactly.
-
-
-

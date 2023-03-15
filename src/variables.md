@@ -24,7 +24,6 @@ public class Main {
 
 ~ENDIF
 
-
 A variable declaration has three components - the "type", the "name", and the "initial value".
 
 ```java

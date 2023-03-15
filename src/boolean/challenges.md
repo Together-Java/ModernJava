@@ -10,6 +10,7 @@ Remember the rules for this are
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     boolean a = true;
@@ -22,7 +23,9 @@ void main() {
     System.out.println(result);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -37,15 +40,15 @@ public class Main {
     }
 }
 ```
+
 ~ENDIF
-
-
 
 ## Challenge 2
 
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     boolean a = true;
@@ -58,7 +61,9 @@ void main() {
     System.out.println(result);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -73,14 +78,15 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 3
 
 Say you have two boolean variables, how could you use the operators we've covered to get the "exclusive or" of the two.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     // Change these two variables to test your solution
@@ -92,7 +98,9 @@ void main() {
     System.out.println(validChoice);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -106,8 +114,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 Make sure to test all the possibilities.
 

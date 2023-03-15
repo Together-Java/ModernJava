@@ -10,6 +10,7 @@ Remember the rules for this are
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     double x = 5.1;
@@ -17,7 +18,9 @@ void main() {
     System.out.println(x + y);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -27,14 +30,15 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 2
 
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     double x = 5.1;
@@ -42,7 +46,9 @@ void main() {
     System.out.println(x + y);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -52,8 +58,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 3
 
@@ -62,13 +68,16 @@ What will this program output when run? Write down your guess and then try runni
 How can you make it give the "right" answer?
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     double x = 5 / 2;
     System.out.println(x);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -77,8 +86,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 4
 
@@ -110,6 +119,7 @@ Write some code that finds both solutions to any quadratic equation defined by s
 `a`, `b`, and `c`. If the equation has imaginary solutions, you are allowed to just output `NaN`.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     // For this one in particular, you should output
@@ -127,7 +137,9 @@ void main() {
     System.out.println(resultTwo);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -147,5 +159,5 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF

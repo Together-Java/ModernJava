@@ -30,7 +30,6 @@ Then, when there is a `}` everything is "de-dented" one level.
 
 ~ENDIF
 
-
 I will kindly ask that you try to stick to this rule when writing your own code as well.
 If you try to find help online and you haven't, it will be hard for people
 to read your code.
@@ -55,8 +54,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 And not like this.
 
@@ -70,7 +69,7 @@ void main()
 System.out.println("Hello, World!");}
 ```
 
-~ELSE 
+~ELSE
 
 ```java
 public class Main 

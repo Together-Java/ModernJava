@@ -26,8 +26,6 @@ public class Main {
 
 ~ENDIF
 
-
-
 The rules for this are that if you see a `//`, everything after that in the same line
 is ignored.
 
@@ -43,7 +41,7 @@ void main() {
 }
 ```
 
-~ELSE 
+~ELSE
 
 ```java
 public class Main {
@@ -56,8 +54,6 @@ public class Main {
 ```
 
 ~ENDIF
-
-
 
 You might want to do that at various points where you want to see what happens if you "turn off" parts of
 the code.

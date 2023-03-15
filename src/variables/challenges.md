@@ -10,6 +10,7 @@ Remember the rules for this are
 What will this program output when run? Write down your guess and then try running it.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     String mascot = "The Noid";
@@ -20,7 +21,9 @@ void main() {
     System.out.println(mascot);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -33,14 +36,15 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 2
 
 Why won't this code run? Make it run by only changing one line.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     String fruit;
@@ -60,7 +64,9 @@ void main() {
     System.out.println(vegtable);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -82,14 +88,15 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 3
 
 What is the output of this code?
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     String a = "A";
@@ -104,7 +111,9 @@ void main() {
     System.out.println(b);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -121,8 +130,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 4
 
@@ -135,6 +144,7 @@ A
 ```
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     String a = "A";
@@ -148,7 +158,9 @@ void main() {
     System.out.println(b);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -164,14 +176,15 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 ## Challenge 5
 
 Some of the variables in this program are named "wrong." Fix them.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     String apple = "red";
@@ -181,7 +194,9 @@ void main() {
     String slowRunner = "tortoise";
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -193,6 +208,5 @@ public class Main {
     }
 }
 ```
+
 ~ENDIF
-
-

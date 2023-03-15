@@ -4,13 +4,16 @@ There is an optional extra part to a variable declaration where you can
 mark a variable as "final", meaning its value can never be reassigned.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     final String coolestChef = "Anthony Bourdain";
     System.out.println(coolestChef);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -19,12 +22,13 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 If you try to reassign a final variable, Java will not accept your program.
 
 ~IF toplevel_anonymous_class
+
 ```java
 void main() {
     final String coolestChef = "Anthony Bourdain";
@@ -35,7 +39,9 @@ void main() {
     System.out.println(coolestChef);
 }
 ```
+
 ~ELSE
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -48,8 +54,8 @@ public class Main {
     }
 }
 ```
-~ENDIF
 
+~ENDIF
 
 This is useful if you have a lot of lines of code and want the mental
 comfort of knowing you couldn't have reassigned that variable at any
