@@ -13,15 +13,14 @@
     - [tutorialspoint](./examples/tutorialspoint.md)
     - [tutorialspoint paid course](./examples/tutorialspoint_paid.md)
     - [w3schools](./examples/w3schools.md) -->
-# Getting Started
-
-- [Hello, World](./getting_started/hello_world.md)
 
 # Modern Java
+
 
 - [Prelude](./prelude.md)
     - [Asking for Help](./prelude/asking_for_help.md)
     - [Toy Problems](./prelude/toy_problems.md)
+- [Getting Started](./getting_started.md)
 - [First Steps](./first_steps.md)
     - [Comments](./first_steps/comments.md)
     - [Semicolons](./first_steps/semicolon.md)
@@ -95,12 +94,14 @@
 
 # Control Flow I
 
-- [Branching Logic](./branching_logic.md)
+- [Branching Paths](./branching_paths.md)
     - [If](./branching_logic/if.md)
     - [Else](./branching_logic/else.md)
+    - [Nested Ifs](./branching_logic/nested_ifs.md)
     - [Else If](./branching_logic/else_if.md)
     - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
-    - [Ternary Expression](./branching_logic/ternary_expression.md)
+    - [Conditional Operator](./branching_logic/conditional_operator.md)
+    - [Boolean Expressions](./branching_logic/boolean_expressions.md)
     - [Challenges](./branching_logic/challenges.md)
 - [Loops](./loops.md)
     - [While](./loops/while.md)
