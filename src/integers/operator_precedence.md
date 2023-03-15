@@ -10,6 +10,7 @@ None of this should be a surprise if you learned [PEMDAS](https://www.khanacadem
 
 ```java
 // Following the order of operations:
+// 2 * 3 + 3 * 9 / 2 - 2
 
 // 2 * 3 happens first
 // 6 + 3 * 9 / 2 - 2
@@ -18,11 +19,12 @@ None of this should be a surprise if you learned [PEMDAS](https://www.khanacadem
 // 6 + 27 / 2 - 2
 
 // 27 / 2 happens next
-// because of int division, that gives 13
+// because of int division, that gives 13 
+// (ignores float point number .5)
 // 6 + 13 - 2
 
 // 6 + 13 comes next
-// 19 - 7
+// 19 - 2
 
 // and the final result is 17;
 int result = 2 * 3 + 3 * 9 / 2 - 2;
