@@ -115,14 +115,14 @@
     - [Labeled Continue](./loops/labeled_continue.md)
     - [Challenges](./loops/challenges.md)
 - [Iteration](./iteration.md)
-    - [Counting Up](./iteration/iterate_over_a_string.md)
-    - [Counting Down]()
+    - [Counting Up with while](./iteration/iterate_over_a_string.md)
+    - [Counting Down with while]()
     - [Iterate over a String]()
 
 # Data Types II
 
-- [Reference Types]
-- [Primitive Types]
+- [Reference Types]()
+- [Primitive Types]()
 - [null]()
 - [Arrays]()
     - [Array Literals]()
@@ -136,9 +136,11 @@
 - [For]()
     - [Comparison to while]()
     - [Relation to Arrays]()
+    - [var]()
+    - [final]()
 - [For Each]()
 
-- [Iteration]
+- [Iteration]()
     - [Iterate over an array]()
     - [Populate array]()
 
