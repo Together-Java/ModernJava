@@ -35,7 +35,7 @@
     - [Inferred Types](./variables/inferred_types.md)
     - [Challenges](./variables/challenges.md)
 
-# Basic Data Types
+# Data Types I
 
 - [Booleans](./boolean.md)
     - [And](./boolean/and.md)
@@ -114,6 +114,33 @@
     - [Labeled Break](./loops/labeled_break.md)
     - [Labeled Continue](./loops/labeled_continue.md)
     - [Challenges](./loops/challenges.md)
+- [Iteration](./iteration.md)
+    - [Counting Up](./iteration/iterate_over_a_string.md)
+    - [Counting Down]()
+    - [Iterate over a String]()
+
+# Data Types II
+
+- [Reference Types]
+- [Primitive Types]
+- [null]()
+- [Arrays]()
+    - [Array Literals]()
+    - [Get item at index]()
+    - [Set item at index]()
+- [Default Values]()
+
+
+# Control Flow II
+
+- [For]()
+    - [Comparison to while]()
+    - [Relation to Arrays]()
+- [For Each]()
+
+- [Iteration]
+    - [Iterate over an array]()
+    - [Populate array]()
 
 # User Defined Types
 
