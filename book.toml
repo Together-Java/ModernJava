@@ -10,6 +10,10 @@ git-repository-url = "https://github.com/Together-Java/ModernJava"
 edit-url-template = "https://github.com/Together-Java/ModernJava/edit/develop/{path}"
 mathjax-support = true
 
+[output.html.fold]
+enable = true    # whether or not to enable section folding
+level = 0         # the depth to start folding
+
 [preprocessor.features]
 command = "python3 features.py"
 # Not ready

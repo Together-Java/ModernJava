@@ -26,5 +26,7 @@ itself already evaluates to a `boolean`. You can directly assign the variable to
 ```java
 int age = 22;
 boolean canRent = age > 25;
+
+System.out.println(canRent);
 ```
 

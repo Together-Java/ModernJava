@@ -105,10 +105,14 @@
     - [Challenges](./branching_logic/challenges.md)
 - [Loops](./loops.md)
     - [While](./loops/while.md)
-    - [Termination Conditions](./loops/termination_conditions.md)
+    - [Endless Loops](./loops/endless_loops.md)
     - [Break](./loops/break.md)
     - [Continue](./loops/continue.md)
-    - [Do](./loops/do.md)
+    - [Unreachable Code](./loops/unreachable_code.md)
+    - [Do While](./loops/do_while.md)
+    - [Nested Loops](./loops/nested_loops.md)
+    - [Labeled Break](./loops/labeled_break.md)
+    - [Labeled Continue](./loops/labeled_continue.md)
     - [Challenges](./loops/challenges.md)
 
 # User Defined Types
