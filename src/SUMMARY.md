@@ -115,9 +115,10 @@
     - [Labeled Continue](./loops/labeled_continue.md)
     - [Challenges](./loops/challenges.md)
 - [Iteration](./iteration.md)
-    - [Counting Up with while](./iteration/iterate_over_a_string.md)
-    - [Counting Down with while]()
-    - [Iterate over a String]()
+    - [Counting Up with while](./iteration/counting_up_with_while.md)
+    - [Counting Down with while](./iteration/counting_down_with_while.md)
+    - [Iterate over a String](./iteration/iterate_over_a_string.md)
+
 
 # Data Types II
 

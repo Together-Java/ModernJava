@@ -17,8 +17,8 @@ level = 0         # the depth to start folding
 [preprocessor.features]
 command = "python3 features.py"
 # Not ready
-toplevel_anonymous_class = false
+toplevel_anonymous_class = true
 # Not ready
-simple_io = false
+simple_io = true
 # Turn on when Java 21 released
 java_21 = false
