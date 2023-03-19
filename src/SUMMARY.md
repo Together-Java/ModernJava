@@ -20,6 +20,7 @@
 - [Prelude](./prelude.md)
     - [Asking for Help](./prelude/asking_for_help.md)
     - [Toy Problems](./prelude/toy_problems.md)
+    - [Lies](./prelude/lies.md)
 - [Getting Started](./getting_started.md)
 - [First Steps](./first_steps.md)
     - [Comments](./first_steps/comments.md)
@@ -122,14 +123,21 @@
 
 # Data Types II
 
-- [Reference Types]()
-- [Primitive Types]()
-- [null]()
-- [Arrays]()
-    - [Array Literals]()
-    - [Get item at index]()
-    - [Set item at index]()
-- [Default Values]()
+- [Arrays](./arrays.md)
+    - [Array Initializers](./arrays/array_initializers.md)
+    - [Length](./arrays/length.md)
+    - [Access Individual Elements](./arrays/access_individual_elements.md)
+    - [Set Individual Elements](./arrays/set_individual_elements.md)
+    - [Aliasing](./arrays/aliasing.md)
+    - [Reassignment](./arrays/reassignment.md)
+    - [Printing the Contents of an Array](./arrays/printing_the_contents_of_an_array.md)
+    - [Empty Array](./arrays/empty_array.md)
+    - [Difference between Initializer and Literal]()
+    - [char\[\] vs String]()
+
+
+
+
 
 
 # Control Flow II
@@ -143,7 +151,12 @@
 
 - [Iteration]()
     - [Iterate over an array]()
-    - [Populate array]()
+
+
+- [null](./null.md)
+- [Reference Types]()
+- [Primitive Types]()
+- [Populate array]()
 
 # User Defined Types
 
@@ -277,15 +290,9 @@ Javadoc and Documentation comments
 - Getting Started
 - [Hello, World]()
 - Data Types
-    - int and long
-        - Integer Division
-    - float and double
-        - Floating Point Numbers
-    - booleans
+
     - Arrays
-    - String
-        - String Literals
-        - Multiline String Literals
+multi dimensional arrays
 - Expressions
 - Conditionals
 - Loops
