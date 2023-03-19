@@ -176,6 +176,7 @@
 
 <!--
 Arrays
+copy an array (System.arrayCopy, for loop)
 Generics
 Maven
 XML

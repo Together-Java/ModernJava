@@ -12,8 +12,7 @@ int[] numbers = { 1, 2, 3 }
 ```
 
 
-The elements in an initializer do not have to be literals and can also be variables or expressions
-which evaluate to a value.
+The elements in an initializer do not have to be literals and can also be variables or expressions.
 
 ```java
 int two = 2;

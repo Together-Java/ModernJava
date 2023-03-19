@@ -1,4 +1,49 @@
 # Printing the Contents of an Array
 
 If you try to use `System.out.println` to output a `String[]`
-you will see every element of the 
+you won't see the contents of the array. Instead you will see
+something like `[Ljava.lang.String;@1c655221`.
+
+```java
+String[] shout = { "fus", "ro", "dah" };
+// [Ljava.lang.String;@5a07e868
+System.out.println(shout);
+```
+
+A similar thing will happen with `int[]`, `boolean[]`, and `double[]`.
+
+```java
+int[] nums = { 11, 11, 11 };
+// [I@5a07e868
+System.out.println(nums);
+
+boolean[] bools = { true, false };
+// [Z@5a07e868
+System.out.println(bools);
+
+double[] doubles = { 1.1, 1.1, 1.1 };
+// [D@5a07e868
+System.out.println(bools);
+```
+
+The only kind of array which will include its contents when printed is a `char[]`.
+It will be printed as if it were a `String`.
+
+```java
+char[] continent = { 'T', 'a', 'm', 'r', 'i', 'e', 'l' };
+// Tamriel
+System.out.println(continent);
+```
+
+If you want to actually see the contents of an array, you should
+use a loop.
+
+```java
+String[] shout = { "fus", "ro", "dah" };
+
+int index = 0;
+while (index < shout.length) {
+    System.out.println(shout[index])
+    index++
+}
+```

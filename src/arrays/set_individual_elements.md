@@ -1,6 +1,6 @@
 # Set Individual Elements
 
-Given an array, you can also set any of its elements to have a new value.
+You can also set any of the elements of an array to have a new value.
 
 To do this, on the left hand side of an equals sign you write the name of a variable
 followed by `[`, an index, and `]`. Then on the right hand side of the equals you write
@@ -14,7 +14,7 @@ sentence[1] = "aren't";
 System.out.println(sentence);
 ```
 
-The index of the element can also come from a variable.
+The index of the element to set can also come from a variable.
 
 ```java
 int index = 2;
