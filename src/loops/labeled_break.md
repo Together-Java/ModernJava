@@ -16,7 +16,7 @@ A label is an arbitrary name just like a variable's name.
 
 ```java
 <LABEL>:
-while (<CONDITION_1>) {
+while (<CONDITION>) {
     <CODE HERE>
 }
 ```
