@@ -113,11 +113,11 @@
     - [Nested Loops](./loops/nested_loops.md)
     - [Labeled Break](./loops/labeled_break.md)
     - [Labeled Continue](./loops/labeled_continue.md)
+    - [Iteration](./loops/iteration.md)
+    - [Counting Up](./loops/counting_up.md)
+    - [Counting Down](./loops/counting_down.md)
+    - [Iterate over a String](./loops/iterate_over_a_string.md)
     - [Challenges](./loops/challenges.md)
-- [Iteration](./iteration.md)
-    - [Counting Up with while](./iteration/counting_up_with_while.md)
-    - [Counting Down with while](./iteration/counting_down_with_while.md)
-    - [Iterate over a String](./iteration/iterate_over_a_string.md)
 
 
 # Data Types II

@@ -1,4 +1,4 @@
-# Counting Down with while
+# Counting Down
 
 If you want to do the opposite, starting from a number like `100` and count down to `1`, 
 the pattern will be similar.

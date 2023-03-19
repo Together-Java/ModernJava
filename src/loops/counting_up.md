@@ -1,4 +1,4 @@
-# Counting Up with while
+# Counting Up
 
 Say your loop is intended to run some code for every number from `1` to `100`.
 
