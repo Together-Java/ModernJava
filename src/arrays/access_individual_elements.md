@@ -12,10 +12,10 @@ String[] lyrics = { "you", "say", "goodbye" };
 String you = lyrics[0];
 System.out.println(you);
 
-int say = lyrics[1];
+String say = lyrics[1];
 System.out.println(say);
 
-int goodbye = lyrics[2];
+String goodbye = lyrics[2];
 System.out.println(goodbye);
 ```
 
