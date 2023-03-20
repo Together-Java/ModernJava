@@ -10,7 +10,7 @@ String[] shout = { "fus", "ro", "dah" };
 System.out.println(shout);
 ```
 
-A similar thing will happen with `int[]`, `boolean[]`, and `double[]`.
+A similar thing will happen with `int[]`, `boolean[]`, and `double[]`.[^gibberish]
 
 ```java
 int[] nums = { 11, 11, 11 };
@@ -36,14 +36,20 @@ System.out.println(continent);
 ```
 
 If you want to actually see the contents of an array, you should
-use a loop.
+use a loop.[^future]
 
 ```java
-String[] shout = { "fus", "ro", "dah" };
+String[] factions = { "empire", "stormcloaks", "dragons" };
 
 int index = 0;
-while (index < shout.length) {
-    System.out.println(shout[index])
+while (index < factions.length) {
+    System.out.println(factions[index])
     index++
 }
 ```
+
+[^gibberish]: What `[I@5a07e868` and co. mean isn't really important. Try not to
+get too distracted by it.
+
+[^future]: Later on, there will be easier ways to do this sort of inspection. This is just the
+one I can demonstrate now.

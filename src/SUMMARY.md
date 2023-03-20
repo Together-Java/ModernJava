@@ -130,20 +130,17 @@
     - [Set Individual Elements](./arrays/set_individual_elements.md)
     - [Aliasing](./arrays/aliasing.md)
     - [Reassignment](./arrays/reassignment.md)
+    - [Relation to Final Variables](./arrays/relation_to_final_variables.md)
     - [Printing the Contents of an Array](./arrays/printing_the_contents_of_an_array.md)
     - [Empty Array](./arrays/empty_array.md)
-    - [Difference between Initializer and Literal]()
-    - [char\[\] vs String]()
-
-
-
-
-
+    - [Difference between Initializer and Literal](./arrays/difference_between_initializer_and_literal.md)
+    - [Challenges](./arrays/challenges)
 
 # Control Flow II
 
-- [For]()
+- [For](./for.md)
     - [Comparison to while]()
+    - [i](./for/i.md)
     - [Relation to Arrays]()
     - [var]()
     - [final]()

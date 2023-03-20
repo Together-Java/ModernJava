@@ -4,16 +4,44 @@ The length of an array cannot change, but a variable holding an
 array can be reassigned to a new array that has a different length.
 
 ```java
-String[] words = { 1, 2 };
+int[] numbers = { 1, 2 };
+// 2
+System.out.println(numbers.length);
+
 numbers = { numbers[0], numbers[1], 3 };
+// 3
+System.out.println(numbers.length);
 ```
 
-For the purposes of setting elements, this will be a brand new array.
+This reassignment will not be affect any variables which
+are aliases for the variable's old value.
 
 ```java
-int[] numbers = { 1, 2 };
-int[] numbersTwo = numbers;
-numbers = { numbers[0], numbers[1], 3 };
+char[] wordOne = { 'g', 'o' };
+char[] wordTwo = wordOne;
+// go
+System.out.println(wordOne);
+// go
+System.out.println(wordTwo);
 
-number
+wordOne = { wordOne[0], wordOne[1], 's', 'h' };
+
+// gosh
+System.out.println(wordOne);
+// go
+System.out.println(wordTwo);
+
+wordTwo[0] = 'n';
+
+// gosh
+System.out.println(wordOne);
+// no
+System.out.println(wordTwo);
+
+wordOne[0] = 'p';
+
+// posh
+System.out.println(wordOne);
+// no
+System.out.println(wordTwo);
 ```
