@@ -34,7 +34,7 @@ char r = assassin.charAt(indexOfR);
 System.out.println(r);
 ```
 
-If you give a number equal to or greater than the lenth of the `String` or a number less than zero,
+If you give a number equal to or greater than the length of the `String` or a number less than zero,
 you will get an error.
 
 ```java

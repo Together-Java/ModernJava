@@ -1,16 +1,12 @@
 # Asking for Help
 
-I expect that most people will need help or guidance sooner or later.
+If anything in this confuses you or feels intimidating please, please **reach out** to someone.
 
 If you are in a position to, make use of your teacher. That is what they
 are there for.
 
-If you are not, there are various communities online who have dedicated
-spaces and folks ready to help you with any problems you might have.
-
-- [https://discord.gg/together-java](https://discord.gg/together-java)
-- [https://discord.gg/programming](https://discord.gg/java-665951159567253529)
-- [https://www.reddit.com/r/javahelp](https://www.reddit.com/r/javahelp)
+If you are not, on every page there is a button in the top right
+corner which you can click to ask a question.
 
 When you do, keep in mind these basic rules.
 

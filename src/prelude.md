@@ -7,8 +7,10 @@ and, except for [The Cay](https://en.wikipedia.org/wiki/The_Cay) and [Great Expe
 got away without having to.
 
 So while it is hypocritical for me to ask this of you,
-this book is written to be read linearly like a book. You can skip the rest
-of this prelude if you aren't interested and just dive in once you've got your [machine set up to code](./getting_started/hello_world.md), but keep that in mind.
+please read this book like a book and go from the start to the end, one section at a time.
+
+At the end of each section
+there will also be challenges. I want you to at least attempt all of them before moving on to the next section.
 
 This book is written specifically for those folks that feel like giving up, like they are too stupid to get it,
 or like they didn't understand a damn thing their professor has said for the last three months.

@@ -13,15 +13,14 @@
     - [tutorialspoint](./examples/tutorialspoint.md)
     - [tutorialspoint paid course](./examples/tutorialspoint_paid.md)
     - [w3schools](./examples/w3schools.md) -->
-# Getting Started
-
-- [Hello, World](./getting_started/hello_world.md)
 
 # Modern Java
 
 - [Prelude](./prelude.md)
     - [Asking for Help](./prelude/asking_for_help.md)
     - [Toy Problems](./prelude/toy_problems.md)
+    - [Lies](./prelude/lies.md)
+- [Getting Started](./getting_started.md)
 - [First Steps](./first_steps.md)
     - [Comments](./first_steps/comments.md)
     - [Semicolons](./first_steps/semicolon.md)
@@ -36,7 +35,7 @@
     - [Inferred Types](./variables/inferred_types.md)
     - [Challenges](./variables/challenges.md)
 
-# Basic Data Types
+# Data Types I
 
 - [Booleans](./boolean.md)
     - [And](./boolean/and.md)
@@ -95,20 +94,66 @@
 
 # Control Flow I
 
-- [Branching Logic](./branching_logic.md)
+- [Branching Paths](./branching_paths.md)
     - [If](./branching_logic/if.md)
     - [Else](./branching_logic/else.md)
+    - [Nested Ifs](./branching_logic/nested_ifs.md)
     - [Else If](./branching_logic/else_if.md)
     - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
-    - [Ternary Expression](./branching_logic/ternary_expression.md)
+    - [Conditional Operator](./branching_logic/conditional_operator.md)
+    - [Boolean Expressions](./branching_logic/boolean_expressions.md)
     - [Challenges](./branching_logic/challenges.md)
 - [Loops](./loops.md)
     - [While](./loops/while.md)
-    - [Termination Conditions](./loops/termination_conditions.md)
+    - [Endless Loops](./loops/endless_loops.md)
     - [Break](./loops/break.md)
     - [Continue](./loops/continue.md)
-    - [Do](./loops/do.md)
+    - [Unreachable Code](./loops/unreachable_code.md)
+    - [Do While](./loops/do_while.md)
+    - [Nested Loops](./loops/nested_loops.md)
+    - [Labeled Break](./loops/labeled_break.md)
+    - [Labeled Continue](./loops/labeled_continue.md)
+    - [Iteration](./loops/iteration.md)
+    - [Counting Up](./loops/counting_up.md)
+    - [Counting Down](./loops/counting_down.md)
+    - [Iterate over a String](./loops/iterate_over_a_string.md)
     - [Challenges](./loops/challenges.md)
+
+# Data Types II
+
+- [Arrays](./arrays.md)
+    - [Array Initializers](./arrays/array_initializers.md)
+    - [Length](./arrays/length.md)
+    - [Access Individual Elements](./arrays/access_individual_elements.md)
+    - [Set Individual Elements](./arrays/set_individual_elements.md)
+    - [Aliasing](./arrays/aliasing.md)
+    - [Reassignment](./arrays/reassignment.md)
+    - [Relation to Final Variables](./arrays/relation_to_final_variables.md)
+    - [Printing the Contents of an Array](./arrays/printing_the_contents_of_an_array.md)
+    - [Empty Array](./arrays/empty_array.md)
+    - [Difference between Initializer and Literal](./arrays/difference_between_initializer_and_literal.md)
+    - [Challenges](./arrays/challenges)
+
+# Control Flow II
+
+<!--
+- [For](./for.md)
+    - [Comparison to while]()
+    - [i](./for/i.md)
+    - [Relation to Arrays]()
+    - [var]()
+    - [final]()
+- [For Each]()
+
+- [Iteration]()
+    - [Iterate over an array]()
+
+- [null](./null.md)
+- [Reference Types]()
+- [Primitive Types]()
+- [Populate array]()
+
+-->
 
 # User Defined Types
 
@@ -128,6 +173,7 @@
 
 <!--
 Arrays
+copy an array (System.arrayCopy, for loop)
 Generics
 Maven
 XML
@@ -242,15 +288,9 @@ Javadoc and Documentation comments
 - Getting Started
 - [Hello, World]()
 - Data Types
-    - int and long
-        - Integer Division
-    - float and double
-        - Floating Point Numbers
-    - booleans
+
     - Arrays
-    - String
-        - String Literals
-        - Multiline String Literals
+multi dimensional arrays
 - Expressions
 - Conditionals
 - Loops
