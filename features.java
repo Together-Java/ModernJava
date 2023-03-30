@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# This file is python, not Java.
+# but we got enough people complaining that the repo in github showed 100% python
+# that I just changed the extension to .java - I think its funny. We can replace
+# this file if either a json library is added to java or someone wants to do all
+# the setup to pull in a json lib.
+
 import json
 import sys
 
