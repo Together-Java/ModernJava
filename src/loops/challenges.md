@@ -140,7 +140,6 @@ public class Main {
 
 ~ENDIF
 
-
 ## Challenge 5
 
 What will this program output when run? Write down your guess and then try running it.
@@ -179,7 +178,6 @@ public class Main {
 ```
 
 ~ENDIF
-
 
 ## Challenge 6
 
@@ -259,7 +257,7 @@ Write code that will output each character of `name` on its own line.
 
 So for if `name` is equal to `"Bridget"`, I would expect the following as output.
 
-```
+```text
 B
 r
 i
@@ -299,7 +297,7 @@ character and going backwards.
 
 So for if `name` is equal to `"Samantha"`, I would expect the following as output.
 
-```
+```text
 a
 h
 t
@@ -345,7 +343,7 @@ Keep doing this until the number equals one. Output it each time.
 
 If the initial number is `6` you should have this as output.
 
-```
+```text
 6
 3
 10
@@ -359,7 +357,7 @@ If the initial number is `6` you should have this as output.
 
 If the initial number is `15` you should have this as output.
 
-```
+```text
 15
 46
 23
@@ -461,8 +459,6 @@ public class Main {
 
 ~ENDIF
 
-
-
 ## Challenge 13
 
 Write code that outputs `{name} is mostly vowels` if the number of vowels in `name` is greater
@@ -471,8 +467,6 @@ Output `{name} has an equal number of vowels and consonants` if the count of bot
 same.
 
 Make sure to not treat non-alphabetic characters like `!` and `?` as consonants.
-
-
 
 ~IF toplevel_anonymous_class
 

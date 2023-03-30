@@ -19,4 +19,3 @@ while (x > 0) {
 If a `continue` is reached the code in the loop stops running immediately but, unlike `break`,
 the condition of the loop _is_ checked again. If it still evaluates to `true` then the code
 in the loop will run again.
-

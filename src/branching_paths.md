@@ -13,5 +13,4 @@ for more information.
 
 There are multiple "branching paths" that the program might take.
 
-
 [^insurance]: For insurance reasons.

@@ -3,7 +3,6 @@
 If you have an `if` nested in an `else` branch, you can simplify that by using
 `else if`.
 
-
 ```java
 boolean cool = true; // 🕶️
 int age = 30; // 🙎‍♀️
@@ -60,5 +59,3 @@ else {
     System.out.println("You are rad enough to rent a car.");
 }
 ```
-
-

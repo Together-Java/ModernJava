@@ -16,7 +16,6 @@
 
 # Modern Java
 
-
 - [Prelude](./prelude.md)
     - [Asking for Help](./prelude/asking_for_help.md)
     - [Toy Problems](./prelude/toy_problems.md)
@@ -120,7 +119,6 @@
     - [Iterate over a String](./loops/iterate_over_a_string.md)
     - [Challenges](./loops/challenges.md)
 
-
 # Data Types II
 
 - [Arrays](./arrays.md)
@@ -138,6 +136,7 @@
 
 # Control Flow II
 
+<!--
 - [For](./for.md)
     - [Comparison to while]()
     - [i](./for/i.md)
@@ -149,11 +148,12 @@
 - [Iteration]()
     - [Iterate over an array]()
 
-
 - [null](./null.md)
 - [Reference Types]()
 - [Primitive Types]()
 - [Populate array]()
+
+-->
 
 # User Defined Types
 

@@ -1,6 +1,6 @@
 # Counting Down
 
-If you want to do the opposite, starting from a number like `100` and count down to `1`, 
+If you want to do the opposite, starting from a number like `100` and count down to `1`,
 the pattern will be similar.
 
 You still have some variable tracking the current

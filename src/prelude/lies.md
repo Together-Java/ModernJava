@@ -1,6 +1,6 @@
 # Lies
 
-At various points in this book I am also going to lie to you. Specifically I will 
+At various points in this book I am also going to lie to you. Specifically I will
 make lies of omission.
 
 If there are five ways to do something, I might pretend that there is only one

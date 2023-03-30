@@ -24,4 +24,4 @@ If a for loop that starts its variable at `0`, keeps going until while
 it is `<` the length of some collection, and goes up by one each iteration
 it should be "obvious" what `i` means.
 
-Just do not start naming all your variables single letters. 
+Just do not start naming all your variables single letters.

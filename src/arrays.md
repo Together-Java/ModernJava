@@ -11,7 +11,6 @@ number of things.
 
 We call the things stored in an array its "elements."
 
-
 You can make an array of any type of element by using the name of the type followed by
 `[]`.
 

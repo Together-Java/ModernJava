@@ -1,7 +1,6 @@
 # Asking for Help
 
-
-If anything in this confuses you or feels intimidating please, please **reach out** to someone. 
+If anything in this confuses you or feels intimidating please, please **reach out** to someone.
 
 If you are in a position to, make use of your teacher. That is what they
 are there for.

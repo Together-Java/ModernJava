@@ -14,5 +14,6 @@ while (x < 5) {
     x++
 }
 ```
+
 When the purpose of a loop is to run for every thing in some sequence of things,
-we say that the loop is "iterating over" those things. 
+we say that the loop is "iterating over" those things.

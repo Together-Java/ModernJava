@@ -5,7 +5,6 @@ Delayed assignment of variables becomes useful with `if` and `else`.
 So long as Java can figure out that a variable will always be given an initial value
 inside of an `if` and `else`, you will be allowed to use that variable.
 
-
 ```java
 int age = 22;
 
@@ -35,4 +34,3 @@ if (age > 25) {
 // so you cannot use it.
 System.out.println(message);
 ```
-

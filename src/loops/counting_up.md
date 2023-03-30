@@ -14,7 +14,7 @@ while (currentNumber <= 100) {
 }
 ```
 
-Take note that in this example the condition is `currentNumber <= 100`, so the code in the 
+Take note that in this example the condition is `currentNumber <= 100`, so the code in the
 loop will run when `currentNumber` is equal to `100`. If the condition was `currentNumber < 100`
 it would stop at `99`.
 

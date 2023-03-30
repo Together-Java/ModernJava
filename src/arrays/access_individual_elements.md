@@ -1,6 +1,6 @@
 # Access Individual Elements
 
-Given an array, you can access any of its elements by index. 
+Given an array, you can access any of its elements by index.
 
 You write the name of a variable containing an array, `[`, a number, and then a `]`.
 

@@ -3,7 +3,7 @@
 `if` and `else` let you write programs which can take branching paths,
 but they will still run from the beginning to the end.
 
-Not all programs can just _end_ though. 
+Not all programs can just _end_ though.
 Video games should draw their world at one second and do it again the next.
 If you enter the wrong password on your phone, it should ask you for your password again.
 
