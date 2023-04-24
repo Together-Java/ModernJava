@@ -149,7 +149,15 @@
     - [Delayed Assignment](./loops_ii/delayed_assignment.md)
     - [Inferred Types](./loops_ii/inferred_types.md)
     - [Empty Initializers](./loops_ii/empty_initializers.md)
-    - [final]()
+    - [Empty Expressions](./loops_ii/empty_expressions.md)
+    - [Empty Statements](./loops_ii/empty_statements.md)
+    - [Final Variables](./loops_ii/final_variables.md)
+    - [Labeled Break](./loops_ii/labeled_break.md)
+    - [Labeled Continue](./loops_ii/labeled_continue.md)
+    - [Drawing Shapes](./loops_ii/drawing_shapes.md)
+- [Drawing Shapes](./drawing_shapes.md)
+    - [Right Triangles](./drawing_shapes/right_triangles.md)
+
 - [For Each]()
 
 - [Iteration]()
