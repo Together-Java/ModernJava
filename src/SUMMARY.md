@@ -136,12 +136,19 @@
 
 # Control Flow II
 
-<!--
-- [For](./for.md)
-    - [Comparison to while]()
-    - [i](./for/i.md)
-    - [Relation to Arrays]()
-    - [var]()
+- [Loops II](./loops_ii.md)
+    - [For](./loops_ii/for.md)
+    - [For Syntax](./loops_ii/for_syntax.md)
+    - [Counting Up and Down](./loops_ii/for_counting_up_and_down.md)
+    - [Iterate over a String](./loops_ii/iterate_over_a_string.md)
+    - [Iterate over an Array](./loops_ii/iterate_over_an_array.md)
+    - [Comparison to while](./loops_ii/comparison_to_while.md)
+    - [i](./loops_ii/i.md)
+    - [Break](./loops_ii/break.md)
+    - [Continue](./loops_ii/continue.md)
+    - [Delayed Assignment](./loops_ii/delayed_assignment.md)
+    - [Inferred Types](./loops_ii/inferred_types.md)
+    - [Empty Initializers](./loops_ii/empty_initializers.md)
     - [final]()
 - [For Each]()
 
@@ -152,8 +159,6 @@
 - [Reference Types]()
 - [Primitive Types]()
 - [Populate array]()
-
--->
 
 # User Defined Types
 
