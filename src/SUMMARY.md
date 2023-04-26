@@ -173,7 +173,14 @@
     - [void](./return_values/void.md)
     - [Conversion](./return_values/conversion.md)
     - [Pure Functions](./return_values/pure_functions.md)
-    
+- [Classes](./classes.md)
+    - [Class Declaration](./classes/class_declaration.md)
+    - [Naming Classes](./classes/naming_classes.md)
+    - [Field Declaration](./classes/field_declaration.md)
+    - [Naming Fields](./classes/naming_fields.md)
+    - [new](./classes/new.md)
+    - [Zero Values](./classes/zero_values.md)
+    - [null](./classes/null.md)
 
 - [For Each]()
 
