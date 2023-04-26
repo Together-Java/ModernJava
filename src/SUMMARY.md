@@ -166,14 +166,18 @@
     - [Scope](./methods/scope.md)
     - [Return](./methods/return.md)
     - [Unreachable Statements](./methods/unreachable_statements.md)
-    - [Return Values](./methods/return_values.md)
-    - [void](./methods/void.md)
     - [main](./methods/main.md)
-    - [Arguments](./methods/arguments.md)
+- [Arguments](./arguments.md)
+    - [Declaration](./arguments/declaration.md)
+- [Return Values](./return_values.md)
+    - [void](./return_values/void.md)
+    - [Conversion](./return_values/conversion.md)
+    - [Pure Functions](./return_values/pure_functions.md)
+    
+
 - [For Each]()
 
-- [Iteration]()
-    - [Iterate over an array]()
+
 
 - [null](./null.md)
 - [Reference Types]()

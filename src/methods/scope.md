@@ -34,3 +34,6 @@ void main() {
     System.out.println(x);
 }
 ```
+
+This is why we have called variables "local variables." They are local to the "scope" of the
+method they are declared in.

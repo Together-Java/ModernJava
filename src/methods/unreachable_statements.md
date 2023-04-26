@@ -32,4 +32,4 @@ void main() {
 }
 ```
 
-[^trick]: This _will_ always run, but Java chooses to not figure that out. It can't be smart enough to see through every `if`, so it doesn't try for any of them.
+[^trick]: This _will_ always return before the `println`, but Java chooses to not figure that out. It can't be smart enough to see through every `if`, so it doesn't try for any of them.

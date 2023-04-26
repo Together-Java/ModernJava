@@ -18,6 +18,7 @@ void talkAboutVideo() {
     System.out.println(title() + " only has " + views() + " views.");
 }
 
+// This is what the void in "void main()" means
 void main() {
     talkAboutVideo();
 }
