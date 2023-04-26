@@ -180,28 +180,43 @@
     - [Naming Fields](./classes/naming_fields.md)
     - [new](./classes/new.md)
     - [Zero Values](./classes/zero_values.md)
+    - [Aliasing](./classes/aliasing.md)
     - [null](./classes/null.md)
 
-- [For Each]()
+- [Constructors](./constructors.md)
+    - [this](./constructors/this.md)
+    - [The Default Constructor](./constructors/the_default_constructor.md)
+    - [Final Fields](./constructors/final_fields.md)
 
-
-
+- [Instance Methods](./instance_methods.md)
+    - [Declaration](./instance_methods/declaration.md)
+    - [Invocation](./instance_methods/invocation.md)
+    - [this](./instance_methods/this.md)
+    - [Aliasing](./instance_methods/aliasing.md)
+    - [Derived Values](./instance_methods/derived_values.md)
 - [null](./null.md)
-- [Reference Types]()
-- [Primitive Types]()
-- [Populate array]()
+    - [Checking for null](./null/checking_for_null.md)
+    - [Field Access](./null/field_access.md)
+    - [Instance Methods](./null/instance_methods.md)
+
+# Data Types III
+
+- [Arrays II]()
+    - [Default Values]()
+    - [Populate Array]()
+- [Boxed Primitives]()
+    - [Boolean]()
+    - [Character]()
+    - [Integer]()
+    - [Double]()
+
+- [Example: "Growable" Array]()
+
 
 # User Defined Types
 
-- [Classes](./classes.md)
-    - [Primitive Classes](./classes/primitive_classes.md)
-    - [Reference Classes](./classes/reference_classes.md)
-    - [null](./classes/null.md)
-    - [Class Declaration](./classes/class_declaration.md)
-    - [Naming](./classes/naming.md)
-- [Fields](./fields.md)
-    - [Default Values](./fields/default_values.md)
-- [Constructors](./constructors.md)
+- [Primitive Classes](./classes/primitive_classes.md)
+- [Reference Classes](./classes/reference_classes.md)
 
 <!--
 Arrays
