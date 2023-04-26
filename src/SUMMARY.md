@@ -132,7 +132,7 @@
     - [Printing the Contents of an Array](./arrays/printing_the_contents_of_an_array.md)
     - [Empty Array](./arrays/empty_array.md)
     - [Difference between Initializer and Literal](./arrays/difference_between_initializer_and_literal.md)
-    - [Challenges](./arrays/challenges)
+    - [Challenges](./arrays/challenges.md)
 
 # Control Flow II
 
@@ -154,10 +154,22 @@
     - [Final Variables](./loops_ii/final_variables.md)
     - [Labeled Break](./loops_ii/labeled_break.md)
     - [Labeled Continue](./loops_ii/labeled_continue.md)
-    - [Drawing Shapes](./loops_ii/drawing_shapes.md)
-- [Drawing Shapes](./drawing_shapes.md)
-    - [Right Triangles](./drawing_shapes/right_triangles.md)
+    - [Drawing Right Triangles](./loops_ii/drawing_right_triangles.md)
+    - [Drawing Isosceles Triangles](./loops_ii/drawing_isosceles_triangles.md)
+    - [Challenges](./loops_ii/challenges.md)
 
+# Code Structure
+
+- [Methods](./methods.md)
+    - [Declaration](./methods/declaration.md)
+    - [Invocation](./methods/invocation.md)
+    - [Scope](./methods/scope.md)
+    - [Return](./methods/return.md)
+    - [Unreachable Statements](./methods/unreachable_statements.md)
+    - [Return Values](./methods/return_values.md)
+    - [void](./methods/void.md)
+    - [main](./methods/main.md)
+    - [Arguments](./methods/arguments.md)
 - [For Each]()
 
 - [Iteration]()
@@ -178,10 +190,6 @@
     - [Naming](./classes/naming.md)
 - [Fields](./fields.md)
     - [Default Values](./fields/default_values.md)
-- [Methods](./methods.md)
-    - [Arguments](./methods/arguments.md)
-    - [Return Values](./methods/return_values.md)
-    - [void](./methods/void.md)
 - [Constructors](./constructors.md)
 
 <!--

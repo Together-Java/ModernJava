@@ -16,8 +16,9 @@ level = 0         # the depth to start folding
 
 [preprocessor.features]
 command = "python3 features.java"
-# Not ready
-toplevel_anonymous_class = false
+# Going to start writing the rest of the book
+# Assuming this is true
+toplevel_anonymous_class = true
 # Not ready
 simple_io = false
 # Turn on when Java 21 released
