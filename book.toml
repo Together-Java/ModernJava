@@ -20,6 +20,6 @@ command = "python3 features.java"
 # Assuming this is true
 toplevel_anonymous_class = true
 # Not ready
-simple_io = false
+simple_io = true
 # Turn on when Java 21 released
 java_21 = false
