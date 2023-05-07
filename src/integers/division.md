@@ -19,7 +19,7 @@ So `5 / 2` does not result in `2.5`, but instead just `2`.
 // 5 / 2 is not 2.5, but instead 2.
 int x = 5 / 2;
 // 13 / 3 is not 4.3333, but instead 4.
-int y = 13 / 2;
+int y = 13 / 3;
 
 System.out.println(x);
 System.out.println(y);

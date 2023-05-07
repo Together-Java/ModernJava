@@ -9,16 +9,16 @@ The second by using `1`, and so on.
 ```java
 String spy = "loid";
 
-char l = spi.charAt(0);
+char l = spy.charAt(0);
 System.out.println(l);
 
-char o = spi.charAt(1);
+char o = spy.charAt(1);
 System.out.println(o);
 
-char i = spi.charAt(2);
+char i = spy.charAt(2);
 System.out.println(i);
 
-char d = spi.charAt(3);
+char d = spy.charAt(3);
 System.out.println(d);
 ```
 
