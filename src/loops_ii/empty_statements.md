@@ -25,7 +25,7 @@ for (;number < 10;) {
     number *= 2;
 }
 
-// Same logic as abobe
+// Same logic as above
 int number2 = 1;
 while (number2 < 10) {
     System.out.println(number2);
