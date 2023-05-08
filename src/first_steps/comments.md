@@ -4,6 +4,8 @@ At various points, I am going to leave "comments" in the code. Comments are part
 are solely there for a human to be able to read as an explanation and can be written in regular
 words.
 
+## In-line commenting
+
 ~IF toplevel_anonymous_class
 
 ```java
@@ -57,6 +59,8 @@ public class Main {
 
 You might want to do that at various points where you want to see what happens if you "turn off" parts of
 the code.
+
+## Multi-line commenting
 
 If you put `/*` in the code then everything up until the next `*/` will be treated as a comment. The distinction
 here is that this style of comment can span multiple lines.
