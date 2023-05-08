@@ -167,16 +167,53 @@
     - [Return](./methods/return.md)
     - [Unreachable Statements](./methods/unreachable_statements.md)
     - [main](./methods/main.md)
+    - [Challenges](./methods/challenges.md)
 - [Arguments](./arguments.md)
     - [Declaration](./arguments/declaration.md)
+    - [Reassignment](./arguments/reassignment.md)
+    - [Aliasing](./arguments/aliasing.md)
+    - [Final Arguments](./arguments/final_arguments.md)
+    - [Invocation with Arguments](./arguments/invocation_with_arguments.md)
+    - [Overloading](./arguments/overloading.md)
+    - [Inferred Types](./arguments/inferred_types.md)
+    - [Challenges](./arguments/challenges.md)
 - [Return Values](./return_values.md)
     - [void](./return_values/void.md)
     - [Conversion](./return_values/conversion.md)
     - [Pure Functions](./return_values/pure_functions.md)
+    - [Impure Functions](./return_values/impure_functions.md)
+
+
+# Data Types III
+- [Identity Types](./identity_types.md)
+    - [Comparison with ==](./identity_types/comparison_with_equalsequals.md)
+- [Primitive Types](./primitive_types.md)
+- [null](./null.md)
+    - [Checking for null](./null/checking_for_null.md)
+    - [Field Access](./null/field_access.md)
+    - [Instance Methods](./null/instance_methods.md)
+- [Boxed Primitives](./boxed_primitives.md)
+    - [Primitive Types](./boxed_primitives/primitive_types.md)
+    - [Integer](./boxed_primitives/integer.md)
+    - [Double](./boxed_primitives/double.md)
+    - [Character](./boxed_primitives/character.md)
+    - [Boolean](./boxed_primitives/boolean.md)
+    - [Unboxing Conversion](./boxed_primitives/unboxing_conversion.md)
+    - [Boxing Conversion](./boxed_primitives/boxing_conversion.md)
+    - [Arrays of Boxed Primitives](./boxed_primitives/arrays_of_boxed_primitives.md)
+    - [Challenges](./arguments/challenges.md)
+- [Arrays II](./arrays_ii.md)
+    - [Default Values](./arrays_ii/default_values.md)
+    - [Populate Array]()
+
+
+
+# Code Structure II
 - [Classes](./classes.md)
     - [Class Declaration](./classes/class_declaration.md)
     - [Naming Classes](./classes/naming_classes.md)
     - [Field Declaration](./classes/field_declaration.md)
+    - [Field Access](./classes/field_access)
     - [Naming Fields](./classes/naming_fields.md)
     - [new](./classes/new.md)
     - [Zero Values](./classes/zero_values.md)
@@ -196,29 +233,12 @@
     - [Aliasing](./instance_methods/aliasing.md)
     - [Derived Values](./instance_methods/derived_values.md)
 
-# Data Types III
-
-- [null](./null.md)
-    - [Checking for null](./null/checking_for_null.md)
-    - [Field Access](./null/field_access.md)
-    - [Instance Methods](./null/instance_methods.md)
-
-- [Arrays II]()
-    - [Default Values]()
-    - [Populate Array]()
-- [Boxed Primitives]()
-    - [Boolean]()
-    - [Character]()
-    - [Integer]()
-    - [Double]()
-
-- [Example: "Growable" Array]()
-
-# Code Structure II
 - [Documentation]()
     - [Documentation Comments]()
 - [Testing]()
 
+
+- [Example: "Growable" Array]()
 # User Defined Types
 
 - [Primitive Classes](./classes/primitive_classes.md)
