@@ -29,7 +29,7 @@ def preprocess_content(context, content):
             continue
         else:
             if options.get("simple_io", False) and options.get("toplevel_anonymous_class", False):
-                newContent.append(line.replace("System.out.println", "println").replace("System.out.print", "print"))
+                newContent.append(line.replace("System.out.println", "printLine").replace("System.out.print", "print"))
             else:
                 newContent.append(line)
         
