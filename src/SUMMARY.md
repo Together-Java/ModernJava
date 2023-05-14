@@ -35,6 +35,8 @@
     - [Inferred Types](./variables/inferred_types.md)
     - [Challenges](./variables/challenges.md)
 
+- [Benefits of java](./benefits_of_java.md)
+
 # Data Types I
 
 - [Booleans](./boolean.md)
