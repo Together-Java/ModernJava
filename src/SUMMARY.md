@@ -35,6 +35,8 @@
     - [Inferred Types](./variables/inferred_types.md)
     - [Challenges](./variables/challenges.md)
 
+- [Why Java?](./why_java.md)
+
 # Data Types I
 
 - [Booleans](./boolean.md)

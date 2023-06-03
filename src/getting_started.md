@@ -2,14 +2,13 @@
 
 There are a lot of ways to "get set up" to run Java code.
 
-For the purposes of this book, I am going to reccomend that you
+For the purposes of this book, I am going to recommend that you
 start with [replit.com](https://replit.com).
 
-It requires an internet connection and you will have to make an account, but
+It requires an internet connection, and you will have to make an account, but
 of the available options it is the easiest to set up.
 
-If you are in school and your teacher has helped you get set up in some other
-way it is okay to skip this section and just do it the way you were shown.
+If you are currently learning Java in school and your teacher has already given you a different way to set up, it is ok to skip this section and just follow the way you were taught. Similarly, if you are a professional who already has experience setting up a development environment, you may choose to skip this section.
 
 All that matters is that in the end you have the ability to run and
 edit the following code.
