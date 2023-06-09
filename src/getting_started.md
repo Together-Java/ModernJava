@@ -2,7 +2,7 @@
 
 There are a lot of ways to "get set up" to run Java code.
 
-For the purposes of this book, I am going to reccomend that you
+For the purposes of this book, I am going to recommend that you
 start with [replit.com](https://replit.com).
 
 It requires an internet connection and you will have to make an account, but
