@@ -15,7 +15,7 @@ double returnFive() {
 }
 ```
 
-But if that conversion might potentially be lossy, as with converting `double`s to `int`s,
+But if that conversion might potentially be lossy or, as with converting `double`s to `int`s,
 you must do it yourself.
 
 ```java
