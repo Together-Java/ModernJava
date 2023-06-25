@@ -98,3 +98,51 @@ Do it using a `for` loop and again using a `while` loop.
 
 ## Challenge 5.
 
+Draw a square.
+
+Make it so that you can make the square bigger or smaller by
+changing a variable at the start of the program.
+
+```
+*****
+*****
+*****
+*****
+```
+
+## Challenge 6.
+
+Draw a rectangle.
+
+Make it so that you can make the rectangle bigger or smaller in either dimension by
+changing a variable at the start of the program.
+
+```
+******
+******
+******
+```
+
+## Challenge 7.
+
+Draw a circle! 
+
+Make it so that you can make the circle bigger or smaller by
+changing a variable at the start of the program.
+
+```
+    **
+   ****
+  ******
+ ********
+  ******
+   ****
+    **
+```
+
+## Challenge 8.
+
+Draw a smiley face!
+
+Make it so that you can make the smile bigger or smaller by
+changing a variable at the start of the program.

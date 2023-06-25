@@ -1,7 +1,7 @@
 # Labeled Continue
 
 Labeled continues also work the same in `for` loops as `while` loops, but with the hopefully expected caveat that
-the statement of a `for` loop will always run when you get to the top of it.
+the statement of a `for` loop will always run when you get to the top of it.[^uncommon]
 
 ```java
 label:
