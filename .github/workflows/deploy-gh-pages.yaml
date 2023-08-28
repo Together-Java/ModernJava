@@ -3,7 +3,7 @@ name: Deploy mdBook to GH Pages
 on:
   push:
     branches:
-      - 'master'
+      - "master"
 
 jobs:
   deploy:
@@ -16,7 +16,7 @@ jobs:
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1.2.0
         with:
-          mdbook-version: 'latest'
+          mdbook-version: "latest"
 
       - run: mdbook build
 

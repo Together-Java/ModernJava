@@ -23,11 +23,11 @@ String conversationWithInlaws = " ";
 
 This is one of those things that feels totally useless, but comes in handy pretty often.
 
-* Say you are writing a message to send to your friend. The messenger
-app can represent the state of the input box before you type anything with
-an empty `String`.
-* If you want to digitally record responses to legal paperwork, you might choose
-to represent skipped fields as empty `String`s.
-* Video Games where characters have assigned names can assign an empty `String`
-as the name of otherwise "unnamed" characters.
-* etc.
+- Say you are writing a message to send to your friend. The messenger
+  app can represent the state of the input box before you type anything with
+  an empty `String`.
+- If you want to digitally record responses to legal paperwork, you might choose
+  to represent skipped fields as empty `String`s.
+- Video Games where characters have assigned names can assign an empty `String`
+  as the name of otherwise "unnamed" characters.
+- etc.

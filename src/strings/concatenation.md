@@ -21,7 +21,7 @@ other thing.
 int numberOfApples = 5;
 double dollahs = 1.52;
 
-String message = "I have " + numberOfApples + 
+String message = "I have " + numberOfApples +
     " apples and $" + dollahs + " in my pocket.";
 
 System.out.println(message);

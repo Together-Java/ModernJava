@@ -12,7 +12,7 @@ So in this case, I will ask to pet someone's dog if either the the dog looks nic
 walking the dog looks nice.
 
 | dogLooksNice | personLooksNice | willAskToPetDog |
-|--------------|-----------------|-----------------|
+| ------------ | --------------- | --------------- |
 | true         | true            | true            |
 | true         | false           | true            |
 | false        | true            | true            |

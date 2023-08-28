@@ -24,10 +24,10 @@ void multiplyAllByTwo(int[] numbers) {
 }
 ```
 
-The term "pure" comes from the notion of "pure mathematics." 
+The term "pure" comes from the notion of "pure mathematics."
 
 Pure functions are useful in the sense that they can be easier to understand on account of having what
-they do only depend on their inputs. 
+they do only depend on their inputs.
 
 They can also be easier to verify. To know if a pure function does
 what you expect it to, you can give it example arguents and check to see that its return values are what

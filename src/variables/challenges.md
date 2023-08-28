@@ -2,8 +2,8 @@
 
 Remember the rules for this are
 
-* Try to use only the information given up to this point in this book.
-* Try not to give up until you've given it a solid attempt
+- Try to use only the information given up to this point in this book.
+- Try not to give up until you've given it a solid attempt
 
 ## Challenge 1
 
@@ -49,9 +49,9 @@ Why won't this code run? Make it run by only changing one line.
 void main() {
     String fruit;
     fruit = "apple"
-        
+
     System.out.println(fruit);
-        
+
     final String vegtable = "carrot";
 
     System.out.println(fruit);
@@ -72,9 +72,9 @@ public class Main {
     public static void main(String[] args) {
         String fruit;
         fruit = "apple"
-        
+
         System.out.println(fruit);
-        
+
         final String vegtable = "carrot";
 
         System.out.println(fruit);
@@ -101,7 +101,7 @@ What is the output of this code?
 void main() {
     String a = "A";
     String b = "B";
-        
+
     b = a;
     a = b;
     b = a;
@@ -119,7 +119,7 @@ public class Main {
     public static void main(String[] args) {
         String a = "A";
         String b = "B";
-        
+
         b = a;
         a = b;
         b = a;

@@ -10,12 +10,12 @@ If Java knows how to do that conversion, then it can happen automatically.
 double returnFive() {
     // x is an int
     int x = 5;
-    // When it is returned, it will be turned into a double 
+    // When it is returned, it will be turned into a double
     return x;
 }
 ```
 
-But if that conversion might potentially be lossy, as with converting `double`s to `int`s,
+But if that conversion might potentially be lossy or, as with converting `double`s to `int`s,
 you must do it yourself.
 
 ```java

@@ -29,7 +29,7 @@ def preprocess_content(context, content):
             continue
         else:
             if options.get("simple_io", False) and options.get("toplevel_anonymous_class", False):
-                newContent.append(line.replace("System.out.println", "println").replace("System.out.print", "print"))
+                newContent.append(line.replace("System.out.println", "printLine").replace("System.out.print", "print"))
             else:
                 newContent.append(line)
         
@@ -47,7 +47,11 @@ if __name__ == '__main__':
         if sys.argv[1] == "supports":
             sys.exit(0)
 
-    context, book = json.load(sys.stdin)
+    json_input = json.load(sys.stdin)
+    context, book = json_input
+    
+    with open("out.json", "w") as f:
+        json.dump(json_input, f)
 
     for section in book["sections"]:
         preprocess_section(context, section)

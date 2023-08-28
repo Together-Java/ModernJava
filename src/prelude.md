@@ -15,6 +15,6 @@ there will also be challenges. I want you to at least attempt all of them before
 This book is written specifically for those folks that feel like giving up, like they are too stupid to get it,
 or like they didn't understand a damn thing their professor has said for the last three months.
 
-I see you. You are not stupid. This is not your fault, it is theirs.[^probably]
+I see you. You are not stupid. This is not your fault.[^probably]
 
 [^probably]: probably.

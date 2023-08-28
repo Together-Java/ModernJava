@@ -9,7 +9,7 @@ This is early days so I am going to use this first page as a message board of so
 If you want to get involved the (non-writing) tasks that provide the most value are
 
 - Provide feedback and suggestions
-- Offer any domain knowledge on things that the writers don't have (Has anyone used JavaFX for *real*?)
+- Offer any domain knowledge on things that the writers don't have (Has anyone used JavaFX for _real_?)
 - Start to investigate what it would take to have interactive code snippets or inline quizzes
 - Make art for pages that are "content complete." The wackier the better.
 - Share reference materials / tutorials you like or don't like.

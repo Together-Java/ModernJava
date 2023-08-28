@@ -52,4 +52,3 @@ for (int numberOfStars = 1; numberOfStars <= height; numberOfStars++) {
 *****
 ******
 ```
-

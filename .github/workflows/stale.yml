@@ -7,28 +7,27 @@ name: Mark stale issues and pull requests
 
 on:
   schedule:
-  - cron: '0 7 * * *'
+    - cron: "0 7 * * *"
 
 jobs:
   stale:
-
     runs-on: ubuntu-latest
     permissions:
       issues: write
       pull-requests: write
 
     steps:
-    - uses: actions/stale@v4
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label, comment or add the valid label or this will be closed in 5 days.'
-        stale-pr-message: 'This pull request is stale because it has been open 30 days with no activity. Remove stale label, comment or add the valid label or this will be closed in 5 days.'
-        stale-issue-label: 'stale'
-        stale-pr-label: 'stale'
-        close-issue-label: 'inactivity-closed'
-        close-pr-label: 'inactivity-closed'
-        labels-to-add-when-unstale: 'valid'
-        exempt-issue-labels: 'valid,good first issue'
-        exempt-pr-labels: 'valid,good first issue'
-        days-before-stale: 30
-        days-before-close: 5
+      - uses: actions/stale@v4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-message: "This issue is stale because it has been open 30 days with no activity. Remove stale label, comment or add the valid label or this will be closed in 5 days."
+          stale-pr-message: "This pull request is stale because it has been open 30 days with no activity. Remove stale label, comment or add the valid label or this will be closed in 5 days."
+          stale-issue-label: "stale"
+          stale-pr-label: "stale"
+          close-issue-label: "inactivity-closed"
+          close-pr-label: "inactivity-closed"
+          labels-to-add-when-unstale: "valid"
+          exempt-issue-labels: "valid,good first issue"
+          exempt-pr-labels: "valid,good first issue"
+          days-before-stale: 30
+          days-before-close: 5
