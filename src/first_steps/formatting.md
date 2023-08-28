@@ -64,7 +64,7 @@ And not like this.
 ~IF toplevel_anonymous_class
 
 ```java
-void main() 
+void main()
 {
 System.out.println("Hello, World!");}
 ```
@@ -72,9 +72,9 @@ System.out.println("Hello, World!");}
 ~ELSE
 
 ```java
-public class Main 
+public class Main
     {
-    public static void main(String[] args) 
+    public static void main(String[] args)
             {
         System.out.println("Hello, World!");
             }

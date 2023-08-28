@@ -7,7 +7,7 @@ to perform that assignment instead.
 ```java
 int age = 22;
 
-String message = age < 25 
+String message = age < 25
     ? "You cannot rent a car!"
     : "You might be able to rent a car";
 ```
@@ -19,5 +19,6 @@ and then a value to use when that condition evaluates to `false`.
 CONDITION ? WHEN_TRUE : WHEN_FALSE
 ```
 
-[^ternary]: Some people will call this a ternary expression. Ternary meaning "three things."
-Same idea as tres leches.
+[^ternary]:
+    Some people will call this a ternary expression. Ternary meaning "three things."
+    Same idea as tres leches.

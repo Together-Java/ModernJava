@@ -71,5 +71,6 @@ public class Main {
 
 ~ENDIF
 
-[^whydelay]: There is no direct use for separating declaration and initial assignment at this point,
-but [it's a surprise tool that will help us later](https://knowyourmeme.com/memes/its-a-surprise-tool-that-will-help-us-later).
+[^whydelay]:
+    There is no direct use for separating declaration and initial assignment at this point,
+    but [it's a surprise tool that will help us later](https://knowyourmeme.com/memes/its-a-surprise-tool-that-will-help-us-later).

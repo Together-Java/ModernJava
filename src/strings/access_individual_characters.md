@@ -49,6 +49,7 @@ String dog = "bond";
 dog.charAt(-1);
 ```
 
-[^otherds]: There will be more things
-which have their individual elements accessible by indexes. They will all generally start from 0 for the first element
-but there are rare exceptions.
+[^otherds]:
+    There will be more things
+    which have their individual elements accessible by indexes. They will all generally start from 0 for the first element
+    but there are rare exceptions.

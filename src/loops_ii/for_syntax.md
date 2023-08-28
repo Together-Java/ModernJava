@@ -8,7 +8,6 @@ A `for` loop has three distinct parts.
 
 3. A statement.
 
-
 ```java
 for (<INITIALIZER> ; <EXPRESSION> ; <STATEMENT>) {
     <CODE HERE>
@@ -34,6 +33,3 @@ while (<EXPRESSION>) {
     <STATEMENT>;
 }
 ```
-
-
-

@@ -19,7 +19,7 @@ None of this should be a surprise if you learned [PEMDAS](https://www.khanacadem
 // 6 + 27 / 2 - 2
 
 // 27 / 2 happens next
-// because of integer division, that gives 13 
+// because of integer division, that gives 13
 // 6 + 13 - 2
 
 // 6 + 13 comes next

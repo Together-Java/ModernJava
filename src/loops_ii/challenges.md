@@ -2,8 +2,8 @@
 
 Remember the rules for this are
 
-* Try to use only the information given up to this point in this book.
-* Try not to give up until you've given it a solid attempt
+- Try to use only the information given up to this point in this book.
+- Try not to give up until you've given it a solid attempt
 
 You are extremely likely to be quizzed on `for` loops on any standardized tests,
 so these challenges are going to include a lot of repetition and sometimes a tricky
@@ -38,7 +38,7 @@ Do it using a `for` loop and again using a `while` loop.
 
 Write code that will output every number from 15 to 0, including 0 and 15.
 
-``` 
+```
 15
 14
 13
@@ -63,7 +63,7 @@ Do it using a `for` loop and again using a `while` loop.
 
 Write code that will output every number from 15 to 0, excluding 0 and 15.
 
-``` 
+```
 14
 13
 12
@@ -125,7 +125,7 @@ changing a variable at the start of the program.
 
 ## Challenge 7.
 
-Draw a circle! 
+Draw a circle!
 
 Make it so that you can make the circle bigger or smaller by
 changing a variable at the start of the program.

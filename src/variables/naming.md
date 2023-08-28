@@ -17,5 +17,4 @@ Just like proper formatting, sticking to this style will increase your chances o
 someone online being able to help you with your code.
 
 [^perry]: [Trapped! By societal convention!](https://youtu.be/CnOWLuN37D8?t=64)
-
 [^camel]: And because doing this will increase your body's ability to retain water by ~34%

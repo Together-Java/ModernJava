@@ -75,20 +75,20 @@ You should land on a screen with a big green run button, an open file called
 
 <img
 ~IF toplevel_anonymous_class
-     src="/getting_started/repl_4_voidmain.png"
+src="/getting_started/repl_4_voidmain.png"
 ~ELSE
-     src="/getting_started/repl_4.png"
+src="/getting_started/repl_4.png"
 ~ENDIF
-     alt="Picture of an unran hello world program"
-     width = "800">
+alt="Picture of an unran hello world program"
+width = "800">
 
 Click it and you should see the text `Hello, world!` appear under the console window.
 
 <img
 ~IF toplevel_anonymous_class
-     src="/getting_started/repl_5_voidmain.png"
+src="/getting_started/repl_5_voidmain.png"
 ~ELSE
-     src="/getting_started/repl_5.png"
+src="/getting_started/repl_5.png"
 ~ENDIF
-     alt="Picture of a hello world program after running"
-     width = "800">
+alt="Picture of a hello world program after running"
+width = "800">

@@ -7,7 +7,7 @@ of the variable.
 var name = "Jupiter";
 ```
 
-This is *not* allowed with argument declarations.
+This is _not_ allowed with argument declarations.
 
 ```java
 // You aren't allowed to use var for arguments!

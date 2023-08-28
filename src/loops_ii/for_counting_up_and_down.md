@@ -19,5 +19,6 @@ You use the initializer to set some variable to a starting number like `int curr
 have the expression check if the number is at the target end number like `currentNumber <= 100`,
 and use the statement to change the number by one like `currentNumber++`.[^test]
 
-[^test]: Very often, if you are given a test on `for` loops it will focus on doing all sorts of counting up, down, and around.
-Be prepared.
+[^test]:
+    Very often, if you are given a test on `for` loops it will focus on doing all sorts of counting up, down, and around.
+    Be prepared.

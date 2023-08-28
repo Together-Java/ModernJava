@@ -2,8 +2,8 @@
 
 Remember the rules for this are
 
-* Try to use only the information given up to this point in this book.
-* Try not to give up until you've given it a solid attempt
+- Try to use only the information given up to this point in this book.
+- Try not to give up until you've given it a solid attempt
 
 ## Challenge 1.
 
@@ -36,7 +36,6 @@ What happens if a negative number is given to your `printSquare`?
 Make it so that if a negative number is given, it works the same as if a positive number
 was given.
 
-
 ```java
 // CODE HERE
 
@@ -45,7 +44,7 @@ void main() {
     System.out.println();
     printSquare(-3);
     System.out.println();
-    
+
     System.out.println();
     printSquare(-2);
     System.out.println();

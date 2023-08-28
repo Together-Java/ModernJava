@@ -17,9 +17,10 @@ we consider it to be "impure."
 ```java
 void multiplyAllByTwo(int[] numbers) {
     for (int i = 0; i < numbers.length; i++) {
-        // 
+        //
         numbers[i] = numbers[i] * 2;
     }
 }
 
 The term "pure" comes from the notion of "pure mathematics."
+```

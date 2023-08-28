@@ -10,7 +10,7 @@ for (var i = 0; i < 10; i++) {
 ```
 
 `var` is the same number of letters as `int` so you aren't gaining much when your `for` loop
-is just counting over numbers. 
+is just counting over numbers.
 
 But if your `for` loop is doing something more exotic, it might make sense.
 

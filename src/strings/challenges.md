@@ -2,8 +2,8 @@
 
 Remember the rules for this are
 
-* Try to use only the information given up to this point in this book.
-* Try not to give up until you've given it a solid attempt
+- Try to use only the information given up to this point in this book.
+- Try not to give up until you've given it a solid attempt
 
 ## Challenge 1
 
@@ -16,7 +16,7 @@ void main() {
     String first = "1";
     String second = "2";
     String result = first + second;
-    
+
     System.out.println(result);
 }
 ```
@@ -29,7 +29,7 @@ public class Main {
         String first = "1";
         String second = "2";
         String result = first + second;
-    
+
         System.out.println(result);
     }
 }
@@ -78,7 +78,7 @@ void main() {
     char first = 'a';
     String second = "b";
     String third = "ab";
-    
+
     System.out.println((first + second).equals(second));
 }
 ```
@@ -91,7 +91,7 @@ public class Main {
         char first = 'a';
         String second = "b";
         String third = "ab";
-    
+
         System.out.println((first + second).equals(second));
     }
 }

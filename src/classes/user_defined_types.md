@@ -1,3 +1,3 @@
 # User Defined Types
 
-Declaring a class 
+Declaring a class

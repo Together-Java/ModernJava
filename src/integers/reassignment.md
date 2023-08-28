@@ -10,7 +10,7 @@ int x = 1;
 System.out.println(x);
 
 // x starts as 1, 1 + 1 is 2.
-// 2 is the new value of x. 
+// 2 is the new value of x.
 x = x + 1;
 System.out.println(x);
 

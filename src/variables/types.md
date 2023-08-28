@@ -28,7 +28,7 @@ You cannot put square pegs in that round hole.
 
 ```java
 // If Java actually functioned in terms of shapes, this
-// would not work since a Square is not the same "type" 
+// would not work since a Square is not the same "type"
 // of thing as a Circle.
 ◯ thing = ▢;
 ```

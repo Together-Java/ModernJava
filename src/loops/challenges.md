@@ -11,8 +11,8 @@ It might take awhile before you feel truly comfortable with this. That is normal
 
 Remember the rules for this are
 
-* Try to use only the information given up to this point in this book.
-* Try not to give up until you've given it a solid attempt
+- Try to use only the information given up to this point in this book.
+- Try not to give up until you've given it a solid attempt
 
 ## Challenge 1
 
@@ -163,7 +163,7 @@ void main() {
 
 ```java
 public class Main {
-    
+
     public static void main(String[] args) {
         int x = 0;
         while (x < 10) {
@@ -194,7 +194,7 @@ void main() {
             System.out.println(x * y);
             y++;
         }
-            
+
         x++;
     }
 }
@@ -212,7 +212,7 @@ public class Main {
                 System.out.println(x * y);
                 y++;
             }
-            
+
             x++;
         }
     }

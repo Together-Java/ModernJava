@@ -3,7 +3,6 @@
 You are allowed to leave the initializer part of a `for` loop blank
 so long as you still have the `;`.
 
-
 ```java
 int number = 0;
 for (;number < 5; number++) {

@@ -66,13 +66,13 @@ final String genie = "Robin Williams";
 // imagine
 // 100s of lines
 // of code
-// and it is 
+// and it is
 // hard to
 // read all of it
 // at a glance
 // ......
 // ......
-// You can still be sure "genie" 
+// You can still be sure "genie"
 // has the value of "Robin Williams"
 System.out.println(genie);
 ```

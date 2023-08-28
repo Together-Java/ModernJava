@@ -1,6 +1,6 @@
 # Classes
 
-Up until now all the data types you have used - `int`, `String`, etc. - 
+Up until now all the data types you have used - `int`, `String`, etc. -
 came with Java. This works for awhile, but eventually you will want or need to define your own types.
 
 The way to do this is with a "class."
@@ -12,9 +12,8 @@ class Person {
 ```
 
 Every
-A class can be thought of as a "blueprint" for making an 
+A class can be thought of as a "blueprint" for making an
 to represent things in your programs.
-
 
 Methods can only have one return value. This means that if you wanted to make a method
 that returned two values, such as the location of buried treasure, you would have trouble.
@@ -47,7 +46,7 @@ void main() {
     Location treasure = getTreasureLocation();
 
     System.out.println(
-        "The treasure is at " + 
+        "The treasure is at " +
         treasure.latitude +
         "N, " +
         treasure.longitude +
@@ -55,6 +54,5 @@ void main() {
     );
 }
 ```
-
 
 [^many]: of many

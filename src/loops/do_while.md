@@ -1,8 +1,6 @@
 # Do
 
-
 One variation on a `while` loop is a "do-while loop."
-
 
 ```java
 int x = 0;

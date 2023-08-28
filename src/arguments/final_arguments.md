@@ -15,7 +15,6 @@ void main() {
 
 If you try to reassign a final argument, Java will not accept your program.
 
-
 ```java
 void eat(final String food) {
     System.out.println("I ate " + food);
@@ -33,5 +32,6 @@ This has the same use as regular final variables. If there are lots of lines
 of code where a variable might be reassigned, it can be useful to not have
 to read all that code to know that it does happen.[^opinion]
 
-[^opinion]: Adding `final` to all arguments can make it harder to read the code, simply
-because of visual noise.
+[^opinion]:
+    Adding `final` to all arguments can make it harder to read the code, simply
+    because of visual noise.

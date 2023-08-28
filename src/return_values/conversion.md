@@ -10,7 +10,7 @@ If Java knows how to do that conversion, then it can happen automatically.
 double returnFive() {
     // x is an int
     int x = 5;
-    // When it is returned, it will be turned into a double 
+    // When it is returned, it will be turned into a double
     return x;
 }
 ```
