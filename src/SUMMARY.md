@@ -183,6 +183,11 @@
   - [Pure Functions](./return_values/pure_functions.md)
   - [Impure Functions](./return_values/impure_functions.md)
 
+# User Input
+
+- [User Input](./user_input.md)
+  - [readLine](./user_input/readLine.md)
+
 # Data Types III
 
 - [Identity Types](./identity_types.md)
