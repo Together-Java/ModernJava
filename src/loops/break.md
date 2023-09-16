@@ -31,7 +31,7 @@ while (true) {
         "The people started singing it not knowing what it was"
     );
 
-    // Will immediately leave the loop
+    // Will immediately leave the current loop
     break;
 }
 ```
