@@ -4,7 +4,7 @@ One of the more fun things to do with `for` loops[^quiz] is to use them to print
 
 Say you wanted to draw this right triangle.
 
-```
+```text
 *
 **
 ***
@@ -44,7 +44,7 @@ for (int numberOfStars = 1; numberOfStars <= height; numberOfStars++) {
 }
 ```
 
-```
+```text
 *
 **
 ***

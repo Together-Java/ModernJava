@@ -186,7 +186,7 @@
 # User Input
 
 - [User Input](./user_input.md)
-    - [readLine](./user_input/readLine.md)
+    <!-- - [readLine](./user_input/readLine.md) -->
 
 # Data Types III
 

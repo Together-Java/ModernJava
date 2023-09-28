@@ -13,7 +13,7 @@ case to handle. Its for your own good, I hope.
 
 Write code that will output every number from 0 to 15, including 0 and 15.
 
-```
+```text
 0
 1
 2
@@ -38,7 +38,7 @@ Do it using a `for` loop and again using a `while` loop.
 
 Write code that will output every number from 15 to 0, including 0 and 15.
 
-```
+```text
 15
 14
 13
@@ -63,7 +63,7 @@ Do it using a `for` loop and again using a `while` loop.
 
 Write code that will output every number from 15 to 0, excluding 0 and 15.
 
-```
+```text
 14
 13
 12
@@ -86,7 +86,7 @@ Do it using a `for` loop and again using a `while` loop.
 
 Write code that will output every third number from 51 to 66.
 
-```
+```text
 53
 56
 59
@@ -103,7 +103,7 @@ Draw a square.
 Make it so that you can make the square bigger or smaller by
 changing a variable at the start of the program.
 
-```
+```text
 *****
 *****
 *****
@@ -117,7 +117,7 @@ Draw a rectangle.
 Make it so that you can make the rectangle bigger or smaller in either dimension by
 changing a variable at the start of the program.
 
-```
+```text
 ******
 ******
 ******
@@ -130,7 +130,7 @@ Draw a circle!
 Make it so that you can make the circle bigger or smaller by
 changing a variable at the start of the program.
 
-```
+```text
     **
    ****
   ******

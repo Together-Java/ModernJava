@@ -2,7 +2,7 @@
 
 Another fun shape is the isosceles triangle.
 
-```
+```text
   *
  ***
 *****
@@ -33,7 +33,7 @@ for (int row = 1; row <= totalRows; row++) {
 }
 ```
 
-```
+```text
     *
    ***
   *****
