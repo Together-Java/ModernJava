@@ -5,7 +5,7 @@ Remember the rules for this are
 - Try to use only the information given up to this point in this book.
 - Try not to give up until you've given it a solid attempt
 
-## Challenge 1.
+## Challenge 1
 
 Write a method named `printSquare` which takes one `int` argument named `size`.
 
@@ -29,7 +29,7 @@ void main() {
 }
 ```
 
-## Challenge 2.
+## Challenge 2
 
 What happens if a negative number is given to your `printSquare`?
 
@@ -52,4 +52,4 @@ void main() {
 }
 ```
 
-## Challenge 3.
+## Challenge 3

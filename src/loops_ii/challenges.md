@@ -82,7 +82,7 @@ Write code that will output every number from 15 to 0, excluding 0 and 15.
 
 Do it using a `for` loop and again using a `while` loop.
 
-## Challenge 4.
+## Challenge 4
 
 Write code that will output every third number from 51 to 66.
 
@@ -96,7 +96,7 @@ Write code that will output every third number from 51 to 66.
 
 Do it using a `for` loop and again using a `while` loop.
 
-## Challenge 5.
+## Challenge 5
 
 Draw a square.
 
@@ -110,7 +110,7 @@ changing a variable at the start of the program.
 *****
 ```
 
-## Challenge 6.
+## Challenge 6
 
 Draw a rectangle.
 
@@ -123,7 +123,7 @@ changing a variable at the start of the program.
 ******
 ```
 
-## Challenge 7.
+## Challenge 7
 
 Draw a circle!
 
@@ -140,7 +140,7 @@ changing a variable at the start of the program.
     **
 ```
 
-## Challenge 8.
+## Challenge 8
 
 Draw a smiley face!
 
