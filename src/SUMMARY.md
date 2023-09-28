@@ -209,7 +209,7 @@
     - [Challenges](./arguments/challenges.md)
 - [Arrays II](./arrays_ii.md)
     - [Default Values](./arrays_ii/default_values.md)
-    - [Populate Array]()
+    <!-- - [Populate Array]() -->
 
 # Code Structure II
 
@@ -249,8 +249,8 @@
 
 # User Defined Types
 
-  - [Primitive Classes](./classes/primitive_classes.md)
-  - [Reference Classes](./classes/reference_classes.md)
+    - [Primitive Classes](./classes/primitive_classes.md)
+    - [Reference Classes](./classes/reference_classes.md)
 
 <!--
 Arrays
