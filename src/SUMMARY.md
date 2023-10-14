@@ -100,6 +100,7 @@
   - [Nested Ifs](./branching_logic/nested_ifs.md)
   - [Else If](./branching_logic/else_if.md)
   - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
+  - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Conditional Operator](./branching_logic/conditional_operator.md)
   - [Boolean Expressions](./branching_logic/boolean_expressions.md)
   - [Challenges](./branching_logic/challenges.md)
@@ -177,16 +178,14 @@
   - [Overloading](./arguments/overloading.md)
   - [Inferred Types](./arguments/inferred_types.md)
   - [Challenges](./arguments/challenges.md)
+
 - [Return Values](./return_values.md)
   - [void](./return_values/void.md)
   - [Conversion](./return_values/conversion.md)
   - [Pure Functions](./return_values/pure_functions.md)
   - [Impure Functions](./return_values/impure_functions.md)
 
-# User Input
 
-- [User Input](./user_input.md)
-  - [readLine](./user_input/readLine.md)
 
 # Data Types III
 
