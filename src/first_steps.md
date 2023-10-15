@@ -109,4 +109,4 @@ public class Main {
 You should get in the habit of, whenever you see some bit of code, trying to physically type it out, run it,
 tweak it, and play with it.
 
-So try playing around with this program. If you are not actively engaging then the whole thing is a bit of a wash.
+So try playing around with this program. If you actively engage then you will retain information better.

@@ -95,15 +95,17 @@
 # Control Flow I
 
 - [Branching Paths](./branching_paths.md)
+
   - [If](./branching_logic/if.md)
-  - [Else](./branching_logic/else.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
+  - [Else](./branching_logic/else.md)
   - [Else If](./branching_logic/else_if.md)
   - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
   - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Conditional Operator](./branching_logic/conditional_operator.md)
   - [Boolean Expressions](./branching_logic/boolean_expressions.md)
   - [Challenges](./branching_logic/challenges.md)
+
 - [Loops](./loops.md)
   - [While](./loops/while.md)
   - [Endless Loops](./loops/endless_loops.md)
@@ -165,11 +167,10 @@
   - [Declaration](./methods/declaration.md)
   - [Invocation](./methods/invocation.md)
   - [Scope](./methods/scope.md)
-  - [Return](./methods/return.md)
-  - [Unreachable Statements](./methods/unreachable_statements.md)
   - [main](./methods/main.md)
   - [Challenges](./methods/challenges.md)
 - [Arguments](./arguments.md)
+
   - [Declaration](./arguments/declaration.md)
   - [Invocation with Arguments](./arguments/invocation_with_arguments.md)
   - [Reassignment](./arguments/reassignment.md)
@@ -179,19 +180,16 @@
   - [Inferred Types](./arguments/inferred_types.md)
   - [Challenges](./arguments/challenges.md)
 
-- [Return Values](./return_values.md)
-  - [void](./return_values/void.md)
+- [Return](./return_values.md)
+  - [Return Values](./return_values/return_values.md)
   - [Conversion](./return_values/conversion.md)
+  - [void](./return_values/void.md)
+  - [Unreachable Statements](./return_values/unreachable_statements.md)
   - [Pure Functions](./return_values/pure_functions.md)
   - [Impure Functions](./return_values/impure_functions.md)
 
-
-
 # Data Types III
 
-- [Identity Types](./identity_types.md)
-  - [Comparison with ==](./identity_types/comparison_with_equalsequals.md)
-- [Primitive Types](./primitive_types.md)
 - [null](./null.md)
   - [Checking for null](./null/checking_for_null.md)
   - [Field Access](./null/field_access.md)
@@ -205,7 +203,7 @@
   - [Unboxing Conversion](./boxed_primitives/unboxing_conversion.md)
   - [Boxing Conversion](./boxed_primitives/boxing_conversion.md)
   - [Arrays of Boxed Primitives](./boxed_primitives/arrays_of_boxed_primitives.md)
-  - [Challenges](./arguments/challenges.md)
+  - [Challenges](./boxed_primitives/challenges.md)
 - [Arrays II](./arrays_ii.md)
   - [Default Values](./arrays_ii/default_values.md)
   - [Populate Array]()
