@@ -6,5 +6,9 @@ an "absence" of a value.
 Consider [Cher](https://en.wikipedia.org/wiki/Cher). Unlike most people,
 Cher does not have a last name.
 
+`null` is an appropriate value to use when there is such an absense.
+
 ```java
+String firstName = "Cher";
+String lastName = null;
 ```
