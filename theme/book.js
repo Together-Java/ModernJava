@@ -143,6 +143,7 @@ function playground_text(playground, hidden = true) {
     })
       .then((response) => response.json())
       .then((response) => {
+        console.log(Object.getOwnPropertyNames(response));
         result_block.innerText = response.result;
         result_block.classList.remove("result-no-output");
       })
