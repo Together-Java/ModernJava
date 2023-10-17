@@ -133,7 +133,7 @@ function playground_text(playground, hidden = true) {
 
     result_block.innerText = "Running...";
 
-    fetch_with_timeout("https://play.rust-lang.org/evaluate.json", {
+    fetch_with_timeout("https://java-playground.com/execute", {
       headers: {
         "Content-Type": "application/json",
       },
@@ -143,13 +143,8 @@ function playground_text(playground, hidden = true) {
     })
       .then((response) => response.json())
       .then((response) => {
-        if (response.result.trim() === "") {
-          result_block.innerText = "No output";
-          result_block.classList.add("result-no-output");
-        } else {
-          result_block.innerText = response.result;
-          result_block.classList.remove("result-no-output");
-        }
+        result_block.innerText = response.result;
+        result_block.classList.remove("result-no-output");
       })
       .catch(
         (error) =>
@@ -261,7 +256,7 @@ function playground_text(playground, hidden = true) {
         runCodeButton.addEventListener("click", function (e) {
         run_rust_code(pre_block);
         });
-        
+
         var clipButton = document.createElement("button");
         clipButton.className = "fa fa-copy clip-button";
         clipButton.title = "Copy to clipboard";
