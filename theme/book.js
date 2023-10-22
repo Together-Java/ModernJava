@@ -114,26 +114,18 @@ function playground_text(playground, hidden = true) {
 
     let text = playground_text(code_block);
     let classes = code_block.querySelector("code").classList;
-    let edition = "2015";
-    if (classes.contains("edition2018")) {
-      edition = "2018";
-    } else if (classes.contains("edition2021")) {
-      edition = "2021";
-    }
+    
     var params = {
-      version: "stable",
-      optimize: "0",
+      runtime: '21',
+      release: 'valhalla',
+      action: 'run',
+      preview: false,
       code: text,
-      edition: edition,
     };
-
-    if (text.indexOf("#![feature") !== -1) {
-      params.version = "nightly";
-    }
 
     result_block.innerText = "Running...";
 
-    fetch_with_timeout("https://java-playground.com/execute", {
+    fetch_with_timeout("https://java-playground.com/evaluate.json", {
       headers: {
         "Content-Type": "application/json",
       },
