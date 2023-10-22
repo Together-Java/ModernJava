@@ -5,8 +5,10 @@ You may have noticed that after each `{` all the code that comes after it is "in
 ~IF toplevel_anonymous_class
 
 ```java
-void main() {
-    System.out.println("Hello, World!");
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
 ```
 

@@ -103,7 +103,8 @@ function playground_text(playground, hidden = true) {
     }
   }
 
-  function run_rust_code(code_block) {
+  async function run_rust_code(code_block) 
+  {
     var result_block = code_block.querySelector(".result");
     if (!result_block) {
       result_block = document.createElement("code");
@@ -115,17 +116,22 @@ function playground_text(playground, hidden = true) {
     let text = playground_text(code_block);
     let classes = code_block.querySelector("code").classList;
     
+    let Valhalla = 'valhalla';
+    let Java21 = '21';
+
     var params = {
-      runtime: '21',
-      release: 'valhalla',
+      release: '20',
+      runtime: 'valhalla',
       action: 'run',
       preview: false,
       code: text,
     };
 
+    console.log(text);
     result_block.innerText = "Running...";
+    let output;
 
-    fetch_with_timeout("https://java-playground.com/evaluate.json", {
+    const response = fetch_with_timeout("https://java-playground.com/execute", {
       headers: {
         "Content-Type": "application/json",
       },
@@ -135,8 +141,15 @@ function playground_text(playground, hidden = true) {
     })
       .then((response) => response.json())
       .then((response) => {
-        console.log(Object.getOwnPropertyNames(response));
-        result_block.innerText = response.result;
+        console.log(response);
+        console.log(Object.keys(response));
+        
+        for (var key in response) {
+          console.log(key);
+          console.log(response[key]);
+        }
+        //console.log(out);
+        result_block.innerText = response["stdout"];
         result_block.classList.remove("result-no-output");
       })
       .catch(
