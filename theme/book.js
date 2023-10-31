@@ -252,17 +252,22 @@ function playground_text(playground, hidden = true) {
           pre_block.insertBefore(buttons, pre_block.firstChild);
         }
 
-        var runCodeButton = document.createElement("button");
-        runCodeButton.className = "fa fa-play play-button";
-        runCodeButton.hidden = true;
-        runCodeButton.title = "Run this code";
-        runCodeButton.setAttribute("aria-label", runCodeButton.title);
+        
 
-        buttons.insertBefore(runCodeButton, buttons.firstChild);
-        runCodeButton.addEventListener("click", function (e) {
-        run_rust_code(pre_block);
-        });
+        let code_block = pre_block.querySelector("code");
+        if (code_block.classList.contains("no_run") == false) 
+        {
+          var runCodeButton = document.createElement("button");
+          runCodeButton.className = "fa fa-play play-button";
+          runCodeButton.hidden = true;
+          runCodeButton.title = "Run this code";
+          runCodeButton.setAttribute("aria-label", runCodeButton.title);
 
+          buttons.insertBefore(runCodeButton, buttons.firstChild);
+          runCodeButton.addEventListener("click", function (e) {
+          run_rust_code(pre_block);
+          });
+        }
         var clipButton = document.createElement("button");
         clipButton.className = "fa fa-copy clip-button";
         clipButton.title = "Copy to clipboard";
@@ -293,7 +298,7 @@ function playground_text(playground, hidden = true) {
 
       buttons.insertBefore(runCodeButton, buttons.firstChild);
       runCodeButton.addEventListener("click", function (e) {
-        run_rust_code(pre_block);
+        run_java_code(pre_block);
       });
 
       if (window.playground_copyable) {
