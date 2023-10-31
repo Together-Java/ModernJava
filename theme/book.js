@@ -65,7 +65,7 @@ function playground_text(playground, hidden = true) {
             win: "Ctrl-Enter",
             mac: "Ctrl-Enter",
           },
-          exec: (_editor) => run_rust_code(playground_block),
+          exec: (_editor) => run_java_code(playground_block),
         });
       }
     }
@@ -103,7 +103,7 @@ function playground_text(playground, hidden = true) {
     }
   }
 
-  async function run_rust_code(code_block) 
+  async function run_java_code(code_block) 
   {
     var result_block = code_block.querySelector(".result");
     if (!result_block) {
@@ -149,7 +149,11 @@ function playground_text(playground, hidden = true) {
           console.log(response[key]);
         }
         //console.log(out);
-        result_block.innerText = response["stdout"];
+        if(response["success"] != true)
+        {
+          result_block.innerText = "stderr: " + response["stderr"];
+        }
+        result_block.innerText = "stdout: " + response["stdout"];
         result_block.classList.remove("result-no-output");
       })
       .catch(
@@ -179,7 +183,7 @@ function playground_text(playground, hidden = true) {
         return node.classList.contains("editable");
       })
       .forEach(function (block) {
-        block.classList.remove("language-rust");
+        block.classList.remove("language-java");
       });
 
     code_nodes
@@ -201,7 +205,7 @@ function playground_text(playground, hidden = true) {
     block.classList.add("hljs");
   });
 
-  Array.from(document.querySelectorAll("code.language-rust")).forEach(
+  Array.from(document.querySelectorAll("code.language-java")).forEach(
     function (block) {
       var lines = Array.from(block.querySelectorAll(".boring"));
       // If no lines were hidden, return
@@ -265,7 +269,7 @@ function playground_text(playground, hidden = true) {
 
           buttons.insertBefore(runCodeButton, buttons.firstChild);
           runCodeButton.addEventListener("click", function (e) {
-          run_rust_code(pre_block);
+          run_java_code(pre_block);
           });
         }
         var clipButton = document.createElement("button");
