@@ -114,22 +114,16 @@ function playground_text(playground, hidden = true) {
     }
 
     let text = playground_text(code_block);
-    let classes = code_block.querySelector("code").classList;
-    
-    let Valhalla = 'valhalla';
-    let Java21 = '21';
 
     var params = {
-      release: '20',
-      runtime: 'valhalla',
+      release: '21',
+      runtime: 'latest',
       action: 'run',
-      preview: false,
+      preview: true,
       code: text,
     };
 
-    console.log(text);
     result_block.innerText = "Running...";
-    let output;
 
     const response = fetch_with_timeout("https://java-playground.com/execute", {
       headers: {
@@ -141,19 +135,11 @@ function playground_text(playground, hidden = true) {
     })
       .then((response) => response.json())
       .then((response) => {
-        console.log(response);
-        console.log(Object.keys(response));
-        
-        for (var key in response) {
-          console.log(key);
-          console.log(response[key]);
-        }
-        //console.log(out);
         if(response["success"] != true)
         {
-          result_block.innerText = "stderr: " + response["stderr"];
+          result_block.innerText = response["stderr"];
         }
-        result_block.innerText = "stdout: " + response["stdout"];
+        result_block.innerText =  response["stdout"];
         result_block.classList.remove("result-no-output");
       })
       .catch(

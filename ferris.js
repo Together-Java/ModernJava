@@ -54,7 +54,7 @@ var ferrisTypes = [
     a.setAttribute('target', '_blank')
   
     var img = document.createElement('img')
-    img.setAttribute('src', 'img/' + type.attr + '.svg')
+    img.setAttribute('src', '../img/' + type.attr + '.svg')
     img.setAttribute('title', type.title)
     img.classList.add('ferris')
     img.classList.add('ferris-' + size)
