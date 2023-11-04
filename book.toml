@@ -9,6 +9,8 @@ multilingual = false
 git-repository-url = "https://github.com/Together-Java/ModernJava"
 edit-url-template = "https://github.com/Together-Java/ModernJava/edit/develop/{path}"
 mathjax-support = true
+additional-css = ["ferris.css"]
+additional-js = ["ferris.js"]
 
 [output.html.fold]
 enable = true    # whether or not to enable section folding
@@ -26,3 +28,4 @@ java_21 = false
 
 [output.html.playground]
 editable = true
+
