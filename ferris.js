@@ -5,7 +5,7 @@ var ferrisTypes = [
     },
     {
       attr: 'panics',
-      title: 'This code panics!'
+      title: 'This code will crash!'
     },
     {
       attr: 'not_desired_behavior',

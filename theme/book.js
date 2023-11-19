@@ -1,7 +1,7 @@
 "use strict";
 
 // Fix back button cache problem
-window.onunload = function () {};
+window.onunload = function () { };
 
 // Global variable, shared between modules
 function playground_text(playground, hidden = true) {
@@ -103,8 +103,7 @@ function playground_text(playground, hidden = true) {
     }
   }
 
-  async function run_java_code(code_block) 
-  {
+  async function run_java_code(code_block) {
     var result_block = code_block.querySelector(".result");
     if (!result_block) {
       result_block = document.createElement("code");
@@ -135,17 +134,23 @@ function playground_text(playground, hidden = true) {
     })
       .then((response) => response.json())
       .then((response) => {
-        if(response["success"] != true)
-        {
+        console.info(response);
+
+        if (response["success"] != true) {
           result_block.innerText = response["stderr"];
+          if (response["stdout"]) {
+            result_block.innerText = result_block.innerText + "\n----------\n" + response["stdout"];
+          }
         }
-        result_block.innerText =  response["stdout"];
+        else {
+          result_block.innerText = response["stdout"];
+        }
         result_block.classList.remove("result-no-output");
       })
       .catch(
         (error) =>
-          (result_block.innerText =
-            "Playground Communication: " + error.message),
+        (result_block.innerText =
+          "Playground Communication: " + error.message),
       );
   }
 
@@ -242,11 +247,10 @@ function playground_text(playground, hidden = true) {
           pre_block.insertBefore(buttons, pre_block.firstChild);
         }
 
-        
+
 
         let code_block = pre_block.querySelector("code");
-        if (code_block.classList.contains("no_run") == false) 
-        {
+        if (code_block.classList.contains("no_run") == false) {
           var runCodeButton = document.createElement("button");
           runCodeButton.className = "fa fa-play play-button";
           runCodeButton.hidden = true;
@@ -255,7 +259,7 @@ function playground_text(playground, hidden = true) {
 
           buttons.insertBefore(runCodeButton, buttons.firstChild);
           runCodeButton.addEventListener("click", function (e) {
-          run_java_code(pre_block);
+            run_java_code(pre_block);
           });
         }
         var clipButton = document.createElement("button");
@@ -359,7 +363,7 @@ function playground_text(playground, hidden = true) {
     var theme;
     try {
       theme = localStorage.getItem("mdbook-theme");
-    } catch (e) {}
+    } catch (e) { }
     if (theme === null || theme === undefined) {
       return default_theme;
     } else {
@@ -405,7 +409,7 @@ function playground_text(playground, hidden = true) {
     if (store) {
       try {
         localStorage.setItem("mdbook-theme", theme);
-      } catch (e) {}
+      } catch (e) { }
     }
 
     html.classList.remove(previousTheme);
@@ -517,7 +521,7 @@ function playground_text(playground, hidden = true) {
     sidebar.setAttribute("aria-hidden", false);
     try {
       localStorage.setItem("mdbook-sidebar", "visible");
-    } catch (e) {}
+    } catch (e) { }
   }
 
   var sidebarAnchorToggles = document.querySelectorAll("#sidebar a.toggle");
@@ -540,7 +544,7 @@ function playground_text(playground, hidden = true) {
     sidebar.setAttribute("aria-hidden", true);
     try {
       localStorage.setItem("mdbook-sidebar", "hidden");
-    } catch (e) {}
+    } catch (e) { }
   }
 
   // Toggle sidebar

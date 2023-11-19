@@ -34,6 +34,4 @@ void main() {
 When there are multiple methods that have the same name but take different arguments,
 those methods are considered "overloads" of eachother[^overload]
 
-[^overload]:
-    "Overloading" in this context means when one word has more than
-    one possible meaning depending on how it is used. Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.
+[^overload]: "Overloading" in this context means when one word has more than one possible meaning depending on how it is used. Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.

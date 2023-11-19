@@ -9,6 +9,13 @@ Remember the rules for this are
 
 Declare a method named `printSquare`. When invoked it should print a square.
 
+```
+*****
+*****
+*****
+*****
+```
+
 ```java
 // CODE HERE
 

@@ -6,7 +6,7 @@
 
 Book teaching how to write modern and effective Java. It is maintained by the community, anyone can contribute.
 
-Feel free to join our [discord server](https://discord.com/invite/XXFUXzK)
+Feel free to join our [discord server](https://discord.gg/together-java-272761734820003841)
 if you have any questions, or require assistance with the project. :relaxed:
 
 ## Getting started
