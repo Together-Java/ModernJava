@@ -39,6 +39,4 @@ String[] response = { "sustained" };
 response[-1] = "not";
 ```
 
-[^strings]:
-    You cannot change the contents of a `String` like you would an array. This is one of the biggest
-    differences between a `String` and a `char[]`.
+[^strings]: You cannot change the contents of a `String` like you would an array. This is one of the biggest differences between a `String` and a `char[]`.

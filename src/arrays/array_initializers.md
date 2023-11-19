@@ -21,6 +21,4 @@ int[] numbers = { 1, two, two + 1 }
 
 We call them array initializers because you use them to give an initial value to an array.[^pattern]
 
-[^pattern]:
-    You may be noticing a pattern. Confusing sounding names are often kinda "obvious"
-    with enough context.
+[^pattern]: You may be noticing a pattern. Confusing sounding names are often kinda "obvious" with enough context.
