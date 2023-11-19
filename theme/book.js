@@ -65,7 +65,7 @@ function playground_text(playground, hidden = true) {
             win: "Ctrl-Enter",
             mac: "Ctrl-Enter",
           },
-          exec: (_editor) => run_rust_code(playground_block),
+          exec: (_editor) => run_java_code(playground_block),
         });
       }
     }
@@ -103,7 +103,8 @@ function playground_text(playground, hidden = true) {
     }
   }
 
-  function run_rust_code(code_block) {
+  async function run_java_code(code_block) 
+  {
     var result_block = code_block.querySelector(".result");
     if (!result_block) {
       result_block = document.createElement("code");
@@ -113,27 +114,18 @@ function playground_text(playground, hidden = true) {
     }
 
     let text = playground_text(code_block);
-    let classes = code_block.querySelector("code").classList;
-    let edition = "2015";
-    if (classes.contains("edition2018")) {
-      edition = "2018";
-    } else if (classes.contains("edition2021")) {
-      edition = "2021";
-    }
-    var params = {
-      version: "stable",
-      optimize: "0",
-      code: text,
-      edition: edition,
-    };
 
-    if (text.indexOf("#![feature") !== -1) {
-      params.version = "nightly";
-    }
+    var params = {
+      release: '21',
+      runtime: 'latest',
+      action: 'run',
+      preview: true,
+      code: text,
+    };
 
     result_block.innerText = "Running...";
 
-    fetch_with_timeout("https://play.rust-lang.org/evaluate.json", {
+    const response = fetch_with_timeout("https://java-playground.com/execute", {
       headers: {
         "Content-Type": "application/json",
       },
@@ -143,13 +135,12 @@ function playground_text(playground, hidden = true) {
     })
       .then((response) => response.json())
       .then((response) => {
-        if (response.result.trim() === "") {
-          result_block.innerText = "No output";
-          result_block.classList.add("result-no-output");
-        } else {
-          result_block.innerText = response.result;
-          result_block.classList.remove("result-no-output");
+        if(response["success"] != true)
+        {
+          result_block.innerText = response["stderr"];
         }
+        result_block.innerText =  response["stdout"];
+        result_block.classList.remove("result-no-output");
       })
       .catch(
         (error) =>
@@ -178,7 +169,7 @@ function playground_text(playground, hidden = true) {
         return node.classList.contains("editable");
       })
       .forEach(function (block) {
-        block.classList.remove("language-rust");
+        block.classList.remove("language-java");
       });
 
     code_nodes
@@ -200,7 +191,7 @@ function playground_text(playground, hidden = true) {
     block.classList.add("hljs");
   });
 
-  Array.from(document.querySelectorAll("code.language-rust")).forEach(
+  Array.from(document.querySelectorAll("code.language-java")).forEach(
     function (block) {
       var lines = Array.from(block.querySelectorAll(".boring"));
       // If no lines were hidden, return
@@ -251,6 +242,22 @@ function playground_text(playground, hidden = true) {
           pre_block.insertBefore(buttons, pre_block.firstChild);
         }
 
+        
+
+        let code_block = pre_block.querySelector("code");
+        if (code_block.classList.contains("no_run") == false) 
+        {
+          var runCodeButton = document.createElement("button");
+          runCodeButton.className = "fa fa-play play-button";
+          runCodeButton.hidden = true;
+          runCodeButton.title = "Run this code";
+          runCodeButton.setAttribute("aria-label", runCodeButton.title);
+
+          buttons.insertBefore(runCodeButton, buttons.firstChild);
+          runCodeButton.addEventListener("click", function (e) {
+          run_java_code(pre_block);
+          });
+        }
         var clipButton = document.createElement("button");
         clipButton.className = "fa fa-copy clip-button";
         clipButton.title = "Copy to clipboard";
@@ -281,7 +288,7 @@ function playground_text(playground, hidden = true) {
 
       buttons.insertBefore(runCodeButton, buttons.firstChild);
       runCodeButton.addEventListener("click", function (e) {
-        run_rust_code(pre_block);
+        run_java_code(pre_block);
       });
 
       if (window.playground_copyable) {

@@ -190,6 +190,9 @@
 
 # Data Types III
 
+- [Identity Types](./identity_types.md)
+  - [Comparison with ==](./identity_types/comparison_with_equalsequals.md)
+- [Primitive Types](./primitive_types.md)
 - [null](./null.md)
   - [Null as Absence](./null/null_as_absence.md)
   - [Checking for null](./null/checking_for_null.md)
