@@ -16,7 +16,18 @@ edit the following code.
 
 ~IF toplevel_anonymous_class
 
-```java
+<span id="ferris"></span>
+
+| Ferris                                                                                                           | Meaning                                          |
+|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| <img src="img/does_not_compile.svg" class="ferris-explain" alt="Ferris with a question mark"/>            | This code does not compile!                      |
+| <img src="img/panics.svg" class="ferris-explain" alt="Ferris throwing up their hands"/>                   | This code panics!                                |
+| <img src="img/not_desired_behavior.svg" class="ferris-explain" alt="Ferris with one claw up, shrugging"/> | This code does not produce the desired behavior. |
+
+In most situations, we’ll lead you to the correct version of any code that
+doesn’t compile.
+
+```java,panics
 void main() {
     System.out.println("Hello, World");
 }

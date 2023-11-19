@@ -8,7 +8,7 @@ words.
 
 ~IF toplevel_anonymous_class
 
-```java
+```java, no_run
 void main() {
     // This prints hello world!
     System.out.println("Hello, World!");
@@ -17,7 +17,7 @@ void main() {
 
 ~ELSE
 
-```java
+```java, no_run
 public class Main {
     public static void main(String[] args) {
         // This prints hello world!
