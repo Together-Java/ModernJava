@@ -2,7 +2,7 @@
 
 The `;` at the end of each of those lines is a "semicolon".
 
-```java
+```java,no_run
 ~IF simple_io
 print("Hello, "); // <-- this thing
             //  ^
@@ -16,7 +16,7 @@ It indicates that the statement has finished. A "statement" is a line of code th
 The reason we call it a statement and not just a "line of code" is that it can technically span multiple lines and be
 more complicated than these examples.
 
-```java
+```java,no_run
 System.out.print(
     "Hello, "
 );
@@ -28,7 +28,7 @@ at the end of every statement. If you do not, Java will get confused and your co
 
 If you happen to have an extra semi-colon or two that is technically okay. It just reads it as an "empty statement." It's pointless, but it is allowed.
 
-```java
+```java,no_run
 System.out.print(
     "Hello, "
 );;
@@ -36,7 +36,7 @@ System.out.print(
 
 Or even
 
-```java
+```java,no_run
 System.out.print(
     "Hello, "
 );

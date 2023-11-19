@@ -12,7 +12,7 @@ The rules for this are
 
 Write a program that prints your name twice. So if your name is "Jasmine", the output of the program should be this.
 
-```text
+```text,no_run
 Jasmine
 Jasmine
 ```
@@ -63,7 +63,7 @@ How could you use that error to figure out where you might have forgotten to put
 
 ~IF toplevel_anonymous_class
 
-```java
+```java,editable
 void main() {
     System.out.println("Apple");
     System.out.println("Banana");
