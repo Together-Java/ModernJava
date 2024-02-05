@@ -9,7 +9,7 @@ void incrementFirst(int[] numbers) {
 }
 
 void main() {
-    int nums = new int[] { 8 };
+    int[] nums = new int[] { 8 };
 
     // The first number is 8
     System.out.println(

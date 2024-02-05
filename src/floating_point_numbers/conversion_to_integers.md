@@ -2,10 +2,12 @@
 
 Normally, a `double` value cannot be assigned to an `int`.
 
-```java
+```java,does_not_compile
+~void main() {
 double x = 5.0;
 // will not work
 int y = x;
+~}
 ```
 
 The reason for this is that there are numbers like `2.5`, the infinities, and `NaN` which do not have an
@@ -22,17 +24,20 @@ To perform such a narrowing conversion, you need to put `(int)` before a literal
 evaluates to a `double`.
 
 ```java
+~void main() {
 double x = 5.0;
 // will be 5
 int y = (int) x;
 
 System.out.println(y);
+~}
 ```
 
 Any decimal part of the number will be dropped. So numbers like `2.1`, `2.5`, and `2.9` will all be converted into
 simply `2`.
 
 ```java
+~void main() {
 int x = (int) 2.1;
 int y = (int) 2.5;
 int z = (int) 2.9;
@@ -40,35 +45,42 @@ int z = (int) 2.9;
 System.out.println(x);
 System.out.println(y);
 System.out.println(z);
+~}
 ```
 
 Any number that is too big to store in an `int` will be converted to the biggest possible `int`, 2<sup>31</sup> - 1.
 
 ```java
+~void main() {
 // 2147483647
 System.out.println((int) 4207483647.0);
 
 double positiveInfinity = 5.0 / 0.0;
 // 2147483647
 System.out.println((int) positiveInfinity);
+~}
 ```
 
 Any number that is too small to store in an `int` will be converted to the smallest possible `int`, -2<sup>31</sup>.
 
 ```java
+~void main() {
 // -2147483648
 System.out.println((int) -9999999999.0);
 
 double negativeInfinity = -5.0 / 0.0;
 // -2147483648
 System.out.println((int) negativeInfinity);
+~}
 ```
 
 And `NaN` will be converted to zero.
 
 ```java
+~void main() {
 double nan = 0.0 / 0.0;
 System.out.println((int) nan);
+~}
 ```
 
 When you use `(int)` to convert, we call that a "cast[^cast] expression". The `(int)` is a "cast operator." It even has

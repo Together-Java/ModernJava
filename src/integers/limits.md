@@ -12,20 +12,24 @@ the type `int` can represent numbers from -2<sup>31</sup> to 2<sup>31</sup> - 1.
 
 If you try to directly write out a number that is outside of that range, Java will not let you.
 
-```java
+```java,does_not_compile
+~void main() {
 // This will not run
 int tooBig = 999999999999;
+~}
 ```
 
 If you do math that should produce a larger number than is representable, the value will "loop around."
 
 ```java
+~void main() {
 // This is the value of 2^31 - 1
 int atLimit = 2147483647;
 // The value will "loop around" to -2^31
 int beyondLimit = atLimit + 1;
 // This will output -2147483648
 System.out.println(beyondLimit);
+~}
 ```
 
 There are other types which can represent a larger range of integers, as well as types

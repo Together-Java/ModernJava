@@ -6,34 +6,43 @@ In these cases, you can write `var` in place of the type and let java "infer" wh
 be.
 
 ```java
+~void main() {
 // Since what is to the right hand side
 // of the = is in quotes, Java knows that
 // it is a String.
 var theDude = "Lebowski";
 System.out.println(theDude);
+~}
 ```
 
 You cannot use `var` with variables whose assignment is delayed.
 
-```java
+```java,does_not_compile
+~void main() {
 // With just the line "var theDude;",
 // Java doesn't know enough to infer the type
 var theDude;
 theDude = "Lebowski";
 System.out.println(theDude);
+~}
 ```
 
 You can use `var` with `final` to make a variable whose type is inferred
 and cannot be reassigned.
 
 ```java
+~void main() {
 final var theDude = "Lebowski";
 System.out.println(theDude);
+~}
 ```
 
 Important to note that even if Java is smart enough to automatically know the type,
 you might not be yet. There is no shame in writing out the type explicitly.
 
 ```java
+~void main() {
 String theDude = "lebowski";
+System.out.println(theDude);
+~}
 ```

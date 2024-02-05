@@ -9,9 +9,7 @@ Remember the rules for this are
 
 What will this program output when run? Write down your guess and then try running it.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     String mascot = "The Noid";
     System.out.println(mascot);
@@ -22,30 +20,11 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        String mascot = "The Noid";
-        System.out.println(mascot);
-        mascot = "Pizza the Hut";
-        System.out.println(mascot);
-        mascot = "Little Caesar";
-        System.out.println(mascot);
-    }
-}
-```
-
-~ENDIF
-
 ## Challenge 2
 
 Why won't this code run? Make it run by only changing one line.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     String fruit;
     fruit = "apple"
@@ -65,39 +44,11 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        String fruit;
-        fruit = "apple"
-
-        System.out.println(fruit);
-
-        final String vegtable = "carrot";
-
-        System.out.println(fruit);
-        System.out.println(vegtable);
-
-        fruit = "orange";
-        vegetable = "celery";
-
-        System.out.println(fruit);
-        System.out.println(vegtable);
-    }
-}
-```
-
-~ENDIF
-
 ## Challenge 3
 
 What is the output of this code?
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     String a = "A";
     String b = "B";
@@ -112,27 +63,6 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        String a = "A";
-        String b = "B";
-
-        b = a;
-        a = b;
-        b = a;
-        a = b;
-
-        System.out.println(a);
-        System.out.println(b);
-    }
-}
-```
-
-~ENDIF
-
 ## Challenge 4
 
 Only adding lines in the middle and without writing `"A"` or `"B"` again,
@@ -143,9 +73,7 @@ B
 A
 ```
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     String a = "A";
     String b = "B";
@@ -159,33 +87,12 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        String a = "A";
-        String b = "B";
-        // Don't touch above this
-
-        // You can add code here
-
-        // Don't touch below this
-        System.out.println(a);
-        System.out.println(b);
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 5
 
 Some of the variables in this program are named "wrong." Fix them.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     String apple = "red";
     String clown_car = "polka dot";
@@ -194,19 +101,3 @@ void main() {
     String slowRunner = "tortoise";
 }
 ```
-
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        String apple = "red";
-        String clown_car = "polka dot";
-        String SeriousCar = "black";
-        String FASTRunner = "bolt";
-        String slowRunner = "tortoise";
-    }
-}
-```
-
-~ENDIF

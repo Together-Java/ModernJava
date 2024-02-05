@@ -2,7 +2,7 @@
 
 One way multiple booleans can be combined is by using the "and" operator - `&&`.
 
-```java
+```java,no_run
 boolean funToBeAround = true;
 boolean believesInFundamentalHumanRights = true;
 boolean willAskOnDate = funToBeAround && believesInFundamentalHumanRights;

@@ -14,8 +14,6 @@ way it is okay to skip this section and just do it the way you were shown.
 All that matters is that in the end you have the ability to run and
 edit the following code.
 
-~IF toplevel_anonymous_class
-
 <!--
 <span id="ferris"></span>
 
@@ -36,17 +34,6 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello, World");
-    }
-}
-```
-
-~ENDIF
 
 ## Step 1. Make an account
 
