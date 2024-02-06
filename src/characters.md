@@ -3,7 +3,7 @@
 A character, represented by the data type `char`, is a single
 letter or symbol.
 
-```java
+```java,no_run
 char letter = 'a';
 ```
 

@@ -6,6 +6,7 @@ Any time you hit a line with `continue` you will immediately jump back to the to
 unlike with a `while` loop, the statement which updates your variable will still run.
 
 ```java
+~void main() {
 for (int i = 0; i < 5; i++) {
     if (i == 2) {
         // i++ will still run
@@ -18,11 +19,13 @@ for (int i = 0; i < 5; i++) {
 // 1
 // 3
 // 4
+~}
 ```
 
 So the above `for` loop is not equivalent to this `while` loop.
 
 ```java
+~void main() {
 int i = 0;
 while (i < 5) {
     if (i == 2) {
@@ -36,11 +39,13 @@ while (i < 5) {
 // 0
 // 1
 // ... spins forever ...
+~}
 ```
 
 It is equivalent to this one.
 
 ```java
+~void main() {
 int i = 0;
 while (i < 5) {
     if (i == 2) {
@@ -56,4 +61,5 @@ while (i < 5) {
 // 1
 // 3
 // 4
+~}
 ```

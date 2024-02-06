@@ -9,7 +9,7 @@ Remember the rules for this are
 
 Edit the following program so that the output is zero.
 
-```java
+```java,editable
 void main() {
     // Only change this line
     String[] words = { "Sam", "I", "Am" };
@@ -22,7 +22,7 @@ void main() {
 Using only `System.out.println` and array accesses,
 print `hello world` to the screen.
 
-```java
+```java,editable
 void main() {
     char[] letters = {
         ' ',
@@ -44,7 +44,7 @@ void main() {
 Without editing either the array declaration or the loop at the bottom,
 make the output of this program `0`.
 
-```java
+```java,editable
 void main() {
     final int numbers = { 1, 2, 3, 4 };
 
@@ -68,7 +68,7 @@ void main() {
 Make this program output `bulbasaur` without changing anything
 above or below the marked areas.
 
-```java
+```java,editable
 void main() {
     char[] name = { 'b', 'u', 'l', 'b' };
 

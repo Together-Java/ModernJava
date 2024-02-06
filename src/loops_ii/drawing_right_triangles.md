@@ -15,7 +15,9 @@ There is one `*`, then two `*`s on the next line, and three `*`s on the last.
 If you were to write the code out to print this explicitly it would look like this.
 
 ```java
+~void main() {
 System.out.print("*\n**\n**\n");
+~}
 ```
 
 Where `\n` is explicitly putting in the new lines.
@@ -23,6 +25,7 @@ Where `\n` is explicitly putting in the new lines.
 Since counting up `1 -> 2 -> 3` is easy with `for` loops, you can translate this
 
 ```java
+~void main() {
 for (int numberOfStars = 1; numberOfStars <= 3; numberOfStars++) {
     for (int i = 0; i < numberOfStars; i++) {
         System.out.print("*");
@@ -30,11 +33,13 @@ for (int numberOfStars = 1; numberOfStars <= 3; numberOfStars++) {
     // Same as System.out.print("\n");
     System.out.println();
 }
+~}
 ```
 
 Which makes it easy to make one of these triangles however tall you want.
 
 ```java
+~void main() {
 int height = 6;
 for (int numberOfStars = 1; numberOfStars <= height; numberOfStars++) {
     for (int i = 0; i < numberOfStars; i++) {
@@ -42,6 +47,7 @@ for (int numberOfStars = 1; numberOfStars <= height; numberOfStars++) {
     }
     System.out.println();
 }
+~}
 ```
 
 ```

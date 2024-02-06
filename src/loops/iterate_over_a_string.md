@@ -5,6 +5,7 @@ especially useful when you want to iterate over each character in
 a `String`.
 
 ```java
+~void main() {
 String name = "Avril";
 
 int index = 0;
@@ -12,4 +13,5 @@ while (index < name.length()) {
     System.out.println(name.charAt(index));
     index++;
 }
+~}
 ```

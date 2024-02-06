@@ -1,1 +1,0 @@
-# Impure Functions

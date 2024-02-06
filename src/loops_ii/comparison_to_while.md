@@ -4,6 +4,7 @@ If you were to compare the code needed to loop over an array using a `for` loop
 and the code needed with a `while` loop, there might not seem like much of a difference.
 
 ```java
+~void main() {
 double[] numbers = { 4.4, 1.1, 4.1, 4.7 };
 
 for (int index = 0; index < numbers.length; index++) {
@@ -15,6 +16,7 @@ while (index < numbers.length) {
     System.out.println(numbers[index]);
     index++;
 }
+~}
 ```
 
 This is doubly true when we are looking at toy examples where the only thing done
@@ -24,6 +26,8 @@ The biggest benefit to a `for` is subtle. With a `while` based loop, the initial
 can potentially be many lines from the statement which updates the variable.
 
 ```java
+~void main() {
+double[] numbers = { 4.4, 1.1, 4.1, 4.7 };
 int index = 0;
 while (index < numbers.length) {
     /*
@@ -47,6 +51,7 @@ while (index < numbers.length) {
 
     index++;
 }
+~}
 ```
 
 Us humans, with our tiny monkey brains, can get very lost when things that are related to eachother are separated
@@ -55,6 +60,8 @@ by long distances.
 In this dimension, for loops are superior. All the bits of code that "control the loop" can be right at the top.
 
 ```java
+~void main() {
+double[] numbers = { 4.4, 1.1, 4.1, 4.7 };
 for (int index = 0; index < numbers.length; index++) {
     /*
     Can
@@ -75,4 +82,5 @@ for (int index = 0; index < numbers.length; index++) {
     of times
     */
 }
+~}
 ```

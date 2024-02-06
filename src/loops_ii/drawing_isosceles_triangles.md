@@ -15,12 +15,15 @@ In this case with three rows of `*`s, the top `*` needs two space characters bef
 and the second row needs one space character.
 
 ```java
+~void main() {
 System.out.println("   *\n  ***\n*****");
+~}
 ```
 
 So any loop we make needs to take this pattern into account.
 
 ```java
+~void main() {
 int totalRows = 5;
 for (int row = 1; row <= totalRows; row++) {
     for (int i = 0; i < totalRows - row; i++) {
@@ -31,6 +34,7 @@ for (int row = 1; row <= totalRows; row++) {
     }
     System.out.println();
 }
+~}
 ```
 
 ```

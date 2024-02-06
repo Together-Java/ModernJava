@@ -5,7 +5,8 @@ can jump back to the start of a nested loop.
 
 You just write `continue` followed by the label name.
 
-```java
+```java,no_run
+~void main() {
 // Will keep going back to the top of the outer loop
 outerLoop:
 while (true) {
@@ -15,4 +16,5 @@ while (true) {
         continue outerLoop;
     }
 }
+~}
 ```

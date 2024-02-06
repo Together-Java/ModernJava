@@ -8,21 +8,25 @@ number, but with a loop whose condition is that the number is greater than the n
 to stop at, and a line at the bottom of the loop which decrements the current number.
 
 ```java
+~void main() {
 int currentNumber = 100;
 while (currentNumber >= 1) {
     System.out.println(currentNumber);
     currentNumber--;
 }
+~}
 ```
 
 Similar to when counting up if the condition was not `currentNumber >= 1` and instead was
 `currentNumber > 1`, the loop would stop at `2`
 
 ```java
+~void main() {
 int currentNumber = 100;
 // Stops at 2
 while (currentNumber > 1) {
     System.out.println(currentNumber);
     currentNumber--;
 }
+~}
 ```

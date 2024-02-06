@@ -9,6 +9,11 @@ Cher does not have a last name.
 `null` is an appropriate value to use when there is such an absense.
 
 ```java
+~void main() {
 String firstName = "Cher";
 String lastName = null;
+
+System.out.println(firstName);
+System.out.println(lastName);
+~}
 ```

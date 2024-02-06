@@ -7,6 +7,7 @@ This means that if the contents of the array are updated, that change will
 be reflected by both variables.
 
 ```java
+~void main() {
 char[] lettersOne = { 'B', 'a', 't', 'm', 'a', 'n' };
 char[] lettersTwo = lettersOne;
 
@@ -28,6 +29,7 @@ lettersTwo[0] = 'R';
 System.out.println(lettersOne);
 // Ratman
 System.out.println(lettersTwo);
+~}
 ```
 
 When two variables point to the same thing like this we say that both variables are "aliases"

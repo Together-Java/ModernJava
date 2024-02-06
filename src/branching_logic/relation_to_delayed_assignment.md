@@ -6,6 +6,7 @@ So long as Java can figure out that a variable will always be given an initial v
 inside of an `if` and `else`, you will be allowed to use that variable.
 
 ```java
+~void main() {
 int age = 22;
 
 String message;
@@ -17,12 +18,14 @@ else {
 }
 
 System.out.println(message);
+~}
 ```
 
 If it will not always be given an initial value, then you will not be allowed to
 use that variable.
 
-```java
+```java,does_not_compile
+~void main() {
 int age = 22;
 
 String message;
@@ -33,4 +36,5 @@ if (age > 25) {
 // message is not always given an initial value
 // so you cannot use it.
 System.out.println(message);
+~}
 ```

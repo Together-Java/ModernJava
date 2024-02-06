@@ -6,6 +6,7 @@ to `false`.
 This can be bypassed by using the `break` statement.
 
 ```java
+~void main() {
 int x = 5;
 while (x > 0) {
     if (x == 2) {
@@ -17,6 +18,7 @@ while (x > 0) {
 System.out.println(
     "Final value of x is " + x
 );
+~}
 ```
 
 If a `break` is reached, the code in the loop stops running immediately.
@@ -26,6 +28,7 @@ This can be useful in a variety of situations, but notably it is the only way to
 from an otherwise endless loop.
 
 ```java
+~void main() {
 while (true) {
     System.out.println(
         "The people started singing it not knowing what it was"
@@ -34,4 +37,5 @@ while (true) {
     // Will immediately leave the loop
     break;
 }
+~}
 ```

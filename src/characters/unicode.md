@@ -7,7 +7,7 @@ letter or symbol" is generally a good enough mental model.
 Where this falls apart is with things like emoji (👨‍🍳) which are generally considered to be one symbol, but
 cannot be represented in a single `char`.
 
-```java
+```java,no_run
 char chef = '👨‍🍳';
 ```
 

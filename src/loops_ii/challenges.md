@@ -32,6 +32,12 @@ Write code that will output every number from 0 to 15, including 0 and 15.
 15
 ```
 
+```java,editable
+void main() {
+
+}
+```
+
 Do it using a `for` loop and again using a `while` loop.
 
 ## Challenge 2
@@ -59,6 +65,13 @@ Write code that will output every number from 15 to 0, including 0 and 15.
 
 Do it using a `for` loop and again using a `while` loop.
 
+
+```java,editable
+void main() {
+
+}
+```
+
 ## Challenge 3
 
 Write code that will output every number from 15 to 0, excluding 0 and 15.
@@ -82,6 +95,13 @@ Write code that will output every number from 15 to 0, excluding 0 and 15.
 
 Do it using a `for` loop and again using a `while` loop.
 
+
+```java,editable
+void main() {
+
+}
+```
+
 ## Challenge 4.
 
 Write code that will output every third number from 51 to 66.
@@ -95,6 +115,13 @@ Write code that will output every third number from 51 to 66.
 ```
 
 Do it using a `for` loop and again using a `while` loop.
+
+
+```java,editable
+void main() {
+
+}
+```
 
 ## Challenge 5.
 
@@ -110,6 +137,13 @@ changing a variable at the start of the program.
 *****
 ```
 
+
+```java,editable
+void main() {
+
+}
+```
+
 ## Challenge 6.
 
 Draw a rectangle.
@@ -121,6 +155,13 @@ changing a variable at the start of the program.
 ******
 ******
 ******
+```
+
+
+```java,editable
+void main() {
+
+}
 ```
 
 ## Challenge 7.
@@ -140,9 +181,23 @@ changing a variable at the start of the program.
     **
 ```
 
+
+```java,editable
+void main() {
+
+}
+```
+
 ## Challenge 8.
 
 Draw a smiley face!
 
 Make it so that you can make the smile bigger or smaller by
 changing a variable at the start of the program.
+
+
+```java,editable
+void main() {
+
+}
+```

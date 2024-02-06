@@ -3,6 +3,7 @@
 The number of `char`s which comprise a `String` can be accessed by using `.length()`.[^codepoints]
 
 ```java
+~void main() {
 String fruit = "strawberry";
 int numberOfChars = fruit.length();
 
@@ -10,6 +11,7 @@ int numberOfChars = fruit.length();
 System.out.println(
     fruit + " is " numberOfChars + " characters long"
 );
+~}
 ```
 
 [^codepoints]: This is different from the number of unicode codepoints.

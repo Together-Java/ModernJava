@@ -3,16 +3,18 @@
 One way to make a loop in code is to use `while`.
 
 ```java
+~void main() {
 int x = 5;
 while (x != 0) {
     System.out.println(x);
     x--;
 }
+~}
 ```
 
 You write `while` followed by a condition inside of `(` and `)` and some code inside of `{` and `}`.
 
-```java
+```java,no_run
 while (CONDITION) {
     <CODE HERE>
 }
@@ -25,6 +27,7 @@ After that code runs, the condition will be evaluated again. If it still evaluat
 This will continue until the code in the condition evaluates to `false`.
 
 ```java
+~void main() {
 int glassesOfMilk = 99;
 while (glassesOfMilk > 0) {
     System.out.println(
@@ -33,6 +36,7 @@ while (glassesOfMilk > 0) {
 
     glassesOfMilk--;
 }
+~}
 ```
 
 If a loop is made with `while` we call it a "while loop."[^tortoise]
