@@ -32,7 +32,7 @@ System.out.println(wordOne);
 // go
 System.out.println(wordTwo);
 
-wordOne = new int[] { wordOne[0], wordOne[1], 's', 'h' };
+wordOne = new char[] { wordOne[0], wordOne[1], 's', 'h' };
 
 // gosh
 System.out.println(wordOne);
