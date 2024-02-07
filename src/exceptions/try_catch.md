@@ -6,7 +6,7 @@ you can prevent an exception from crashing your program by `catch`-ing it.
 
 To do this, you write `try` and put the code that might fail inside of `{` and `}`.
 
-```java,no_run
+```java,no_run,panics
 try {
     mightFail();
 }
