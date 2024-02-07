@@ -27,7 +27,7 @@ Why won't this code run? Make it run by only changing one line.
 ```java,editable
 void main() {
     String fruit;
-    fruit = "apple"
+    fruit = "apple";
 
     System.out.println(fruit);
 
