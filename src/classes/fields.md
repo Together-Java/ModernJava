@@ -15,4 +15,6 @@ class Muppet {
 ```
 
 One way to think about it is that when you say `new Muppet()`, Java makes a box big enough to hold
-all of the fields that a muppet needs.
+all of the fields that a muppet needs.[^box]
+
+[^box]: This "box" metaphor is part of where the name "boxed primitives" comes from.
