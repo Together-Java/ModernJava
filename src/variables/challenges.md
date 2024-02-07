@@ -31,16 +31,16 @@ void main() {
 
     System.out.println(fruit);
 
-    final String vegtable = "carrot";
+    final String vegetable = "carrot";
 
     System.out.println(fruit);
-    System.out.println(vegtable);
+    System.out.println(vegetable);
 
     fruit = "orange";
     vegetable = "celery";
 
     System.out.println(fruit);
-    System.out.println(vegtable);
+    System.out.println(vegetable);
 }
 ```
 
