@@ -252,7 +252,6 @@
   - [Invariants](./constructors/invariants.md)
   - [Overloads](./constructors/overloads.md)
   - [Delegation](./constructors/delegation.md)
-
 <!--
   
 - [Multiple Files]()

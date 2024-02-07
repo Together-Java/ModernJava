@@ -3,7 +3,7 @@
 
 If you declare a field as `final`, its value cannot be changed after an instance of a class is made.
 
-You are required to explicitly initialize `final` fields in the constructor.[^orwithconstant]
+You are required to explicitly initialize `final` fields in the constructor.
 
 ```java
 class Muppet {
