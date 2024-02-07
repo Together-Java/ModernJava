@@ -46,7 +46,7 @@ make the output of this program `0`.
 
 ```java,editable
 void main() {
-    final int numbers = { 1, 2, 3, 4 };
+    final int[] numbers = { 1, 2, 3, 4 };
 
     // -----------
     // YOUR CODE HERE

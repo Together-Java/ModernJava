@@ -32,4 +32,4 @@ void main()
 System.out.println("Hello, World!");}
 ```
 
-And keep in mind that this rule of thumb applies to every language constrict that requires a `{` and `}` many of which I will introduce later.
+And keep in mind that this rule of thumb applies to every language construct that requires a `{` and `}` many of which I will introduce later.
