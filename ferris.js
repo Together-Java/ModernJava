@@ -50,7 +50,7 @@ var ferrisTypes = [
   
   function createFerris(type, size) {
     var a = document.createElement('a')
-    a.setAttribute('href', 'ch00-00-introduction.html#ferris')
+    // a.setAttribute('href', 'ch00-00-introduction.html#ferris')
     a.setAttribute('target', '_blank')
   
     var img = document.createElement('img')
