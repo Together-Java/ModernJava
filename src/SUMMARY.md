@@ -95,7 +95,6 @@
 # Control Flow I
 
 - [Branching Paths](./branching_paths.md)
-
   - [If](./branching_logic/if.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
   - [Else](./branching_logic/else.md)
@@ -226,21 +225,36 @@
 
 - [Instance Methods](./instance_methods.md)
   - [Invocation](./instance_methods/invocation.md)
-  - [this](./instance_methods/this.md)
-  - [Aliasing](./instance_methods/aliasing.md)
+  - [Arguments](./instance_methods/arguments.md)
+  - [Field Access](./instance_methods/field_access.md)
+  - [Field Updates](./instance_methods/field_updates.md)
   - [Derived Values](./instance_methods/derived_values.md)
+  - [Invoke Other Methods](./instance_methods/invoke_other_methods.md)
+  - [this](./instance_methods/this.md)
+  - [Disambiguation](./instance_methods/disambiguation.md)
+  - [Clarity](./instance_methods/clarity.md)
 
-## Control Flow III
-- [Exceptions]()
-- [Recursion]()
+# Control Flow III
 
-## Code Structure III
+- [Exceptions](./exceptions.md)
+  - [throw](./exceptions/throw.md)
+  - [Messages](./exceptions/messages.md)
+  - [Stack Traces](./exceptions/stack_traces.md)
+  - [try/catch](./exceptions/try_catch.md)
+
+# Code Structure III
+
 - [Constructors](./constructors.md)
-  - [this](./constructors/this.md)
+  - [Declaration](./constructors/declaration.md)
   - [The Default Constructor](./constructors/the_default_constructor.md)
+  - [Arguments](./constructors/arguments.md)
   - [Final Fields](./constructors/final_fields.md)
-  - [Multiple Constructors](./constructors/multiple_constructors.md)
-  - [Invariants]()
+  - [Invariants](./constructors/invariants.md)
+  - [Overloads](./constructors/overloads.md)
+  - [Delegation](./constructors/delegation.md)
+
+<!--
+  
 - [Multiple Files]()
 - [The Implicit Main Class]()
 - [Private]()
@@ -260,7 +274,6 @@
 - [Primitive Classes](./classes/primitive_classes.md)
 - [Reference Classes](./classes/reference_classes.md)
 
-<!--
 Arrays
 copy an array (System.arrayCopy, for loop)
 Generics

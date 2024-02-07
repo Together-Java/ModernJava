@@ -4,7 +4,7 @@ Multiple methods can be declared that have the same name.
 This is allowed so long as each method takes different types
 or different numbers of arguments.
 
-```java,norun
+```java,no_run
 void doThing(int x) {
     System.out.println(x);
 }

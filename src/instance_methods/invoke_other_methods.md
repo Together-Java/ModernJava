@@ -1,10 +1,7 @@
-# this
+# Invoke Other Methods
 
-Within an instance method, you have access to a magic variable called `this`.
-
-`this` is a variable that contains the current instance of the class.
-
-You can use `this` to access fields or invoke any method.
+Inside of an instance method you can invoke other instance methods
+on the same class by writing their name and providing any needed arguments.
 
 ```java
 class Elmo {
@@ -13,12 +10,12 @@ class Elmo {
     void sayHello() {
         System.out.println("Hi, I'm Elmo");
         System.out.print("I am ");
-        System.out.print(this.age);
+        System.out.print(age);
         System.out.println(" years old.");
     }
 
     void startTheShow(String showName) {
-        this.sayHello();
+        sayHello();
         System.out.println("Welcome to " + showName);
     }
 }
