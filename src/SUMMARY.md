@@ -168,8 +168,8 @@
   - [Scope](./methods/scope.md)
   - [main](./methods/main.md)
   - [Challenges](./methods/challenges.md)
-- [Arguments](./arguments.md)
 
+- [Arguments](./arguments.md)
   - [Declaration](./arguments/declaration.md)
   - [Invocation with Arguments](./arguments/invocation_with_arguments.md)
   - [Reassignment](./arguments/reassignment.md)
@@ -214,7 +214,7 @@
 - [Classes](./classes.md)
   - [The meaning of the word Class](./classes/the_meaning_of_the_word_class.md)
   - [Class Declaration](./classes/class_declaration.md)
-  - [Naming Classes](./classes/naming_classes.md)
+  - [Naming](./classes/naming.md)
   - [Instances](./classes/instances.md)
   - [Fields](./classes/fields.md)
   - [Field Initialization](./classes/field_initialization.md)
@@ -234,6 +234,16 @@
   - [Disambiguation](./instance_methods/disambiguation.md)
   - [Clarity](./instance_methods/clarity.md)
 
+# Data Types IV
+
+- [Enums](./enums.md)
+  - [Declaration](./enums/declaration.md)
+  - [Variants](./enums/variants.md)
+  - [Naming](./enums/naming.md)
+  - [Usage](./enums/usage.md)
+  - [Equality](./enums/equality.md)
+  - [Comparison to boolean](./enums/comparison_to_boolean.md)
+
 # Control Flow III
 
 - [Exceptions](./exceptions.md)
@@ -241,6 +251,15 @@
   - [Messages](./exceptions/messages.md)
   - [Stack Traces](./exceptions/stack_traces.md)
   - [try/catch](./exceptions/try_catch.md)
+- [Switch](./switch.md)
+  - [Case and Default](./switch/case_and_default.md)
+  - [Strings](./switch/strings.md)
+  - [ints](./switch/ints.md)
+  - [Enums](./switch/enums.md)
+  - [Omitted Default](./switch/omitted_default.md)
+  - [Exhaustiveness](./switch/exhaustiveness.md)
+  - [Combining Cases](./switch/combining_cases.md)
+  - [null](./switch/null.md)
 
 # Code Structure III
 
@@ -252,8 +271,25 @@
   - [Invariants](./constructors/invariants.md)
   - [Overloads](./constructors/overloads.md)
   - [Delegation](./constructors/delegation.md)
+
+
+
 <!--
+
+- [Strings II](./strings_ii.md)
+  - [length]()
+  - [equals]()
+  - [charAt]()
+  - [equalsIgnoreCase]()
   
+- [Multiple Source Files]()
+  - [Why]()
+  - [How]()
+  - [Restrictions]()
+- [The Main Class]()
+  - [The Implicit Main Class]()
+
+
 - [Multiple Files]()
 - [The Implicit Main Class]()
 - [Private]()
