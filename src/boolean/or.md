@@ -2,7 +2,7 @@
 
 Another way booleans can be combined is by using the "or" operator - `||`.
 
-```java
+```java,no_run
 boolean dogLooksNice = true;
 boolean personLooksNice = false;
 boolean willAskToPetDog = dogLooksNice || personLooksNice;

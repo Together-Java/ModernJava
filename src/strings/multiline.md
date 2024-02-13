@@ -4,6 +4,7 @@ If the text you want to store in a `String` has multiple lines, you can use
 three quotation marks to represent it in code.
 
 ```java
+~void main() {
 String poem = """
     I met a traveller from an antique land,
     Who said—“Two vast and trunkless legs of stone
@@ -20,6 +21,7 @@ String poem = """
     Of that colossal Wreck, boundless and bare
     The lone and level sands stretch far away.
     """;
+~}
 ```
 
 Inside of the this "Multiline String Literal" you don't need to escape quotation marks `"`

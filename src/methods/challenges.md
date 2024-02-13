@@ -16,7 +16,7 @@ Declare a method named `printSquare`. When invoked it should print a square.
 *****
 ```
 
-```java
+```java,editable
 // CODE HERE
 
 void main() {
@@ -29,7 +29,7 @@ void main() {
 Declare a method named `printSquareThreeTimes`. When invoked it should print three squares
 by invoking a method named `printSquare` three times.
 
-```java
+```java,editable
 // CODE HERE
 
 // Code from challenge 1 here
@@ -43,7 +43,7 @@ void main() {
 
 Write a program that contains at least four methods. Have fun with it.
 
-```java
+```java,editable
 void main() {
     // sing a song or something.
 }

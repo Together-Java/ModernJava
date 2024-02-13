@@ -2,7 +2,6 @@
 
 Mechanically, the next thing to cover is "variables".
 
-~IF toplevel_anonymous_class
 
 ```java
 void main() {
@@ -11,21 +10,9 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        String boss = "Jaqueline";
-        System.out.println(boss);
-    }
-}
-```
-
-~ENDIF
-
 A variable declaration has three components - the "type", the "name", and the "initial value".
 
+```java,no_run
 ```java,no_run
      String boss = "Jaqueline";
 //   type   name   initial value
@@ -37,8 +24,10 @@ of `"Jaqueline"`. Its "type" is "String", which I'll explain in more detail a bi
 After you declare a variable and assign it a value, the "name" refers to the value on the right
 hand side and you can use that name instead of the value.
 
-```java,no_run
+```java
+~void main() {
 // Does the same thing as System.out.println("Jaqueline");
 String boss = "Jaqueline";
 System.out.println(boss);
+~}
 ```

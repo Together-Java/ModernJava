@@ -99,12 +99,15 @@
   - [If](./branching_logic/if.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
   - [Else](./branching_logic/else.md)
+  - [Else](./branching_logic/else.md)
   - [Else If](./branching_logic/else_if.md)
   - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
+  - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Conditional Operator](./branching_logic/conditional_operator.md)
   - [Boolean Expressions](./branching_logic/boolean_expressions.md)
   - [Challenges](./branching_logic/challenges.md)
+
 
 - [Loops](./loops.md)
   - [While](./loops/while.md)
@@ -169,6 +172,7 @@
   - [Scope](./methods/scope.md)
   - [main](./methods/main.md)
   - [Challenges](./methods/challenges.md)
+
 - [Arguments](./arguments.md)
 
   - [Declaration](./arguments/declaration.md)
@@ -180,26 +184,23 @@
   - [Inferred Types](./arguments/inferred_types.md)
   - [Challenges](./arguments/challenges.md)
 
-- [Return](./return_values.md)
-  - [Return Values](./return_values/return_values.md)
-  - [Conversion](./return_values/conversion.md)
+- [Return Values](./return_values.md)
+  - [Declaration](./return_values/declaration.md)
+  - [Return Statement](./return_values/return_statement.md)
+  - [Exhaustiveness](./return_values/exhaustiveness.md)
   - [void](./return_values/void.md)
+  - [Return in void methods](./return_values/return_in_void_methods.md)
+  - [Conversion](./return_values/conversion.md)
   - [Unreachable Statements](./return_values/unreachable_statements.md)
-  - [Pure Functions](./return_values/pure_functions.md)
-  - [Impure Functions](./return_values/impure_functions.md)
 
 # Data Types III
 
-- [Identity Types](./identity_types.md)
-  - [Comparison with ==](./identity_types/comparison_with_equalsequals.md)
-- [Primitive Types](./primitive_types.md)
 - [null](./null.md)
   - [Null as Absence](./null/null_as_absence.md)
+  - [Null as Unknown](./null/null_as_unknown.md)
   - [Checking for null](./null/checking_for_null.md)
-  - [Field Access](./null/field_access.md)
-  - [Instance Methods](./null/instance_methods.md)
+  - [NullPointerException](./null/null_pointer_exception.md)
 - [Boxed Primitives](./boxed_primitives.md)
-  - [Primitive Types](./boxed_primitives/primitive_types.md)
   - [Integer](./boxed_primitives/integer.md)
   - [Double](./boxed_primitives/double.md)
   - [Character](./boxed_primitives/character.md)
@@ -208,39 +209,100 @@
   - [Boxing Conversion](./boxed_primitives/boxing_conversion.md)
   - [Arrays of Boxed Primitives](./boxed_primitives/arrays_of_boxed_primitives.md)
   - [Challenges](./boxed_primitives/challenges.md)
+  - [Challenges](./boxed_primitives/challenges.md)
 - [Arrays II](./arrays_ii.md)
+  - [Initializion with Size](./arrays_ii/initialization_with_size.md)
   - [Default Values](./arrays_ii/default_values.md)
-  - [Populate Array]()
+  - [Populate Arrays](./arrays_ii/populate_arrays.md)
 
 # Code Structure II
 
 - [Classes](./classes.md)
-
+  - [The meaning of the word Class](./classes/the_meaning_of_the_word_class.md)
   - [Class Declaration](./classes/class_declaration.md)
-  - [User Defined Types](./classes/user_defined_types.md)
-  - [Naming Classes](./classes/naming_classes.md)
-  - [Field Declaration](./classes/field_declaration.md)
-  - [Field Access](./classes/field_access)
-  - [Naming Fields](./classes/naming_fields.md)
-  - [new](./classes/new.md)
-  - [Zero Values](./classes/zero_values.md)
+  - [Naming](./classes/naming.md)
+  - [Instances](./classes/instances.md)
+  - [Fields](./classes/fields.md)
+  - [Field Initialization](./classes/field_initialization.md)
+  - [Field Access](./classes/field_access.md)
+  - [Field Default Values](./classes/field_default_values.md)
   - [Aliasing](./classes/aliasing.md)
-  - [null](./classes/null.md)
-
-- [Constructors](./constructors.md)
-
-  - [this](./constructors/this.md)
-  - [The Default Constructor](./constructors/the_default_constructor.md)
-  - [Final Fields](./constructors/final_fields.md)
-  - [Multiple Constructors](./constructors/multiple_constructors.md)
+  - [Return Multiple Values](./classes/return_multiple_values.md)
 
 - [Instance Methods](./instance_methods.md)
-
-  - [Declaration](./instance_methods/declaration.md)
   - [Invocation](./instance_methods/invocation.md)
-  - [this](./instance_methods/this.md)
-  - [Aliasing](./instance_methods/aliasing.md)
+  - [Arguments](./instance_methods/arguments.md)
+  - [Field Access](./instance_methods/field_access.md)
+  - [Field Updates](./instance_methods/field_updates.md)
   - [Derived Values](./instance_methods/derived_values.md)
+  - [Invoke Other Methods](./instance_methods/invoke_other_methods.md)
+  - [this](./instance_methods/this.md)
+  - [Disambiguation](./instance_methods/disambiguation.md)
+  - [Clarity](./instance_methods/clarity.md)
+
+# Data Types IV
+
+- [Enums](./enums.md)
+  - [Declaration](./enums/declaration.md)
+  - [Variants](./enums/variants.md)
+  - [Naming](./enums/naming.md)
+  - [Usage](./enums/usage.md)
+  - [Equality](./enums/equality.md)
+  - [Comparison to boolean](./enums/comparison_to_boolean.md)
+
+# Control Flow III
+
+- [Exceptions](./exceptions.md)
+  - [throw](./exceptions/throw.md)
+  - [Messages](./exceptions/messages.md)
+  - [Stack Traces](./exceptions/stack_traces.md)
+  - [try/catch](./exceptions/try_catch.md)
+- [Switch](./switch.md)
+  - [Case and Default](./switch/case_and_default.md)
+  - [Strings](./switch/strings.md)
+  - [ints](./switch/ints.md)
+  - [Enums](./switch/enums.md)
+  - [Omitted Default](./switch/omitted_default.md)
+  - [Exhaustiveness](./switch/exhaustiveness.md)
+  - [Combining Cases](./switch/combining_cases.md)
+  - [null](./switch/null.md)
+
+# Code Structure III
+
+- [Constructors](./constructors.md)
+  - [Declaration](./constructors/declaration.md)
+  - [The Default Constructor](./constructors/the_default_constructor.md)
+  - [Arguments](./constructors/arguments.md)
+  - [Final Fields](./constructors/final_fields.md)
+  - [Invariants](./constructors/invariants.md)
+  - [Overloads](./constructors/overloads.md)
+  - [Delegation](./constructors/delegation.md)
+
+
+
+<!--
+
+- [Strings II](./strings_ii.md)
+  - [length]()
+  - [equals]()
+  - [charAt]()
+  - [equalsIgnoreCase]()
+  
+- [Multiple Source Files]()
+  - [Why]()
+  - [How]()
+  - [Restrictions]()
+- [The Main Class]()
+  - [The Implicit Main Class]()
+
+
+- [Multiple Files]()
+- [The Implicit Main Class]()
+- [Private]()
+
+## Data Types IV
+
+
 
 - [Documentation]()
   - [Documentation Comments]()
@@ -253,7 +315,6 @@
 - [Primitive Classes](./classes/primitive_classes.md)
 - [Reference Classes](./classes/reference_classes.md)
 
-<!--
 Arrays
 copy an array (System.arrayCopy, for loop)
 Generics

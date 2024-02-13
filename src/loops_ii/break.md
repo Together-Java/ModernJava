@@ -4,6 +4,7 @@
 Any time you hit a line with `break` you will immediately exit the loop.
 
 ```java
+~void main() {
 for (int i = 0; i < 1000; i++) {
     if (i == 5) {
         break;
@@ -18,4 +19,5 @@ System.out.println("Over");
 // 3
 // 4
 // Over
+~}
 ```

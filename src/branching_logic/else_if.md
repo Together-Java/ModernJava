@@ -4,6 +4,7 @@ If you have an `if` nested in an `else` branch, you can simplify that by using
 `else if`.
 
 ```java
+~void main() {
 boolean cool = true; // 🕶️
 int age = 30; // 🙎‍♀️
 if (age < 25) {
@@ -17,11 +18,13 @@ else {
         System.out.println("You are rad enough to rent a car.");
     }
 }
+~}
 ```
 
 So the following will work the same as the code above.
 
 ```java
+~void main() {
 boolean cool = true; // 🕶️
 int age = 30; // 🙎‍♀️
 
@@ -34,12 +37,14 @@ else if (!cool) {
 else {
     System.out.println("You are rad enough to rent a car.");
 }
+~}
 ```
 
 You can have as many `else if`s as you need. Each one will only run if all the previous conditions
 evaluate to `false`.
 
 ```java
+~void main() {
 boolean cool = true; // 🕶️
 int age = 100; // 👴
 
@@ -58,4 +63,5 @@ else if (age > 450) {
 else {
     System.out.println("You are rad enough to rent a car.");
 }
+~}
 ```

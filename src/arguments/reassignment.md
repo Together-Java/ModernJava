@@ -8,7 +8,7 @@ within the method body;
 void eat(String food) {
     System.out.println("I ate " + food);
     food = "nothing";
-    System.out.println("Now I have " + food)
+    System.out.println("Now I have " + food);
 }
 
 void main() {

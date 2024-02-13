@@ -7,7 +7,7 @@ addition and subtraction.
 
 For booleans `!` always happens first. This is followed by `&&` and then by `||`.
 
-```java
+```java,no_run
 boolean a = true;
 boolean b = false
 boolean c = false;
@@ -21,7 +21,7 @@ boolean result = a && !b || c;
 
 Also like mathematics, parentheses can be used to control this order.
 
-```java
+```java,no_run
 // Even though || has a lower precedence than &&, we evaluate
 // !b || c first because of the parentheses.
 boolean result = a && (!b || c);

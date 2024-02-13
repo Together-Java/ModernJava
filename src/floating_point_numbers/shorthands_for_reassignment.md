@@ -3,6 +3,7 @@
 All the same shorthands for reassignment work with `double`s the same as they do with `int`s.
 
 ```java
+~void main() {
 double x = 0.5;
 // 0.5
 System.out.println(x);
@@ -30,4 +31,5 @@ System.out.println(x);
 x /= 2;
 // 6.25
 System.out.println(x);
+~}
 ```

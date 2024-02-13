@@ -2,7 +2,7 @@
 
 A `boolean` is either `true` or `false`.
 
-```java
+```java,no_run
 boolean onFleek = true;
 boolean badVibes = false;
 ```

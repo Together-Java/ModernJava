@@ -7,11 +7,13 @@ number, a loop whose condition is that the number is less than the number you wa
 to stop at, and a line at the bottom of the loop which increments the current number.
 
 ```java
+~void main() {
 int currentNumber = 1;
 while (currentNumber <= 100) {
     System.out.println(currentNumber);
     currentNumber++;
 }
+~}
 ```
 
 Take note that in this example the condition is `currentNumber <= 100`, so the code in the
@@ -19,10 +21,12 @@ loop will run when `currentNumber` is equal to `100`. If the condition was `curr
 it would stop at `99`.
 
 ```java
+~void main() {
 int currentNumber = 1;
 // Stops at 99
 while (currentNumber < 100) {
     System.out.println(currentNumber);
     currentNumber++;
 }
+~}
 ```

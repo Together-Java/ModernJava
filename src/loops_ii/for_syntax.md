@@ -8,7 +8,7 @@ A `for` loop has three distinct parts.
 
 3. A statement.
 
-```java
+```java,no_run
 for (<INITIALIZER> ; <EXPRESSION> ; <STATEMENT>) {
     <CODE HERE>
 }
@@ -25,7 +25,7 @@ initializer and expression.
 
 These can be thought of as being the same as a `while` loop written like so.
 
-```java
+```java,no_run
 <INITIALIZER>;
 while (<EXPRESSION>) {
     <CODE HERE>

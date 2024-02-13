@@ -6,6 +6,7 @@ before the reassignment can be used to compute the new value.
 This is true for all data types, but it is easiest to demonstrate with numbers.
 
 ```java
+~void main() {
 int x = 1;
 System.out.println(x);
 
@@ -18,6 +19,7 @@ System.out.println(x);
 // 12 is the new value of x.
 x = x * x * 3;
 System.out.println(x);
+~}
 ```
 
 This property was used in the previous example for the `%` operator, but I think it worth calling attention to even if it is "intuitive".

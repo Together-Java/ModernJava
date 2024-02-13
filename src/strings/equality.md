@@ -3,6 +3,7 @@
 You can check if two `String`s have the same contents by using `.equals`.
 
 ```java
+~void main() {
 String lyricOne = "Green, Green, Dress";
 String lyricTwo = "Green, Green, Dress";
 
@@ -11,6 +12,7 @@ boolean isMyName = lyricOne.equals("Bop Bop");
 
 System.out.println(areSameLyric);
 System.out.println(isMyName);
+~}
 ```
 
 You write one `String` on the left, `.equals`, and then the `String` you want to check it
@@ -20,10 +22,12 @@ To see if strings have different contents, you need to use the not operator (`!`
 the result of `.equals`.
 
 ```java
+~void main() {
 String bow = "bow";
 String wow = "WOW";
 
 boolean areNotSame = !bow.equals(wow);
 
 System.out.println(areNotSame);
+~}
 ```

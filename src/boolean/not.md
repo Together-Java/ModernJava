@@ -2,7 +2,7 @@
 
 Booleans can also be "negated" using the "not" operator - `!`.
 
-```java
+```java,no_run
 boolean haveOreosInHouse = true;
 boolean stuckToCalorieLimit = !haveOreos;
 ```

@@ -5,14 +5,14 @@ In addition to comparing for equality with `==` and `!=`, `int`s can be compared
 
 `>` will evaluate to true if the number on the left is greater than the one on the right.
 
-```java
+```java,no_run
 boolean willBeTrue = 5 > 2;
 boolean willBeFalse = 2 > 5;
 ```
 
 `<` will evaluate to true if the number on the right is greater than the one on the left.
 
-```java
+```java,no_run
 boolean willBeFalse = 5 < 2;
 boolean willBeTrue = 2 < 5;
 ```
@@ -20,7 +20,7 @@ boolean willBeTrue = 2 < 5;
 If you went to public school like I did, you should be used to imagining that the `>` was the jaw of a shark.
 Whatever direction the Jaws are facing, thats the one that would need to be bigger for the statement to be true.[^sharks]
 
-```java
+```java,no_run
 // true if the shark is facing the bigger number
 // false otherwise.
 boolean result = 9 🦈 5;
@@ -28,14 +28,14 @@ boolean result = 9 🦈 5;
 
 `>=` behaves the same as `>` except `>=` will evaluate to `true` if the numbers are identical, `>` will not.
 
-```java
+```java,no_run
 boolean willBeTrue = 5 >= 5;
 boolean willBeFalse = 5 > 5;
 ```
 
 `<=` has the same relationship to `<` as `>=` does to `>`.
 
-```java
+```java,no_run
 boolean willBeTrue = 5 <= 5;
 boolean willBeFalse = 5 < 5;
 ```

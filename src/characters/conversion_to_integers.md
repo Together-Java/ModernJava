@@ -7,20 +7,24 @@ Same as assigning an `int` to a `double`, you can perform a widening conversion
 by attempting to assign a `char` to an `int`.
 
 ```java
+~void main() {
 int valueOfA = 'a';
 
 System.out.println(valueOfA);
+~}
 ```
 
 `char`s will be automatically converted to `int`s when used with mathmatical operators like `+`, `-`, `>`, `<`, etc.
 
 ```java
+~void main() {
 char gee = 'g';
 
 // all the letters from a to z have consecutive numeric values.
 boolean isLetter = gee >= 'a' && gee <= 'z';
 
 System.out.println(isLetter);
+~}
 ```
 
 This can be useful if you are stranded on Mars[^onmars] or

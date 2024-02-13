@@ -6,6 +6,7 @@ In addition to comparing for equality with `==` and `!=`, `doubles`s can be comp
 This works the same as it does with `int`s.
 
 ```java
+~void main() {
 double x = 1.5;
 double y = 0.2;
 
@@ -13,4 +14,5 @@ double y = 0.2;
 System.out.println(x > y);
 // false
 System.out.println(x < y);
+~}
 ```

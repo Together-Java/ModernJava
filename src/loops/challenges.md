@@ -18,33 +18,20 @@ Remember the rules for this are
 
 Write code that outputs every number from `1` to `10`.
 
-~IF toplevel_anonymous_class
 
-```java
+```java,editable
 void main() {
     <CODE HERE>
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        <CODE HERE>
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 2
 
 What will this program output when run? Write down your guess and then try running it.
 
-~IF toplevel_anonymous_class
 
-```java
+```java,editable
 void main() {
     int x = 0;
     while (x < 10) {
@@ -54,29 +41,12 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        int x = 0;
-        while (x < 10) {
-            System.out.println(x);
-            x++;
-        }
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 3
 
 What will this program output when run? Write down your guess and then try running it.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     int x = 0;
     while (x <= 10) {
@@ -86,29 +56,11 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        int x = 0;
-        while (x <= 10) {
-            System.out.println(x);
-            x++;
-        }
-    }
-}
-```
-
-~ENDIF
-
 ## Challenge 4
 
 What will this program output when run? Write down your guess and then try running it.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     int x = 0;
     while (x < 10) {
@@ -121,32 +73,12 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        int x = 0;
-        while (x < 10) {
-            if (x % 3 == 0) {
-                break;
-            }
-            System.out.println(x);
-            x++;
-        }
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 5
 
 What will this program output when run? Write down your guess and then try running it.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     int x = 0;
     while (x < 10) {
@@ -159,33 +91,12 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-
-    public static void main(String[] args) {
-        int x = 0;
-        while (x < 10) {
-            if (x % 3 == 0) {
-                continue;
-            }
-            System.out.println(x);
-            x++;
-        }
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 6
 
 What will this program output when run? Write down your guess and then try running it.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     int x = 1;
     while (x < 10) {
@@ -200,56 +111,16 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        int x = 1;
-        while (x < 10) {
-            int y = 2;
-            while (y < 5) {
-                System.out.println(x * y);
-                y++;
-            }
-
-            x++;
-        }
-    }
-}
-```
-
-~ENDIF
-
 ## Challenge 7
 
 What will this program output when run? Write down your guess and then try running it.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     <CODE HERE>
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        int x = 0;
-        String scream = "a";
-        while (!scream.equals("aaaaaaaa")) {
-            scream = scream + "a";
-            System.out.println(x);
-            System.out.println(scream);
-        }
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 8
 
@@ -267,28 +138,12 @@ e
 t
 ```
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     <CODE HERE>
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Change this value to test your code.
-        String name = "Bridget";
-
-        // <CODE HERE>
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 9
 
@@ -308,9 +163,7 @@ a
 S
 ```
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     // Change this value to test your code.
     String name = "Samantha";
@@ -319,20 +172,6 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Change this value to test your code.
-        String name = "Samantha";
-
-        // <CODE HERE>
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 10
 
@@ -377,9 +216,7 @@ If the initial number is `15` you should have this as output.
 1
 ```
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     // Change this value to test your code.
     int n = 15;
@@ -388,44 +225,17 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Change this value to test your code.
-        int n = 15;
-
-        // <CODE HERE>
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 11
 
 Write code that outputs every third number from `37` to `160`.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     <CODE HERE>
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        <CODE HERE>
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 12
 
@@ -433,9 +243,7 @@ Write code that outputs the number of vowels in `name`. Treat `y` as a vowel.
 
 Treat the characters `a`, `A`, `e`, `E`, `i`, `I`, `o`, `O`, `u`, `U`, `y`, and `Y` as vowels.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     // Change this value to test your code.
     String name = "Damian";
@@ -444,20 +252,6 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Change this value to test your code.
-        String name = "Damian";
-
-        // <CODE HERE>
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 13
 
@@ -468,9 +262,7 @@ same.
 
 Make sure to not treat non-alphabetic characters like `!` and `?` as consonants.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     // Change this value to test your code.
     String name = "Messi";
@@ -479,29 +271,13 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Change this value to test your code.
-        String name = "Messi";
-
-        // <CODE HERE>
-    }
-}
-```
-
-~ENDIF
 
 ## Challenge 14
 
 Rewrite the following code to not have the `shouldBreak` variable
 and instead to use a labeled break.
 
-~IF toplevel_anonymous_class
-
-```java
+```java,editable
 void main() {
     // Don't think too hard about what these numbers mean.
     int x = 3;
@@ -525,32 +301,3 @@ void main() {
 }
 ```
 
-~ELSE
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Don't think too hard about what these numbers mean.
-        int x = 3;
-        int y = 0;
-
-        boolean shouldBreak = false;
-        while (shouldBreak && x < 100) {
-            while (y < 100) {
-                System.out.println("x is " + x);
-                System.out.println("y is " + y);
-                x = x * y;
-                if (x == 0) {
-                    shouldBreak = true;
-                    break;
-                }
-                y++;
-            }
-        }
-
-        System.out.println("Done");
-    }
-}
-```
-
-~ENDIF

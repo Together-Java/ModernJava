@@ -2,7 +2,7 @@
 
 Labeled breaks work the same with `for` loops as they do with `while` loops.
 
-```java
+```java,no_run
 outerLoop:
 for (;;) {
     for (;;) {
@@ -14,6 +14,7 @@ for (;;) {
 This applies also to when `while` loops are nested within `for` loops or the other way around.
 
 ```java
+~void main() {
 outerForLoop:
 for (int i = 0; i < 10; i++) {
     System.out.println(i);
@@ -27,4 +28,5 @@ for (int i = 0; i < 10; i++) {
 }
 
 // 0
+~}
 ```

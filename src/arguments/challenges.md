@@ -11,7 +11,7 @@ Write a method named `printSquare` which takes one `int` argument named `size`.
 
 The `size` argument should control how big of a square is output.
 
-```java
+```java,editable
 // CODE HERE
 
 void main() {
@@ -36,7 +36,7 @@ What happens if a negative number is given to your `printSquare`?
 Make it so that if a negative number is given, it works the same as if a positive number
 was given.
 
-```java
+```java,editable
 // CODE HERE
 
 void main() {

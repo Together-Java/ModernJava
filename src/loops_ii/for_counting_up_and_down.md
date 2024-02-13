@@ -4,6 +4,7 @@ One of the easiest things to do with a `for` loop is count up to or down from
 a given number.
 
 ```java
+~void main() {
 // Goes from 1 to 100
 for (int currentNumber = 1; currentNumber <= 100; currentNumber++) {
     System.out.println(currentNumber);
@@ -13,6 +14,7 @@ for (int currentNumber = 1; currentNumber <= 100; currentNumber++) {
 for (int currentNumber = 100; currentNumber >= 1; currentNumber--) {
     System.out.println(currentNumber);
 }
+~}
 ```
 
 You use the initializer to set some variable to a starting number like `int currentNumber = 1`,

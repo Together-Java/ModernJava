@@ -4,7 +4,7 @@ Multiple methods can be declared that have the same name.
 This is allowed so long as each method takes different types
 or different numbers of arguments.
 
-```java
+```java,no_run
 void doThing(int x) {
     System.out.println(x);
 }
@@ -23,6 +23,18 @@ because it knows the types of and number of arguments
 you are passing.
 
 ```java
+void doThing(int x) {
+    System.out.println(x);
+}
+
+void doThing(String name) {
+    System.out.println("Hello " + name);
+}
+
+void doThing(int x, int y) {
+    System.out.println(x + y);
+}
+
 void main() {
     // Java can figure out what to do
     doThing(1);

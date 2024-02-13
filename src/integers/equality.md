@@ -26,8 +26,10 @@ It is very important to remember that a single `=` does an assignment. Two equal
 The opposite check, whether things are not equal, can be done with `!=`.
 
 ```java
+~void main() {
 // 1 is never equal to 2
 // this will be true
 boolean universeOkay = 1 != 2;
 System.out.println(universeOkay);
+~}
 ```

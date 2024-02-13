@@ -5,6 +5,7 @@ code is that the variable being tracked in a for loop is often called
 `i`.
 
 ```java
+~void main() {
 String word = "bird";
 
 for (int i = 0; i < array.length; i++) {
@@ -16,6 +17,7 @@ for (int i = 0; i < array.length; i++) {
 // i
 // r
 // d
+~}
 ```
 
 While usually naming variables with single letters isn't a great idea,
@@ -25,6 +27,7 @@ tedious.
 Its also helpful to go `i -> j -> k` when you end up nesting `for` loops.[^jindex]
 
 ```java
+~void main() {
 char[] letters = { 'A', 'B', 'C' };
 int[] numbers = { 1, 2 };
 
@@ -41,6 +44,7 @@ for (int i = 0; i < letters.length; i++) {
 // B2
 // C1
 // C2
+~}
 ```
 
 Just do not start naming all your variables single letters.

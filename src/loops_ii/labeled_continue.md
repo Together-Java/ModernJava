@@ -4,6 +4,7 @@ Labeled continues also work the same in `for` loops as `while` loops, but with t
 the statement of a `for` loop will always run when you get to the top of it.[^uncommon]
 
 ```java
+~void main() {
 label:
 for (int i = 0; i < 4; i++) {
     for (int j = 0; j < 3; j++) {
@@ -24,4 +25,5 @@ for (int i = 0; i < 4; i++) {
 // 3, 0
 // 3, 1
 // 3, 2
+~}
 ```

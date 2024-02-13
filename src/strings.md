@@ -2,7 +2,7 @@
 
 The `String` data type is used to represent text.
 
-```java
+```java,no_run
 String shortStory = "Everyone lived happily ever after, the end."
 ```
 

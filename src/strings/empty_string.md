@@ -3,13 +3,15 @@
 There is a special `String` which contains no characters at all.
 
 ```java
+~void main() {
 // There is nothing to say.
 String conversationWithDog = "";
+~}
 ```
 
 You write it just like any other string, just with nothing between the double quotes.
 
-```java
+```java,no_run
 ""
 ```
 
@@ -17,8 +19,10 @@ It is different from a `String` that just contains spaces because to Java those 
 are just as much real characters as `a`, `b`, or `c`.
 
 ```java
+~void main() {
 // There is noteworthy silence.
 String conversationWithInlaws = " ";
+~}
 ```
 
 This is one of those things that feels totally useless, but comes in handy pretty often.

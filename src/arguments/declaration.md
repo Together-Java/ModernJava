@@ -5,7 +5,7 @@ you need to put a comma separated list of argument declarations.
 
 Each argument declaration looks the same as a variable declaration and has both a type and a name.
 
-```java
+```java,no_run
 // This declares a single argument named "food" that
 // has a type of "String".
 void eat(String food) {
