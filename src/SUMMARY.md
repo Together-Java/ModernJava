@@ -95,15 +95,19 @@
 # Control Flow I
 
 - [Branching Paths](./branching_paths.md)
+
   - [If](./branching_logic/if.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
+  - [Else](./branching_logic/else.md)
   - [Else](./branching_logic/else.md)
   - [Else If](./branching_logic/else_if.md)
   - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
   - [Scoped Variables](./branching_logic/scoped_variables.md)
+  - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Conditional Operator](./branching_logic/conditional_operator.md)
   - [Boolean Expressions](./branching_logic/boolean_expressions.md)
   - [Challenges](./branching_logic/challenges.md)
+
 
 - [Loops](./loops.md)
   - [While](./loops/while.md)
@@ -170,6 +174,7 @@
   - [Challenges](./methods/challenges.md)
 
 - [Arguments](./arguments.md)
+
   - [Declaration](./arguments/declaration.md)
   - [Invocation with Arguments](./arguments/invocation_with_arguments.md)
   - [Reassignment](./arguments/reassignment.md)
@@ -203,6 +208,7 @@
   - [Unboxing Conversion](./boxed_primitives/unboxing_conversion.md)
   - [Boxing Conversion](./boxed_primitives/boxing_conversion.md)
   - [Arrays of Boxed Primitives](./boxed_primitives/arrays_of_boxed_primitives.md)
+  - [Challenges](./boxed_primitives/challenges.md)
   - [Challenges](./boxed_primitives/challenges.md)
 - [Arrays II](./arrays_ii.md)
   - [Initializion with Size](./arrays_ii/initialization_with_size.md)

@@ -17,6 +17,7 @@ We aren't quite at the point where I can explain what `void main()` means, but
 all you need to know for now is that it is what Java looks for to know where to start the program.
 
 ```java,no_run
+```java,no_run
 void main() {
     < WRITE YOUR CODE HERE >
 }
@@ -57,4 +58,5 @@ void main() {
 You should get in the habit of, whenever you see some bit of code, trying to physically type it out, run it,
 tweak it, and play with it.
 
+So try playing around with this program. If you actively engage then you will retain information better.
 So try playing around with this program. If you actively engage then you will retain information better.
