@@ -21,5 +21,3 @@ editable = true
 
 [output.html.code.hidelines]
 java = "~"
-[output.html.code.hidelines]
-java = "~"
