@@ -278,6 +278,14 @@
   - [Overloads](./constructors/overloads.md)
   - [Delegation](./constructors/delegation.md)
 
+# Concepts
+
+- [Code is Read more than Written](./code_is_read_more_than_written.md)
+  - [Meaning](./code_is_read_more_than_written/meaning.md)
+  - [Implications](./code_is_read_more_than_written/implications.md)
+  - [Information Density](./code_is_read_more_than_written/information_density.md)
+  - [Audience](./code_is_read_more_than_written/audience.md)
+
 
 
 <!--
