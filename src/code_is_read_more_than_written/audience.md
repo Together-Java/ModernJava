@@ -4,7 +4,7 @@ Consider this opening from an astrophysics paper I picked at random.[^arxiv]
 
 > The dearth of planets with sizes around 1.8 R⊕ is a key demographic feature discovered by the Kepler mission. Two theories have emerged as potential explanations for this valley: photoevaporation and core-powered mass-loss. However, Rogers et al. (2021) shows that differentiating between the two theories is possible using the three-dimensional parameter space of planet radius, incident flux, and stellar mass.
 
-If you aren't an astrophysist, this probably requires some explanation. If you are an astrophysicist, you 
+If you aren't an astrophysicist, this probably requires some explanation. If you are an astrophysicist, you 
 probably understood that without issue.
 
 Whenever anyone writes anything, it is important to consider the audience you are writing to. This applies to code just as much as to any other form of writing. 
