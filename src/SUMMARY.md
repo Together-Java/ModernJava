@@ -287,7 +287,15 @@
   - [Audience](./code_is_read_more_than_written/audience.md)
   - [Practice](./code_is_read_more_than_written/practice.md)
 
+# Data Types V
 
+- [Strings II](./strings_ii.md)
+  - [lowercase](./strings_ii/lowercase.md)
+  - [UPPERCASE](./strings_ii/UPPERCASE.md)
+  - [Equality ignoring case](./strings_ii/equality_ignoring_case.md)
+  - [Check if empty](./strings_ii/check_if_empty.md)
+  - [Check if blank](./strings_ii/check_if_blank.md)
+  - [Strip extra whitespace](./strings_ii/strip_extra_whitespace.md)
 
 <!--
 
