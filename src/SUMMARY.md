@@ -285,6 +285,7 @@
   - [Implications](./code_is_read_more_than_written/implications.md)
   - [Information Density](./code_is_read_more_than_written/information_density.md)
   - [Audience](./code_is_read_more_than_written/audience.md)
+  - [Practice](./code_is_read_more_than_written/practice.md)
 
 
 
