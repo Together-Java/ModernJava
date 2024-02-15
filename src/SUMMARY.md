@@ -249,6 +249,13 @@
   - [Usage](./enums/usage.md)
   - [Equality](./enums/equality.md)
   - [Comparison to boolean](./enums/comparison_to_boolean.md)
+- [Strings II](./strings_ii.md)
+  - [lowercase](./strings_ii/lowercase.md)
+  - [UPPERCASE](./strings_ii/UPPERCASE.md)
+  - [Equality ignoring case](./strings_ii/equality_ignoring_case.md)
+  - [Check if empty](./strings_ii/check_if_empty.md)
+  - [Check if blank](./strings_ii/check_if_blank.md)
+  - [Strip extra whitespace](./strings_ii/strip_extra_whitespace.md)
 
 # Control Flow III
 
@@ -277,6 +284,11 @@
   - [Invariants](./constructors/invariants.md)
   - [Overloads](./constructors/overloads.md)
   - [Delegation](./constructors/delegation.md)
+- [Global Fields](./global_fields.md)
+  - [Default Values](./global_fields/default_values.md)
+  - [Final Fields](./global_fields/final_fields.md)
+  - [Field Access](./global_fields/field_access.md)
+  - [Inferred Types](./global_fields/inferred_types.md)
 
 # Concepts
 
@@ -287,23 +299,105 @@
   - [Audience](./code_is_read_more_than_written/audience.md)
   - [Practice](./code_is_read_more_than_written/practice.md)
 
+<!--
+
+# The Computing Environment
+
+- [Operating Systems]()
+- [The File System]()
+- [The Command Line]()
+- [Using Java From The Command Line]()
+
+# Interactive Programs
+
+- [Standard Input]()
+  - [readLine]()
+
+- [Command Line Arguments]()
+
+# Code Structure IV
+
+- [Multiple Source Files]()
+  - [Private]()
+- [The Main Class]()
+- [The Implicit Main Class]()
+  - [Global Fields]()
+- [Import]()
+- [Packages]()
+  - [Public]()
+  - [Package Private]()
+  
+
 # Data Types V
 
-- [Strings II](./strings_ii.md)
-  - [lowercase](./strings_ii/lowercase.md)
-  - [UPPERCASE](./strings_ii/UPPERCASE.md)
-  - [Equality ignoring case](./strings_ii/equality_ignoring_case.md)
-  - [Check if empty](./strings_ii/check_if_empty.md)
-  - [Check if blank](./strings_ii/check_if_blank.md)
-  - [Strip extra whitespace](./strings_ii/strip_extra_whitespace.md)
+- [Strings III]()
+- [StringBuilder](./stringbuilder.md)
+- [Regular Expressions]()
+
+# Code Structure V
+
+- [toString]()
+- [Interfaces]()
+  - [@Override]()
+- [Static Methods]()
+  - [On Classes]()
+  - [On Interfaces]()
+
+# Algorithms
+
+- [Dynamically Growable Array]()
+
+# Code Structure V
+
+- [Generics]()
+  - [Declaration]()
+  - [Safety]()
+  - [Unsafe Casts]()
+
+# Data Types VI
+
+- [Integers II]()
+- [Paths]()
+- [Iterator and Iterable]()
+- [Exceptions II]()
+- [Lists]()
+  - [ArrayList]()
+  - [Add an item]()
+  - [Get an item]()
+  - [Set an item]()
+  - [Loop over Contents]()
+
+# Control Flow IV
+
+- [Loops III](./loops_iii.md)
+  - [For Each]()
+- [Switch II](./switch_ii.md)
+  - [Switch Expression]()
+  - [yield]()
+
+# Algorithms II
+
+- [Hash Map]()
+
+# Data Types VII
+
+- [Maps]()
+  - [HashMap]()
+- [Sets]()
+  - [HashSet]()
+
+# Interactive Programs II
+
+- [Files]()
+
+# Metaprogramming
+
+- [Reflection]()
+- [Annotations]() -->
+
 
 <!--
 
-- [Strings II](./strings_ii.md)
-  - [length]()
-  - [equals]()
-  - [charAt]()
-  - [equalsIgnoreCase]()
   
 - [Multiple Source Files]()
   - [Why]()
