@@ -13,7 +13,6 @@ The rules for this are
 Write a program that prints your name twice. So if your name is "Jasmine", the output of the program should be this.
 
 ```text,no_run
-```text,no_run
 Jasmine
 Jasmine
 ```
