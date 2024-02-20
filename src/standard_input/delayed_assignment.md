@@ -1,6 +1,6 @@
 # Delayed Assignment
 
-When you have a loop variables declared inside of that loop cannot be seen from the outside.
+When you have variables declared inside of that loop cannot be seen from the outside.
 This poses a problem when you are asking someone a question in a loop but want their response to be
 visible later on in the program.
 

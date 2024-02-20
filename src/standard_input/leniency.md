@@ -4,7 +4,7 @@ It can make sense to be lenient with your users when interpreting their input.[^
 
 This means accounting for common mistakes people make like having extra spaces or capitalizing things incorrectly.
 
-For this purpose, methods like `strip` and `equalsIgnoreCase` are particuarly useful.
+For this purpose, methods like `strip` and `equalsIgnoreCase` are useful.
 
 ```java,no_run
 ~Scanner scanner = new Scanner(System.in);
