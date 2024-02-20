@@ -61,7 +61,7 @@ void main() {
 ```
 
 Or you can use the `do` version of a while loop. 
-In this context our old friend delayed assignment becomes an option again because Java *is* smart enough
+In this context our old friend delayed assignment becomes an option again. This is because Java *is* smart enough
 to see that the code in the loop will run at least once.
 
 ```java,no_run
