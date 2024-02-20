@@ -73,6 +73,7 @@
   - [Square Root](./floating_point_numbers/square_root.md)
   - [Conversion to Integers](./floating_point_numbers/conversion_to_integers.md)
   - [Conversion from Integers](./floating_point_numbers/conversion_from_integers.md)
+  - [Restrict within range](./floating_point_numbers/restrict_within_range.md)
   - [Challenges](./floating_point_numbers/challenges.md)
 - [Characters](./characters.md)
   - [Character Literals](./characters/character_literals.md)
