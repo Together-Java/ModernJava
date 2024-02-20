@@ -299,7 +299,29 @@
   - [Audience](./code_is_read_more_than_written/audience.md)
   - [Practice](./code_is_read_more_than_written/practice.md)
 
+# Interactive Programs
+
+- [Standard Input](./standard_input.md)
+  - [Prompting](./standard_input/prompting.md)
+  - [Interpreting Input](./standard_input/interpreting_input.md)
+  - [Reprompting](./standard_input/reprompting.md)
+  - [Leniency](./standard_input/leniency.md)
+  - [Delayed Assignment](./standard_input/delayed_assignment.md)
+  - [Transporting Values](./standard_input/transporting_values.md)
+
+# The Computing Environment
+
+- [Hardware](./hardware.md)
+  - [CPU](./hardware/cpu.md)
+  - [RAM](./hardware/ram.md)
+  - [Hard Drives](./hardware/hard_drives.md)
+  - [Motherboard](./hardware/motherboard.md)
+
 <!--
+
+
+- [Operating Systems](./operating_systems.md)
+  - [Windows](./operating_systems/windows.md)
 
 # The Computing Environment
 
