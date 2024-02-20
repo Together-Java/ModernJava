@@ -61,7 +61,8 @@ void main() {
 ```
 
 Or you can use the `do` version of a while loop. 
-In this context our old friend delayed assignment becomes an option again.
+In this context our old friend delayed assignment becomes an option again because Java *is* smart enough
+to see that the code in the loop will run at least once.
 
 ```java,no_run
 ~import java.util.Scanner;
