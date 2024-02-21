@@ -10,13 +10,13 @@ So if we were to do:
 In older versions we'd have to use a function like the following to handle this:
 
 ```java
-static <T extends Comparable<T>> T clamp(T value, T min, T max) {
-    if (value.compareTo(min) < 0) {
-        return min;
-    } else if (value.compareTo(max) > 0) {
-        return max;
-    } else {
-        return value;
-    }
+public int clamp(int value, int min, int max) {
+  if (value > max) {
+    return max;
+  } else if (value < min) {
+    return min;
+  } else {
+    return value;
+  }
 }
 ```
