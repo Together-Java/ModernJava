@@ -1,4 +1,4 @@
-# Transporting Values
+# Transporting Data
 
 If you ask someone multiple questions you likely will get multiple variables
 worth of information.
@@ -62,7 +62,7 @@ void main() {
 ```
 
 And once code gets lengthy it is sometimes useful to separate it into smaller functions.
- 
+
 I mention all this as a reminder that when you want to return multiple values from a function
 you can use a class.[^dto]
 

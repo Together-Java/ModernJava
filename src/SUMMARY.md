@@ -99,10 +99,8 @@
   - [If](./branching_logic/if.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
   - [Else](./branching_logic/else.md)
-  - [Else](./branching_logic/else.md)
   - [Else If](./branching_logic/else_if.md)
   - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
-  - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Conditional Operator](./branching_logic/conditional_operator.md)
   - [Boolean Expressions](./branching_logic/boolean_expressions.md)
@@ -209,7 +207,6 @@
   - [Boxing Conversion](./boxed_primitives/boxing_conversion.md)
   - [Arrays of Boxed Primitives](./boxed_primitives/arrays_of_boxed_primitives.md)
   - [Challenges](./boxed_primitives/challenges.md)
-  - [Challenges](./boxed_primitives/challenges.md)
 - [Arrays II](./arrays_ii.md)
   - [Initializion with Size](./arrays_ii/initialization_with_size.md)
   - [Default Values](./arrays_ii/default_values.md)
@@ -307,7 +304,7 @@
   - [Reprompting](./standard_input/reprompting.md)
   - [Leniency](./standard_input/leniency.md)
   - [Delayed Assignment](./standard_input/delayed_assignment.md)
-  - [Transporting Values](./standard_input/transporting_values.md)
+  - [Transporting Data](./standard_input/transporting_data.md)
 
 # The Computing Environment
 
@@ -316,22 +313,55 @@
   - [RAM](./hardware/ram.md)
   - [Hard Drives](./hardware/hard_drives.md)
   - [Motherboard](./hardware/motherboard.md)
+- [Operating Systems](./operating_systems.md)
+  - [Personal Computers](./operating_systems/personal_computers.md)
+  - [Servers](./operating_systems/servers.md)
+  - [Mobile Phones](./operating_systems/mobile_phones.md)
+  - [Game Consoles](./operating_systems/game_consoles.md)
+  - [Abstractions](./operating_systems/abstractions.md)
+  - [Defaults](./operating_systems/defaults.md)
+
+
+# Control Flow III
+
+- [Exceptions II](./exceptions_ii.md)
+  - [Checked Exceptions](./exceptions_ii/checked_exceptions.md)
+  - [Unchecked Exceptions](./exceptions_ii/unchecked_exceptions.md)
+  - [throws](./exceptions_ii/throws.md)
+  - [Exception](./exceptions_ii/exception.md)
+  - [IOException](./exceptions_ii/ioexception.md)
+  - [UncheckedIOException](./exceptions_ii/uncheckedioexception.md)
+  - [main](./exceptions_ii/main.md)
+- [Switch II](./switch_ii.md)
+  - [Switch Expression](./switch_ii/switch_expression.md)
+  - [Exhaustiveness](./switch_ii/exhaustiveness.md)
+  - [yield](./switch_ii/yield.md)
+
 
 <!--
 
 
-- [Operating Systems](./operating_systems.md)
-  - [Windows](./operating_systems/windows.md)
+
+
 
 # The Computing Environment
 
-- [Operating Systems]()
 - [The File System]()
+  - [Files]()
+  - [Folders]()
+  - [Paths]()
+
+# Data Types
+
+- [Strings III](./strings_ii.md)
+  - [String Templates]
+
 - [The Command Line]()
 - [Using Java From The Command Line]()
 
 # Interactive Programs
 
+- []
 - [Standard Input]()
   - [readLine]()
 
