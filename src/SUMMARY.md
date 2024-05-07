@@ -320,6 +320,18 @@
   - [Game Consoles](./operating_systems/game_consoles.md)
   - [Abstractions](./operating_systems/abstractions.md)
   - [Defaults](./operating_systems/defaults.md)
+- [The Terminal](./the_terminal.md)
+  - [Bash](./the_terminal/bash.md)
+  - [Windows Subsystem for Linux](./the_terminal/windows_subsystem_for_linux.md)
+  - [Chromebooks and School Computers](./the_terminal/chromebooks_and_school_computers.md)
+  - [Commands](./the_terminal/commands.md)
+  - [Directories](./the_terminal/directories.md)
+  - [Listing Files](./the_terminal/listing_files.md)
+  - [Creating Directories](./the_terminal/creating_directories.md)
+  - [Changing Directories](./the_terminal/changing_directories.md)
+  - [Creating Files](./the_terminal/creating_files.md)
+  - [Run Java Programs](./the_terminal/run_java_programs.md)
+  - [Getting Used to it](./the_terminal/getting_used_to_it.md)
 
 
 # Control Flow III
@@ -346,10 +358,7 @@
 
 # The Computing Environment
 
-- [The File System]()
-  - [Files]()
-  - [Folders]()
-  - [Paths]()
+
 
 # Data Types
 
