@@ -274,7 +274,7 @@ void main() {
     int y = 0;
 
     boolean shouldBreak = false;
-    while (shouldBreak && x < 100) {
+    while (!shouldBreak && x < 100) {
         while (y < 100) {
             System.out.println("x is " + x);
             System.out.println("y is " + y);
