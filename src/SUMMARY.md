@@ -382,7 +382,15 @@
   - [Math](./static_methods/math.md)
   - [Factories](./static_methods/factories.md)
 
+# Data Structures & Algorithms
 
+- [Growable Arrays](./growable_array.md)
+  - [Concept](./growable_array/concept.md)
+  - [Simple Implementation](./growable_array/simple_implementation.md)
+  - [Usage](./growable_array/usage.md)
+  - [Performance Problems](./growable_array/performance_problems.md)
+  - [Performance Solutions](./growable_array/performance_solutions.md)
+  - [Optimized Implementation](./growable_array/optimized_implementation.md)
 
 <!--
 
@@ -435,13 +443,7 @@
 - [toString]()
 - [Interfaces]()
   - [@Override]()
-- [Static Methods]()
-  - [On Classes]()
-  - [On Interfaces]()
 
-# Algorithms
-
-- [Dynamically Growable Array]()
 
 # Code Structure V
 
