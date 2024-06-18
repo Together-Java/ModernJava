@@ -340,20 +340,64 @@
   - [Checked Exceptions](./exceptions_ii/checked_exceptions.md)
   - [Unchecked Exceptions](./exceptions_ii/unchecked_exceptions.md)
   - [throws](./exceptions_ii/throws.md)
+  - [Propagating Exceptions](./exceptions_ii/propagating_exceptions.md)
+  - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
   - [Exception](./exceptions_ii/exception.md)
   - [IOException](./exceptions_ii/ioexception.md)
   - [UncheckedIOException](./exceptions_ii/uncheckedioexception.md)
   - [main](./exceptions_ii/main.md)
 - [Switch II](./switch_ii.md)
-  - [Switch Expression](./switch_ii/switch_expression.md)
+  - [Yield](./switch_ii/yield.md)
+  - [Omitted Yield](./switch_ii/omitted_yield.md)
   - [Exhaustiveness](./switch_ii/exhaustiveness.md)
-  - [yield](./switch_ii/yield.md)
+  - [Return a Switch](./switch_ii/return_a_switch.md)
+
+# Code Structure IV
+
+- [Multi-File Programs](./multi_file_programs.md)
+  - [The Sources folder](./multi_file_programs/the_sources_folder.md)
+  - [The Main file](./multi_file_programs/the_main_file.md)
+  - [A Second file](./multi_file_programs/a_second_file.md)
+  - [File names](./multi_file_programs/file_names.md)
+  - [The anonymous main class](./multi_file_programs/the_anonymous_main_class.md)
+  - [Global Fields](./multi_file_programs/global_fields.md)
+- [Visibility](./visibility.md)
+  - [Private Methods](./visibility/private_methods.md)
+  - [Private Fields](./visibility/private_fields.md)
+  - [Invariants](./visibility/invariants.md)
+  - [Accessors](./visibility/accessors.md)
+  - [Getters and Setters](./visibility/getter_and_setters.md)
+- [Static Fields](./static_fields.md)
+  - [Declaration](./static_fields/declaration.md)
+  - [Initialization](./static_fields/initialization.md)
+  - [Usage](./static_fields/usage.md)
+  - [Constants](./static_fields/constants.md)
+  - [Controversy](./static_fields/controversy.md)
+  - [Naming](./static_fields/naming.md)
+- [Static Methods](./static_methods.md)
+  - [Declaration](./static_methods/declaration.md)
+  - [Scope](./static_methods/scope.md)
+  - [Naming](./static_methods/naming.md)
+  - [Usage](./static_methods/usage.md)
+  - [Math](./static_methods/math.md)
+  - [Factories](./static_methods/factories.md)
+
 
 
 <!--
 
 
 
+# Data Types IV
+
+- [StringBuilder](./string_builder.md)
+
+
+# Concepts
+
+- [The Idiot Game](./the_idiot_game.md)
+
+# Interactive Programs
 
 
 # The Computing Environment
@@ -365,24 +409,15 @@
 - [Strings III](./strings_ii.md)
   - [String Templates]
 
-- [The Command Line]()
-- [Using Java From The Command Line]()
 
 # Interactive Programs
 
-- []
-- [Standard Input]()
-  - [readLine]()
 
 - [Command Line Arguments]()
 
 # Code Structure IV
 
-- [Multiple Source Files]()
-  - [Private]()
-- [The Main Class]()
-- [The Implicit Main Class]()
-  - [Global Fields]()
+
 - [Import]()
 - [Packages]()
   - [Public]()
