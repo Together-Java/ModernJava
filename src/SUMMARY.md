@@ -398,17 +398,59 @@
   - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
   - [Conventions](./command_line_arguments/conventions.md)
 
-- [Files](./files.md)
-  - [Paths](./files/paths.md)
 
 # Code Structure IV
 
-- [Inner Classes]()
-- [Static Inner Classes]()
-- [Packages]()
+- [Inner Classes](./inner_classes.md)
+  - [Type](./inner_classes/type.md)
+  - [Instances](./inner_classes/instances.md)
+  - [New Operator](./inner_classes/new_operator.md)
+  - [Scope](./inner_classes/scope.md)
+  - [Disambiguation](./inner_classes/disambiguation.md)
+  - [The anonymous main class](./inner_classes/the_anonymous_main_class.md)
+  - [Static Inner Classes](./inner_classes/static_inner_classes.md)
+- [Packages](./packages.md)
   - [The Default Package]()
-- [Import]()
+  - [Import]()
+  - [Import Static Methods]()
+  - [Import Inner Classes]()
+
+- [Visibility II](./visibility_ii.md)
+  - [Public Classes]()
+  - [Package-Private Classes]()
+  - [Public Methods]()
+  - [Package-Private Methods]()
+  - [Public Fields]()
+  - [Package-Private Fields]()
+  - [Private Inner Classes]()
+
+# Interactive Programs III
+
+- [Files](./files.md)
+  - [Paths](./files/paths.md)
+  - [Write to a File](./files/write_to_a_file.md)
+  - [Read from a File](./files/read_from_a_file.md)
+
+# Data Structures & Algorithms II
+
+- [Hash Maps]()
+- [Hash Sets]()
+
+# Code Structure IV
+
+
+- [Interfaces]()
+  - [@Override]()
+- [Generics]()
+  - [Casting]()
 - [Records]()
+- [Object]()
+  - [instanceof]()
+  - [toString]()
+  - [equals]()
+  - [hashCode]()
+
+
 <!--
 
 
@@ -416,6 +458,7 @@
 # Data Types IV
 
 - [StringBuilder](./string_builder.md)
+- [Pattern]()
 
 
 # Concepts
