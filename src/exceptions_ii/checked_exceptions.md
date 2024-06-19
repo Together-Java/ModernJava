@@ -21,4 +21,4 @@ We call them "checked" because you need to "check" for them.
 
 These are _generally_[^thisrule] used when you expect calling code to be able to do something intelligent to recover if the exception is thrown.
 
-[^thisrule]: This rule is merely a suggestion and people's definitions of "something intelligent" and "recover" vary wildly. Expect some things to throw checked exceptions and others to not and just know that you need are forced check for the checked ones.
+[^thisrule]: This rule is merely a suggestion and people's definitions of "something intelligent" and "recover" vary wildly. Expect some things to throw checked exceptions and others to not and just know that you need to check for the checked ones.
