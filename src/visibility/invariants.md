@@ -10,6 +10,10 @@ class EvenNumberHolder {
     int value;
 
     EvenNumberHolder(int value) {
+        if (value % 2 == 1) {
+            throw new RuntimeException(value + " is not even");
+        }
+
         this.value = value;
     }
 }
@@ -22,6 +26,10 @@ class EvenNumberHolder {
     final int value;
 
     EvenNumberHolder(int value) {
+        if (value % 2 == 1) {
+            throw new RuntimeException(value + " is not even");
+        }
+        
         this.value = value;
     }
 }
@@ -37,6 +45,11 @@ class EvenNumberHolder {
     private int value;
 
     EvenNumberHolder(int value) {
+        // The constructor explicitly rejects an odd value
+        if (value % 2 == 1) {
+            throw new RuntimeException(value + " is not even");
+        }
+        
         this.value = value;
     }
 
