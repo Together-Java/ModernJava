@@ -1,7 +1,6 @@
 # Modern Java
 
 [![codefactor](https://img.shields.io/codefactor/grade/github/together-java/modernjava)](https://www.codefactor.io/repository/github/together-java/modernjava)
-![Java](https://img.shields.io/badge/Java-19-ff696c)
 [![license](https://img.shields.io/github/license/Together-Java/ModernJava)](https://github.com/Together-Java/ModernJava/blob/master/LICENSE)
 
 Book teaching how to write modern and effective Java. It is maintained by the community, anyone can contribute.

@@ -384,14 +384,31 @@
 
 # Data Structures & Algorithms
 
-- [Growable Arrays](./growable_array.md)
-  - [Concept](./growable_array/concept.md)
-  - [Simple Implementation](./growable_array/simple_implementation.md)
-  - [Usage](./growable_array/usage.md)
-  - [Performance Problems](./growable_array/performance_problems.md)
-  - [Performance Solutions](./growable_array/performance_solutions.md)
-  - [Optimized Implementation](./growable_array/optimized_implementation.md)
+- [Growable Arrays](./growable_arrays.md)
+  - [Concept](./growable_arrays/concept.md)
+  - [Simple Implementation](./growable_arrays/simple_implementation.md)
+  - [Usage](./growable_arrays/usage.md)
+  - [Performance Problems](./growable_arrays/performance_problems.md)
+  - [Performance Solutions](./growable_arrays/performance_solutions.md)
+  - [Optimized Implementation](./growable_arrays/optimized_implementation.md)
 
+# Interactive Programs II
+
+- [Command Line Arguments](./command_line_arguments.md)
+  - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
+  - [Conventions](./command_line_arguments/conventions.md)
+
+- [Files](./files.md)
+  - [Paths](./files/paths.md)
+
+# Code Structure IV
+
+- [Inner Classes]()
+- [Static Inner Classes]()
+- [Packages]()
+  - [The Default Package]()
+- [Import]()
+- [Records]()
 <!--
 
 
@@ -469,9 +486,6 @@
 
 - [Loops III](./loops_iii.md)
   - [For Each]()
-- [Switch II](./switch_ii.md)
-  - [Switch Expression]()
-  - [yield]()
 
 # Algorithms II
 
@@ -497,17 +511,6 @@
 <!--
 
   
-- [Multiple Source Files]()
-  - [Why]()
-  - [How]()
-  - [Restrictions]()
-- [The Main Class]()
-  - [The Implicit Main Class]()
-
-
-- [Multiple Files]()
-- [The Implicit Main Class]()
-- [Private]()
 
 ## Data Types IV
 
@@ -517,7 +520,6 @@
   - [Documentation Comments]()
 - [Testing]()
 
-- [Example: "Growable" Array]()
 
 # User Defined Types
 

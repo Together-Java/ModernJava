@@ -1,7 +1,7 @@
 [book]
 title = "Modern Java"
-description = " Book teaching how to write modern and effective Java. It is maintained by the community, anyone can contribute."
-authors = ["Together Java", "Contributions from the Java Community"]
+description = "Book teaching how to write modern and effective Java."
+authors = ["Ethan McCue", "Together Java", "Contributions from the Java Community"]
 language = "en"
 multilingual = false
 
