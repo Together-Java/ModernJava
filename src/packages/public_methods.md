@@ -27,7 +27,7 @@ public class Well {
     public static int drawWater() {
         System.out.println("""
             You need this to be both public and static to
-            be able to write "Well.drawWater()"
+            be able to write Well.drawWater()
             """);
     }
 }
