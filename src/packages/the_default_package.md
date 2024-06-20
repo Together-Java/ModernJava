@@ -1,7 +1,6 @@
 # The Default Package
 
-When your classes don't have a package declaration at the top
-of their files, we say those are in the "default package."
+When your classes don't have a package declaration at, we say those are in the "default package."
 
 ```java,no_run
 // No package declaration means default package
@@ -18,7 +17,7 @@ package villager;
 
 public class Villager {
     // No way to reference Elf directly,
-    // even if Elf were public
+    // even if Elf is public
 }
 ```
 
