@@ -30,4 +30,8 @@ class Car {
 ```
 
 I would wager that this is the most common kind of inner class to see
-in real code.
+in real code, despite requiring more words to define[^theme].
+
+[^theme]: A theme that will start to emerge is that the "best" code sometimes has
+a few extra modifiers on it and the "default" behavior isn't what you want. Static
+inner classes are way less magic.

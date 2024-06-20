@@ -39,4 +39,23 @@ class Main {
     }
 }
 ```
-One mental model for this is that
+One mental model for this is that its as if the inner class
+holds a reference to the one it was created in.
+
+```java,no_run
+class Car {
+    int speed = 0;
+}
+
+class CarSpeedometer {
+    private final Car madeBy;
+
+    CarSpeedometer(Car madeBy) {
+        this.madeBy = madeBy;
+    }
+
+    int getSpeed() {
+        return madeBy.speed;
+    }
+}
+```
