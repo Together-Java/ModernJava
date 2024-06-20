@@ -1,16 +1,16 @@
-# The anonymous main class
+# The Anonymous Main Class
 
 You are only allowed to make an anonymous main class
 inside the default package.
 
-```java
+```java,no_run
 // Allowed
 void main() {
     System.out.println("Hello, world");
 }
 ```
 
-```java
+```java,does_not_compile
 // Not Allowed
 package myprogram;
 
@@ -22,7 +22,7 @@ void main() {
 This means that for classes in packages you have to wrap them in 
 an explicitly named class like everything else.
 
-```java
+```java,no_run
 // Allowed
 package myprogram;
 

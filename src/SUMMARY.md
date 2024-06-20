@@ -359,7 +359,7 @@
   - [The Main file](./multi_file_programs/the_main_file.md)
   - [A Second file](./multi_file_programs/a_second_file.md)
   - [File names](./multi_file_programs/file_names.md)
-  - [The anonymous main class](./multi_file_programs/the_anonymous_main_class.md)
+  - [The Anonymous Main Class](./multi_file_programs/the_anonymous_main_class.md)
   - [Global Fields](./multi_file_programs/global_fields.md)
 - [Visibility](./visibility.md)
   - [Private Methods](./visibility/private_methods.md)
@@ -417,7 +417,7 @@
   - [Fully Qualified Class Name](./packages/fully_qualified_class_name.md)
   - [Import](./packages/import.md)
   - [The Default Package](./packages/the_default_package.md)
-  - [The anonymous main class](./packages/the_anonymous_main_class.md)
+  - [The Anonymous Main Class](./packages/the_anonymous_main_class.md)
   - [Public Methods](./packages/public_methods.md)
   - [Package-Private Methods](./packages/package_private_methods.md)
   - [Public Fields](./packages/public_fields.md)
@@ -428,13 +428,21 @@
   - [Subpackages](./packages/subpackages.md)
   - [Reverse Domain Name Notation](./packages/reverse_domain_name_notation.md)
 
-- [Visibility II](./visibility_ii.md)
-  - [Public Classes]()
-  - [Package-Private Classes]()
-  - [Public Methods]()
-  - [Package-Private Methods]()
-  - [Public Fields]()
-  - [Package-Private Fields]()
+# Data Types IV
+
+- [Integers II](./integers_ii.md)
+  - [Base 16 Integer Literals]()
+  - [Base 2 Integer Literals]()
+  - [Base 8 Integer Literals]()
+  - [Integer Literal Underscores]()
+  - [Parse a String]()
+  - [Parse a String in Base 16]()
+  - [Unsigned Integers]()
+  - [Integer to a String]()
+  - [Integer from a String]()
+- [Floating Point Numbers II](./floating_point_numbers_ii.md)
+- [Records](./records.md)
+  - [Declaration](./records/declaration.md)
 
 # Interactive Programs III
 
@@ -484,10 +492,6 @@
 
 
 
-# Data Types
-
-- [Strings III](./strings_ii.md)
-  - [String Templates]
 
 
 # Interactive Programs

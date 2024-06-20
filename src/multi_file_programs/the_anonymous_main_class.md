@@ -1,4 +1,4 @@
-# The anonymous main class
+# The Anonymous Main Class
 
 Surprise! Everything in Java is actually in a class.
 
