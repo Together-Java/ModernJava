@@ -430,6 +430,13 @@
 
 # Data Types IV
 
+- [Records](./records.md)
+  - [Declaration](./records/declaration.md)
+  - [The Canonical Constructor](./records/the_canonical_constructor.md)
+  - [Component Accessors](./records/component_accessors.md)
+  - [Printing a Record](./records/printing_a_record.md)
+  - [Check for Equality](./records/check_for_equality.md)
+  
 - [Integers II](./integers_ii.md)
   - [Base 16 Integer Literals]()
   - [Base 2 Integer Literals]()
@@ -441,8 +448,7 @@
   - [Integer to a String]()
   - [Integer from a String]()
 - [Floating Point Numbers II](./floating_point_numbers_ii.md)
-- [Records](./records.md)
-  - [Declaration](./records/declaration.md)
+
 
 # Interactive Programs III
 
@@ -463,7 +469,6 @@
   - [@Override]()
 - [Generics]()
   - [Casting]()
-- [Records]()
 - [Object]()
   - [instanceof]()
   - [toString]()
