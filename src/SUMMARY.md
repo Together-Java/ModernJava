@@ -344,8 +344,6 @@
   - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
   - [Exception](./exceptions_ii/exception.md)
   - [RuntimeException](./exceptions_ii/runtime_exception.md)
-  - [IOException](./exceptions_ii/ioexception.md)
-  - [UncheckedIOException](./exceptions_ii/uncheckedioexception.md)
   - [main](./exceptions_ii/main.md)
 - [Switch II](./switch_ii.md)
   - [Yield](./switch_ii/yield.md)
@@ -453,6 +451,8 @@
 
 - [Files](./files.md)
   - [Paths](./files/paths.md)
+  - [IOException](./files/ioexception.md)
+  - [UncheckedIOException](./files/uncheckedioexception.md)
   - [Write to a File](./files/write_to_a_file.md)
   - [Read from a File](./files/read_from_a_file.md)
   - [Create a Folder](./files/creating_a_folder.md)
