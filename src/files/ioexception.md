@@ -1,13 +1,17 @@
 # IOException
 
-If some code is "doing IO" - by which we mean while it is trying to read some <b>I</b>nput or write some <b>O</b>utput - you should expect it to throw an `IOException`.[^isa]
+If some code is "doing IO" - by which we mean while it is trying to read some <b>I</b>nput or write some <b>O</b>utput - you should expect it to throw an `IOException`.
+
+This class lives in the `java.io` package so to use it by its simple name you need an import.
 
 ```java
-void main() throws IOException {
-    throw new IOException("Something went wrong");
+import java.io.IOException;
+
+class Main {
+    void main() throws IOException {
+        throw new IOException("Something went wrong");
+    }
 }
 ```
 
-For now you just need to know that `IOException` exists. We will encounter it when reading and writing files.
-
-[^isa]: Technically an `IOException` *is* an `Exception`, but we're not quite ready to talk about "exception hierarchies" yet. Hold tight.
+Since reading a file is reading some input and writing to a file is writing some output, this exception is relevant to reading and writing files.

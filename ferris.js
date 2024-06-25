@@ -53,8 +53,21 @@ function createFerris(type, size) {
   // a.setAttribute('href', 'ch00-00-introduction.html#ferris')
   a.setAttribute('target', '_blank')
 
+  var toFileName = function (t) {
+    // return '../img/' + t.attr + '.svg';
+    if (t.attr == 'panics') {
+      return '../img/armcross.webp'
+    }
+    else if (t.attr == 'does_not_compile') {
+      return '../img/computer_bad.webp'
+    }
+    else if (t.attr == 'not_desired_behavior') {
+      return '../img/eyeclose.webp'
+    }
+  }
+
   var img = document.createElement('img')
-  img.setAttribute('src', '../img/' + type.attr + '.svg')
+  img.setAttribute('src', toFileName(type))
   img.setAttribute('title', type.title)
   img.classList.add('ferris')
   img.classList.add('ferris-' + size)
