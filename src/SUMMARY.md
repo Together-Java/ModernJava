@@ -343,6 +343,7 @@
   - [Propagating Exceptions](./exceptions_ii/propagating_exceptions.md)
   - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
   - [Exception](./exceptions_ii/exception.md)
+  - [RuntimeException](./exceptions_ii/runtime_exception.md)
   - [IOException](./exceptions_ii/ioexception.md)
   - [UncheckedIOException](./exceptions_ii/uncheckedioexception.md)
   - [main](./exceptions_ii/main.md)
@@ -434,21 +435,19 @@
   - [Declaration](./records/declaration.md)
   - [The Canonical Constructor](./records/the_canonical_constructor.md)
   - [Component Accessors](./records/component_accessors.md)
+  - [Component Accessor Visibility](./records/component_accessor_visibility.md)
   - [Printing a Record](./records/printing_a_record.md)
   - [Check for Equality](./records/check_for_equality.md)
-  
-- [Integers II](./integers_ii.md)
-  - [Base 16 Integer Literals]()
-  - [Base 2 Integer Literals]()
-  - [Base 8 Integer Literals]()
-  - [Integer Literal Underscores]()
-  - [Parse a String]()
-  - [Parse a String in Base 16]()
-  - [Unsigned Integers]()
-  - [Integer to a String]()
-  - [Integer from a String]()
-- [Floating Point Numbers II](./floating_point_numbers_ii.md)
+  - [Return Multiple Values](./records/return_multiple_values.md)
+  - [Shorthand](./records/shorthand.md)
 
+- [Integers II](./integers_ii.md)
+  - [Integer from a String](./integers_ii/integer_from_a_string.md)
+  - [Integer to a String](./integers_ii/integer_to_a_string.md)
+  - [Base 16 Integer Literals](./integers_ii/base_16_integer_literals.md)
+  - [Integer from a Base 16 String](./integers_ii/integer_from_a_base_16_string.md)
+  - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
+  - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
 
 # Interactive Programs III
 
@@ -456,6 +455,9 @@
   - [Paths](./files/paths.md)
   - [Write to a File](./files/write_to_a_file.md)
   - [Read from a File](./files/read_from_a_file.md)
+  - [Create a Folder](./files/creating_a_folder.md)
+  - [Delete a Folder](./files/creating_a_folder.md)
+  - [Delete a File](./files/creating_a_folder.md)
 
 # Data Structures & Algorithms II
 
