@@ -73,7 +73,7 @@ src="/getting_started/repl_4_voidmain.png"
 alt="Picture of an unran hello world program"
 width = "800">
 
-Click it and you should see the text `Hello, world!` appear under the console window.
+Click that run button, and you should see the text `Hello, world!` appear under the console window.
 
 <img
 src="/getting_started/repl_5_voidmain.png"
