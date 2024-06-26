@@ -54,16 +54,7 @@ function createFerris(type, size) {
   a.setAttribute('target', '_blank')
 
   var toFileName = function (t) {
-    // return '../img/' + t.attr + '.svg';
-    if (t.attr == 'panics') {
-      return '../img/armcross.webp'
-    }
-    else if (t.attr == 'does_not_compile') {
-      return '../img/computer_bad.webp'
-    }
-    else if (t.attr == 'not_desired_behavior') {
-      return '../img/eyeclose.webp'
-    }
+    return '../img/' + t.attr + '.svg';
   }
 
   var img = document.createElement('img')
