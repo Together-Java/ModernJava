@@ -99,10 +99,8 @@
   - [If](./branching_logic/if.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
   - [Else](./branching_logic/else.md)
-  - [Else](./branching_logic/else.md)
   - [Else If](./branching_logic/else_if.md)
   - [Relation to Delayed Assignment](./branching_logic/relation_to_delayed_assignment.md)
-  - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Scoped Variables](./branching_logic/scoped_variables.md)
   - [Conditional Operator](./branching_logic/conditional_operator.md)
   - [Boolean Expressions](./branching_logic/boolean_expressions.md)
@@ -209,7 +207,6 @@
   - [Boxing Conversion](./boxed_primitives/boxing_conversion.md)
   - [Arrays of Boxed Primitives](./boxed_primitives/arrays_of_boxed_primitives.md)
   - [Challenges](./boxed_primitives/challenges.md)
-  - [Challenges](./boxed_primitives/challenges.md)
 - [Arrays II](./arrays_ii.md)
   - [Initializion with Size](./arrays_ii/initialization_with_size.md)
   - [Default Values](./arrays_ii/default_values.md)
@@ -249,6 +246,13 @@
   - [Usage](./enums/usage.md)
   - [Equality](./enums/equality.md)
   - [Comparison to boolean](./enums/comparison_to_boolean.md)
+- [Strings II](./strings_ii.md)
+  - [lowercase](./strings_ii/lowercase.md)
+  - [UPPERCASE](./strings_ii/UPPERCASE.md)
+  - [Equality ignoring case](./strings_ii/equality_ignoring_case.md)
+  - [Check if empty](./strings_ii/check_if_empty.md)
+  - [Check if blank](./strings_ii/check_if_blank.md)
+  - [Strip extra whitespace](./strings_ii/strip_extra_whitespace.md)
 
 # Control Flow III
 
@@ -277,28 +281,302 @@
   - [Invariants](./constructors/invariants.md)
   - [Overloads](./constructors/overloads.md)
   - [Delegation](./constructors/delegation.md)
+- [Global Fields](./global_fields.md)
+  - [Default Values](./global_fields/default_values.md)
+  - [Final Fields](./global_fields/final_fields.md)
+  - [Field Access](./global_fields/field_access.md)
+  - [Inferred Types](./global_fields/inferred_types.md)
 
+# Concepts
+
+- [Code is Read more than Written](./code_is_read_more_than_written.md)
+  - [Meaning](./code_is_read_more_than_written/meaning.md)
+  - [Implications](./code_is_read_more_than_written/implications.md)
+  - [Information Density](./code_is_read_more_than_written/information_density.md)
+  - [Audience](./code_is_read_more_than_written/audience.md)
+  - [Practice](./code_is_read_more_than_written/practice.md)
+
+# Interactive Programs
+
+- [Standard Input](./standard_input.md)
+  - [Prompting](./standard_input/prompting.md)
+  - [Interpreting Input](./standard_input/interpreting_input.md)
+  - [Reprompting](./standard_input/reprompting.md)
+  - [Leniency](./standard_input/leniency.md)
+  - [Delayed Assignment](./standard_input/delayed_assignment.md)
+  - [Transporting Data](./standard_input/transporting_data.md)
+
+# The Computing Environment
+
+- [Hardware](./hardware.md)
+  - [CPU](./hardware/cpu.md)
+  - [RAM](./hardware/ram.md)
+  - [Hard Drives](./hardware/hard_drives.md)
+  - [Motherboard](./hardware/motherboard.md)
+- [Operating Systems](./operating_systems.md)
+  - [Personal Computers](./operating_systems/personal_computers.md)
+  - [Servers](./operating_systems/servers.md)
+  - [Mobile Phones](./operating_systems/mobile_phones.md)
+  - [Game Consoles](./operating_systems/game_consoles.md)
+  - [Abstractions](./operating_systems/abstractions.md)
+  - [Defaults](./operating_systems/defaults.md)
+- [The Terminal](./the_terminal.md)
+  - [Bash](./the_terminal/bash.md)
+  - [Windows Subsystem for Linux](./the_terminal/windows_subsystem_for_linux.md)
+  - [Chromebooks and School Computers](./the_terminal/chromebooks_and_school_computers.md)
+  - [Commands](./the_terminal/commands.md)
+  - [Directories](./the_terminal/directories.md)
+  - [Listing Files](./the_terminal/listing_files.md)
+  - [Creating Directories](./the_terminal/creating_directories.md)
+  - [Changing Directories](./the_terminal/changing_directories.md)
+  - [Creating Files](./the_terminal/creating_files.md)
+  - [Run Java Programs](./the_terminal/run_java_programs.md)
+  - [Getting Used to it](./the_terminal/getting_used_to_it.md)
+
+
+# Control Flow III
+
+- [Exceptions II](./exceptions_ii.md)
+  - [Checked Exceptions](./exceptions_ii/checked_exceptions.md)
+  - [Unchecked Exceptions](./exceptions_ii/unchecked_exceptions.md)
+  - [throws](./exceptions_ii/throws.md)
+  - [Propagating Exceptions](./exceptions_ii/propagating_exceptions.md)
+  - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
+  - [Exception](./exceptions_ii/exception.md)
+  - [RuntimeException](./exceptions_ii/runtime_exception.md)
+  - [main](./exceptions_ii/main.md)
+- [Switch II](./switch_ii.md)
+  - [Yield](./switch_ii/yield.md)
+  - [Omitted Yield](./switch_ii/omitted_yield.md)
+  - [Exhaustiveness](./switch_ii/exhaustiveness.md)
+  - [Return a Switch](./switch_ii/return_a_switch.md)
+
+# Code Structure IV
+
+- [Multi-File Programs](./multi_file_programs.md)
+  - [The Sources folder](./multi_file_programs/the_sources_folder.md)
+  - [The Main file](./multi_file_programs/the_main_file.md)
+  - [A Second file](./multi_file_programs/a_second_file.md)
+  - [File names](./multi_file_programs/file_names.md)
+  - [The Anonymous Main Class](./multi_file_programs/the_anonymous_main_class.md)
+  - [Global Fields](./multi_file_programs/global_fields.md)
+- [Visibility](./visibility.md)
+  - [Private Methods](./visibility/private_methods.md)
+  - [Private Fields](./visibility/private_fields.md)
+  - [Invariants](./visibility/invariants.md)
+  - [Accessors](./visibility/accessors.md)
+  - [Getters and Setters](./visibility/getter_and_setters.md)
+- [Static Fields](./static_fields.md)
+  - [Declaration](./static_fields/declaration.md)
+  - [Initialization](./static_fields/initialization.md)
+  - [Usage](./static_fields/usage.md)
+  - [Constants](./static_fields/constants.md)
+  - [Controversy](./static_fields/controversy.md)
+  - [Naming](./static_fields/naming.md)
+- [Static Methods](./static_methods.md)
+  - [Declaration](./static_methods/declaration.md)
+  - [Scope](./static_methods/scope.md)
+  - [Naming](./static_methods/naming.md)
+  - [Usage](./static_methods/usage.md)
+  - [Math](./static_methods/math.md)
+  - [Factories](./static_methods/factories.md)
+
+# Data Structures & Algorithms
+
+- [Growable Arrays](./growable_arrays.md)
+  - [Concept](./growable_arrays/concept.md)
+  - [Simple Implementation](./growable_arrays/simple_implementation.md)
+  - [Usage](./growable_arrays/usage.md)
+  - [Performance Problems](./growable_arrays/performance_problems.md)
+  - [Performance Solutions](./growable_arrays/performance_solutions.md)
+  - [Optimized Implementation](./growable_arrays/optimized_implementation.md)
+
+# Interactive Programs II
+
+- [Command Line Arguments](./command_line_arguments.md)
+  - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
+  - [Conventions](./command_line_arguments/conventions.md)
+
+
+# Code Structure IV
+
+- [Inner Classes](./inner_classes.md)
+  - [Type](./inner_classes/type.md)
+  - [Instances](./inner_classes/instances.md)
+  - [New Operator](./inner_classes/new_operator.md)
+  - [Scope](./inner_classes/scope.md)
+  - [Disambiguation](./inner_classes/disambiguation.md)
+  - [The anonymous main class](./inner_classes/the_anonymous_main_class.md)
+  - [Static Inner Classes](./inner_classes/static_inner_classes.md)
+  - [Private Inner Classes](./inner_classes/private_inner_classes.md)
+- [Packages](./packages.md)
+  - [Declaration](./packages/declaration.md)
+  - [Visibility](./packages/visibility.md)
+  - [Public Classes](./packages/public_classes.md)
+  - [Fully Qualified Class Name](./packages/fully_qualified_class_name.md)
+  - [Import](./packages/import.md)
+  - [The Default Package](./packages/the_default_package.md)
+  - [The Anonymous Main Class](./packages/the_anonymous_main_class.md)
+  - [Public Methods](./packages/public_methods.md)
+  - [Package-Private Methods](./packages/package_private_methods.md)
+  - [Public Fields](./packages/public_fields.md)
+  - [Package-Private Fields](./packages/package_private_fields.md)
+  - [The Default Constructor](./packages/the_default_constructor.md)
+  - [Public Constructors](./packages/public_constructors.md)
+  - [Package-Private Constructors](./packages/package_private_constructors.md)
+  - [Subpackages](./packages/subpackages.md)
+  - [Reverse Domain Name Notation](./packages/reverse_domain_name_notation.md)
+
+# Data Types IV
+
+- [Records](./records.md)
+  - [Declaration](./records/declaration.md)
+  - [The Canonical Constructor](./records/the_canonical_constructor.md)
+  - [Component Accessors](./records/component_accessors.md)
+  - [Component Accessor Visibility](./records/component_accessor_visibility.md)
+  - [Printing a Record](./records/printing_a_record.md)
+  - [Check for Equality](./records/check_for_equality.md)
+  - [Return Multiple Values](./records/return_multiple_values.md)
+  - [Shorthand](./records/shorthand.md)
+
+- [Integers II](./integers_ii.md)
+  - [Integer from a String](./integers_ii/integer_from_a_string.md)
+  - [Integer to a String](./integers_ii/integer_to_a_string.md)
+  - [Base 16 Integer Literals](./integers_ii/base_16_integer_literals.md)
+  - [Integer from a Base 16 String](./integers_ii/integer_from_a_base_16_string.md)
+  - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
+  - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
+
+# Interactive Programs III
+
+- [Files](./files.md)
+  - [Paths](./files/paths.md)
+  - [IOException](./files/ioexception.md)
+  - [UncheckedIOException](./files/uncheckedioexception.md)
+  - [Write to a File](./files/write_to_a_file.md)
+  - [Read from a File](./files/read_from_a_file.md)
+  - [Create a Folder](./files/creating_a_folder.md)
+  - [Delete a Folder](./files/creating_a_folder.md)
+  - [Delete a File](./files/creating_a_folder.md)
+
+# Data Structures & Algorithms II
+
+- [Hash Maps]()
+- [Hash Sets]()
+
+# Code Structure IV
+
+
+- [Interfaces]()
+  - [@Override]()
+- [Generics]()
+  - [Casting]()
+- [Object]()
+  - [instanceof]()
+  - [toString]()
+  - [equals]()
+  - [hashCode]()
 
 
 <!--
 
-- [Strings II](./strings_ii.md)
-  - [length]()
-  - [equals]()
-  - [charAt]()
-  - [equalsIgnoreCase]()
+
+
+# Data Types IV
+
+- [StringBuilder](./string_builder.md)
+- [Pattern]()
+
+
+# Concepts
+
+- [The Idiot Game](./the_idiot_game.md)
+
+# Interactive Programs
+
+
+# The Computing Environment
+
+
+
+
+
+# Interactive Programs
+
+
+- [Command Line Arguments]()
+
+# Code Structure IV
+
+
+- [Import]()
+- [Packages]()
+  - [Public]()
+  - [Package Private]()
   
-- [Multiple Source Files]()
-  - [Why]()
-  - [How]()
-  - [Restrictions]()
-- [The Main Class]()
-  - [The Implicit Main Class]()
+
+# Data Types V
+
+- [Strings III]()
+- [StringBuilder](./stringbuilder.md)
+- [Regular Expressions]()
+
+# Code Structure V
+
+- [toString]()
+- [Interfaces]()
+  - [@Override]()
 
 
-- [Multiple Files]()
-- [The Implicit Main Class]()
-- [Private]()
+# Code Structure V
+
+- [Generics]()
+  - [Declaration]()
+  - [Safety]()
+  - [Unsafe Casts]()
+
+# Data Types VI
+
+- [Integers II]()
+- [Paths]()
+- [Iterator and Iterable]()
+- [Exceptions II]()
+- [Lists]()
+  - [ArrayList]()
+  - [Add an item]()
+  - [Get an item]()
+  - [Set an item]()
+  - [Loop over Contents]()
+
+# Control Flow IV
+
+- [Loops III](./loops_iii.md)
+  - [For Each]()
+
+# Algorithms II
+
+- [Hash Map]()
+
+# Data Types VII
+
+- [Maps]()
+  - [HashMap]()
+- [Sets]()
+  - [HashSet]()
+
+# Interactive Programs II
+
+- [Files]()
+
+# Metaprogramming
+
+- [Reflection]()
+- [Annotations]() -->
+
+
+<!--
+
+  
 
 ## Data Types IV
 
@@ -308,7 +586,6 @@
   - [Documentation Comments]()
 - [Testing]()
 
-- [Example: "Growable" Array]()
 
 # User Defined Types
 

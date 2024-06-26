@@ -9,7 +9,7 @@ int numberOfChars = fruit.length();
 
 // strawberry is 10 characters long
 System.out.println(
-    fruit + " is " numberOfChars + " characters long"
+    fruit + " is " + numberOfChars + " characters long"
 );
 ~}
 ```

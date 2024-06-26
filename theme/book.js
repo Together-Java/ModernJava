@@ -115,7 +115,7 @@ function playground_text(playground, hidden = true) {
     let text = playground_text(code_block);
 
     var params = {
-      release: '21',
+      release: '22',
       runtime: 'latest',
       action: 'run',
       preview: true,

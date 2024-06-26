@@ -13,7 +13,6 @@ void main() {
 A variable declaration has three components - the "type", the "name", and the "initial value".
 
 ```java,no_run
-```java,no_run
      String boss = "Jaqueline";
 //   type   name   initial value
 ```

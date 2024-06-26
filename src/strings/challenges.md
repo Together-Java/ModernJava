@@ -43,7 +43,7 @@ void main() {
     String second = "b";
     String third = "ab";
 
-    System.out.println((first + second).equals(second));
+    System.out.println((first + second).equals(third));
 }
 ```
 

@@ -111,18 +111,8 @@ void main() {
 }
 ```
 
+
 ## Challenge 7
-
-What will this program output when run? Write down your guess and then try running it.
-
-```java,editable
-void main() {
-    <CODE HERE>
-}
-```
-
-
-## Challenge 8
 
 Write code that will output each character of `name` on its own line.
 
@@ -145,7 +135,7 @@ void main() {
 ```
 
 
-## Challenge 9
+## Challenge 8
 
 Write code that will output each character of `name` on its own line, starting with the last
 character and going backwards.
@@ -173,7 +163,7 @@ void main() {
 ```
 
 
-## Challenge 10
+## Challenge 9
 
 Write code that will take a number and if it is divisible by two, divides it by two.
 If it is not, multiplies it by three and adds one.
@@ -226,7 +216,7 @@ void main() {
 ```
 
 
-## Challenge 11
+## Challenge 10
 
 Write code that outputs every third number from `37` to `160`.
 
@@ -237,7 +227,7 @@ void main() {
 ```
 
 
-## Challenge 12
+## Challenge 11
 
 Write code that outputs the number of vowels in `name`. Treat `y` as a vowel.
 
@@ -253,7 +243,7 @@ void main() {
 ```
 
 
-## Challenge 13
+## Challenge 12
 
 Write code that outputs `{name} is mostly vowels` if the number of vowels in `name` is greater
 than the number of consonants. and `{name} is mostly consonants` if the opposite is true.
@@ -272,7 +262,7 @@ void main() {
 ```
 
 
-## Challenge 14
+## Challenge 13
 
 Rewrite the following code to not have the `shouldBreak` variable
 and instead to use a labeled break.
@@ -284,7 +274,7 @@ void main() {
     int y = 0;
 
     boolean shouldBreak = false;
-    while (shouldBreak && x < 100) {
+    while (!shouldBreak && x < 100) {
         while (y < 100) {
             System.out.println("x is " + x);
             System.out.println("y is " + y);
