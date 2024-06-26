@@ -58,4 +58,3 @@ You should get in the habit of, whenever you see some bit of code, trying to phy
 tweak it, and play with it.
 
 So try playing around with this program. If you actively engage then you will retain information better.
-So try playing around with this program. If you actively engage then you will retain information better.
