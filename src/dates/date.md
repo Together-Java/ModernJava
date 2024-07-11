@@ -45,7 +45,7 @@ If you would **only want to store time** then you can use the [LocalTime Class](
 | [LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html)         | ✅          | Interprating Dates     | 2021-02-28                   |
 | [LocalTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html)         | ✅          | Interprating Time      | 19:32:25.457826              |
 | [LocalDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) | ✅          | Interprating Time/Date | 2021-02-28T19:32:25.457826.  |
-| [Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)                   | ❌          | Represents Time        | Tue Jul 12 18:35:37 IST 2016 |
+| [Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)                   | prefer not  | Represents Time        | Tue Jul 12 18:35:37 IST 2016 |
 
 # LocalDate
 
