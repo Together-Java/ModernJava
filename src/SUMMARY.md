@@ -461,7 +461,9 @@
 
 # Data Structures & Algorithms II
 
-- [Hash Maps]()
+- [Hash Maps](./hash_maps.md)
+  - [Filing Cabinets](./hash_maps/filing_cabinets.md)
+  - [Hash Functions](./hash_maps/hash_functions.md)
 - [Hash Sets]()
 
 # Code Structure IV
@@ -534,6 +536,8 @@
   - [Declaration]()
   - [Safety]()
   - [Unsafe Casts]()
+
+[Informal Diagrams]
 
 # Data Types VI
 
