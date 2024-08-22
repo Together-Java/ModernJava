@@ -456,18 +456,31 @@
   - [Write to a File](./files/write_to_a_file.md)
   - [Read from a File](./files/read_from_a_file.md)
   - [Create a Folder](./files/creating_a_folder.md)
-  - [Delete a Folder](./files/creating_a_folder.md)
-  - [Delete a File](./files/creating_a_folder.md)
+  - [Delete a Folder](./files/deleting_a_folder.md)
+  - [Delete a File](./files/deleting_a_file.md)
 
 # Data Structures & Algorithms II
 
 - [Hash Maps](./hash_maps.md)
   - [Filing Cabinets](./hash_maps/filing_cabinets.md)
   - [Hash Functions](./hash_maps/hash_functions.md)
-- [Hash Sets]()
+  - [Function Range](./hash_maps/function_range.md)
+  - [Buckets](./hash_maps/buckets.md)
+  - [Hash Collision](./hash_maps/hash_collision.md)
+  - [Hash Distribution](./hash_maps/hash_distribution.md)
+  - [Redistribution](./hash_maps/redistribution.md)
+  
 
 # Code Structure IV
 
+- [Object](./objects.md)
+  - [Subtypes](./objects/subtypes.md)
+  - [Array Subtypes](./objects/array_subtypes.md)
+  - [toString](./objects/toString.md)
+  - [equals and hashCode](./objects/equals_and_hashCode.md)
+  - [Override toString](./objects/override_toString.md)
+  - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
+  - [Variance and Casting](./objects/variance_and_casting.md)
 
 - [Interfaces]()
   - [@Override]()
