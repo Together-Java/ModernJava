@@ -474,11 +474,13 @@
 # Code Structure IV
 
 - [Object](./objects.md)
+  - [Subclasses](./objects/subclasses.md)
   - [Subtypes](./objects/subtypes.md)
-  - [Array Subtypes](./objects/array_subtypes.md)
+  - [instanceof](./objects/instanceof.md)
   - [toString](./objects/toString.md)
-  - [equals and hashCode](./objects/equals_and_hashCode.md)
   - [Override toString](./objects/override_toString.md)
+  - [equals and hashCode](./objects/equals_and_hashCode.md)
+  - [Array Subtypes](./objects/array_subtypes.md)
   - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
   - [Variance and Casting](./objects/variance_and_casting.md)
 
@@ -486,11 +488,6 @@
   - [@Override]()
 - [Generics]()
   - [Casting]()
-- [Object]()
-  - [instanceof]()
-  - [toString]()
-  - [equals]()
-  - [hashCode]()
 
 
 <!--
