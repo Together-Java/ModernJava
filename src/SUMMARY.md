@@ -468,6 +468,10 @@
   - [Buckets](./hash_maps/buckets.md)
   - [Hash Collision](./hash_maps/hash_collision.md)
   - [Hash Distribution](./hash_maps/hash_distribution.md)
+  - [Growable Buckets](./hash_maps/growable_buckets.md)
+  - [Keys and Values](./hash_maps/keys_and_values.md)
+  - [Put Items](./hash_maps/put_items.md)
+  - [Get Items](./hash_maps/get_items.md)
   - [Redistribution](./hash_maps/redistribution.md)
   
 
