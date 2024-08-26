@@ -472,7 +472,6 @@
   - [Keys and Values](./hash_maps/keys_and_values.md)
   - [Put Items](./hash_maps/put_items.md)
   - [Get Items](./hash_maps/get_items.md)
-  - [Redistribution](./hash_maps/redistribution.md)
   
 
 # Code Structure IV
@@ -487,11 +486,32 @@
   - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
   - [Variance and Casting](./objects/variance_and_casting.md)
   - [Subclasses](./objects/subclasses.md)
+- [Generics](./generics.md)
+- [Interfaces](./interfaces.md)
 
-- [Interfaces]()
-  - [@Override]()
-- [Generics]()
-  - [Casting]()
+# Data Types V
+
+- [Time](./time.md)
+  - [Instant](./time/instant.md)
+  - [Duration](./time/duration.md)
+  - [LocalDate](./time/local_date.md)
+  - [LocalTime](./time/local_time.md)
+  - [LocalDateTime](./time/local_date_time.md)
+  - [ZonedDateTime](./time/zoned_date_time.md)
+  - [OffsetDateTime](./time/offset_date_time.md)
+- [ArrayList](./array_list.md)
+- [HashMap](./hash_map.md)
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+
+# Control Flow IV
+- [Switch III](./switch_iii.md)
+  - [Fallthrough](./switch_iii/fallthrough.md)
+  - [break](./switch_iii/break.md)
+- [Recursion](./recursion.md)
+
+# Code Structure V
+- [Class Extension](./class_extension.md)
+- [Abstract Classes](./abstract_classes.md)
 
 
 <!--

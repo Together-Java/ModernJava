@@ -3,7 +3,7 @@
 Putting it all together[^getit], we can "put"
 items into our hash map by following these steps.
 
-1. Compute the hash code of the item.
+1. Compute the hash code of the key.
 2. Find the bucket that item should go in.
 3. Add the item to the bucket.
 
