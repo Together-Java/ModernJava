@@ -508,11 +508,24 @@
   - [Fallthrough](./switch_iii/fallthrough.md)
   - [break](./switch_iii/break.md)
 - [Recursion](./recursion.md)
+  - [Disclaimer](./recursion/disclaimer.md)
+  - [Base Case](./recursion/base_case.md)
+  - [Comparison to loops](./recursion/comparison_to_loops.md)
 
 # Code Structure V
 - [Class Extension](./class_extension.md)
 - [Abstract Classes](./abstract_classes.md)
 
+# Concepts
+
+- [Encapsulation](./encapsulation.md)
+  - [Methods]()
+  - [Classes]()
+  - [Information Hiding]()
+
+# Data Types VI
+- [StringBuilder]()
+- [Pattern]()
 
 <!--
 
@@ -528,28 +541,10 @@
 
 - [The Idiot Game](./the_idiot_game.md)
 
-# Interactive Programs
-
-
-# The Computing Environment
 
 
 
 
-
-# Interactive Programs
-
-
-- [Command Line Arguments]()
-
-# Code Structure IV
-
-
-- [Import]()
-- [Packages]()
-  - [Public]()
-  - [Package Private]()
-  
 
 # Data Types V
 
@@ -557,11 +552,6 @@
 - [StringBuilder](./stringbuilder.md)
 - [Regular Expressions]()
 
-# Code Structure V
-
-- [toString]()
-- [Interfaces]()
-  - [@Override]()
 
 
 # Code Structure V
@@ -601,10 +591,6 @@
   - [HashMap]()
 - [Sets]()
   - [HashSet]()
-
-# Interactive Programs II
-
-- [Files]()
 
 # Metaprogramming
 
