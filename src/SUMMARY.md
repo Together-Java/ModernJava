@@ -491,6 +491,8 @@
 
 # Data Types V
 
+<!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
+Make them do one. -->
 - [Time](./time.md)
   - [Instant](./time/instant.md)
   - [Duration](./time/duration.md)
@@ -500,6 +502,11 @@
   - [ZonedDateTime](./time/zoned_date_time.md)
   - [OffsetDateTime](./time/offset_date_time.md)
 - [ArrayList](./array_list.md)
+  - [Add an item](./array_list/add_an_item.md)
+  - [Size](./array_list/size.md)
+  - [Get an item](./array_list/get_an_item.md)
+  - [Loop over items](./array_list/loop_over_items.md)
+  - [Set an item](./array_list/set_an_item.md)
 - [HashMap](./hash_map.md)
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
 
@@ -574,7 +581,6 @@
   - [Add an item]()
   - [Get an item]()
   - [Set an item]()
-  - [Loop over Contents]()
 
 # Control Flow IV
 
