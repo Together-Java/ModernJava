@@ -502,6 +502,7 @@ Make them do one. -->
   - [ZonedDateTime](./time/zoned_date_time.md)
   - [OffsetDateTime](./time/offset_date_time.md)
 - [ArrayList](./array_list.md)
+  - [Ubiquity](./array_list/ubiquity.md)
   - [Add an item](./array_list/add_an_item.md)
   - [Size](./array_list/size.md)
   - [Get an item](./array_list/get_an_item.md)
@@ -511,6 +512,12 @@ Make them do one. -->
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
 
 # Control Flow IV
+- [Loops III](./loops_iii.md)
+  - [For-each loops]()
+  - [Arrays]()
+  - [Iterable]()
+  - [ArrayList]()
+  - [Reasons to go back]() <!-- -->
 - [Switch III](./switch_iii.md)
   - [Fallthrough](./switch_iii/fallthrough.md)
   - [break](./switch_iii/break.md)
@@ -523,12 +530,20 @@ Make them do one. -->
 - [Class Extension](./class_extension.md)
 - [Abstract Classes](./abstract_classes.md)
 
-# Concepts
+# Concepts II
 
 - [Encapsulation](./encapsulation.md)
   - [Methods]()
   - [Classes]()
   - [Information Hiding]()
+
+# Building
+
+- [Compilation]()
+- [Compile Java Code]()
+  - [Compile a List of Files]()
+  - [Specify Where to Find Sources]()
+  - [Enable Debug Info]()
 
 # Data Types VI
 - [StringBuilder]()
@@ -538,20 +553,10 @@ Make them do one. -->
 
 
 
-# Data Types IV
-
-- [StringBuilder](./string_builder.md)
-- [Pattern]()
-
 
 # Concepts
 
 - [The Idiot Game](./the_idiot_game.md)
-
-
-
-
-
 
 # Data Types V
 
