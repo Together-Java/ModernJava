@@ -508,6 +508,7 @@ Make them do one. -->
   - [Get an item](./array_list/get_an_item.md)
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
+  - [Remove an item](./array_list/remove_an_item.md)
 - [HashMap](./hash_map.md)
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
 
@@ -524,7 +525,8 @@ Make them do one. -->
 - [Recursion](./recursion.md)
   - [Disclaimer](./recursion/disclaimer.md)
   - [Base Case](./recursion/base_case.md)
-  - [Comparison to loops](./recursion/comparison_to_loops.md)
+  - [Comparison to Delegation](./recursion/comparison_to_delegation.md)
+  - [Comparison to Loops](./recursion/comparison_to_loops.md)
 
 # Code Structure V
 - [Class Extension](./class_extension.md)
