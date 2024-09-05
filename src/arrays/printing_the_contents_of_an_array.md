@@ -49,8 +49,8 @@ String[] factions = { "empire", "stormcloaks", "dragons" };
 
 int index = 0;
 while (index < factions.length) {
-    System.out.println(factions[index])
-    index++
+    System.out.println(factions[index]);
+    index++;
 }
 ```
 
