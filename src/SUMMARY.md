@@ -447,6 +447,8 @@
   - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
   - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
 
+- [🚧 Construction Zone 🚧]()
+
 # Interactive Programs III
 
 - [Files](./files.md)
@@ -522,6 +524,9 @@ Make them do one. -->
 - [Switch III](./switch_iii.md)
   - [Fallthrough](./switch_iii/fallthrough.md)
   - [break](./switch_iii/break.md)
+  - [default](./switch_iii/default.md)
+  - [return](./switch_iii/return.md)
+  - [yield](./switch_iii/yield.md)
 - [Recursion](./recursion.md)
   - [Disclaimer](./recursion/disclaimer.md)
   - [Base Case](./recursion/base_case.md)
