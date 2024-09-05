@@ -447,6 +447,8 @@
   - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
   - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
 
+- [🚧 Construction Zone 🚧]()
+
 # Interactive Programs III
 
 - [Files](./files.md)
@@ -456,64 +458,112 @@
   - [Write to a File](./files/write_to_a_file.md)
   - [Read from a File](./files/read_from_a_file.md)
   - [Create a Folder](./files/creating_a_folder.md)
-  - [Delete a Folder](./files/creating_a_folder.md)
-  - [Delete a File](./files/creating_a_folder.md)
+  - [Delete a Folder](./files/deleting_a_folder.md)
+  - [Delete a File](./files/deleting_a_file.md)
 
 # Data Structures & Algorithms II
 
-- [Hash Maps]()
-- [Hash Sets]()
+- [Hash Maps](./hash_maps.md)
+  - [Filing Cabinets](./hash_maps/filing_cabinets.md)
+  - [Hash Functions](./hash_maps/hash_functions.md)
+  - [Function Range](./hash_maps/function_range.md)
+  - [Buckets](./hash_maps/buckets.md)
+  - [Hash Collision](./hash_maps/hash_collision.md)
+  - [Hash Distribution](./hash_maps/hash_distribution.md)
+  - [Growable Buckets](./hash_maps/growable_buckets.md)
+  - [Keys and Values](./hash_maps/keys_and_values.md)
+  - [Put Items](./hash_maps/put_items.md)
+  - [Get Items](./hash_maps/get_items.md)
+  
 
 # Code Structure IV
 
+- [Object](./objects.md)
+  - [Subtypes](./objects/subtypes.md)
+  - [instanceof](./objects/instanceof.md)
+  - [toString](./objects/toString.md)
+  - [Override toString](./objects/override_toString.md)
+  - [@Override](./objects/override.md)
+  - [equals and hashCode](./objects/equals_and_hashCode.md)
+  - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
+  - [Variance and Casting](./objects/variance_and_casting.md)
+  - [Subclasses](./objects/subclasses.md)
+- [Generics](./generics.md)
+- [Interfaces](./interfaces.md)
 
-- [Interfaces]()
-  - [@Override]()
-- [Generics]()
-  - [Casting]()
-- [Object]()
-  - [instanceof]()
-  - [toString]()
-  - [equals]()
-  - [hashCode]()
+# Data Types V
 
+<!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
+Make them do one. -->
+- [Time](./time.md)
+  - [Instant](./time/instant.md)
+  - [Duration](./time/duration.md)
+  - [LocalDate](./time/local_date.md)
+  - [LocalTime](./time/local_time.md)
+  - [LocalDateTime](./time/local_date_time.md)
+  - [ZonedDateTime](./time/zoned_date_time.md)
+  - [OffsetDateTime](./time/offset_date_time.md)
+- [ArrayList](./array_list.md)
+  - [Ubiquity](./array_list/ubiquity.md)
+  - [Add an item](./array_list/add_an_item.md)
+  - [Size](./array_list/size.md)
+  - [Get an item](./array_list/get_an_item.md)
+  - [Loop over items](./array_list/loop_over_items.md)
+  - [Set an item](./array_list/set_an_item.md)
+  - [Remove an item](./array_list/remove_an_item.md)
+- [HashMap](./hash_map.md)
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+
+# Control Flow IV
+- [Loops III](./loops_iii.md)
+  - [For-each loops]()
+  - [Arrays]()
+  - [Iterable]()
+  - [ArrayList]()
+  - [Reasons to go back]() <!-- -->
+- [Switch III](./switch_iii.md)
+  - [Fallthrough](./switch_iii/fallthrough.md)
+  - [break](./switch_iii/break.md)
+  - [default](./switch_iii/default.md)
+  - [return](./switch_iii/return.md)
+  - [yield](./switch_iii/yield.md)
+- [Recursion](./recursion.md)
+  - [Disclaimer](./recursion/disclaimer.md)
+  - [Base Case](./recursion/base_case.md)
+  - [Comparison to Delegation](./recursion/comparison_to_delegation.md)
+  - [Comparison to Loops](./recursion/comparison_to_loops.md)
+
+# Code Structure V
+- [Class Extension](./class_extension.md)
+- [Abstract Classes](./abstract_classes.md)
+
+# Concepts II
+
+- [Encapsulation](./encapsulation.md)
+  - [Methods]()
+  - [Classes]()
+  - [Information Hiding]()
+
+# Building
+
+- [Compilation]()
+- [Compile Java Code]()
+  - [Compile a List of Files]()
+  - [Specify Where to Find Sources]()
+  - [Enable Debug Info]()
+
+# Data Types VI
+- [StringBuilder]()
+- [Pattern]()
 
 <!--
 
 
 
-# Data Types IV
-
-- [StringBuilder](./string_builder.md)
-- [Pattern]()
-
 
 # Concepts
 
 - [The Idiot Game](./the_idiot_game.md)
-
-# Interactive Programs
-
-
-# The Computing Environment
-
-
-
-
-
-# Interactive Programs
-
-
-- [Command Line Arguments]()
-
-# Code Structure IV
-
-
-- [Import]()
-- [Packages]()
-  - [Public]()
-  - [Package Private]()
-  
 
 # Data Types V
 
@@ -521,11 +571,6 @@
 - [StringBuilder](./stringbuilder.md)
 - [Regular Expressions]()
 
-# Code Structure V
-
-- [toString]()
-- [Interfaces]()
-  - [@Override]()
 
 
 # Code Structure V
@@ -534,6 +579,8 @@
   - [Declaration]()
   - [Safety]()
   - [Unsafe Casts]()
+
+[Informal Diagrams]
 
 # Data Types VI
 
@@ -546,7 +593,6 @@
   - [Add an item]()
   - [Get an item]()
   - [Set an item]()
-  - [Loop over Contents]()
 
 # Control Flow IV
 
@@ -563,10 +609,6 @@
   - [HashMap]()
 - [Sets]()
   - [HashSet]()
-
-# Interactive Programs II
-
-- [Files]()
 
 # Metaprogramming
 
