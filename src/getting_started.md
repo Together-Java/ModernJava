@@ -15,6 +15,16 @@ void main() {
 }
 ```
 
+## Windows
+
+Download the "JDK MSI" from [adoptium.net](https://adoptium.net/temurin/releases/?version=22&os=windows).
+
+Run the installer, selecting all the default options.
+
+## Mac OS
+
+
+
 ## repl.it
 
 [replit.com](https://replit.com) is a pretty common choice for teachers because

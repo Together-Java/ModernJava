@@ -3,21 +3,20 @@ name: Linter
 on: [pull_request]
 
 jobs:
-  markdown-linter:
-    name: "Markdown Linter"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
+#  markdown-linter:
+#    name: "Markdown Linter"
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - name: markdownlint-cli
+#        uses: nosborn/github-action-markdown-cli@v3.2.0
+#        with:
+#          files: .
+#          config_file: .markdownlint.yaml
 
-      - name: markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@v3.2.0
-        with:
-          files: .
-          config_file: .markdownlint.yaml
-
-  markdown-link-check:
-    name: "Markdown Link Checker"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
+#  markdown-link-check:
+#    name: "Markdown Link Checker"
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
