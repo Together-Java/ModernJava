@@ -501,6 +501,7 @@ Make them do one. -->
   - [LocalDate](./time/local_date.md)
   - [LocalTime](./time/local_time.md)
   - [LocalDateTime](./time/local_date_time.md)
+  - [Time Zones](./time/time_zones.md)
   - [ZonedDateTime](./time/zoned_date_time.md)
   - [OffsetDateTime](./time/offset_date_time.md)
 - [ArrayList](./array_list.md)
@@ -512,7 +513,21 @@ Make them do one. -->
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
 - [HashMap](./hash_map.md)
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md) 
+# Concepts II
+- [Hyrum's Law](./hyrums_law.md)
+  - [Authority](./hyrums_law/authority.md)
+  - [Validity](./hyrums_law/validity.md)
+  - [Emergent Properties](./hyrums_law/emergent_properties.md)
+  - [Importance](./hyrums_law/importance.md)
+- [Encapsulation](./encapsulation.md)
+  - [Implementation Details](./encapsulation/implementation_details.md)
+  - [Methods](./encapsulation/methods.md)
+  - [Classes](./encapsulation/classes.md)
+  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
+  - [Abstractions](./encapsulation/abstractions.md)
+  - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
+  - [Information Hiding](./encapsulation/information_hiding.md)
 
 # Control Flow IV
 - [Loops III](./loops_iii.md)
@@ -537,12 +552,6 @@ Make them do one. -->
 - [Class Extension](./class_extension.md)
 - [Abstract Classes](./abstract_classes.md)
 
-# Concepts II
-
-- [Encapsulation](./encapsulation.md)
-  - [Methods]()
-  - [Classes]()
-  - [Information Hiding]()
 
 # Building
 
