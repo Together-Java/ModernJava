@@ -32,9 +32,12 @@ People who write programs that depend on the `sin` function do not generally
 understand how this works. I have a math minor[^notimpressive] and I certainly don't.
 
 All they need to know to use `sin` effectively is what it does, not how it does it.
-In this way `sin`, and most methods, are one way to provide encapsulation. You reduce
-a potentially complicated body of code to inputs requires and outputs produced.
+In this way methods are one way to provide encapsulation. You reduce
+a potentially complicated body of code to inputs required and outputs produced.[^news]
 
 [^liberties]: I took some creative liberties here, roll with it.
 
 [^notimpressive]: Laugh it up.
+
+[^news]: This shouldn't be news to you at this point, but I think its helpful to point
+out that property in the context of this topic.
