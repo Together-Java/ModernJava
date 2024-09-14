@@ -32,7 +32,7 @@ System.out.println("Hello, World!");
 
 This bit of magic here - `System.out.println` - is a "statement" that "prints" the text inside the `(` and `)` as well as a "new line" to the screen.
 
-`print` with new `l`i`n`e.
+**print** with new **l**i**n**e.
 
 If you were to replace it with `System.out.print`, then the output would lack that new line. This makes the following program be functionally identical to the first.
 

@@ -14,6 +14,6 @@ class Main {
 }
 ```
 
-This, like the other methods in `Files`, throws an `IOException`.
+This, like the other methods in `Files`, might throw an `IOException`.
 
 `Files.createDirectory` will fail if the folder already exists.

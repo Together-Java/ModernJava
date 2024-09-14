@@ -190,6 +190,7 @@
   - [Return in void methods](./return_values/return_in_void_methods.md)
   - [Conversion](./return_values/conversion.md)
   - [Unreachable Statements](./return_values/unreachable_statements.md)
+  - [Challenges](./return_values/challenges.md)
 
 # Data Types III
 
@@ -198,6 +199,7 @@
   - [Null as Unknown](./null/null_as_unknown.md)
   - [Checking for null](./null/checking_for_null.md)
   - [NullPointerException](./null/null_pointer_exception.md)
+  - [Challenges](./null/challenges.md)
 - [Boxed Primitives](./boxed_primitives.md)
   - [Integer](./boxed_primitives/integer.md)
   - [Double](./boxed_primitives/double.md)
@@ -458,8 +460,7 @@
   - [Write to a File](./files/write_to_a_file.md)
   - [Read from a File](./files/read_from_a_file.md)
   - [Create a Folder](./files/creating_a_folder.md)
-  - [Delete a Folder](./files/deleting_a_folder.md)
-  - [Delete a File](./files/deleting_a_file.md)
+  - [Challenges](./files/challenges.md)
 
 # Data Structures & Algorithms II
 
@@ -488,8 +489,9 @@
   - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
   - [Variance and Casting](./objects/variance_and_casting.md)
   - [Subclasses](./objects/subclasses.md)
-- [Generics](./generics.md)
 - [Interfaces](./interfaces.md)
+- [Generics](./generics.md)
+  - [Generic Parameters](./generics/generic_parameters.md)
 
 # Data Types V
 
