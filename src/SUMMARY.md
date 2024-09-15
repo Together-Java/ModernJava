@@ -38,9 +38,9 @@
 # Data Types I
 
 - [Booleans](./boolean.md)
+  - [Not](./boolean/not.md)
   - [And](./boolean/and.md)
   - [Or](./boolean/or.md)
-  - [Not](./boolean/not.md)
   - [Operator Precedence](./boolean/operator_precedence.md)
   - [Challenges](./boolean/challenges.md)
 - [Integers](./integers.md)

@@ -1,6 +1,6 @@
 # The Default Package
 
-When your classes don't have a package declaration at, we say those are in the "default package."
+When your classes don't have a package declaration, we say those are in the "default package."
 
 ```java,no_run
 // No package declaration means default package

@@ -29,6 +29,7 @@ public class Well {
             You need this to be both public and static to
             be able to write Well.drawWater()
             """);
+        return 235;
     }
 }
 ```
