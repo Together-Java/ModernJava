@@ -41,7 +41,10 @@ System.out.println(value);
 
 
 // the remainder of (2 + 1) divided by 3 is 0
-// value will again be 0!
+// value will again be 0.
+//
+// We never reach 3 because 3 divided by 3
+// always has a remainder of zero.
 value = (value + 1) % 3;
 System.out.println(value);
 
@@ -51,6 +54,15 @@ value = (value + 1) % 3;
 System.out.println(value);
 
 // and so on.
+// 
+// If you did this process with 5 you would go
+// 0, 1, 2, 3, 4, 0, 1, ...
+//
+// If you did this process with 7 you would go
+// 0, 1, 2, 3, 4, 5, 6, 0, 1, ...
+//
+// You always go back to the start just before you reach
+// the number you are getting the remainder by.
 ~}
 ```
 
