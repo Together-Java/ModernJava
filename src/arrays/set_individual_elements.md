@@ -39,28 +39,28 @@ The index of the element to set can also come from a variable.
 int index = 2;
 String[] response = { "and", "it", "isn't", "opposite", "day" };
 System.out.println(
-    sentence[0] 
+    response[0] 
         + " " 
-        + sentence[1] 
+        + response[1] 
         + " " 
-        + sentence[2] 
+        + response[2] 
         + " " 
-        + sentence[3]
+        + response[3]
         + " "
-        + sentence[4]
+        + response[4]
 );
 
 response[2] = "is";
 System.out.println(
-    sentence[0] 
+    response[0] 
         + " " 
-        + sentence[1] 
+        + response[1] 
         + " " 
-        + sentence[2] 
+        + response[2] 
         + " " 
-        + sentence[3]
+        + response[3]
         + " "
-        + sentence[4]
+        + response[4]
 );
 ~}
 ```
