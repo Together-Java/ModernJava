@@ -67,7 +67,7 @@ System.out.println(
 
 If you give a number equal to or greater than the length of the array or a number less than zero, you will get an error.
 
-```java
+```java,panics
 ~void main() {
 String[] response = { "objection" };
 // Crash
