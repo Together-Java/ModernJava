@@ -55,4 +55,5 @@ while (index < factions.length) {
 ```
 
 [^gibberish]: What `[I@5a07e868` and co. mean isn't really important. Try not to get too distracted by it.
+
 [^future]: Later on, there will be easier ways to do this sort of inspection. This is just the one I can demonstrate now.
