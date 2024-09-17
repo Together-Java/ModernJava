@@ -9,10 +9,26 @@ the new value.[^strings]
 ```java
 ~void main() {
 String[] sentence = { "you", "are", "found", "guilty" };
-System.out.println(sentence);
+System.out.println(
+    sentence[0] 
+        + " " 
+        + sentence[1] 
+        + " " 
+        + sentence[2] 
+        + " " 
+        + sentence[3]
+);
 
 sentence[1] = "aren't";
-System.out.println(sentence);
+System.out.println(
+    sentence[0] 
+        + " " 
+        + sentence[1] 
+        + " " 
+        + sentence[2] 
+        + " " 
+        + sentence[3]
+);
 ~}
 ```
 
@@ -22,10 +38,30 @@ The index of the element to set can also come from a variable.
 ~void main() {
 int index = 2;
 String[] response = { "and", "it", "isn't", "opposite", "day" };
-System.out.println(response);
+System.out.println(
+    sentence[0] 
+        + " " 
+        + sentence[1] 
+        + " " 
+        + sentence[2] 
+        + " " 
+        + sentence[3]
+        + " "
+        + sentence[4]
+);
 
 response[2] = "is";
-System.out.println(response);
+System.out.println(
+    sentence[0] 
+        + " " 
+        + sentence[1] 
+        + " " 
+        + sentence[2] 
+        + " " 
+        + sentence[3]
+        + " "
+        + sentence[4]
+);
 ~}
 ```
 
