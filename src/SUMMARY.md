@@ -95,7 +95,6 @@
 # Control Flow I
 
 - [Branching Paths](./branching_paths.md)
-
   - [If](./branching_logic/if.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
   - [Else](./branching_logic/else.md)
@@ -490,9 +489,15 @@
   - [Variance and Casting](./objects/variance_and_casting.md)
   - [Subclasses](./objects/subclasses.md)
 - [Interfaces](./interfaces.md)
+  - [Interface Declaration](./interfaces/interface_declaration.md)
+  - [Naming](./interfaces/naming.md)
+  - [Instances](./interfaces/instances.md)
+  - [Fields](./interfaces/fields.md)
+  - [Methods](./interfaces/methods.md)
+  - [Subtypes](./interfaces/subtypes.md)
 - [Generics](./generics.md)
   - [Generic Parameters](./generics/generic_parameters.md)
-
+  - [Wildcards]()
 # Data Types V
 
 <!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
@@ -515,7 +520,8 @@ Make them do one. -->
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
 - [HashMap](./hash_map.md)
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md) 
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+- [Iterable and Iterator](./iterable_and_iterator.md)
 # Concepts II
 - [Hyrum's Law](./hyrums_law.md)
   - [Authority](./hyrums_law/authority.md)
@@ -533,10 +539,11 @@ Make them do one. -->
 
 # Control Flow IV
 - [Loops III](./loops_iii.md)
-  - [For-each loops]()
+  - [For-each loops](./loops_iii/for_each_loops.md)
   - [Arrays]()
   - [Iterable]()
   - [ArrayList]()
+  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
   - [Reasons to go back]() <!-- -->
 - [Switch III](./switch_iii.md)
   - [Fallthrough](./switch_iii/fallthrough.md)
@@ -549,10 +556,14 @@ Make them do one. -->
   - [Base Case](./recursion/base_case.md)
   - [Comparison to Delegation](./recursion/comparison_to_delegation.md)
   - [Comparison to Loops](./recursion/comparison_to_loops.md)
+  - [Counting Down](./recursion/counting_down.md)
+  - [Accumulators](./recursion/accumulators.md)
 
 # Code Structure V
+- [Interface Extension](./interface_extension.md)
 - [Class Extension](./class_extension.md)
 - [Abstract Classes](./abstract_classes.md)
+
 
 
 # Building
@@ -562,10 +573,50 @@ Make them do one. -->
   - [Compile a List of Files]()
   - [Specify Where to Find Sources]()
   - [Enable Debug Info]()
+- [Package Java Code]()
+- [Consume External Libraries]()
 
 # Data Types VI
+
 - [StringBuilder]()
-- [Pattern]()
+  - [Why]()
+- [Regular Expressions]()
+  - [Pattern]()
+
+# Communication
+<!-- Should cover InputStream and OutputStream - maybe in Files part deux? -->
+- [TCP over IP](tcp_over_ip.md)
+  - [Sockets](./tcp_over_ip/sockets.md)
+  - [Low Level versus High Level](./tcp_over_ip/low_level_versus_high_level.md)
+- [Data Formats]()
+
+# Metaprogramming
+
+- [Reflection](./reflection.md)
+  - [Class Objects](./reflection/class_objects.md)
+  - [Get all Fields](./reflection/get_all_fields.md)
+  - [Get a Field]()
+  - [Set a Field]()
+  - [Get a Method]()
+  - [Call a Method]()
+  - [Get a Constructor]()
+
+- [Annotations]()
+
+# Code Structure VI
+
+- [Documentation Comments]()
+- [Lambdas]()
+- [Unit Testing]()
+
+# Concurrency
+- [Threads]()
+
+
+# Control Flow V
+- [Pattern Matching]()
+  - [Primitive Patterns]()
+  - [Record Patterns]()
 
 <!--
 
@@ -599,11 +650,6 @@ Make them do one. -->
 - [Paths]()
 - [Iterator and Iterable]()
 - [Exceptions II]()
-- [Lists]()
-  - [ArrayList]()
-  - [Add an item]()
-  - [Get an item]()
-  - [Set an item]()
 
 # Control Flow IV
 
@@ -621,10 +667,6 @@ Make them do one. -->
 - [Sets]()
   - [HashSet]()
 
-# Metaprogramming
-
-- [Reflection]()
-- [Annotations]() -->
 
 
 <!--
@@ -634,9 +676,6 @@ Make them do one. -->
 ## Data Types IV
 
 
-
-- [Documentation]()
-  - [Documentation Comments]()
 - [Testing]()
 
 
