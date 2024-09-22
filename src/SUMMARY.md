@@ -135,6 +135,7 @@
   - [Printing the Contents of an Array](./arrays/printing_the_contents_of_an_array.md)
   - [Empty Array](./arrays/empty_array.md)
   - [Difference between Initializer and Literal](./arrays/difference_between_initializer_and_literal.md)
+  - [Initialization with new](./arrays/initialization_with_new.md)
   - [Challenges](./arrays/challenges.md)
 
 # Control Flow II

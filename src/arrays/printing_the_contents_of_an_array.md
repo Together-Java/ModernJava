@@ -45,13 +45,15 @@ If you want to actually see the contents of an array, you should
 use a loop.[^future]
 
 ```java
+~void main() {
 String[] factions = { "empire", "stormcloaks", "dragons" };
 
 int index = 0;
 while (index < factions.length) {
-    System.out.println(factions[index])
-    index++
+    System.out.println(factions[index]);
+    index++;
 }
+~}
 ```
 
 [^gibberish]: What `[I@5a07e868` and co. mean isn't really important. Try not to get too distracted by it.
