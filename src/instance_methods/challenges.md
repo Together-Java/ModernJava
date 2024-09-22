@@ -116,7 +116,7 @@ field. Give it an instance method named `toCharArray` which gives
 a `char[]` that can be printed to display a rectangle of the given
 width and height.
 
-```java
+```java,editable
 // ------------
 // CODE HERE
 // ------------
@@ -134,5 +134,73 @@ void main() {
     */
     char[] c = rectangle.toCharArray();
     System.out.println(c);
+}
+```
+
+## Challenge 5.
+
+Update the definition for the `Taco` class so that it has a method named
+`deluxe`. This should set the taco to have beef, sour cream, cheese,
+and onion. Use the existing instance methods instead of directly accessing
+fields.
+
+```java,editable
+class Taco {
+    boolean beef;
+    boolean sourCream;
+    boolean cheese;
+    boolean onion;
+
+    void addBeef() {
+        this.beef = true;
+    }
+
+    void addSourCream() {
+        this.sourCream = true;
+    }
+
+    void addCheese() {
+        this.cheese = true;
+    }
+
+    void addOnion() {
+        this.onion = true;
+    }
+
+    void deluxe() {
+        // ------------
+        // CODE HERE
+        // ------------
+    }
+}
+
+void main() {
+    var taco = new Taco();
+    taco.deluxe();
+
+    System.out.println("Has Beef: " + taco.beef);
+    System.out.println("Has Sour Cream: " + taco.sourCream);
+    System.out.println("Has Cheese: " + taco.cheese);
+    System.out.println("Has Onion: " + taco.onion);
+}
+```
+
+## Challenge 6.
+
+Why doesn't this code function as you'd expect? Fix it by changing one line.
+
+```java
+class Oscar {
+    boolean grouchy;
+
+    void setGrouchy(boolean grouchy) {
+        grouchy = grouchy;
+    }
+}
+
+void main() {
+    var oscar = new Oscar();
+    oscar.setGrouchy(true);
+    System.out.println(oscar.grouchy);
 }
 ```

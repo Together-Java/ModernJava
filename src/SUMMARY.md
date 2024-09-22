@@ -251,6 +251,7 @@
   - [Usage](./enums/usage.md)
   - [Equality](./enums/equality.md)
   - [Comparison to boolean](./enums/comparison_to_boolean.md)
+  - [Challenges](./enums/challenges.md)
 - [Strings II](./strings_ii.md)
   - [lowercase](./strings_ii/lowercase.md)
   - [UPPERCASE](./strings_ii/UPPERCASE.md)
@@ -258,6 +259,7 @@
   - [Check if empty](./strings_ii/check_if_empty.md)
   - [Check if blank](./strings_ii/check_if_blank.md)
   - [Strip extra whitespace](./strings_ii/strip_extra_whitespace.md)
+  - [Challenges](./strings_ii/challenges.md)
 
 # Control Flow III
 
