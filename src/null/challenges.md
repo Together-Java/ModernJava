@@ -93,20 +93,33 @@ void main() {
 
 ## Challenge 5.
 
-Without changing anything in the `main` method, make the `howBig`
+Without changing anything in the `main` method, make the `bigness`
 method not throw a `NullPointerException` and still have the "correct"
 behavior for non-null inputs.
 
 ```java,editable
-int howBig(String letters) {
+String bigness(String letters) {
     int bigness = 0;
     for (int i = 0; i < letters.length(); i++) {
         bigness++;
     }
-    return bigness;
+
+    if (bigness < 5) {
+        return "small";
+    }
+    else if (bigness < 10) {
+        return "medium"
+    }
+    else {
+        return "big";
+    }
 }
 
 void main() {
+    System.out.println(
+        bigness("bore")
+    );
+
     System.out.println(
         bigness("boiler")
     );
@@ -117,6 +130,10 @@ void main() {
 
     System.out.println(
         bigness("knower")
+    );
+
+    System.out.println(
+        bigness("chrysanthemum")
     );
 
     System.out.println(
