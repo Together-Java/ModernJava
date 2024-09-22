@@ -17,7 +17,7 @@ class Main {
 
     void main() {
         System.out.println(
-            timesTwo(4);
+            timesTwo(4)
         );
     }
 }
@@ -51,7 +51,7 @@ class Main {
 
     void main() {
         System.out.println(
-            timesTwo(4);
+            timesTwo(4)
         );
     }
 }

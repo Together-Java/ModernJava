@@ -558,6 +558,8 @@ Make them do one. -->
   - [Comparison to Loops](./recursion/comparison_to_loops.md)
   - [Counting Down](./recursion/counting_down.md)
   - [Accumulators](./recursion/accumulators.md)
+  - [Recurse Over a String](./recursion/recursing_over_strings.md)
+  - [Recurse Over an Array](./recursion/recursing_over_arrays.md)
 
 # Code Structure V
 - [Interface Extension](./interface_extension.md)
