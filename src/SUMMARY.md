@@ -213,6 +213,7 @@
   - [Initializion with Size](./arrays_ii/initialization_with_size.md)
   - [Default Values](./arrays_ii/default_values.md)
   - [Populate Arrays](./arrays_ii/populate_arrays.md)
+  - [Challenges](./arrays_ii/challenges.md)
 
 # Code Structure II
 
@@ -227,6 +228,7 @@
   - [Field Default Values](./classes/field_default_values.md)
   - [Aliasing](./classes/aliasing.md)
   - [Return Multiple Values](./classes/return_multiple_values.md)
+  - [Challenges](./classes/challenges.md)
 
 - [Instance Methods](./instance_methods.md)
   - [Invocation](./instance_methods/invocation.md)

@@ -135,5 +135,3 @@ void main() {
     System.out.println(smile);
 }
 ```
-
-## Challenge 6.
