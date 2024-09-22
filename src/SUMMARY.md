@@ -240,6 +240,7 @@
   - [this](./instance_methods/this.md)
   - [Disambiguation](./instance_methods/disambiguation.md)
   - [Clarity](./instance_methods/clarity.md)
+  - [Challenges](./instance_methods/challenges.md)
 
 # Data Types IV
 
@@ -338,7 +339,7 @@
   - [Getting Used to it](./the_terminal/getting_used_to_it.md)
 
 
-# Control Flow III
+# Control Flow IV
 
 - [Exceptions II](./exceptions_ii.md)
   - [Checked Exceptions](./exceptions_ii/checked_exceptions.md)
@@ -540,7 +541,7 @@ Make them do one. -->
   - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
   - [Information Hiding](./encapsulation/information_hiding.md)
 
-# Control Flow IV
+# Control Flow V
 - [Loops III](./loops_iii.md)
   - [For-each loops](./loops_iii/for_each_loops.md)
   - [Arrays]()
