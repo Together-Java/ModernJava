@@ -268,6 +268,7 @@
   - [Messages](./exceptions/messages.md)
   - [Stack Traces](./exceptions/stack_traces.md)
   - [try/catch](./exceptions/try_catch.md)
+  - [Challenges](./exceptions/challenges.md)
 - [Switch](./switch.md)
   - [Case and Default](./switch/case_and_default.md)
   - [Strings](./switch/strings.md)
@@ -277,6 +278,7 @@
   - [Exhaustiveness](./switch/exhaustiveness.md)
   - [Combining Cases](./switch/combining_cases.md)
   - [null](./switch/null.md)
+  - [Challenges](./switch/challenges.md)
 
 # Code Structure III
 
