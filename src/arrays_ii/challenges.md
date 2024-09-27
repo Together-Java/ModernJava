@@ -26,11 +26,11 @@ What will the following code output? Change the code
 between the lines so it instead outputs the following. 
 
 ```
-1
-2
-3
-4
-5
+1.0
+2.0
+3.0
+4.0
+5.0
 ```
 
 
