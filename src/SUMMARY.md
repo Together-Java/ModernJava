@@ -613,6 +613,15 @@ Make them do one. -->
 
 - [Annotations]()
 
+# Concepts III
+
+- [Acronyms](./acronyms.md)
+  - [Niches](./acronyms/niches.md)
+  - [Usage Contexts](./acronyms/usage_contexts.md)
+  - [Ambiguity](./acronyms/ambiguity.md)
+  - [Familiarity](./acronyms/familiarity.md)
+  - [Elaboration](./acronyms/elaboration.md)
+
 # Code Structure VI
 
 - [Documentation Comments]()

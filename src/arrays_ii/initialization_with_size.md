@@ -13,4 +13,4 @@ boolean[] pixels = new boolean[23040];
 
 So you have to say `new` followed by the type of element in the array, `[`, the size of the array and `]`.
 
-[^bw]: The original GameBoy was just black and white, so a `boolean` works just fine to represent a pixel's state.
+[^bw]: The original GameBoy wasn't actually just black and white. It supported 7 shades of gray, so a `boolean` wouldn't technically to be enough to represent a pixel's state. You'd have to use something with at least 7 states.
