@@ -20,7 +20,7 @@ without any other interesting logic, you can use `Arrays.fill`.
 
 ```java
 ~void main() {
-int[] allNines = new char[123];
+int[] allNines = new int[123];
 Arrays.fill(allNines, 9);
 
 for (int i = 0; i < allNines.length; i++) {
