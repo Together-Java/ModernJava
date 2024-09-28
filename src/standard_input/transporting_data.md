@@ -42,8 +42,9 @@ void main() {
         if (firstName.isBlank()) {
             System.out.println("First name cannot be blank.");
         }
-
-        break;
+        else {
+            break;
+        }
     } while (true);
 
     String lastName;
@@ -53,8 +54,9 @@ void main() {
         if (lastName.isBlank()) {
             System.out.println("First name cannot be blank.");
         }
-
-        break;
+        else {
+            break;
+        }
     } while (true);
 
     System.out.println("Hello " + firstName + " " + lastName + ".");
@@ -94,8 +96,9 @@ Person askForName() {
         if (firstName.isBlank()) {
             System.out.println("First name cannot be blank.");
         }
-        
-        break;
+        else {
+            break;
+        }
     } while (true);
 
     String lastName;
@@ -105,8 +108,9 @@ Person askForName() {
         if (lastName.isBlank()) {
             System.out.println("First name cannot be blank.");
         }
-
-        break;
+        else {
+            break;
+        }
     } while (true);
     
     return new Person(firstName, lastName);
