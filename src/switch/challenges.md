@@ -158,4 +158,60 @@ void main() {
 }
 ```
 
-## Challenge 4.
+## Challenge 5.
+
+Given a type of bear, return the correct course of action
+if you run into one in the wild and it attacks you.
+
+If the bear is `null`, return `null` as the action to take.
+
+If you don't know what to do when you run into a bear, look it up. Use `switch`
+first then try writing the same logic using `if` and `else`.
+
+```java
+enum Bear {
+    POLAR,
+    BROWN,
+    BLACK,
+    PANDA,
+    KOALA
+}
+
+enum Action {
+    LAY_DOWN,
+    FIGHT_BACK,
+    RUN_AWAY
+    YEET
+}
+
+Action inCaseOfBearAttack(Bear bear) {
+    // CODE HERE
+}
+
+void main() {
+    System.out.println(
+        inCaseOfBearAttack(Bear.POLAR)
+    );
+
+    System.out.println(
+        inCaseOfBearAttack(Bear.BROWN)
+    );
+
+
+    System.out.println(
+        inCaseOfBearAttack(Bear.BLACK)
+    );
+
+    System.out.println(
+        inCaseOfBearAttack(Bear.PANDA)
+    );
+
+    System.out.println(
+        inCaseOfBearAttack(Bear.KOALA)
+    );
+
+    System.out.println(
+        inCaseOfBearAttack(null)
+    );
+}
+```
