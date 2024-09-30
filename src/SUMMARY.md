@@ -290,6 +290,7 @@
   - [Invariants](./constructors/invariants.md)
   - [Overloads](./constructors/overloads.md)
   - [Delegation](./constructors/delegation.md)
+  - [Challenges](./constructors/challenges.md)
 - [Global Fields](./global_fields.md)
   - [Default Values](./global_fields/default_values.md)
   - [Final Fields](./global_fields/final_fields.md)
