@@ -39,8 +39,8 @@ void main() {
     // ---------------
 
     System.out.println(
-        movie.title;
-    )
+        movie.title
+    );
 }
 ```
 
