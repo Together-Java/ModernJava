@@ -3,12 +3,12 @@
 So why is this person's take important for you to know about?
 
 The reason is that the core concept - that
-every observible property will be depended on
+every observable property will be depended on
 by somebody with enough consumers - is essential
 context for understanding why Java is the way that it is.
 
 Many of Java's features are intended to give you ways
-to minimize the number of observible properties of
+to minimize the number of observable properties of
 the software you produce.
 
 Private fields and methods are the easiest examples of this so far. If you

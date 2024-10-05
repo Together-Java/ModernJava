@@ -1,6 +1,6 @@
 # Validity
 
-Now is law literally true? No. It can't be. There are more
+Now is this law literally true? No. It can't be. There are more
 "properties" you can observe about a piece of software than
 people on the planet.
 
