@@ -296,6 +296,7 @@
   - [Final Fields](./global_fields/final_fields.md)
   - [Field Access](./global_fields/field_access.md)
   - [Inferred Types](./global_fields/inferred_types.md)
+  - [Challenges](./global_fields/challenges.md)
 
 # Concepts
 

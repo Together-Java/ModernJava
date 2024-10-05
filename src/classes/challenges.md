@@ -49,7 +49,7 @@ void main() {
 Alter the `ThemePark` class so that the default value
 for its `entranceFee` field is `35.24`.
 
-```java
+```java,editable
 class ThemePark {
     double entranceFee;
 }
@@ -71,7 +71,7 @@ program.
 
 Hint: Remember that inferred types exist.
 
-```java
+```java,editable
 class Kermit {
     boolean angry = true;
 }
@@ -99,7 +99,7 @@ You do not have to account for the possibility of being given a negative
 number. You should use `Math.sqrt` to find the positive root and common
 sense to find the negative root.
 
-```java
+```java,editable
 class SquareRoot {
     double positiveRoot;
     double negativeRoot;
@@ -132,7 +132,7 @@ Only writing code between the lines and without directly accessing any fields on
 
 Hint: The key word is "directly."
 
-```java
+```java,editable
 class Actor {
     String name;
 }
