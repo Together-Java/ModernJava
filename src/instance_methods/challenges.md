@@ -103,7 +103,7 @@ void main() {
     System.out.println(gokuFullName);
 
     // "Horikawa"
-    Person vegeta = new VoiceActor();
+    VoiceActor vegeta = new VoiceActor();
     vegeta.lastName = "Horikawa";
     System.out.println(vegeta.fullName());
 }
@@ -189,7 +189,7 @@ void main() {
 
 Why doesn't this code function as you'd expect? Fix it by changing one line.
 
-```java
+```java,editable
 class Oscar {
     boolean grouchy;
 
