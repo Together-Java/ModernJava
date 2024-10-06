@@ -41,7 +41,7 @@ Otherwise return `MAYBE_SO`.
 
 Use the enum you defined above.
 
-```java
+```java,editable
 // ------------
 // CODE HERE
 // ------------
