@@ -17,4 +17,4 @@ enum StopLight {
 }
 ```
 
-We call them enums because they enumerate multiple different possibilities.
+Enums are types with fixed sets of allowed values. We call them enums because they enumerate multiple different possibilities.

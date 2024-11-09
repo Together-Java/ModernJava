@@ -19,4 +19,4 @@ Very similarly to arrays, the output from printing an instance of a class might 
 You will learn how to make it nicer later.
 
 [^var]: I haven't used it in many code samples thus far, but if you remember `var` this is one of the times
-where it can be aethetically convenient. `var kermit = new Muppet();`
+where it can be aesthetically convenient. `var kermit = new Muppet();`

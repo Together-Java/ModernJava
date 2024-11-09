@@ -38,9 +38,9 @@
 # Data Types I
 
 - [Booleans](./boolean.md)
+  - [Not](./boolean/not.md)
   - [And](./boolean/and.md)
   - [Or](./boolean/or.md)
-  - [Not](./boolean/not.md)
   - [Operator Precedence](./boolean/operator_precedence.md)
   - [Challenges](./boolean/challenges.md)
 - [Integers](./integers.md)
@@ -95,7 +95,6 @@
 # Control Flow I
 
 - [Branching Paths](./branching_paths.md)
-
   - [If](./branching_logic/if.md)
   - [Nested Ifs](./branching_logic/nested_ifs.md)
   - [Else](./branching_logic/else.md)
@@ -136,6 +135,7 @@
   - [Printing the Contents of an Array](./arrays/printing_the_contents_of_an_array.md)
   - [Empty Array](./arrays/empty_array.md)
   - [Difference between Initializer and Literal](./arrays/difference_between_initializer_and_literal.md)
+  - [Initialization with new](./arrays/initialization_with_new.md)
   - [Challenges](./arrays/challenges.md)
 
 # Control Flow II
@@ -190,6 +190,7 @@
   - [Return in void methods](./return_values/return_in_void_methods.md)
   - [Conversion](./return_values/conversion.md)
   - [Unreachable Statements](./return_values/unreachable_statements.md)
+  - [Challenges](./return_values/challenges.md)
 
 # Data Types III
 
@@ -198,6 +199,7 @@
   - [Null as Unknown](./null/null_as_unknown.md)
   - [Checking for null](./null/checking_for_null.md)
   - [NullPointerException](./null/null_pointer_exception.md)
+  - [Challenges](./null/challenges.md)
 - [Boxed Primitives](./boxed_primitives.md)
   - [Integer](./boxed_primitives/integer.md)
   - [Double](./boxed_primitives/double.md)
@@ -211,6 +213,7 @@
   - [Initializion with Size](./arrays_ii/initialization_with_size.md)
   - [Default Values](./arrays_ii/default_values.md)
   - [Populate Arrays](./arrays_ii/populate_arrays.md)
+  - [Challenges](./arrays_ii/challenges.md)
 
 # Code Structure II
 
@@ -225,6 +228,7 @@
   - [Field Default Values](./classes/field_default_values.md)
   - [Aliasing](./classes/aliasing.md)
   - [Return Multiple Values](./classes/return_multiple_values.md)
+  - [Challenges](./classes/challenges.md)
 
 - [Instance Methods](./instance_methods.md)
   - [Invocation](./instance_methods/invocation.md)
@@ -236,6 +240,7 @@
   - [this](./instance_methods/this.md)
   - [Disambiguation](./instance_methods/disambiguation.md)
   - [Clarity](./instance_methods/clarity.md)
+  - [Challenges](./instance_methods/challenges.md)
 
 # Data Types IV
 
@@ -246,6 +251,7 @@
   - [Usage](./enums/usage.md)
   - [Equality](./enums/equality.md)
   - [Comparison to boolean](./enums/comparison_to_boolean.md)
+  - [Challenges](./enums/challenges.md)
 - [Strings II](./strings_ii.md)
   - [lowercase](./strings_ii/lowercase.md)
   - [UPPERCASE](./strings_ii/UPPERCASE.md)
@@ -253,6 +259,7 @@
   - [Check if empty](./strings_ii/check_if_empty.md)
   - [Check if blank](./strings_ii/check_if_blank.md)
   - [Strip extra whitespace](./strings_ii/strip_extra_whitespace.md)
+  - [Challenges](./strings_ii/challenges.md)
 
 # Control Flow III
 
@@ -261,6 +268,7 @@
   - [Messages](./exceptions/messages.md)
   - [Stack Traces](./exceptions/stack_traces.md)
   - [try/catch](./exceptions/try_catch.md)
+  - [Challenges](./exceptions/challenges.md)
 - [Switch](./switch.md)
   - [Case and Default](./switch/case_and_default.md)
   - [Strings](./switch/strings.md)
@@ -270,6 +278,7 @@
   - [Exhaustiveness](./switch/exhaustiveness.md)
   - [Combining Cases](./switch/combining_cases.md)
   - [null](./switch/null.md)
+  - [Challenges](./switch/challenges.md)
 
 # Code Structure III
 
@@ -281,11 +290,13 @@
   - [Invariants](./constructors/invariants.md)
   - [Overloads](./constructors/overloads.md)
   - [Delegation](./constructors/delegation.md)
+  - [Challenges](./constructors/challenges.md)
 - [Global Fields](./global_fields.md)
   - [Default Values](./global_fields/default_values.md)
   - [Final Fields](./global_fields/final_fields.md)
   - [Field Access](./global_fields/field_access.md)
   - [Inferred Types](./global_fields/inferred_types.md)
+  - [Challenges](./global_fields/challenges.md)
 
 # Concepts
 
@@ -334,7 +345,7 @@
   - [Getting Used to it](./the_terminal/getting_used_to_it.md)
 
 
-# Control Flow III
+# Control Flow IV
 
 - [Exceptions II](./exceptions_ii.md)
   - [Checked Exceptions](./exceptions_ii/checked_exceptions.md)
@@ -447,7 +458,6 @@
   - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
   - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
 
-- [🚧 Construction Zone 🚧]()
 
 # Interactive Programs III
 
@@ -458,9 +468,11 @@
   - [Write to a File](./files/write_to_a_file.md)
   - [Read from a File](./files/read_from_a_file.md)
   - [Create a Folder](./files/creating_a_folder.md)
-  - [Delete a Folder](./files/deleting_a_folder.md)
-  - [Delete a File](./files/deleting_a_file.md)
+  - [Challenges](./files/challenges.md)
 
+
+
+<!--
 # Data Structures & Algorithms II
 
 - [Hash Maps](./hash_maps.md)
@@ -473,7 +485,7 @@
   - [Growable Buckets](./hash_maps/growable_buckets.md)
   - [Keys and Values](./hash_maps/keys_and_values.md)
   - [Put Items](./hash_maps/put_items.md)
-  - [Get Items](./hash_maps/get_items.md)
+  - [Get Items](./hash_maps/get_items.md)-->
   
 
 # Code Structure IV
@@ -486,10 +498,23 @@
   - [@Override](./objects/override.md)
   - [equals and hashCode](./objects/equals_and_hashCode.md)
   - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
-  - [Variance and Casting](./objects/variance_and_casting.md)
-  - [Subclasses](./objects/subclasses.md)
+  <!--- [Variance and Casting](./objects/variance_and_casting.md)
+  - [Subclasses](./objects/subclasses.md)-->
+
 - [Generics](./generics.md)
+  - [Type Variables](./generics/type_variables.md)
+  - [Naming](./generics/naming.md)
+  - [Instantiation](./generics/instantiation.md)
+  - [Inference](./generics/inference.md)
+  - [Soundness](./generics/soundness.md)
+  - [Raw Types](./generics/raw_types.md)
 - [Interfaces](./interfaces.md)
+  - [Interface Declaration](./interfaces/interface_declaration.md)
+  - [Implementation](./interfaces/implementation.md)
+  - [@Override](./interfaces/override.md)
+  - [Naming](./interfaces/naming.md)
+  - [Subtypes](./interfaces/subtypes.md)
+  - [Multiple Implementations](./interfaces/multiple_implementations.md)
 
 # Data Types V
 
@@ -501,6 +526,7 @@ Make them do one. -->
   - [LocalDate](./time/local_date.md)
   - [LocalTime](./time/local_time.md)
   - [LocalDateTime](./time/local_date_time.md)
+  - [Time Zones](./time/time_zones.md)
   - [ZonedDateTime](./time/zoned_date_time.md)
   - [OffsetDateTime](./time/offset_date_time.md)
 - [ArrayList](./array_list.md)
@@ -511,16 +537,32 @@ Make them do one. -->
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
-- [HashMap](./hash_map.md)
+<!--- [HashMap](./hash_map.md)
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+- [Iterable and Iterator](./iterable_and_iterator.md)
+# Concepts II
+- [Hyrum's Law](./hyrums_law.md)
+  - [Authority](./hyrums_law/authority.md)
+  - [Validity](./hyrums_law/validity.md)
+  - [Emergent Properties](./hyrums_law/emergent_properties.md)
+  - [Importance](./hyrums_law/importance.md)
+- [Encapsulation](./encapsulation.md)
+  - [Implementation Details](./encapsulation/implementation_details.md)
+  - [Methods](./encapsulation/methods.md)
+  - [Classes]()(./encapsulation/classes.md)
+  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
+  - [Abstractions](./encapsulation/abstractions.md)
+  - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
+  - [Information Hiding](./encapsulation/information_hiding.md)
 
-# Control Flow IV
+# Control Flow V
 - [Loops III](./loops_iii.md)
-  - [For-each loops]()
+  - [For-each loops](./loops_iii/for_each_loops.md)
   - [Arrays]()
   - [Iterable]()
   - [ArrayList]()
-  - [Reasons to go back]() <!-- -->
+  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
+  - [Reasons to go back]() <!-- 
 - [Switch III](./switch_iii.md)
   - [Fallthrough](./switch_iii/fallthrough.md)
   - [break](./switch_iii/break.md)
@@ -532,17 +574,17 @@ Make them do one. -->
   - [Base Case](./recursion/base_case.md)
   - [Comparison to Delegation](./recursion/comparison_to_delegation.md)
   - [Comparison to Loops](./recursion/comparison_to_loops.md)
+  - [Counting Down](./recursion/counting_down.md)
+  - [Accumulators](./recursion/accumulators.md)
+  - [Recurse Over a String](./recursion/recursing_over_strings.md)
+  - [Recurse Over an Array](./recursion/recursing_over_arrays.md)
 
 # Code Structure V
+- [Interface Extension](./interface_extension.md)
 - [Class Extension](./class_extension.md)
 - [Abstract Classes](./abstract_classes.md)
 
-# Concepts II
 
-- [Encapsulation](./encapsulation.md)
-  - [Methods]()
-  - [Classes]()
-  - [Information Hiding]()
 
 # Building
 
@@ -551,17 +593,69 @@ Make them do one. -->
   - [Compile a List of Files]()
   - [Specify Where to Find Sources]()
   - [Enable Debug Info]()
+- [Package Java Code]()
+- [Consume External Libraries]()
 
 # Data Types VI
-- [StringBuilder]()
-- [Pattern]()
 
+- [StringBuilder]()
+  - [Why]()
+- [Regular Expressions]()
+  - [Pattern]()
+
+# Communication
+<!-- Should cover InputStream and OutputStream - maybe in Files part deux? 
+- [TCP over IP](tcp_over_ip.md)
+  - [Sockets](./tcp_over_ip/sockets.md)
+  - [Low Level versus High Level](./tcp_over_ip/low_level_versus_high_level.md)
+- [Data Formats]()
+
+# Metaprogramming
+
+- [Reflection](./reflection.md)
+  - [Class Objects](./reflection/class_objects.md)
+  - [Get all Fields](./reflection/get_all_fields.md)
+  - [Get a Field]()
+  - [Set a Field]()
+  - [Get a Method]()
+  - [Call a Method]()
+  - [Get a Constructor]()
+
+- [Annotations]()
+
+# Concepts III
+
+- [Acronyms](./acronyms.md)
+  - [Niches](./acronyms/niches.md)
+  - [Usage Contexts](./acronyms/usage_contexts.md)
+  - [Ambiguity](./acronyms/ambiguity.md)
+  - [Familiarity](./acronyms/familiarity.md)
+  - [Elaboration](./acronyms/elaboration.md)
+
+# Code Structure VI
+
+- [Documentation Comments]()
+- [Lambdas]()
+- [Unit Testing]()
+
+# Concurrency
+- [Threads]()
+
+
+# Control Flow V
+- [Pattern Matching]()
+  - [Primitive Patterns]()
+  - [Record Patterns]()
+-->
 <!--
 
 
 
+# Concepts
+
 
 # Concepts
+
 
 - [The Idiot Game](./the_idiot_game.md)
 
@@ -588,11 +682,6 @@ Make them do one. -->
 - [Paths]()
 - [Iterator and Iterable]()
 - [Exceptions II]()
-- [Lists]()
-  - [ArrayList]()
-  - [Add an item]()
-  - [Get an item]()
-  - [Set an item]()
 
 # Control Flow IV
 
@@ -610,12 +699,6 @@ Make them do one. -->
 - [Sets]()
   - [HashSet]()
 
-# Metaprogramming
-
-- [Reflection]()
-- [Annotations]() -->
-
-
 <!--
 
   
@@ -623,9 +706,6 @@ Make them do one. -->
 ## Data Types IV
 
 
-
-- [Documentation]()
-  - [Documentation Comments]()
 - [Testing]()
 
 
@@ -794,3 +874,7 @@ multi dimensional arrays
 
 System.console() over Scanner?
 -->
+
+
+
+- [🚧 (More Chapters Planned) 🚧]()

@@ -53,3 +53,39 @@ void main() {
 ```
 
 ## Challenge 3.
+
+Write a method with four overloads such that
+the code in `main` can run unchanged.
+
+```java,editable
+// CODE HERE
+
+void main() {
+    f(2);
+    f("b");
+    f('9');
+    f(new String[] { "s" });
+}
+```
+
+## Challenge 4.
+
+Call the defined methods in a way that outputs "I did it!"
+
+```java,editable
+void i() {
+    System.out.print("I");
+}
+
+void did(String what) {
+    System.out.println("did " + what);
+}
+
+void space() {
+    System.out.print(" ");
+}
+
+void main() {
+    // Code here
+}
+```

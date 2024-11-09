@@ -1,4 +1,4 @@
-# Operator Precedance
+# Operator Precedence
 
 Just like boolean operators, `+`, `-`, `*`, `/`, and `%` have a defined precedence order.
 

@@ -4,7 +4,7 @@ Putting it all together[^getit], we can "put"
 items into our hash map by following these steps.
 
 1. Compute the hash code of the key.
-2. Find the bucket that item should go in.
+2. Find the bucket that item should go in based on the key.
 3. Add the item to the bucket.
 
 ```java
@@ -81,14 +81,14 @@ class CarsCharacterHashMap {
     }
 
     char hashFunction(
-        CarsCharacter carsCharacter
+        String lastName
     ) {
-        return carsCharacter.lastName().charAt(0);
+        return lastName.charAt(0);
     }
 
-    void put(CarsCharacter character) {
+    void put(String lastName, CarsCharacter character) {
         // 1. Compute the hash code
-        char hash = hashFunction(character);
+        char hash = hashFunction(lastName);
         // 2. Find the bucket
         Bucket bucket = buckets[indexFor(hash)];
         // 3. Add to the bucket
@@ -99,9 +99,9 @@ class CarsCharacterHashMap {
 void main() {
     var map = new CarsCharacterHashMap();
 
-    map.put(new CarsCharacter("Sally", "Carrera"));
-    map.put(new CarsCharacter("Doc", "Hudson"));
-    map.put(new CarsCharacter("Lightning", "McQueen"));
+    map.put("Carrera", new CarsCharacter("Sally", "Carrera"));
+    map.put("Hudson", new CarsCharacter("Doc", "Hudson"));
+    map.put("McQueen", new CarsCharacter("Lightning", "McQueen"));
 
     System.out.println(map.buckets[0].size());
     System.out.println(map.buckets[1].size());

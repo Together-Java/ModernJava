@@ -9,3 +9,17 @@ System.out.println(c);
 c = '%';
 System.out.println(c);
 ~}
+```
+
+Unlike a `char[]`, a `Character[]` will not be have its contents
+shown when printed.
+
+```java
+~void main() {
+char[] c1 = new char[] { 'a', 'b', 'c' };
+System.out.println(c1);
+
+Character[] c2 = new Character[] { 'a', 'b', 'c' };
+System.out.println(c2);
+~}
+```

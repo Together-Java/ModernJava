@@ -1,7 +1,7 @@
 # Empty Statements
 
 You can even leave the statement part of a `for` loop blank. This means that at
-the end of an iteration there is nothing guarenteed to run.
+the end of an iteration there is nothing guaranteed to run.
 
 ```java
 ~void main() {

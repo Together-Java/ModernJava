@@ -12,9 +12,11 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.LocalDateTime;
 
-void main() {
-    var jan10 = LocalDate.of(2024, 10, 1);
-    var tenTwentyFour = LocalTime.of(10, 24, 0);
-    System.out.println(LocalDateTime.of(jan10, tenTwentyFour));
+class Main {
+    void main() {
+        var jan10 = LocalDate.of(2024, 10, 1);
+        var tenTwentyFour = LocalTime.of(10, 24, 0);
+        System.out.println(LocalDateTime.of(jan10, tenTwentyFour));
+    }
 }
 ```

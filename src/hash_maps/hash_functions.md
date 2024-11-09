@@ -10,15 +10,15 @@ record CarsCharacter(
 ) {}
 
 char hashFunction(
-    CarsCharacter carsCharacter
+    String lastName
 ) {
-    return carsCharacter.lastName().charAt(0);
+    return lastName.charAt(0);
 }
 
 void main() {
     var lightning = new CarsCharacter("Lightning", "McQueen");
 
-    char firstOfLast = hashFunction(lightning);
+    char firstOfLast = hashFunction(lightning.lastName());
     System.out.println(firstOfLast);
 }
 ```
