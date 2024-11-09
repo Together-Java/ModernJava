@@ -1,7 +1,6 @@
 # Generics
 
-Certain types of classes, like growable arrays
-and hash maps, are simply holders of data.
+Certain types of classes, like growable arrays, are simply holders of data.
 
 That is, almost none of how they work has to change to
 store different kinds of data.

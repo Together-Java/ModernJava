@@ -86,18 +86,9 @@ class CarsCharacterHashMap {
         return carsCharacter.lastName().charAt(0);
     }
 
-    void put(CarsCharacter character) {
+    void put(String lastName, CarsCharacter character) {
         // 1. Compute the hash code
-        char hash = hashFunction(character);
-        // 2. Find the bucket
-        Bucket bucket = buckets[indexFor(hash)];
-        // 3. Add to the bucket
-        bucket.add(character);
-    }
-
-    ` get(CarsCharacter character) {
-        // 1. Compute the hash code
-        char hash = hashFunction(character);
+        char hash = hashFunction(lastName);
         // 2. Find the bucket
         Bucket bucket = buckets[indexFor(hash)];
         // 3. Add to the bucket
@@ -105,12 +96,31 @@ class CarsCharacterHashMap {
     }
 }
 
+    CarsCharacter get(String lastName) {
+        // 1. Compute the hash code
+        char hash = hashFunction(character);
+        // 2. Find the bucket
+        Bucket bucket = buckets[indexFor(hash)];
+        // 3. Go through everything in the bucket
+        for (int i = 0; i < bucket.size(); i++) {
+            CarsCharacter inBucket = bucket.get(i);
+            if (inBucket.equals(character)) {
+                return inBucket; // Return any matches
+            }
+        }
+
+        // Null if no matches
+        return null;
+    }
+}
+
 void main() {
     var map = new CarsCharacterHashMap();
 
-    map.put(new CarsCharacter("Sally", "Carrera"));
-    map.put(new CarsCharacter("Doc", "Hudson"));
-    map.put(new CarsCharacter("Lightning", "McQueen"));
+    map.put("Carrera", new CarsCharacter("Sally", "Carrera"));
+    map.put("Hudson", new CarsCharacter("Doc", "Hudson"));
+    map.put("McQueen", new CarsCharacter("Lightning", "McQueen"));
+
 
     System.out.println(map.buckets[0].size());
     System.out.println(map.buckets[1].size());

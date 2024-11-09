@@ -458,7 +458,6 @@
   - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
   - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
 
-- [🚧 Construction Zone 🚧]()
 
 # Interactive Programs III
 
@@ -471,6 +470,8 @@
   - [Create a Folder](./files/creating_a_folder.md)
   - [Challenges](./files/challenges.md)
 
+
+<!--
 # Data Structures & Algorithms II
 
 - [Hash Maps](./hash_maps.md)
@@ -483,7 +484,7 @@
   - [Growable Buckets](./hash_maps/growable_buckets.md)
   - [Keys and Values](./hash_maps/keys_and_values.md)
   - [Put Items](./hash_maps/put_items.md)
-  - [Get Items](./hash_maps/get_items.md)
+  - [Get Items](./hash_maps/get_items.md)-->
   
 
 # Code Structure IV
@@ -496,18 +497,24 @@
   - [@Override](./objects/override.md)
   - [equals and hashCode](./objects/equals_and_hashCode.md)
   - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
-  - [Variance and Casting](./objects/variance_and_casting.md)
-  - [Subclasses](./objects/subclasses.md)
+  <!--- [Variance and Casting](./objects/variance_and_casting.md)
+  - [Subclasses](./objects/subclasses.md)-->
+
+- [Generics](./generics.md)
+  - [Type Variables](./generics/type_variables.md)
+  - [Naming](./generics/naming.md)
+  - [Instantiation](./generics/instantiation.md)
+  - [Inference](./generics/inference.md)
+  - [Soundness](./generics/soundness.md)
+  - [Raw Types](./generics/raw_types.md)
 - [Interfaces](./interfaces.md)
   - [Interface Declaration](./interfaces/interface_declaration.md)
+  - [Implementation](./interfaces/implementation.md)
+  - [@Override](./interfaces/override.md)
   - [Naming](./interfaces/naming.md)
-  - [Instances](./interfaces/instances.md)
-  - [Fields](./interfaces/fields.md)
-  - [Methods](./interfaces/methods.md)
   - [Subtypes](./interfaces/subtypes.md)
-- [Generics](./generics.md)
-  - [Generic Parameters](./generics/generic_parameters.md)
-  - [Wildcards]()
+  - [Multiple Implementations](./interfaces/multiple_implementations.md)
+
 # Data Types V
 
 <!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
@@ -529,7 +536,7 @@ Make them do one. -->
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
-- [HashMap](./hash_map.md)
+<!--- [HashMap](./hash_map.md)
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
 - [Iterable and Iterator](./iterable_and_iterator.md)
 # Concepts II
@@ -541,7 +548,7 @@ Make them do one. -->
 - [Encapsulation](./encapsulation.md)
   - [Implementation Details](./encapsulation/implementation_details.md)
   - [Methods](./encapsulation/methods.md)
-  - [Classes](./encapsulation/classes.md)
+  - [Classes]()(./encapsulation/classes.md)
   - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
   - [Abstractions](./encapsulation/abstractions.md)
   - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
@@ -554,7 +561,7 @@ Make them do one. -->
   - [Iterable]()
   - [ArrayList]()
   - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
-  - [Reasons to go back]() <!-- -->
+  - [Reasons to go back]() <!-- 
 - [Switch III](./switch_iii.md)
   - [Fallthrough](./switch_iii/fallthrough.md)
   - [break](./switch_iii/break.md)
@@ -596,7 +603,7 @@ Make them do one. -->
   - [Pattern]()
 
 # Communication
-<!-- Should cover InputStream and OutputStream - maybe in Files part deux? -->
+<!-- Should cover InputStream and OutputStream - maybe in Files part deux? 
 - [TCP over IP](tcp_over_ip.md)
   - [Sockets](./tcp_over_ip/sockets.md)
   - [Low Level versus High Level](./tcp_over_ip/low_level_versus_high_level.md)
@@ -638,7 +645,7 @@ Make them do one. -->
 - [Pattern Matching]()
   - [Primitive Patterns]()
   - [Record Patterns]()
-
+-->
 <!--
 
 
@@ -865,3 +872,7 @@ multi dimensional arrays
 
 System.console() over Scanner?
 -->
+
+
+
+- [🚧 (More Chapters Planned) 🚧]()
