@@ -9,7 +9,7 @@ For booleans `!` always happens first. This is followed by `&&` and then by `||`
 
 ```java,no_run
 boolean a = true;
-boolean b = false
+boolean b = false;
 boolean c = false;
 
 // just as 2 + 5 * 3 "evaluates" 5 * 3 before adding 2

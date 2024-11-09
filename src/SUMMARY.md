@@ -471,6 +471,7 @@
   - [Challenges](./files/challenges.md)
 
 
+
 <!--
 # Data Structures & Algorithms II
 
@@ -650,8 +651,11 @@ Make them do one. -->
 
 
 
+# Concepts
+
 
 # Concepts
+
 
 - [The Idiot Game](./the_idiot_game.md)
 
@@ -694,8 +698,6 @@ Make them do one. -->
   - [HashMap]()
 - [Sets]()
   - [HashSet]()
-
-
 
 <!--
 

@@ -41,8 +41,8 @@ void main() {
 
 ## Challenge 4
 
-Write code that will assign the string `The number is {x} even` to `message` if `x` is an even number
-and `The number is {x} odd` if `x` is an odd number.
+Write code that will assign the string `The number {x} is even` to `message` if `x` is an even number
+and `The number {x} is odd` if `x` is an odd number.
 
 So if `x` is 12 the string you should assign `The number 12 is even` to `message`.
 

@@ -37,6 +37,7 @@ You can either download the `.tar.gz` file that matches your machine, extract it
 and add the `bin` folder to your `PATH`, or you can try to find an installer for your
 specific linux distribution.
 
+
 ## repl.it
 
 [replit.com](https://replit.com) is a pretty common choice for teachers because

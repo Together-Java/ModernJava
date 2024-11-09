@@ -1,5 +1,6 @@
 # Override equals and hashCode
 
+
 If you want to customize the `equals` method of an object the
 general pattern for doing so is the following.
 
