@@ -90,7 +90,7 @@ void main() {
 
 ## Challenge 5
 
-Some of the variables in this program are named "wrong." Fix them.
+Some of the variables in this program are named "wrong."[^byconvention] Fix them.
 
 ```java,editable
 void main() {
@@ -101,3 +101,5 @@ void main() {
     String slowRunner = "tortoise";
 }
 ```
+
+[^byconvention]: By currently prevalent social conventions. None are actually "wrong" from the perspective of Java.
