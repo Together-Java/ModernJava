@@ -2,7 +2,7 @@
 
 The operators that work on booleans have a "precedence order."
 
-This is defines an order of operations similar to mathematics, where multiplication and division happen before
+This defines an order of operations similar to mathematics, where multiplication and division happen before
 addition and subtraction.
 
 For booleans `!` always happens first. This is followed by `&&` and then by `||`.
