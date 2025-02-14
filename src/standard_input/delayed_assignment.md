@@ -9,17 +9,10 @@ One strategy for this is to declare any response-holding variables outside the l
 The problem with this is that Java isn't smart enough to know that you always initialize those variables.
 
 ```java,no_run,does_not_compile
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 void main() {
     String name;
     while (true) {
-        String name = input("What is your name? ");
+        String name = IO.readln("What is your name? ");
         if (name.isBlank()) {
             System.out.println("Name cannot be blank!");
             continue;
@@ -35,19 +28,10 @@ void main() {
 To get around this you can either give an explicit default value.
 
 ```java,no_run
-~import java.util.Scanner;
-~
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 void main() {
     String name = null;
     while (true) {
-        String name = input("What is your name? ");
+        String name = IO.readln("What is your name? ");
         if (name.isBlank()) {
             System.out.println("Name cannot be blank!");
             continue;
@@ -65,19 +49,10 @@ In this context our old friend delayed assignment becomes an option again. This 
 to see that the code in the loop will run at least once.
 
 ```java,no_run
-~import java.util.Scanner;
-~
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 void main() {
     String name;
     do {
-        String name = input("What is your name? ");
+        String name = IO.readln("What is your name? ");
         if (name.isBlank()) {
             System.out.println("Name cannot be blank!");
             continue;

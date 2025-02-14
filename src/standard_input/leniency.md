@@ -7,16 +7,9 @@ This means accounting for common mistakes people make like having extra spaces o
 For this purpose, methods like `strip` and `equalsIgnoreCase` are useful.
 
 ```java,no_run
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 void main() {
     while (true) {
-        String response = input("Answer me: yes or no").strip();
+        String response = IO.readln("Answer me: yes or no").strip();
         if (response.equalsIgnoreCase("yes")) {
             System.out.println("aight");
         }

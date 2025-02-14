@@ -4,18 +4,9 @@ If you ask someone multiple questions you likely will get multiple variables
 worth of information.
 
 ```java,no_run
-~import java.util.Scanner;
-~
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 void main() {
-    String firstName = input("What is your first name? ");
-    String lastName = input("What is your last name? ");
+    String firstName = IO.readln("What is your first name? ");
+    String lastName = IO.readln("What is your last name? ");
 
     System.out.println("Hello " + firstName + " " + lastName + ".");
 }
@@ -25,19 +16,10 @@ This is fine and dandy so long as you immediately use those variables. But once 
 reprompting logic code can get pretty lengthy.
 
 ```java,no_run
-~import java.util.Scanner;
-~
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 void main() {
     String firstName;
     do {
-        firstName = input("What is your first name? ");
+        firstName = IO.readln("What is your first name? ");
 
         if (firstName.isBlank()) {
             System.out.println("First name cannot be blank.");
@@ -49,7 +31,7 @@ void main() {
 
     String lastName;
     do {
-        lastName = input("What is your first name? ");
+        lastName = IO.readln("What is your first name? ");
 
         if (lastName.isBlank()) {
             System.out.println("First name cannot be blank.");
@@ -69,15 +51,6 @@ I mention all this as a reminder that when you want to return multiple values fr
 you can use a class.[^dto]
 
 ```java,no_run
-~import java.util.Scanner;
-~
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 class Person {
     String firstName;
     String lastName;
@@ -91,7 +64,7 @@ class Person {
 Person askForName() {
     String firstName;
     do {
-        firstName = input("What is your first name? ");
+        firstName = IO.readln("What is your first name? ");
         
         if (firstName.isBlank()) {
             System.out.println("First name cannot be blank.");
@@ -103,7 +76,7 @@ Person askForName() {
 
     String lastName;
     do {
-        lastName = input("What is your first name? ");
+        lastName = IO.readln("What is your first name? ");
 
         if (lastName.isBlank()) {
             System.out.println("First name cannot be blank.");
