@@ -529,6 +529,7 @@ Make them do one. -->
   - [Time Zones](./time/time_zones.md)
   - [ZonedDateTime](./time/zoned_date_time.md)
   - [OffsetDateTime](./time/offset_date_time.md)
+  - [Date](./time/date.md)
 - [ArrayList](./array_list.md)
   - [Ubiquity](./array_list/ubiquity.md)
   - [Add an item](./array_list/add_an_item.md)

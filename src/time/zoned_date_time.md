@@ -15,7 +15,7 @@ import java.time.ZoneId;
 
 class Main {
     void main() {
-        var jan10 = LocalDate.of(2024, 10, 1);
+        var jan10 = LocalDate.of(2024, 1, 10);
         var tenTwentyFour = LocalTime.of(10, 24, 0);
         var est = ZoneId.of("US/Eastern");
 

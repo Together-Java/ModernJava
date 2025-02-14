@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 
 class Main {
     void main() {
-        var jan10 = LocalDate.of(2024, 10, 1);
+        var jan10 = LocalDate.of(2024, 1, 10);
         var tenTwentyFour = LocalTime.of(10, 24, 0);
         System.out.println(LocalDateTime.of(jan10, tenTwentyFour));
     }
