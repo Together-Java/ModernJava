@@ -21,7 +21,7 @@ String title = "The \"Honorable\" Judge Judy";
 
 Since the backslash is used to escape characters, it too needs to escaped
 in order to have it be in a `String`. So to encode `¯\_(ツ)_/¯` into a String
-you need to escape the first backslash.
+you need to escape the first backslash.[^forwardslash]
 
 ```java
 ~void main() {
@@ -37,3 +37,5 @@ And much the same as with `char`, you need to use `\n` to write in a newline.
 String letter = "To Whom It May Concern,\n\nI am writing this letter to complain.";
 ~}
 ```
+
+[^forwardslash]: We call `\` a "backslash" and `/` a "forward slash." In `¯\_(ツ)_/¯` the left arm is drawn using the backslash and the right arm with a forward slash. What makes left "backwards" and right "forwards" is just social norms.
