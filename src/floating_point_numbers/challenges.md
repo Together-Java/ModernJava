@@ -25,7 +25,7 @@ What will this program output when run? Write down your guess and then try runni
 void main() {
     double x = 5.1;
     double y = 2.1;
-    System.out.println(x + y);
+    System.out.println(x - y);
 }
 ```
 
