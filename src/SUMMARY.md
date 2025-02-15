@@ -538,37 +538,21 @@ Make them do one. -->
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
-<!--- [HashMap](./hash_map.md)
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
-- [Iterable and Iterator](./iterable_and_iterator.md)
+
 # Concepts II
 - [Hyrum's Law](./hyrums_law.md)
   - [Authority](./hyrums_law/authority.md)
   - [Validity](./hyrums_law/validity.md)
   - [Emergent Properties](./hyrums_law/emergent_properties.md)
   - [Importance](./hyrums_law/importance.md)
-- [Encapsulation](./encapsulation.md)
-  - [Implementation Details](./encapsulation/implementation_details.md)
-  - [Methods](./encapsulation/methods.md)
-  - [Classes]()(./encapsulation/classes.md)
-  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
-  - [Abstractions](./encapsulation/abstractions.md)
-  - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
-  - [Information Hiding](./encapsulation/information_hiding.md)
 
 # Control Flow V
-- [Loops III](./loops_iii.md)
-  - [For-each loops](./loops_iii/for_each_loops.md)
-  - [Arrays]()
-  - [Iterable]()
-  - [ArrayList]()
-  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
-  - [Reasons to go back]() <!-- 
+
 - [Switch III](./switch_iii.md)
-  - [Fallthrough](./switch_iii/fallthrough.md)
   - [break](./switch_iii/break.md)
-  - [default](./switch_iii/default.md)
+  - [fallthrough](./switch_iii/fallthrough.md)
   - [return](./switch_iii/return.md)
+  - [default](./switch_iii/default.md)
   - [yield](./switch_iii/yield.md)
 - [Recursion](./recursion.md)
   - [Disclaimer](./recursion/disclaimer.md)
@@ -579,6 +563,29 @@ Make them do one. -->
   - [Accumulators](./recursion/accumulators.md)
   - [Recurse Over a String](./recursion/recursing_over_strings.md)
   - [Recurse Over an Array](./recursion/recursing_over_arrays.md)
+
+<!--- [HashMap](./hash_map.md)
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+- [Iterable and Iterator](./iterable_and_iterator.md)
+
+- [Encapsulation](./encapsulation.md)
+  - [Implementation Details](./encapsulation/implementation_details.md)
+  - [Methods](./encapsulation/methods.md)
+  - [Classes]()(./encapsulation/classes.md)
+  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
+  - [Abstractions](./encapsulation/abstractions.md)
+  - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
+  - [Information Hiding](./encapsulation/information_hiding.md)
+
+
+- [Loops III](./loops_iii.md)
+  - [For-each loops](./loops_iii/for_each_loops.md)
+  - [Arrays]()
+  - [Iterable]()
+  - [ArrayList]()
+  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
+  - [Reasons to go back]() <!-- 
+
 
 # Code Structure V
 - [Interface Extension](./interface_extension.md)

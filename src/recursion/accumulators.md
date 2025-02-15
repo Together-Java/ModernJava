@@ -46,7 +46,7 @@ class Main {
     }
 
     int timesTwo(int x) {
-        timesTwo(x, 0);
+        return timesTwo(x, 0);
     }
 
     void main() {

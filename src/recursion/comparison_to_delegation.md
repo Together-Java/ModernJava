@@ -2,7 +2,7 @@
 
 A related technique to recursion is "delegation."
 
-This is when you have one method call a different airity
+This is when you have one method call a different arity
 version of itself.
 
 ```java
