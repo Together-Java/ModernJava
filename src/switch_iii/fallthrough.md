@@ -4,7 +4,7 @@ If the code for a given label does not have a `break` then it will "fall through
 to the cases below.
 
 This is what makes C-style switches strange. It can occasionaly be useful if the same code should
-run for some or all cases.[^history] 
+run for some or all cases, but is annoyingly easy to do on accident.[^history] 
 
 ```java
 class Main {

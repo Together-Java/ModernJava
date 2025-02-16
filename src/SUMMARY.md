@@ -564,9 +564,16 @@ Make them do one. -->
   - [Recurse Over a String](./recursion/recursing_over_strings.md)
   - [Recurse Over an Array](./recursion/recursing_over_arrays.md)
 
-<!--- [HashMap](./hash_map.md)
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
-- [Iterable and Iterator](./iterable_and_iterator.md)
+- [Loops III](./loops_iii.md)
+  - [For-each loops](./loops_iii/for_each_loops.md)
+  - [Arrays](./loops_iii/arrays.md)
+  - [Iterable and Iterator](./loops_iii/iterable_and_iterator.md)
+  - [ArrayList](./loops_iii/arraylist.md)
+  - [String](./loops_iii/string.md)
+  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
+  - [Inferred Types](./loops_iii/inferred_types.md)
+
+# Concepts II
 
 - [Encapsulation](./encapsulation.md)
   - [Implementation Details](./encapsulation/implementation_details.md)
@@ -576,6 +583,34 @@ Make them do one. -->
   - [Abstractions](./encapsulation/abstractions.md)
   - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
   - [Information Hiding](./encapsulation/information_hiding.md)
+
+# Metaprogramming
+
+- [Reflection](./reflection.md)
+  - [Class Objects](./reflection/class_objects.md)
+  - [Get all Fields](./reflection/get_all_fields.md)
+  - [Get a Field]()
+  - [Set a Field]()
+  - [Get a Method]()
+  - [Call a Method]()
+  - [Get a Constructor]()
+
+- [Annotations](./annotations.md)
+
+# Concepts III
+
+- [Acronyms](./acronyms.md)
+  - [Niches](./acronyms/niches.md)
+  - [Usage Contexts](./acronyms/usage_contexts.md)
+  - [Ambiguity](./acronyms/ambiguity.md)
+  - [Familiarity](./acronyms/familiarity.md)
+  - [Elaboration](./acronyms/elaboration.md)
+
+<!--- [HashMap](./hash_map.md)
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+- [Iterable and Iterator](./iterable_and_iterator.md)
+
+
 
 
 - [Loops III](./loops_iii.md)
@@ -618,27 +653,7 @@ Make them do one. -->
   - [Low Level versus High Level](./tcp_over_ip/low_level_versus_high_level.md)
 - [Data Formats]()
 
-# Metaprogramming
 
-- [Reflection](./reflection.md)
-  - [Class Objects](./reflection/class_objects.md)
-  - [Get all Fields](./reflection/get_all_fields.md)
-  - [Get a Field]()
-  - [Set a Field]()
-  - [Get a Method]()
-  - [Call a Method]()
-  - [Get a Constructor]()
-
-- [Annotations]()
-
-# Concepts III
-
-- [Acronyms](./acronyms.md)
-  - [Niches](./acronyms/niches.md)
-  - [Usage Contexts](./acronyms/usage_contexts.md)
-  - [Ambiguity](./acronyms/ambiguity.md)
-  - [Familiarity](./acronyms/familiarity.md)
-  - [Elaboration](./acronyms/elaboration.md)
 
 # Code Structure VI
 
