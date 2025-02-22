@@ -11,4 +11,4 @@ We call this situation a "hash collision." All it means is that these two object
 will definitely go into the same bucket.
 
 That's allowed to happen, but if _everything_ goes into the same bucket then there
-isn't much point to using a hash map over a growable array.
+isn't much point to using a `HashMap` over an `ArrayList`.

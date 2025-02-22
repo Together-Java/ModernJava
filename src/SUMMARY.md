@@ -409,7 +409,7 @@
   - [Conventions](./command_line_arguments/conventions.md)
 
 
-# Code Structure IV
+# Code Structure V
 
 - [Inner Classes](./inner_classes.md)
   - [Type](./inner_classes/type.md)
@@ -475,20 +475,10 @@
 <!--
 # Data Structures & Algorithms II
 
-- [Hash Maps](./hash_maps.md)
-  - [Filing Cabinets](./hash_maps/filing_cabinets.md)
-  - [Hash Functions](./hash_maps/hash_functions.md)
-  - [Function Range](./hash_maps/function_range.md)
-  - [Buckets](./hash_maps/buckets.md)
-  - [Hash Collision](./hash_maps/hash_collision.md)
-  - [Hash Distribution](./hash_maps/hash_distribution.md)
-  - [Growable Buckets](./hash_maps/growable_buckets.md)
-  - [Keys and Values](./hash_maps/keys_and_values.md)
-  - [Put Items](./hash_maps/put_items.md)
-  - [Get Items](./hash_maps/get_items.md)-->
+-->
   
 
-# Code Structure IV
+# Code Structure VI
 
 - [Object](./objects.md)
   - [Subtypes](./objects/subtypes.md)
@@ -538,7 +528,20 @@ Make them do one. -->
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
+- [HashMap](./hash_maps.md)
+  - [Filing Cabinets](./hash_maps/filing_cabinets.md)
+  - [Keys and Values](./hash_maps/keys_and_values.md)
+  - [Put Items](./hash_maps/put_items.md)
+  - [Get Items](./hash_maps/get_items.md)
+  - [Hash Functions](./hash_maps/hash_functions.md)
+  - [Hash Collision](./hash_maps/hash_collision.md)
+  - [Hash Distribution](./hash_maps/hash_distribution.md)
+  - [Reference Based Identity](./hash_maps/reference_based_identity.md)
+  - [Value Based Identity](./hash_maps/value_based_identity.md)
+  - [Appropriate Keys](./hash_maps/appropriate_keys.md)
 
+  <!-- - [Function Range](./hash_maps/function_range.md)
+  - [Buckets](./hash_maps/buckets.md) -->
 # Concepts II
 - [Hyrum's Law](./hyrums_law.md)
   - [Authority](./hyrums_law/authority.md)
@@ -584,6 +587,17 @@ Make them do one. -->
   - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
   - [Information Hiding](./encapsulation/information_hiding.md)
 
+
+# Data Types VI
+
+- [Collections](./collections.md)
+  - [Collection]()
+  - [List]()
+  - [Map]()
+  - [Set]()
+  - [Arrays](./collections/arrays.md) <!-- Odd duck out, Arrays.asList -->
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+
 # Metaprogramming
 
 - [Reflection](./reflection.md)
@@ -596,30 +610,38 @@ Make them do one. -->
   - [Get a Constructor]()
 
 - [Annotations](./annotations.md)
+  - [Declaration](./annotations/declaration.md)
+  - [Usage](./annotations/usage.md)
+  - [Elements](./annotations/elements.md)
+  - [Usage with Elements](./annotations/usage_with_elements.md)
+  - [Defaults](./annotations/defaults.md)
+  - [@Target](./annotations/target.md)
+  - [@Retention](./annotations/retention.md)
+  - [Reflective Access](./annotations/reflective_access.md)
+  - [@Override](./annotations/override.md)
+  - [@Deprecated](./annotations/deprecated)
+  - [@Repeatable]() <!-- Note: When doing javadoc, write about @Documented -->
 
 # Concepts III
 
-- [Acronyms](./acronyms.md)
-  - [Niches](./acronyms/niches.md)
-  - [Usage Contexts](./acronyms/usage_contexts.md)
-  - [Ambiguity](./acronyms/ambiguity.md)
-  - [Familiarity](./acronyms/familiarity.md)
-  - [Elaboration](./acronyms/elaboration.md)
+- [Abbreviations](./abbreviations.md)
+  - [Niches](./abbreviations/niches.md)
+  - [Usage Contexts](./abbreviations/usage_contexts.md)
+  - [Ambiguity](./abbreviations/ambiguity.md)
+  - [Familiarity](./abbreviations/familiarity.md)
+  - [Elaboration](./abbreviations/elaboration.md)
+
+# Code Structure VII
+- [Interfaces II](./interface_extension.md)
+  - [Default Methods]()
+  - [Interface Extension]()
+  - [Static Methods]()
+  - [Private Static Methods]()
+- [Class Extension](./class_extension.md)
+- [Abstract Classes](./abstract_classes.md)
 
 <!--- [HashMap](./hash_map.md)
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
-- [Iterable and Iterator](./iterable_and_iterator.md)
 
-
-
-
-- [Loops III](./loops_iii.md)
-  - [For-each loops](./loops_iii/for_each_loops.md)
-  - [Arrays]()
-  - [Iterable]()
-  - [ArrayList]()
-  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
-  - [Reasons to go back]() <!-- 
 
 
 # Code Structure V
@@ -669,6 +691,11 @@ Make them do one. -->
 - [Pattern Matching]()
   - [Primitive Patterns]()
   - [Record Patterns]()
+
+# Code Structure VII
+
+- [Modules]()
+
 -->
 <!--
 
@@ -703,17 +730,11 @@ Make them do one. -->
 
 - [Integers II]()
 - [Paths]()
-- [Iterator and Iterable]()
 - [Exceptions II]()
 
 # Control Flow IV
 
-- [Loops III](./loops_iii.md)
-  - [For Each]()
-
 # Algorithms II
-
-- [Hash Map]()
 
 # Data Types VII
 

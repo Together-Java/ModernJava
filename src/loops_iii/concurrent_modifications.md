@@ -65,7 +65,7 @@ for (int i = 0; i < sandwiches.size(); i++) {
     Sandwich sandwich = sandwiches.get(i);
     if (sandwich.mayo()) { // Some people don't like Mayo
         sandwiches.remove(sandwich);
-        i--; // Subtracting one from our current index sycs us back up
+        i--; // Subtracting one from our current index syncs us back up
     }
 }
         

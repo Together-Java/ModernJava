@@ -1,27 +1,36 @@
-# Hash Maps
+# HashMap
 
-If you want to find an element in an array you usually
+Arrays and their growable cousin `ArrayList` store a sequence of elements.
+This is often enough, but if you want to find an element in an array you usually
 need to check every element one by one.
 
 ```java
-String[] carsCharacters = new String[] {
-    "Tow Mater",
-    "Lightning McQueen",
-    "Doc Hudson"
-};
+record Character(
+    String name, 
+    boolean protaganist
+) {}
 
-boolean wasInCars(String name) {
-    for (var characterName : carsCharacters) {
-        if (characterName.equals(name)) {
-            return true;
+Character findCharacter(
+    Character[] cast, 
+    String name
+) {
+    for (var character : cast) {
+        if (character.name().equals(name)) {
+            return character;
         }
     }
-    return false;
+    return null;
 }
 
 void main() {
-    System.out.println(wasInCars("Lightning McQueen"));
-    System.out.println(wasInCars("Blade Ranger"));
+    Character[] carsCharacters = new Character[] {
+        new Character("Tow Mater", false),
+        new Character("Lightning McQueen", true),
+        new Character("Doc Hudson", false)
+    };
+
+    System.out.println(findCharacter(carsCharacters, "Lightning McQueen"));
+    System.out.println(findCharacter(carsCharacters, "Blade Ranger"));
 }
 ```
 
@@ -30,4 +39,35 @@ For small arrays, this is no biggie. A computer can check over a few dozen thing
 But for big arrays, this stinks.
 
 What we want is some way to quickly look up something, regardless of how many things there are to
-check over. This is what a Hash Map gives us.
+check over. This is what a HashMap gives us.
+
+```java
+import java.util.HashMap;
+
+record Character(
+    String name, 
+    boolean protaganist
+) {}
+
+void main() {
+    HashMap<String, Character> carsCharacters = new HashMap<>();
+    
+    carsCharacters.put(
+        "Tow Mater",
+        new Character("Tow Mater", false)
+    );
+
+    carsCharacters.put(
+        "Lightning McQueen",
+        new Character("Lightning McQueen", false)
+    );
+    
+    carsCharacters.put(
+        "Doc Hudson",
+        new Character("Doc Hudson", false)
+    );
+
+    System.out.println(carsCharacters.get("Lightning McQueen"));
+    System.out.println(carsCharacters.get("Blade Ranger"));
+}
+```

@@ -65,7 +65,7 @@ class Position {
 
 Using a static method to create a `Position` - i.e. as a "factory" - is a way around the issue.[^note]
 
-```java,does_not_compile
+```java
 class Position {
     int x;
     int y;
