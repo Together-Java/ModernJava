@@ -1,6 +1,6 @@
 # Arrays
 
-Arrays are the odd duck out in the world of collections. They are basically a `List` but aren't `List`s.
+Arrays are the odd duck out in the world of collections. They are basically a `List` but aren't `List`s.[^history]
 
 You can make a `List` which is a view over an array with `Arrays.asList`.
 
@@ -67,3 +67,6 @@ class Main {
     }
 }
 ```
+
+[^history]: Arrays are unique beasts. This is true both in Java the language and in the virtual machine Java code runs on.
+This is partially attributable to arrays coming first in the history - `List` and friends were not in the first version of Java.

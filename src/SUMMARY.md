@@ -138,6 +138,10 @@
   - [Initialization with new](./arrays/initialization_with_new.md)
   - [Challenges](./arrays/challenges.md)
 
+# Projects
+
+- [The Boston Molasses Disaster Game]() <!-- Make sure they know it was because of deregulation -->
+
 # Control Flow II
 
 - [Loops II](./loops_ii.md)
@@ -172,7 +176,6 @@
   - [Challenges](./methods/challenges.md)
 
 - [Arguments](./arguments.md)
-
   - [Declaration](./arguments/declaration.md)
   - [Invocation with Arguments](./arguments/invocation_with_arguments.md)
   - [Reassignment](./arguments/reassignment.md)
@@ -191,6 +194,10 @@
   - [Conversion](./return_values/conversion.md)
   - [Unreachable Statements](./return_values/unreachable_statements.md)
   - [Challenges](./return_values/challenges.md)
+
+# Projects
+
+- [Tic-Tac-Toe]()
 
 # Data Types III
 
@@ -214,6 +221,11 @@
   - [Default Values](./arrays_ii/default_values.md)
   - [Populate Arrays](./arrays_ii/populate_arrays.md)
   - [Challenges](./arrays_ii/challenges.md)
+
+# Projects II
+
+<!-- https://michaelxing.com/UltimateTTT/v3/ -->
+- [Ultimate Tic-Tac-Toe]()
 
 # Code Structure II
 
@@ -597,6 +609,15 @@ Make them do one. -->
   - [Set]()
   - [Arrays](./collections/arrays.md) <!-- Odd duck out, Arrays.asList -->
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+  - [Declaration](./multi_dimensional_arrays/declaration.md)
+  - [Array Initializers](./multi_dimensional_arrays/array_initializers.md)
+  - [Initialization with new](./multi_dimensional_arrays/initialization_with_new.md)
+  - [Access Individual Elements](./multi_dimensional_arrays/access_individual_elements.md)
+  - [Set Individual Elements](./multi_dimensional_arrays/set_individual_elements.md)
+  - [Initialization with Size](./multi_dimensional_arrays/initialize_with_size.md)
+  - [Default Values](./multi_dimensional_arrays/default_values.md)
+  - [Populate Values](./multi_dimensional_arrays/populate_values.md)
+  - [Ragged Arrays](./multi_dimensional_arrays/ragged_arrays.md)
 
 # Metaprogramming
 
@@ -609,7 +630,9 @@ Make them do one. -->
   - [Get all Methods](./reflection/get_all_methods.md)
   - [Get a Method](./reflection/get_a_method.md)
   - [Invoke a Method](./reflection/invoke_a_method.md)
-  - [Get a Constructor]()
+  - [Get a Constructor](./reflection/get_a_constructor.md)
+  - [Get all Constructors](./reflection/get_all_constructors.md)
+  - [Invoke a Constructor](./reflection/invoke_a_constructor.md)
 
 - [Annotations](./annotations.md)
   - [Declaration](./annotations/declaration.md)
@@ -621,8 +644,8 @@ Make them do one. -->
   - [@Retention](./annotations/retention.md)
   - [Reflective Access](./annotations/reflective_access.md)
   - [@Override](./annotations/override.md)
-  - [@Deprecated](./annotations/deprecated)
-  - [@Repeatable]() <!-- Note: When doing javadoc, write about @Documented -->
+  <!--  - [@Deprecated](./annotations/deprecated)
+  - [@Repeatable]()Note: When doing javadoc, write about @Documented -->
 
 # Concepts III
 
@@ -634,13 +657,25 @@ Make them do one. -->
   - [Elaboration](./abbreviations/elaboration.md)
 
 # Code Structure VII
-- [Interfaces II](./interface_extension.md)
+- [Interfaces II](./interfaces_ii.md)
   - [Default Methods]()
   - [Interface Extension]()
   - [Static Methods]()
   - [Private Static Methods]()
 - [Class Extension](./class_extension.md)
 - [Abstract Classes](./abstract_classes.md)
+
+# Data Types IV
+
+- [Niche Numerics]()
+  - [byte]()
+  - [short]()
+  - [long]()
+  - [Unsigned Operations]()
+  
+# Code Structure VIII
+
+- [Modules](./modules.md)
 
 <!--- [HashMap](./hash_map.md)
 

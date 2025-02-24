@@ -3,7 +3,7 @@
 Similarly, you can write to a field using the `.set` method on a `Field` object.
 This will also throw `IllegalAccessException` if its not something you are allowed to do.
 
-```java
+```java,panics
 import java.lang.reflect.Field;
 
 class Main {
@@ -41,7 +41,8 @@ If you try to set a field to the wrong type of value - like setting a `boolean` 
 you will get an `IllegalArgumentException`. Unlike `NoSuchFieldException` and `IllegalAccessException` this is an
 unchecked exception, so you do not need to explicitly account for it.
 
-```java
+
+```java,panics
 import java.lang.reflect.Field;
 
 class Main {
@@ -73,3 +74,41 @@ class Drink {
     }
 }
 ```
+
+The same will happen if you try to set a `final` field.[^finalfields]
+
+```java,panics
+import java.lang.reflect.Field;
+
+class Main {
+    void main() throws IllegalAccessException {
+        Class<Drink> drinkClass = Drink.class;
+
+        Field nameField;
+        try {
+            nameField = drinkClass.getField("name");
+        } catch (NoSuchFieldException e) {
+            throw new RuntimeException(e); // Should have this field
+        }
+
+        var water = new Drink("Water", false);
+
+        // You can put drugs in anything you set your mind to, kids
+        nameField.set(water, true);
+
+        System.out.println(nameField.get(water));
+    }
+}
+
+class Drink {
+    public String name;
+    public final boolean caffeinated;
+
+    Drink(String name, boolean caffeinated) {
+        this.name = name;
+        this.caffeinated = caffeinated;
+    }
+}
+```
+
+[^finalfields]: There are especially evil ways to actually change `final` fields using reflection. If you want to know how to do that I'm not telling you.

@@ -2,7 +2,7 @@
 
 If you have a class object, you can get all the public
 fields of that class using `getFields`. This gives you
-an array of field objects.
+an array of `Field` objects.
 
 ```java
 import java.lang.reflect.Field;
