@@ -532,6 +532,7 @@ Make them do one. -->
   - [ZonedDateTime](./time/zoned_date_time.md)
   - [OffsetDateTime](./time/offset_date_time.md)
   - [Date](./time/date.md)
+  - [Challenges](./time/challenges.md)
 - [ArrayList](./array_list.md)
   - [Ubiquity](./array_list/ubiquity.md)
   - [Add an item](./array_list/add_an_item.md)
@@ -593,7 +594,7 @@ Make them do one. -->
 - [Encapsulation](./encapsulation.md)
   - [Implementation Details](./encapsulation/implementation_details.md)
   - [Methods](./encapsulation/methods.md)
-  - [Classes]()(./encapsulation/classes.md)
+  - [Classes](./encapsulation/classes.md)
   - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
   - [Abstractions](./encapsulation/abstractions.md)
   - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
@@ -663,15 +664,24 @@ Make them do one. -->
   - [Static Methods]()
   - [Private Static Methods]()
 - [Class Extension](./class_extension.md)
+  - [Extend a Class]()
+  - [Protected Fields]()
+  - [Protected Methods]()
+  - [Relation to Interfaces]()
+  - [Relation to Encapsulation]()
+  - [Final Classes](./class_extension/final_classes.md)
 - [Abstract Classes](./abstract_classes.md)
+  - [Relation to Interfaces]()
+
 
 # Data Types IV
 
-- [Niche Numerics]()
-  - [byte]()
-  - [short]()
-  - [long]()
-  - [Unsigned Operations]()
+- [Niche Numerics](./niche_numerics.md)
+  - [byte](./niche_numerics/byte.md)
+  - [short](./niche_numerics/short.md)
+  - [long](./niche_numerics/long.md)
+  - [Unsigned Operations](./niche_numerics/unsigned_operations.md)
+  - [float](./niche_numerics/float.md)
   
 # Code Structure VIII
 
