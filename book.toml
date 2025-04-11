@@ -3,7 +3,6 @@ title = "Modern Java"
 description = "Book teaching how to write modern and effective Java."
 authors = ["Ethan McCue", "Together Java", "Contributions from the Java Community"]
 language = "en"
-multilingual = false
 
 [output.html]
 git-repository-url = "https://github.com/Together-Java/ModernJava"
