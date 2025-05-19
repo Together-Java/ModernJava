@@ -29,7 +29,7 @@ double x = 5.0;
 // will be 5
 int y = (int) x;
 
-System.out.println(y);
+IO.println(y);
 ~}
 ```
 
@@ -42,9 +42,9 @@ int x = (int) 2.1;
 int y = (int) 2.5;
 int z = (int) 2.9;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```
 
@@ -53,11 +53,11 @@ Any number that is too big to store in an `int` will be converted to the biggest
 ```java
 ~void main() {
 // 2147483647
-System.out.println((int) 4207483647.0);
+IO.println((int) 4207483647.0);
 
 double positiveInfinity = 5.0 / 0.0;
 // 2147483647
-System.out.println((int) positiveInfinity);
+IO.println((int) positiveInfinity);
 ~}
 ```
 
@@ -66,11 +66,11 @@ Any number that is too small to store in an `int` will be converted to the small
 ```java
 ~void main() {
 // -2147483648
-System.out.println((int) -9999999999.0);
+IO.println((int) -9999999999.0);
 
 double negativeInfinity = -5.0 / 0.0;
 // -2147483648
-System.out.println((int) negativeInfinity);
+IO.println((int) negativeInfinity);
 ~}
 ```
 
@@ -79,7 +79,7 @@ And `NaN` will be converted to zero.
 ```java
 ~void main() {
 double nan = 0.0 / 0.0;
-System.out.println((int) nan);
+IO.println((int) nan);
 ~}
 ```
 

@@ -7,13 +7,13 @@ If you have no logic to put in it, you can omit the `default` case from a `switc
 void react(String fruit) {
     switch (fruit) {
         case "apple" -> {
-            System.out.println("WOW");
+            IO.println("WOW");
         }
         case "orange" -> {
-            System.out.println("Zoinks!");
+            IO.println("Zoinks!");
         }
         case "grape" -> {
-            System.out.println("Zoopers!");
+            IO.println("Zoopers!");
         }
     }
 }

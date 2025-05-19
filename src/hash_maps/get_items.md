@@ -12,8 +12,8 @@ class Main {
         wins.put("Lightning McQueen", 2);
         wins.put("Tow Mater", 0);
         
-        System.out.println(wins.get("Tow Mater"));
-        System.out.println(wins.get("Doc Hudson"));
+        IO.println(wins.get("Tow Mater"));
+        IO.println(wins.get("Doc Hudson"));
     }
 }
 ```

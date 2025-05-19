@@ -5,14 +5,14 @@ Anywhere inside of a method you can write `return` to immediately exit that meth
 ```java
 void willReturnEarly() {
     for (int i = 0; i < 10; i++) {
-        System.out.println(i);
+        IO.println(i);
         if (i == 5) {
             // Will stop at 5 because we exit the method
             return;
         }
     }
 
-    System.out.println("THIS WONT RUN");
+    IO.println("THIS WONT RUN");
 }
 
 void main() {

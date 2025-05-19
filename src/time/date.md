@@ -10,7 +10,7 @@ import java.util.Date;
 class Main {
     void main() {
         Date date = new Date();
-        System.out.println(date);
+        IO.println(date);
     }
 }
 ```
@@ -29,10 +29,10 @@ import java.util.Date;
 class Main {
     void main() {
         Date date = new Date();
-        System.out.println(date);
+        IO.println(date);
 
         Instant instant = date.toInstant();
-        System.out.println(instant);
+        IO.println(instant);
     }
 }
 ```
@@ -46,10 +46,10 @@ import java.util.Date;
 class Main {
     void main() {
         var instant = Instant.now();
-        System.out.println(instant);
+        IO.println(instant);
         
         Date date = Date.from(instant);
-        System.out.println(date);
+        IO.println(date);
     }
 }
 ```

@@ -13,7 +13,7 @@ What will this program output when run? Write down your guess and then try runni
 void main() {
     int x = 5;
     int y = 8;
-    System.out.println(x + y);
+    IO.println(x + y);
 }
 ```
 
@@ -27,7 +27,7 @@ void main() {
     x--;
     x--;
     x = x + x;
-    System.out.println(x);
+    IO.println(x);
 }
 ```
 
@@ -45,13 +45,13 @@ void main() {
     int z = 98;
 
     boolean xIsEven = < CODE HERE >;
-    System.out.println(xIsEven);
+    IO.println(xIsEven);
 
     boolean yIsEven = < CODE HERE >;
-    System.out.println(yIsEven);
+    IO.println(yIsEven);
 
     boolean zIsEven = < CODE HERE >;
-    System.out.println(zIsEven);
+    IO.println(zIsEven);
 }
 ```
 
@@ -63,7 +63,7 @@ Write down your guess and then try running the program below to see.
 
 ```java,editable
 void main() {
-    System.out.println(5 / 0);
+    IO.println(5 / 0);
 }
 ```
 
@@ -75,7 +75,7 @@ What can you write in the spot marked that will make the program output 2?
 void main() {
     int x = 5;
     int y = <CODE HERE>;
-    System.out.println(x + y);
+    IO.println(x + y);
 }
 ```
 
@@ -85,7 +85,7 @@ What is the output of this code.[^fbarticle]
 
 ```java,editable
 void main() {
-    System.out.println(
+    IO.println(
         6 / 2 * (1 + 2)
     );
 }

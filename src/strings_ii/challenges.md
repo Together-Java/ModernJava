@@ -22,11 +22,11 @@ boolean isUpperCase(String s) {
 
 void main() {
     // true
-    System.out.println(isUpperCase("ABC"));
+    IO.println(isUpperCase("ABC"));
     // false
-    System.out.println(isUpperCase("abc"));
+    IO.println(isUpperCase("abc"));
     // false
-    System.out.println(isUpperCase("AbC"));
+    IO.println(isUpperCase("AbC"));
 }
 ```
 
@@ -44,11 +44,11 @@ boolean isLowerCase(String s) {
 
 void main() {
     // false
-    System.out.println(isLowerCase("ABC"));
+    IO.println(isLowerCase("ABC"));
     // true
-    System.out.println(isLowerCase("abc"));
+    IO.println(isLowerCase("abc"));
     // false
-    System.out.println(isLowerCase("AbC"));
+    IO.println(isLowerCase("AbC"));
 }
 ```
 
@@ -72,11 +72,11 @@ void main() {
     kermit.name = "kermit";
 
     // kermit
-    System.out.println(kermit.name);
+    IO.println(kermit.name);
 
     // KERMIT!
     kermit.scream();
-    System.out.println(kermit.name);
+    IO.println(kermit.name);
 }
 ```
 

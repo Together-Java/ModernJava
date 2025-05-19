@@ -5,7 +5,7 @@ Just like normal variable declarations, arguments can be marked
 
 ```java
 void eat(final String food) {
-    System.out.println("I ate " + food);
+    IO.println("I ate " + food);
 }
 
 void main() {
@@ -17,10 +17,10 @@ If you try to reassign a final argument, Java will not accept your program.
 
 ```java,panics
 void eat(final String food) {
-    System.out.println("I ate " + food);
+    IO.println("I ate " + food);
     // Will not work
     food = "toast";
-    System.out.println(food);
+    IO.println(food);
 }
 
 void main() {

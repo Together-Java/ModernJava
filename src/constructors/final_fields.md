@@ -17,7 +17,7 @@ class Muppet {
 
 void main() {
     Muppet gonzo = new Muppet("Gonzo");
-    System.out.println(gonzo.name);
+    IO.println(gonzo.name);
 
     // Cannot update the .name field later
     // gonzo.name = "Gonzo, the great";
@@ -34,7 +34,7 @@ class Muppet {
 
 void main() {
     Muppet gonzo = new Muppet();
-    System.out.println(gonzo.talented);
+    IO.println(gonzo.talented);
 }
 ```
 

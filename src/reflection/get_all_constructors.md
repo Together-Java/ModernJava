@@ -16,7 +16,7 @@ class Main {
                 = airplaneFoodClass.getConstructors();
         
         for (Constructor<?> constructor : constructors) {
-            System.out.println(constructor);
+            IO.println(constructor);
         }
     }
 }

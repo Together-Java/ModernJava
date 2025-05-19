@@ -23,14 +23,14 @@ What will this program output when run? Write down your guess and then try actua
 
 ```text
 void main() {
-    System.out.println("A");
-    //System.out.println("B");
-    System.out.println("C");//
-    System.out.println("D");
+    IO.println("A");
+    //IO.println("B");
+    IO.println("C");//
+    IO.println("D");
     /*
-    System.out.println("E");
-    System.out.println("F");*/
-    System.out.println("G");
+    IO.println("E");
+    IO.println("F");*/
+    IO.println("G");
 }
 ```
 
@@ -42,9 +42,9 @@ How could you use that error to figure out where you might have forgotten to put
 
 ```java,editable
 void main() {
-    System.out.println("Apple");
-    System.out.println("Banana");
-    System.out.println("Clementine");
-    System.out.println("Durian");
+    IO.println("Apple");
+    IO.println("Banana");
+    IO.println("Clementine");
+    IO.println("Durian");
 }
 ```

@@ -22,7 +22,7 @@ class Main {
         // You can put drugs in anything you set your mind to, kids
         caffeinatedField.set(water, true);
 
-        System.out.println(caffeinatedField.get(water));
+        IO.println(caffeinatedField.get(water));
     }
 }
 
@@ -60,7 +60,7 @@ class Main {
 
         caffeinatedField.set(soda, "yes, very much so");
 
-        System.out.println(caffeinatedField.get(soda));
+        IO.println(caffeinatedField.get(soda));
     }
 }
 
@@ -96,7 +96,7 @@ class Main {
         // You can put drugs in anything you set your mind to, kids
         nameField.set(water, true);
 
-        System.out.println(nameField.get(water));
+        IO.println(nameField.get(water));
     }
 }
 

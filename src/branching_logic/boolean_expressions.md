@@ -18,7 +18,7 @@ else {
 // or
 // boolean canRent = age > 25 ? true : false;
 
-System.out.println(canRent);
+IO.println(canRent);
 ~}
 ```
 
@@ -30,6 +30,6 @@ itself already evaluates to a `boolean`. You can directly assign the variable to
 int age = 22;
 boolean canRent = age > 25;
 
-System.out.println(canRent);
+IO.println(canRent);
 ~}
 ```

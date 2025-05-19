@@ -12,7 +12,7 @@ while (x > 0) {
     if (x == 4) {
         continue;
     }
-    System.out.println(x + " is a good number");
+    IO.println(x + " is a good number");
     x--;
 }
 ~}

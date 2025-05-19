@@ -9,7 +9,7 @@ that the array's contents cannot be changed directly or through an alias.
 ~void main() {
 final char[] catchphrase = { 'w', 'o', 'a', 'h', '!' };
 // woah!
-System.out.println(catchphrase);
+IO.println(catchphrase);
 
 // Cannot reassign
 // catchphrase = { 'e', 'g', 'a', 'd', 's' }
@@ -24,6 +24,6 @@ alias[3] = 'd';
 alias[4] = 's';
 
 // egads
-System.out.println(catchphrase);
+IO.println(catchphrase);
 ~}
 ```

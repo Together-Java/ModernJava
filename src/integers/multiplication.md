@@ -11,8 +11,8 @@ int y = x * 5;
 // z will be 1125
 int z = x * y;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```

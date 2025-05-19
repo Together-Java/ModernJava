@@ -7,7 +7,7 @@ This can happen if the condition is a constant like `while (true)`
 ```java,no_run
 ~void main() {
 while (true) {
-    System.out.println("This is the song that never ends");
+    IO.println("This is the song that never ends");
 }
 ~}
 ```
@@ -19,7 +19,7 @@ Or if the variables tested in the condition are not updated inside of the loop.
 // x is never changed
 int x = 0;
 while (x != 1) {
-    System.out.println("It goes on and on my friends");
+    IO.println("It goes on and on my friends");
 }
 ~}
 ```

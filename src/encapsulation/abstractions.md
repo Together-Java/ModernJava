@@ -1,4 +1,4 @@
-# Abstractions
+# Abstraction
 
 A term closely related to encapsulation is abstraction.
 

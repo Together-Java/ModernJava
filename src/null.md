@@ -7,8 +7,8 @@ void main() {
     String name = null;
     int[] numbers = null;
 
-    System.out.println(name);
-    System.out.println(numbers);
+    IO.println(name);
+    IO.println(numbers);
 }
 ```
 

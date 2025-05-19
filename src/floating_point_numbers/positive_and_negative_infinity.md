@@ -22,10 +22,10 @@ As you might expect, positive infinity is greater than any number and negative i
 ~double positiveInfinity = 1.0 / 0.0;
 ~double negativeInfinity = -1.0 / 0.0;
 // true
-System.out.println(positiveInfinity > 99999999);
+IO.println(positiveInfinity > 99999999);
 
 // true
-System.out.println(negativeInfinity < -99999999);
+IO.println(negativeInfinity < -99999999);
 ~}
 ```
 
@@ -38,9 +38,9 @@ Except for `NaN`, of course.
 double nan = 0.0 / 0.0;
 
 // false
-System.out.println(positiveInfinity > nan);
+IO.println(positiveInfinity > nan);
 
 // false
-System.out.println(negativeInfinity < nan);
+IO.println(negativeInfinity < nan);
 ~}
 ```

@@ -15,7 +15,7 @@ class Main {
     }
 
     void main() {
-        System.out.println(
+        IO.println(
                 shouldBeMainCharacter("Goku")
         );
     }
@@ -37,16 +37,16 @@ class Main {
     boolean didGokuStealItFromSomeoneElse(Technique technique) {
         switch (technique) {
             case KAMEHAMEHA:
-                System.out.println("Master Roshi Taught it to him");
+                IO.println("Master Roshi Taught it to him");
                 return true;
             case INSTANT_TRANSMISSION:
-                System.out.println("Space aliens");
+                IO.println("Space aliens");
                 return true;
             case KAIOKEN:
-                System.out.println("King Kai's name is in it!");
+                IO.println("King Kai's name is in it!");
                 return true;
             case ULTRA_INSTINCT:
-                System.out.println("I'd say not");
+                IO.println("I'd say not");
                 return false;
             // Even though we covered every option, Java doesn't trust us.
             // You need a default label or to return later in the function
@@ -57,7 +57,7 @@ class Main {
     }
 
     void main() {
-        System.out.println(
+        IO.println(
                 didGokuStealItFromSomeoneElse(Technique.INSTANT_TRANSMISSION)
         );
     }

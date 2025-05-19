@@ -8,7 +8,7 @@ point literal.
 ```java
 ~void main() {
 float f = 3.5f;
-System.out.println(f);
+IO.println(f);
 ~}
 ```
 
@@ -17,7 +17,7 @@ This is because Java sees floating point literals without a trailing `f` as repr
 ```java,does_not_compile
 ~void main() {
 float f = 3.5;
-System.out.println(f);
+IO.println(f);
 ~}
 ```
 
@@ -29,12 +29,12 @@ Conversions from a `float` to a `double` are widening and do not require a cast.
 double a = 6.5;
 // Need a cast
 float b = (float) a;
-System.out.println(b);
+IO.println(b);
 
 float c = 9.5f;
 // Do not need a cast
 double d = c;
-System.out.println(d);
+IO.println(d);
 ~}
 ```
 
@@ -47,7 +47,7 @@ And if you have need of a potentially nullable `float`, `Float` with a capital `
 
 // But you can have a null "Float"
 Float f = null;
-System.out.println(f);
+IO.println(f);
 ~}
 ```
 

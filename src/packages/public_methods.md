@@ -9,11 +9,11 @@ package village;
 // Now other packages will be able to see it
 public class Villager {
     public void isVisible() {
-        System.out.println("This method is callable from another package.");
+        IO.println("This method is callable from another package.");
     }
 
     void isNotVisible() {
-        System.out.println("This method is not.")
+        IO.println("This method is not.")
     }
 }
 ```
@@ -25,7 +25,7 @@ package village;
 
 public class Well {
     public static int drawWater() {
-        System.out.println("""
+        IO.println("""
             You need this to be both public and static to
             be able to write Well.drawWater()
             """);

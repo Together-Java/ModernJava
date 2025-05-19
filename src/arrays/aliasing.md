@@ -12,23 +12,23 @@ char[] lettersOne = { 'B', 'a', 't', 'm', 'a', 'n' };
 char[] lettersTwo = lettersOne;
 
 // Batman
-System.out.println(lettersOne);
+IO.println(lettersOne);
 // Batman
-System.out.println(lettersTwo);
+IO.println(lettersTwo);
 
 lettersOne[0] = 'C';
 
 // Catman
-System.out.println(lettersOne);
+IO.println(lettersOne);
 // Catman
-System.out.println(lettersTwo);
+IO.println(lettersTwo);
 
 lettersTwo[0] = 'R';
 
 // Ratman
-System.out.println(lettersOne);
+IO.println(lettersOne);
 // Ratman
-System.out.println(lettersTwo);
+IO.println(lettersTwo);
 ~}
 ```
 

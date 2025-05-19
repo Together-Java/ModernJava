@@ -18,7 +18,7 @@ Drink[] drinks = {
 for (int i = 0; i < drinks.length; i++) {
     Drink drink = drinks[i];
 
-    System.out.println(
+    IO.println(
         drink.name()
             + " has "
             + drink.mgCaffeinePerCup()
@@ -26,10 +26,10 @@ for (int i = 0; i < drinks.length; i++) {
         );
 }
 
-System.out.println("------------------");
+IO.println("------------------");
 
 for (Drink drink : drinks) {
-    System.out.println(
+    IO.println(
         drink.name()
             + " has "
             + drink.mgCaffeinePerCup()
@@ -62,7 +62,7 @@ for (int i = 0; i < drinks.length; i++) {
     Drink drink = drinks[i];
 
     // Which you might want for display logic
-    System.out.println(
+    IO.println(
         "[" + i + "]: " + drink.name()
     );
 

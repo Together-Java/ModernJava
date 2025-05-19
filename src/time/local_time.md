@@ -13,7 +13,7 @@ import java.time.LocalTime;
 
 void main() {
     var tenTwentyFour = LocalTime.of(10, 24, 0);
-    System.out.println(tenTwentyFour);
+    IO.println(tenTwentyFour);
 }
 ```
 
@@ -24,6 +24,6 @@ import java.time.LocalTime;
 
 void main() {
     var now = LocalTime.now();
-    System.out.println(now);
+    IO.println(now);
 }
 ```

@@ -11,16 +11,16 @@ The second by using `1`, and so on.
 String spy = "loid";
 
 char l = spy.charAt(0);
-System.out.println(l);
+IO.println(l);
 
 char o = spy.charAt(1);
-System.out.println(o);
+IO.println(o);
 
 char i = spy.charAt(2);
-System.out.println(i);
+IO.println(i);
 
 char d = spy.charAt(3);
-System.out.println(d);
+IO.println(d);
 ~}
 ```
 
@@ -34,7 +34,7 @@ String assassin = "yor";
 int indexOfR = 2;
 
 char r = assassin.charAt(indexOfR);
-System.out.println(r);
+IO.println(r);
 ~}
 ```
 

@@ -10,9 +10,9 @@ in the "world" of our program.[^wonthold]
 int number = 0;
 
 void main() {
-    System.out.println(number);
+    IO.println(number);
     number++;
-    System.out.println(number);
+    IO.println(number);
 }
 ```
 

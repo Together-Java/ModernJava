@@ -36,9 +36,9 @@ class Main {
         // Accordingly, Car C will probably have a different
         // hashCode. This is despite it having the same
         // values in its fields. It is a "distinct" object.
-        System.out.println("A: " + carA.hashCode());
-        System.out.println("B: " + carB.hashCode());
-        System.out.println("C: " + carC.hashCode());
+        IO.println("A: " + carA.hashCode());
+        IO.println("B: " + carB.hashCode());
+        IO.println("C: " + carC.hashCode());
     }
 }
 ```
@@ -69,15 +69,15 @@ class Main {
         
         // Car C therefore only equal itself
         // Car A and B will equal eachother
-        System.out.println("A.equals(A): " + carA.equals(carA));
-        System.out.println("A.equals(B): " + carA.equals(carB));
-        System.out.println("A.equals(C): " + carA.equals(carC));
-        System.out.println("B.equals(A): " + carB.equals(carA));
-        System.out.println("B.equals(B): " + carB.equals(carB));
-        System.out.println("B.equals(C): " + carB.equals(carC));
-        System.out.println("C.equals(A): " + carC.equals(carA));
-        System.out.println("C.equals(B): " + carC.equals(carB));
-        System.out.println("C.equals(C): " + carC.equals(carC));
+        IO.println("A.equals(A): " + carA.equals(carA));
+        IO.println("A.equals(B): " + carA.equals(carB));
+        IO.println("A.equals(C): " + carA.equals(carC));
+        IO.println("B.equals(A): " + carB.equals(carA));
+        IO.println("B.equals(B): " + carB.equals(carB));
+        IO.println("B.equals(C): " + carB.equals(carC));
+        IO.println("C.equals(A): " + carC.equals(carA));
+        IO.println("C.equals(B): " + carC.equals(carB));
+        IO.println("C.equals(C): " + carC.equals(carC));
     }
 }
 ```

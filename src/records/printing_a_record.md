@@ -12,7 +12,7 @@ class Main {
     void main() {
         var goblin = new Goblin("Gobbo", 11);
 
-        System.out.println(goblin);
+        IO.println(goblin);
     }
 }
 ```

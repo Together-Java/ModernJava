@@ -16,7 +16,7 @@ void main() {
     for (int i = 0; i < names.size(); i++) {
         String name = names.get(i);
 
-        System.out.println("NAME: " + name);
+        IO.println("NAME: " + name);
     }
 }
 ```

@@ -13,9 +13,9 @@ int y = x % 2;
 // z will be 2
 int z = x % 3;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```
 
@@ -26,18 +26,18 @@ For instance, say you wanted to count from 0 up to 3 and then go back to 0.
 ```java
 ~void main() {
 int value = 0;
-System.out.println(value);
+IO.println(value);
 
 // the remainder of (0 + 1) divided by 3 is 1
 // value will be 1
 value = (value + 1) % 3;
-System.out.println(value);
+IO.println(value);
 
 
 // the remainder of (1 + 1) divided by 3 is 2
 // value will be 2
 value = (value + 1) % 3;
-System.out.println(value);
+IO.println(value);
 
 
 // the remainder of (2 + 1) divided by 3 is 0
@@ -46,12 +46,12 @@ System.out.println(value);
 // We never reach 3 because 3 divided by 3
 // always has a remainder of zero.
 value = (value + 1) % 3;
-System.out.println(value);
+IO.println(value);
 
 // the remainder of (0 + 1) divided by 3 is 1
 // value will be 1
 value = (value + 1) % 3;
-System.out.println(value);
+IO.println(value);
 
 // and so on.
 // 

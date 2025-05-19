@@ -14,10 +14,10 @@ String[][] ticTacToe = {
     { "O", "X", "X" }
 }
 
-System.out.println(ticTacToe[2][1]);
+IO.println(ticTacToe[2][1]);
 
 // This is equivalent to the above
 String[] row = ticTacToe[2];
-System.out.println(row[1]);
+IO.println(row[1]);
 ~}
 ```

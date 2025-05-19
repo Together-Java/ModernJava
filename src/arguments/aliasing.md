@@ -12,14 +12,14 @@ void main() {
     int[] nums = new int[] { 8 };
 
     // The first number is 8
-    System.out.println(
+    IO.println(
         "The first number is " + nums[0]
     );
 
     incrementFirst(nums);
 
     // Now it is 9
-    System.out.println(
+    IO.println(
         "Now it is " + nums[0]
     );
 }

@@ -6,9 +6,9 @@ Methods can contain any code, including variable declarations.
 void sayMathStuff() {
     int x = 1;
     int y = 2;
-    System.out.println("x is " + x);
-    System.out.println("y is " + y);
-    System.out.println("x + y is " + (x + y));
+    IO.println("x is " + x);
+    IO.println("y is " + y);
+    IO.println("x + y is " + (x + y));
 }
 
 void main() {
@@ -23,15 +23,15 @@ Other code cannot see that variable.
 void sayMathStuff() {
     int x = 1;
     int y = 2;
-    System.out.println("x is " + x);
-    System.out.println("y is " + y);
-    System.out.println("x + y is " + (x + y));
+    IO.println("x is " + x);
+    IO.println("y is " + y);
+    IO.println("x + y is " + (x + y));
 }
 
 void main() {
     sayMathStuff();
     // Error, x doesn't exist here
-    System.out.println(x);
+    IO.println(x);
 }
 ```
 

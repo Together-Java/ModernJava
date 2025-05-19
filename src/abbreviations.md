@@ -1,6 +1,10 @@
 # Abbreviations
 
-In the 1940s Franklin Delano Rosevelt (FDR) founded "[The Alphabet Agencies](https://en.wikipedia.org/wiki/Alphabet_agencies)" as part of an effort to lift the United States out of the [Great Depression](https://en.wikipedia.org/wiki/Great_Depression).
+In the 1940s Franklin Delano Rosevelt (FDR) founded the AAA, CCC, FDIC, NRA, and many more "[Alphabet Agencies](https://en.wikipedia.org/wiki/Alphabet_agencies)."
+
+People called them the alphabet agencies because there were so many and their 
+
+ as part of an effort to lift the United States out of the [Great Depression](https://en.wikipedia.org/wiki/Great_Depression).
 
 NASA is an acronym
 

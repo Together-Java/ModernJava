@@ -9,7 +9,7 @@ to that method. These arguments let the caller of the method change what happens
 
 ```java
 void sayHello(String name) {
-    System.out.println("Hello " + name + "!");
+    IO.println("Hello " + name + "!");
 }
 
 void main() {

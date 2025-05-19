@@ -6,9 +6,9 @@ Global fields, accordingly, were always a lie.
 int number = 0;
 
 void main() {
-    System.out.println(number);
+    IO.println(number);
     number++;
-    System.out.println(number);
+    IO.println(number);
 }
 ```
 
@@ -19,9 +19,9 @@ class Main {
     int number = 0;
 
     void main() {
-        System.out.println(number);
+        IO.println(number);
         number++;
-        System.out.println(number);
+        IO.println(number);
     }
 }
 ```

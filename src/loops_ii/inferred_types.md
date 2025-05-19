@@ -6,7 +6,7 @@ you still are allowed to use `var` so that the type of the declared variable is 
 ```java
 ~void main() {
 for (var i = 0; i < 10; i++) {
-    System.out.println(i);
+    IO.println(i);
 }
 ~}
 ```
@@ -19,7 +19,7 @@ But if your `for` loop is doing something more exotic, it might make sense.
 ```java
 ~void main() {
 for (var repeated = ""; repeated.length() < 5; repeated = repeated + "a") {
-    System.out.println(repeated);
+    IO.println(repeated);
 }
 
 // a

@@ -7,7 +7,7 @@ global final fields.
 final int x = 0;
 
 void main() {
-    System.out.println(x);
+    IO.println(x);
 }
 ```
 

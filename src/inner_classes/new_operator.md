@@ -27,7 +27,7 @@ class Main {
     void main() {
         Car car = new Car();
         Car.Speedometer speedometer = car.new Speedometer();
-        System.out.println(speedometer);
+        IO.println(speedometer);
     }
 }
 ```

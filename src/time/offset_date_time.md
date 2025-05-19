@@ -24,7 +24,7 @@ class Main {
         ZonedDateTime zonedDateTime = ZonedDateTime.of(localDateTime, est);
         OffsetDateTime offsetDateTime = zonedDateTime.toOffsetDateTime();
 
-        System.out.println(offsetDateTime);
+        IO.println(offsetDateTime);
     }
 }
 ```
@@ -39,7 +39,7 @@ class Main {
     void main() {
         var now = OffsetDateTime.now();
 
-        System.out.println(now);
+        IO.println(now);
     }
 }
 ```
@@ -55,7 +55,7 @@ class Main {
     void main() {
         var now = OffsetDateTime.now(ZoneId.of("US/Eastern"));
 
-        System.out.println(now);
+        IO.println(now);
     }
 }
 ```

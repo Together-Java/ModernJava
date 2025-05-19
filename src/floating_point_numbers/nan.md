@@ -16,7 +16,7 @@ double nan = 0.0 / 0.0;
 // will be false
 boolean equalToItself = nan == nan;
 
-System.out.println(equalToItself);
+IO.println(equalToItself);
 ~}
 ```
 
@@ -28,7 +28,7 @@ System.out.println(equalToItself);
 // will be false
 boolean greaterThanItself = nan > nan;
 
-System.out.println(greaterThanItself);
+IO.println(greaterThanItself);
 ~}
 ```
 
@@ -40,7 +40,7 @@ System.out.println(greaterThanItself);
 // will be false
 boolean lessThanItself = nan < nan;
 
-System.out.println(lessThanItself);
+IO.println(lessThanItself);
 ~}
 ```
 
@@ -50,9 +50,9 @@ System.out.println(lessThanItself);
 ~void main() {
 ~double nan = 0.0 / 0.0;
 // will all be false
-System.out.println(nan < 5);
-System.out.println(nan > 5);
-System.out.println(nan == 5);
+IO.println(nan < 5);
+IO.println(nan > 5);
+IO.println(nan == 5);
 ~}
 ```
 

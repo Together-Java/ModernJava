@@ -6,7 +6,7 @@ The way to represent a branching path in Java is by using an `if` statement.
 ~void main() {
 int age = 5; // 👶
 if (age < 25) {
-    System.out.println("You are too young to rent a car!");
+    IO.println("You are too young to rent a car!");
 }
 ~}
 ```
@@ -31,7 +31,7 @@ and you will be told that you cannot rent a car.
 ~void main() {
 int age = 80; // 👵
 if (age < 25) {
-    System.out.println("You are too young to rent a car!");
+    IO.println("You are too young to rent a car!");
 }
 ~}
 ```

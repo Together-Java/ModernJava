@@ -9,7 +9,7 @@ int returnsEight() {
 
 void main() {
     int value = returnsEight();
-    System.out.println(value);
+    IO.println(value);
 }
 ```
 
@@ -21,6 +21,6 @@ String returnsName() {
 }
 
 void main() {
-    System.out.println(returnsName() + " is my name");
+    IO.println(returnsName() + " is my name");
 }
 ```

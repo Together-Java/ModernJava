@@ -11,18 +11,18 @@ class Main {
     void sayWhoTheyFought(String name) {
         switch (name) {
             case "Goku":
-                System.out.println("Fought Pilaf");
-                System.out.println("Fought The Red Ribbon Army");
+                IO.println("Fought Pilaf");
+                IO.println("Fought The Red Ribbon Army");
             case "Gohan": // "Goku" will fall through to this case
-                System.out.println("Fought Frieza");
-                System.out.println("Fought Cell");
-                System.out.println("Fought Majin Buu");
+                IO.println("Fought Frieza");
+                IO.println("Fought Cell");
+                IO.println("Fought Majin Buu");
         }
     }
     
     void main() {
         sayWhoTheyFought("Gohan");
-        System.out.println("----------------------");
+        IO.println("----------------------");
         sayWhoTheyFought("Goku");
     }
 }

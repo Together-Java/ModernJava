@@ -6,11 +6,11 @@ of literals or variable names ending with `)`.
 
 ```java
 void eat(String food) {
-    System.out.println("I ate " + food);
+    IO.println("I ate " + food);
 }
 
 void happyBirthday(String to, int age) {
-    System.out.println(
+    IO.println(
         "Happy " + age + "th birthday " + to + "!"
     );
 }

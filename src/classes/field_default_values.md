@@ -17,12 +17,12 @@ void main() {
     Muppet kermit = new Muppet();
 
     // 0
-    System.out.println(kermit.age);
+    IO.println(kermit.age);
     // 0.0
-    System.out.println(kermit.salary);
+    IO.println(kermit.salary);
     // false
-    System.out.println(kermit.talented);
+    IO.println(kermit.talented);
     // null
-    System.out.println(kermit.name);
+    IO.println(kermit.name);
 }
 ```

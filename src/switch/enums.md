@@ -16,13 +16,13 @@ void main() {
     StopLight light = StopLight.GREEN;
     switch (light) {
         case RED -> {
-            System.out.println("Stop!");
+            IO.println("Stop!");
         }
         case YELLOW -> {
-            System.out.println("Speed up, coward!");
+            IO.println("Speed up, coward!");
         }
         case GREEN -> {
-            System.out.println("Go!");
+            IO.println("Go!");
         }
     }
 }

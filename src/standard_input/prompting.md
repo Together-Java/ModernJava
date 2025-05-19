@@ -10,8 +10,8 @@ Whatever they typed will be returned to the program as a `String`.
 
 ```java,no_run
 void main() {
-    String name = IO.scanln("What is your name? ");
-    System.out.println("Hello, " + name);
+    String name = IO.readln("What is your name? ");
+    IO.println("Hello, " + name);
 }
 ```
 

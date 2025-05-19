@@ -10,9 +10,9 @@ double y = x / 2;
 // z will be 1.3333333333333333
 double z = y / 3;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```
 

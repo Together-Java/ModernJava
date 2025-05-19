@@ -11,7 +11,7 @@ class Muppet {
 
 void main() {
     Muppet kermit = new Muppet();
-    System.out.println(kermit);
+    IO.println(kermit);
 }
 ```
 

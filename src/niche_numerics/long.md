@@ -10,10 +10,10 @@ normally allow for numbers that an `int` cannot store.
 ~void main() {
 // Smaller numbers work without issue
 long smallNumber = 5;
-System.out.println(smallNumber);
+IO.println(smallNumber);
 // This is too big for an int
 long bigNumber = 55555555555;
-System.out.println(bigNumber);
+IO.println(bigNumber);
 ~}
 ```
 
@@ -22,10 +22,10 @@ For those cases you need to add an `L` to the end of the literal.[^lforlong]
 ```java
 ~void main() {
 long smallNumber = 5;
-System.out.println(smallNumber);
+IO.println(smallNumber);
 // But with an L at the end, its not too big for a long
 long bigNumber = 55555555555L;
-System.out.println(bigNumber);
+IO.println(bigNumber);
 ~}
 ```
 
@@ -38,7 +38,7 @@ long a = 5;
 int b = 3;
 // a long times an int will result in a long
 long c = a * b;
-System.out.println(c);
+IO.println(c);
 ~}
 ```
 
@@ -51,7 +51,7 @@ And if you have need of a potentially nullable `long`, `Long` with a capital `L`
 
 // But you can have a null "Long"
 Long l = null;
-System.out.println(l);
+IO.println(l);
 ~}
 ```
 

@@ -8,7 +8,7 @@ int x;
 int y = 5;
 
 void main() {
-    System.out.println(x);
-    System.out.println(y);
+    IO.println(x);
+    IO.println(y);
 }
 ```

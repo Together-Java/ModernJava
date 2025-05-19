@@ -32,7 +32,7 @@ void main() {
     b.data = "abc";
 
     if (b.data instanceof String s) {
-        System.out.println(s);
+        IO.println(s);
     }
 }
 ```

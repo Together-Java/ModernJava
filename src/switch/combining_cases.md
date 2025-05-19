@@ -20,6 +20,6 @@ String scientificName(String vegetable) {
 }
 ~
 ~void main() {
-~    System.out.println(scientificName("cabbage"));
+~    IO.println(scientificName("cabbage"));
 ~}
 ```

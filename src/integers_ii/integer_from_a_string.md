@@ -10,7 +10,7 @@ String text = "123";
 
 int oneTwoThree = Integer.parseInt(text);
 
-System.out.println(oneTwoThree);
+IO.println(oneTwoThree);
 ~}
 ```
 

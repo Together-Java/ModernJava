@@ -11,13 +11,13 @@ void main() {
     while (true) {
         String response = IO.readln("Answer me: yes or no").strip();
         if (response.equalsIgnoreCase("yes")) {
-            System.out.println("aight");
+            IO.println("aight");
         }
         else if (response.equalsIgnoreCase("no")) {
-            System.out.println("cool");
+            IO.println("cool");
         }
         else {
-            System.out.println("try again");
+            IO.println("try again");
             continue;
         }
 

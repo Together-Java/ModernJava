@@ -29,8 +29,8 @@ void main() {
         new Character("Doc Hudson", false)
     };
 
-    System.out.println(findCharacter(carsCharacters, "Lightning McQueen"));
-    System.out.println(findCharacter(carsCharacters, "Blade Ranger"));
+    IO.println(findCharacter(carsCharacters, "Lightning McQueen"));
+    IO.println(findCharacter(carsCharacters, "Blade Ranger"));
 }
 ```
 
@@ -67,7 +67,7 @@ void main() {
         new Character("Doc Hudson", false)
     );
 
-    System.out.println(carsCharacters.get("Lightning McQueen"));
-    System.out.println(carsCharacters.get("Blade Ranger"));
+    IO.println(carsCharacters.get("Lightning McQueen"));
+    IO.println(carsCharacters.get("Blade Ranger"));
 }
 ```

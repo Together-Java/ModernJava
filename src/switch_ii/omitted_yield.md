@@ -25,7 +25,7 @@ Action action = switch (light) {
     case GREEN -> Action.GO;
 };
 
-System.out.println(action);
+IO.println(action);
 ~}
 ```
 
@@ -50,12 +50,12 @@ void main() {
     Action action = switch (light) {
         case RED -> Action.STOP;
         case YELLOW -> {
-            System.out.println("Lemon Light!");
+            IO.println("Lemon Light!");
             yield Action.SLOW_DOWN;
         }
         case GREEN -> Action.GO;
     };
 
-    System.out.println(action);
+    IO.println(action);
 }
 ```

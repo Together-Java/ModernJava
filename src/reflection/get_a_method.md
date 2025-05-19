@@ -10,7 +10,7 @@ class Main {
         Class<Tea> teaClass = Tea.class;
 
         Method sipMethod = teaClass.getMethod("sip");
-        System.out.println(sipMethod);
+        IO.println(sipMethod);
     }
 }
 
@@ -33,17 +33,17 @@ class Main {
 
         // There is a sip method which takes zero arguments
         Method sipMethod = teaClass.getMethod("sip");
-        System.out.println(sipMethod);
+        IO.println(sipMethod);
         
         // which is a different method than
         // sip that takes one int
         sipMethod = teaClass.getMethod("sip", int.class);
-        System.out.println(sipMethod);
+        IO.println(sipMethod);
         
         // which is a different method than
         // sip that takes a String and an int
         sipMethod = teaClass.getMethod("sip", String.class, int.class);
-        System.out.println(sipMethod);
+        IO.println(sipMethod);
     }
 }
 
@@ -67,9 +67,9 @@ class Main {
     void main() throws NoSuchMethodException {
         Class<Fruit> fruitClass = Fruit.class;
 
-        System.out.println(fruitClass.getDeclaredMethod("bite"));
-        System.out.println(fruitClass.getDeclaredMethod("chew"));
-        System.out.println(fruitClass.getDeclaredMethod("swallow"));
+        IO.println(fruitClass.getDeclaredMethod("bite"));
+        IO.println(fruitClass.getDeclaredMethod("chew"));
+        IO.println(fruitClass.getDeclaredMethod("swallow"));
     }
 }
 

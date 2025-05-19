@@ -11,7 +11,7 @@ void doStuff() {
             return;
         }
 
-        System.out.println(i);
+        IO.println(i);
     }
 }
 ```

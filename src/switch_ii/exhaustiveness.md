@@ -11,7 +11,7 @@ boolean cool = switch (name) {
     default -> true;
 };
 
-System.out.println(cool);
+IO.println(cool);
 ~}
 ```
 
@@ -25,6 +25,6 @@ boolean cool = switch (name) {
     case "bob" -> false;
 };
 
-System.out.println(cool);
+IO.println(cool);
 ~}
 ```

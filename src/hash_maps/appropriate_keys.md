@@ -46,7 +46,7 @@ class Main {
         var p = new Pos(4, 5);
         m.put(p, "Slippery Ice");
 
-        System.out.println(
+        IO.println(
             m.get(p)
         );
 
@@ -55,13 +55,13 @@ class Main {
 
         // then the original object might be in the wrong bucket
         // inside the hash map!
-        System.out.println(
+        IO.println(
             m.get(p)
         );
 
         // And because the key is stored, even if it is in the right bucket
         // the equals check might not function correctly
-        System.out.println(
+        IO.println(
             m.get(new Pos(4, 5))
         );
     }

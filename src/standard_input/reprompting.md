@@ -10,13 +10,13 @@ void main() {
     while (true) {
         String response = IO.readln("Answer me: yes or no");
         if (response.equals("yes")) {
-            System.out.println("okay then!");
+            IO.println("okay then!");
         }
         else if (response.equals("no")) {
-            System.out.println("also fine!");
+            IO.println("also fine!");
         }
         else {
-            System.out.println("Not a valid response");
+            IO.println("Not a valid response");
             // Will go back to the top of the loop
             continue;
         }

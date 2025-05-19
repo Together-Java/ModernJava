@@ -35,7 +35,7 @@ What will this program output when run? Write down your guess and then try runni
 void main() {
     int x = 0;
     while (x < 10) {
-        System.out.println(x);
+        IO.println(x);
         x++;
     }
 }
@@ -50,7 +50,7 @@ What will this program output when run? Write down your guess and then try runni
 void main() {
     int x = 0;
     while (x <= 10) {
-        System.out.println(x);
+        IO.println(x);
         x++;
     }
 }
@@ -67,7 +67,7 @@ void main() {
         if (x % 3 == 0) {
             break;
         }
-        System.out.println(x);
+        IO.println(x);
         x++;
     }
 }
@@ -85,7 +85,7 @@ void main() {
         if (x % 3 == 0) {
             continue;
         }
-        System.out.println(x);
+        IO.println(x);
         x++;
     }
 }
@@ -102,7 +102,7 @@ void main() {
     while (x < 10) {
         int y = 2;
         while (y < 5) {
-            System.out.println(x * y);
+            IO.println(x * y);
             y++;
         }
 
@@ -276,8 +276,8 @@ void main() {
     boolean shouldBreak = false;
     while (!shouldBreak && x < 100) {
         while (y < 100) {
-            System.out.println("x is " + x);
-            System.out.println("y is " + y);
+            IO.println("x is " + x);
+            IO.println("y is " + y);
             x = x * y;
             if (x == 0) {
                 shouldBreak = true;
@@ -287,7 +287,7 @@ void main() {
         }
     }
 
-    System.out.println("Done");
+    IO.println("Done");
 }
 ```
 

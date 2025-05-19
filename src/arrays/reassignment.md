@@ -12,11 +12,11 @@ So to reassign an `int[]` you need to write something like `new int[] { 1, 2, 3 
 ~void main() {
 int[] numbers = { 1, 2 };
 // 2
-System.out.println(numbers.length);
+IO.println(numbers.length);
 
 numbers = new int[] { numbers[0], numbers[1], 3 };
 // 3
-System.out.println(numbers.length);
+IO.println(numbers.length);
 ~}
 ```
 
@@ -28,29 +28,29 @@ are aliases for the variable's old value.
 char[] wordOne = { 'g', 'o' };
 char[] wordTwo = wordOne;
 // go
-System.out.println(wordOne);
+IO.println(wordOne);
 // go
-System.out.println(wordTwo);
+IO.println(wordTwo);
 
 wordOne = new char[] { wordOne[0], wordOne[1], 's', 'h' };
 
 // gosh
-System.out.println(wordOne);
+IO.println(wordOne);
 // go
-System.out.println(wordTwo);
+IO.println(wordTwo);
 
 wordTwo[0] = 'n';
 
 // gosh
-System.out.println(wordOne);
+IO.println(wordOne);
 // no
-System.out.println(wordTwo);
+IO.println(wordTwo);
 
 wordOne[0] = 'p';
 
 // posh
-System.out.println(wordOne);
+IO.println(wordOne);
 // no
-System.out.println(wordTwo);
+IO.println(wordTwo);
 ~}
 ```

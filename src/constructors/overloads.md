@@ -47,7 +47,7 @@ void announce(Muppet muppet) {
     else {
         System.out.print(" is not ");
     }
-    System.out.println("talented.");
+    IO.println("talented.");
 }
 
 void main() {

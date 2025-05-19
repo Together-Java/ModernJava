@@ -25,7 +25,7 @@ class Main {
     }
 
     void main() {
-        System.out.println(
+        IO.println(
                 didGokuStealItFromSomeoneElse(Technique.INSTANT_TRANSMISSION)
         );
     }

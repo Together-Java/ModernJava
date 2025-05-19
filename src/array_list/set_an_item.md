@@ -11,8 +11,8 @@ void main() {
 
     names.set(0, "Baba Yaga");
 
-    System.out.println(names);
-    System.out.println(names.get(0));
+    IO.println(names);
+    IO.println(names.get(0));
 }
 ```
 

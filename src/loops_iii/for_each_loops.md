@@ -25,7 +25,7 @@ Bread[] breads = {
 };
 
 for (Bread bread : breads) {
-    System.out.println(
+    IO.println(
         bread.name()
             + (bread.french() ? " is french" : " is not french")
         );

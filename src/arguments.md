@@ -6,7 +6,7 @@ The way to customize what happens when a method is called is to have them take "
 
 ```java
 void sayHello(String name) {
-    System.out.println("Hello " + name + "!");
+    IO.println("Hello " + name + "!");
 }
 
 void main() {

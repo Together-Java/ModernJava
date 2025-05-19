@@ -11,7 +11,7 @@ double x = 4;
 double y = Math.sqrt(x);
 
 // This will output 2
-System.out.println(y);
+IO.println(y);
 ~}
 ```
 
@@ -24,7 +24,7 @@ double y = 13;
 double z = Math.sqrt(9 * x + y);
 
 // This will output 7.615773105863909
-System.out.println(z);
+IO.println(z);
 ~}
 ```
 
@@ -33,6 +33,6 @@ If you try to take the square root of a negative number, the result will be `NaN
 ```java
 ~void main() {
 // will output NaN
-System.out.println(Math.sqrt(-5.2));
+IO.println(Math.sqrt(-5.2));
 ~}
 ```

@@ -7,9 +7,9 @@ a `byte` and half as much memory as representing an `int`.
 ```java
 ~void main() {
 short a = 32767;
-System.out.println(a);
+IO.println(a);
 byte b = -32768;
-System.out.println(b);
+IO.println(b);
 ~}
 ```
 
@@ -23,7 +23,7 @@ short a = 5;
 short b = 6;
 // Need to cast the result to a (byte) again
 short c = (short) (a * b);
-System.out.println(c);
+IO.println(c);
 ~}
 ```
 
@@ -34,7 +34,7 @@ need a cast.
 ~void main() {
 short a = 5;
 int a2 = a; // Widening conversion
-System.out.println(a2);
+IO.println(a2);
 ~}
 ```
 
@@ -48,7 +48,7 @@ And if you have need of a potentially nullable `short`, `Short` with a capital `
 
 // But you can have a null "Short"
 Short b = null;
-System.out.println(b);
+IO.println(b);
 ~}
 ```
 
@@ -61,7 +61,7 @@ is allowed, but will still require an explicit cast in both directions.[^neither
 short s = 50;
 char c = (char) s;
 s = (short) c;
-System.out.println(c);
+IO.println(c);
 ~}
 ```
 

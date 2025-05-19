@@ -4,7 +4,7 @@ If you made it through the [Getting Started section](./getting_started/hello_wor
 
 ```java
 void main() {
-    System.out.println("Hello, World!");
+    IO.println("Hello, World!");
 }
 ```
 
@@ -26,11 +26,11 @@ So for all intents and purposes, this is the whole program.
 
 ```java
 ~void main() {
-System.out.println("Hello, World!");
+IO.println("Hello, World!");
 ~}
 ```
 
-This bit of magic here - `System.out.println` - is a "statement" that "prints" the text inside the `(` and `)` as well as a "new line" to the screen.
+This bit of magic here - `IO.println` - is a "statement" that "prints" the text inside the `(` and `)` as well as a "new line" to the screen.
 
 **print** with new **l**i**n**e.
 
@@ -40,7 +40,7 @@ If you were to replace it with `System.out.print`, then the output would lack th
 ~void main() {
 System.out.print("Hello, ");
 System.out.print("World");
-System.out.println("!");
+IO.println("!");
 ~}
 ```
 
@@ -50,7 +50,7 @@ Which, when we add back `void main()`, looks like this.
 void main() {
     System.out.print("Hello, ");
     System.out.print("World");
-    System.out.println("!");
+    IO.println("!");
 }
 ```
 

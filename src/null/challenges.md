@@ -66,7 +66,7 @@ void main() {
     };
 
     for (int i = 0; i < jobs.length; i++) {
-        System.out.println(jobs[i]);
+        IO.println(jobs[i]);
     }
 }
 ```
@@ -86,7 +86,7 @@ void main() {
     };
 
     for (int i = 0; i < numbers.length; i++) {
-        System.out.println(numbers[i]);
+        IO.println(numbers[i]);
     }
 }
 ```
@@ -116,27 +116,27 @@ String bigness(String letters) {
 }
 
 void main() {
-    System.out.println(
+    IO.println(
         bigness("bore")
     );
 
-    System.out.println(
+    IO.println(
         bigness("boiler")
     );
 
-    System.out.println(
+    IO.println(
         bigness("filter")
     );
 
-    System.out.println(
+    IO.println(
         bigness("knower")
     );
 
-    System.out.println(
+    IO.println(
         bigness("chrysanthemum")
     );
 
-    System.out.println(
+    IO.println(
         bigness(null)
     );
 }

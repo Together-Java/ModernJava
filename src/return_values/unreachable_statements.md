@@ -5,10 +5,10 @@ If Java can figure out that some line of code is unreachable because it will alw
 
 ```java
 void doThing() {
-    System.out.println("A");
+    IO.println("A");
     return;
     // unreachable statement
-    System.out.println("B");
+    IO.println("B");
 }
 
 void main() {
@@ -20,11 +20,11 @@ Java is easy to trick though.[^trick]
 
 ```java
 void doThing() {
-    System.out.println("A");
+    IO.println("A");
     if (true) {
         return;
     }
-    System.out.println("B");
+    IO.println("B");
 }
 
 void main() {

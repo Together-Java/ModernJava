@@ -8,12 +8,12 @@ class Elmo {
     int age;
 
     void sayHello() {
-        System.out.println("Hi, I'm Elmo");
+        IO.println("Hi, I'm Elmo");
         System.out.print("I am ");
 
         // You can use elmo's age by just writing "age"
         System.out.print(age);
-        System.out.println(" years old.");
+        IO.println(" years old.");
     }
 }
 

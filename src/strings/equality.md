@@ -10,8 +10,8 @@ String lyricTwo = "Green, Green, Dress";
 boolean areSameLyric = lyricOne.equals(lyricTwo);
 boolean isMyName = lyricOne.equals("Bop Bop");
 
-System.out.println(areSameLyric);
-System.out.println(isMyName);
+IO.println(areSameLyric);
+IO.println(isMyName);
 ~}
 ```
 
@@ -28,6 +28,6 @@ String wow = "WOW";
 
 boolean areNotSame = !bow.equals(wow);
 
-System.out.println(areNotSame);
+IO.println(areNotSame);
 ~}
 ```

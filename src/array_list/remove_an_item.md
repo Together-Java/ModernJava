@@ -16,11 +16,11 @@ void main() {
     names.add("The Elder");
     names.add("The Harbinger");
 
-    System.out.println(names);
+    IO.println(names);
 
     names.remove("The Elder");
 
-    System.out.println(names);
+    IO.println(names);
 }
 ```
 
@@ -35,12 +35,12 @@ void main() {
     names.add("The Elder");
     names.add("The Harbinger");
 
-    System.out.println(names);
+    IO.println(names);
 
     names.remove(2);
     names.remove(0);
 
-    System.out.println(names);
+    IO.println(names);
 }
 ```
 
@@ -57,12 +57,12 @@ void main() {
     numbers.add(2);
     numbers.add(3);
 
-    System.out.println(numbers);
+    IO.println(numbers);
 
     // Notice that this removes "2" which is at index 1!
     numbers.remove(1);
 
-    System.out.println(numbers);
+    IO.println(numbers);
 }
 ```
 
@@ -82,10 +82,10 @@ void main() {
     numbers.add(2);
     numbers.add(3);
 
-    System.out.println(numbers);
+    IO.println(numbers);
 
     numbers.remove(Integer.valueOf(1));
 
-    System.out.println(numbers);
+    IO.println(numbers);
 }
 ```

@@ -9,12 +9,12 @@ int age = 5;
 
 if (age == 5) {
     int nextAge = age + 1;
-    System.out.println(nextAge);
+    IO.println(nextAge);
 }
 
 // If you uncomment this line, there will be an issue
 // `nextAge` is not available to the scope outside of the `if`
-// System.out.println(nextAge);
+// IO.println(nextAge);
 ~}
 ```
 
@@ -34,7 +34,7 @@ else {
 
 // This will not work, because although `message` is declared
 // in all branches, it is not declared in the "outer scope"
-System.out.println(message);
+IO.println(message);
 ~}
 ```
 

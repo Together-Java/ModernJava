@@ -19,7 +19,7 @@ class MyMath {
 class Main {
     void main() {
         int result = MyMath.add(1, 2);
-        System.out.println(result);
+        IO.println(result);
     }
 }
 ```

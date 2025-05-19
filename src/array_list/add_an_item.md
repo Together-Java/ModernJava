@@ -11,7 +11,7 @@ void main() {
     names.add("The Bowery King");
     names.add("Caine");
 
-    System.out.println(names);
+    IO.println(names);
 }
 ```
 

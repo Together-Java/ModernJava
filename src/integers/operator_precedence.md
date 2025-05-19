@@ -28,7 +28,7 @@ None of this should be a surprise if you learned [PEMDAS](https://www.khanacadem
 
 // and the final result is 17;
 int result = 2 * 3 + 3 * 9 / 2 - 2;
-System.out.println(result);
+IO.println(result);
 ~}
 ```
 
@@ -39,7 +39,7 @@ put them in the middle of any two math expressions.
 ~void main() {
 // The == check happens last.
 boolean areThingsSame = 3 * (4 - 1 + 3) * 4 == 5 * 3 + 1 * 3 * 9;
-System.out.println(areThingsSame);
+IO.println(areThingsSame);
 ~}
 ```
 

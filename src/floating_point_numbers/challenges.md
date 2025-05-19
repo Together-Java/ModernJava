@@ -13,7 +13,7 @@ What will this program output when run? Write down your guess and then try runni
 void main() {
     double x = 5.1;
     double y = 2.4;
-    System.out.println(x + y);
+    IO.println(x + y);
 }
 ```
 
@@ -25,7 +25,7 @@ What will this program output when run? Write down your guess and then try runni
 void main() {
     double x = 5.1;
     double y = 2.1;
-    System.out.println(x - y);
+    IO.println(x - y);
 }
 ```
 
@@ -38,7 +38,7 @@ How can you make it give the "right" answer?
 ```java,editable
 void main() {
     double x = 5 / 2;
-    System.out.println(x);
+    IO.println(x);
 }
 ```
 
@@ -51,8 +51,8 @@ void main() {
     double resultOne = (int) 5.0 / 2 + 5.0 / 2;
     double resultTwo = (int) (5.0 / 2 + 5.0 / 2);
 
-    System.out.println(resultOne);
-    System.out.println(resultTwo);
+    IO.println(resultOne);
+    IO.println(resultTwo);
 }
 ```
 
@@ -86,8 +86,8 @@ void main() {
     double resultOne = ???;
     double resultTwo = ???;
 
-    System.out.println(resultOne);
-    System.out.println(resultTwo);
+    IO.println(resultOne);
+    IO.println(resultTwo);
 }
 ```
 

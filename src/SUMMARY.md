@@ -552,6 +552,7 @@ Make them do one. -->
   - [Reference Based Identity](./hash_maps/reference_based_identity.md)
   - [Value Based Identity](./hash_maps/value_based_identity.md)
   - [Appropriate Keys](./hash_maps/appropriate_keys.md)
+  - [Ubiquity](./hash_maps/ubiquity.md)
 
   <!-- - [Function Range](./hash_maps/function_range.md)
   - [Buckets](./hash_maps/buckets.md) -->
@@ -593,10 +594,11 @@ Make them do one. -->
 
 - [Encapsulation](./encapsulation.md)
   - [Implementation Details](./encapsulation/implementation_details.md)
+  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
   - [Methods](./encapsulation/methods.md)
   - [Classes](./encapsulation/classes.md)
-  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
-  - [Abstractions](./encapsulation/abstractions.md)
+  - [Abstraction](./encapsulation/abstractions.md)
+  - [Coupling](./encapsulation/coupling.md)
   - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
   - [Information Hiding](./encapsulation/information_hiding.md)
 
@@ -648,6 +650,7 @@ Make them do one. -->
   <!--  - [@Deprecated](./annotations/deprecated)
   - [@Repeatable]()Note: When doing javadoc, write about @Documented -->
 
+<!-- 
 # Concepts III
 
 - [Abbreviations](./abbreviations.md)
@@ -656,10 +659,11 @@ Make them do one. -->
   - [Ambiguity](./abbreviations/ambiguity.md)
   - [Familiarity](./abbreviations/familiarity.md)
   - [Elaboration](./abbreviations/elaboration.md)
+-->
 
 # Code Structure VII
 - [Interfaces II](./interfaces_ii.md)
-  - [Default Methods]()
+  - [Default Methods](./interfaces_ii/default_methods.md)
   - [Interface Extension]()
   - [Static Methods]()
   - [Private Static Methods]()
@@ -686,8 +690,29 @@ Make them do one. -->
 # Code Structure VIII
 
 - [Modules](./modules.md)
+  - [Declaration](./modules/declaration.md)
+  - [Restrictions](./modules/restrictions.md)
+  - [Exports]()
+  - [Integrity]()
+  - [java.base](./modules/java.base.md)
+  - [The Unnamed Module](./modules/the_unnamed_module.md)
+  - [Module Imports](./modules/module_imports.md)
+  - [Multi-Module Directory Layout]()
 
-<!--- [HashMap](./hash_map.md)
+<!--- 
+PROJECT IDEAS:
+  - Alan Turing Themed one (He was killed by the british government)
+    - Caesar Cipher
+    - Enigma Machine?
+  - Boston Molasses Disaster
+  - Triangle Shirtwaist Fire
+  - Distance from tainted drinking water (K means stats one)
+  - Oregon Trail one. (Find a way to mention the buffalo murders), also manifest destiny
+
+
+
+
+[HashMap](./hash_map.md)
 
 
 
@@ -925,11 +950,8 @@ jshell
 ```
 
 - Getting Started
-- [Hello, World]()
 - Data Types
 
-    - Arrays
-multi dimensional arrays
 - Expressions
 - Conditionals
 - Loops
@@ -963,7 +985,8 @@ multi dimensional arrays
 - Maven before hikaricp
     - HikariCP for connection pool
 
-System.console() over Scanner?
+The You of today is not the you of tommorow
+
 -->
 
 

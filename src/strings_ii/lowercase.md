@@ -10,7 +10,7 @@ void main() {
     String message = "Happy Valentines Day";
 
     String lowerCased = message.toLowerCase();
-    System.out.println(lowerCased);
+    IO.println(lowerCased);
 }
 ```
 

@@ -11,15 +11,15 @@ class Elmo {
     int age;
 
     void sayHello() {
-        System.out.println("Hi, I'm Elmo");
+        IO.println("Hi, I'm Elmo");
         System.out.print("I am ");
         System.out.print(this.age);
-        System.out.println(" years old.");
+        IO.println(" years old.");
     }
 
     void startTheShow(String showName) {
         this.sayHello();
-        System.out.println("Welcome to " + showName);
+        IO.println("Welcome to " + showName);
     }
 }
 

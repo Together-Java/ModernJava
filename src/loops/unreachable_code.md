@@ -11,7 +11,7 @@ Java knows this and so won't let any code like that run.
 while (true) {
     continue;
 
-    System.out.println("this is unreachable");
+    IO.println("this is unreachable");
 }
 ~}
 ```

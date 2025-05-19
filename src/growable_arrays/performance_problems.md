@@ -56,7 +56,7 @@ class Main {
             array.add(i);
         }
 
-        System.out.println(array.size());
+        IO.println(array.size());
     }
 }
 ```

@@ -16,15 +16,15 @@ has three variants. `YES`, `NO`, and `MAYBE_SO`.
 // -------------
 
 void main() {
-    System.out.println(
+    IO.println(
         Response.YES
     );
 
-    System.out.println(
+    IO.println(
         Response.NO
     );
 
-    System.out.println(
+    IO.println(
         Response.MAYBE_SO
     );
 }
@@ -48,16 +48,16 @@ Use the enum you defined above.
 
 void main() {
     Response pitbull = goodPerformer("Pitbull");
-    System.out.println(pitbull);
+    IO.println(pitbull);
 
     Response billyJoel = goodPerformer("Billy Joel");
-    System.out.println(billyJoel);
+    IO.println(billyJoel);
 
     Response shaggy = goodPerformer("Shaggy");
-    System.out.println(shaggy);
+    IO.println(shaggy);
 
     Response chappelRoan = goodPerformer("Chappell Roan");
-    System.out.println(chappelRoan);
+    IO.println(chappelRoan);
 }
 ```
 
@@ -84,24 +84,24 @@ StopLight transition(StopLight current) {
 
 void main() {
     var light = StopLight.RED;
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 }
 ```

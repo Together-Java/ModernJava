@@ -28,7 +28,7 @@ java src/Main.java Duck Squirrel
 ~class Main {
 void main(String[] args) {
     for (int i = 0; i < args.length; i++) {
-        System.out.println(
+        IO.println(
             "Hello Mr. " + args[i]
         );
     }

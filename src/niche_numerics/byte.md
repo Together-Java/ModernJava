@@ -6,9 +6,9 @@ and `127`.
 ```java
 ~void main() {
 byte a = 127;
-System.out.println(a);
+IO.println(a);
 byte b = -128;
-System.out.println(b);
+IO.println(b);
 ~}
 ```
 
@@ -22,7 +22,7 @@ byte a = 5;
 byte b = 6;
 // Need to cast the result to a (byte) again
 byte c = (byte) (a * b);
-System.out.println(c);
+IO.println(c);
 ~}
 ```
 
@@ -33,7 +33,7 @@ need a cast.
 ~void main() {
 byte a = 5;
 int a2 = a; // Widening conversion
-System.out.println(a2);
+IO.println(a2);
 ~}
 ```
 
@@ -47,7 +47,7 @@ And if you have need of a potentially nullable `byte`, `Byte` with a capital `B`
 
 // But you can have a null "Byte"
 Byte b = null;
-System.out.println(b);
+IO.println(b);
 ~}
 ```
 

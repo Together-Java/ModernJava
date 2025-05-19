@@ -8,15 +8,15 @@ class Main {
         String name = "Piccolo";
         switch (name) {
             case "Squidward":
-                System.out.println("Invited, but not coming.");
+                IO.println("Invited, but not coming.");
                 break;
 
             case "Piccolo":
-                System.out.println("Coming to the cookout.");
+                IO.println("Coming to the cookout.");
                 break;
 
             case "Spider-Man":
-                System.out.println("Not coming");
+                IO.println("Not coming");
                 break;
         }
     }
@@ -33,15 +33,15 @@ class Main {
             String name = "Piccolo";
             switch (name) {
                 case "Squidward":
-                    System.out.println("Invited, but not coming.");
+                    IO.println("Invited, but not coming.");
                     break;
 
                 case "Piccolo":
-                    System.out.println("Coming to the cookout.");
+                    IO.println("Coming to the cookout.");
                     break;
 
                 case "Spider-Man":
-                    System.out.println("Not coming");
+                    IO.println("Not coming");
                     break;
             }
         }
@@ -59,15 +59,15 @@ class Main {
             String name = "Piccolo";
             switch (name) {
                 case "Squidward":
-                    System.out.println("Invited, but not coming.");
+                    IO.println("Invited, but not coming.");
                     break;
 
                 case "Piccolo":
-                    System.out.println("Coming to the cookout.");
+                    IO.println("Coming to the cookout.");
                     break outerLoop; // Will break out of the loop
 
                 case "Spider-Man":
-                    System.out.println("Not coming");
+                    IO.println("Not coming");
                     break;
             }
         }

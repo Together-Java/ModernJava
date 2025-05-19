@@ -19,7 +19,7 @@ class Main {
     void main() {
         ZoneId tz = ZoneId.systemDefault();
 
-        System.out.println(tz);
+        IO.println(tz);
     }
 }
 ```
@@ -38,7 +38,7 @@ class Main {
         // Eastern Standard Time
         ZoneId tz = ZoneId.of("US/Eastern");
 
-        System.out.println(tz);
+        IO.println(tz);
     }
 }
 ```
@@ -55,7 +55,7 @@ class Main {
         // Eastern Standard Time
         ZoneId tz = ZoneId.of("US/Eastern");
 
-        System.out.println(tz.getRules());
+        IO.println(tz.getRules());
     }
 }
 ```

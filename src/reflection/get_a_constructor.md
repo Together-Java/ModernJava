@@ -24,12 +24,12 @@ class Main {
         Constructor<AirplaneFood> constructor
                 = airplaneFoodClass.getConstructor();
 
-        System.out.println(constructor);
+        IO.println(constructor);
         
         // One argument constructor
         constructor = airplaneFoodClass.getConstructor(boolean.class);
 
-        System.out.println(constructor);
+        IO.println(constructor);
     }
 }
 

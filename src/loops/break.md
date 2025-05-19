@@ -15,7 +15,7 @@ while (x > 0) {
     x--;
 }
 
-System.out.println(
+IO.println(
     "Final value of x is " + x
 );
 ~}
@@ -30,7 +30,7 @@ from an otherwise endless loop.
 ```java
 ~void main() {
 while (true) {
-    System.out.println(
+    IO.println(
         "The people started singing it not knowing what it was"
     );
 

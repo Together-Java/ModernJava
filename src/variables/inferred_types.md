@@ -11,7 +11,7 @@ be.
 // of the = is in quotes, Java knows that
 // it is a String.
 var theDude = "Lebowski";
-System.out.println(theDude);
+IO.println(theDude);
 ~}
 ```
 
@@ -23,7 +23,7 @@ You cannot use `var` with variables whose assignment is delayed.
 // Java doesn't know enough to infer the type
 var theDude;
 theDude = "Lebowski";
-System.out.println(theDude);
+IO.println(theDude);
 ~}
 ```
 
@@ -33,7 +33,7 @@ and cannot be reassigned.
 ```java
 ~void main() {
 final var theDude = "Lebowski";
-System.out.println(theDude);
+IO.println(theDude);
 ~}
 ```
 
@@ -43,6 +43,6 @@ you might not be yet. There is no shame in writing out the type explicitly.
 ```java
 ~void main() {
 String theDude = "lebowski";
-System.out.println(theDude);
+IO.println(theDude);
 ~}
 ```

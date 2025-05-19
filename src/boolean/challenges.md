@@ -18,7 +18,7 @@ void main() {
 
     boolean result = a || b && c || !d;
 
-    System.out.println(result);
+    IO.println(result);
 }
 ```
 
@@ -35,7 +35,7 @@ void main() {
 
     boolean result = !(a || b && c || !d) || (a && b || c);
 
-    System.out.println(result);
+    IO.println(result);
 }
 ```
 
@@ -51,7 +51,7 @@ void main() {
 
     boolean validChoice = < YOUR CODE HERE >;
 
-    System.out.println(validChoice);
+    IO.println(validChoice);
 }
 ```
 

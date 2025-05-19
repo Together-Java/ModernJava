@@ -10,7 +10,7 @@ Every now and then, however, you will want something more exotic[^wording].
 ~void main() {
 byte b = 123;
 
-System.out.println(b);
+IO.println(b);
 ~}
 ```
 

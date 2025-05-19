@@ -21,8 +21,8 @@ class Main {
         var soda = new Drink("Soda", true);
         var water = new Drink("Water", false);
 
-        System.out.println(nameField.get(soda));
-        System.out.println(nameField.get(water));
+        IO.println(nameField.get(soda));
+        IO.println(nameField.get(water));
     }
 }
 

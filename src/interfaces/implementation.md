@@ -31,7 +31,7 @@ interface Dog {
 
 class Mutt implements Dog {
     public void bark() {
-        System.out.println("Bark");
+        IO.println("Bark");
     }
 
     public String fetch(String ball) {

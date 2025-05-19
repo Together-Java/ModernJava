@@ -5,9 +5,9 @@ The type to use for an `int` that might be null is `Integer`.
 ```java
 ~void main() {
 Integer i = null;
-System.out.println(i);
+IO.println(i);
 i = 5;
-System.out.println(i);
+IO.println(i);
 ~}
 ```
 
@@ -17,6 +17,6 @@ get a `NullPointerException`.
 ```java,panics
 ~void main() {
 Integer i = null;
-System.out.println(i * 5);
+IO.println(i * 5);
 ~}
 ```

@@ -14,12 +14,12 @@ class Main {
         var stringB = new String(new char[] { 'a', 'b', 'c' });
 
         // but they will give the same hashCode
-        System.out.println(stringA.hashCode());
-        System.out.println(stringB.hashCode());
+        IO.println(stringA.hashCode());
+        IO.println(stringB.hashCode());
 
         // and will be equal to eachother
-        System.out.println(stringA.equals(stringB));
-        System.out.println(stringB.equals(stringA));
+        IO.println(stringA.equals(stringB));
+        IO.println(stringB.equals(stringA));
     }
 }
 ```
@@ -41,12 +41,12 @@ class Main {
         var posB = new Pos(5, 5);
 
         // therefore they will give the same hashCode
-        System.out.println(posA.hashCode());
-        System.out.println(posB.hashCode());
+        IO.println(posA.hashCode());
+        IO.println(posB.hashCode());
 
         // and will be equal to eachother
-        System.out.println(posA.equals(posB));
-        System.out.println(posB.equals(posA));
+        IO.println(posA.equals(posB));
+        IO.println(posB.equals(posA));
     }
 }
 ```

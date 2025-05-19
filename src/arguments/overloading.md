@@ -6,15 +6,15 @@ or different numbers of arguments.
 
 ```java,no_run
 void doThing(int x) {
-    System.out.println(x);
+    IO.println(x);
 }
 
 void doThing(String name) {
-    System.out.println("Hello " + name);
+    IO.println("Hello " + name);
 }
 
 void doThing(int x, int y) {
-    System.out.println(x + y);
+    IO.println(x + y);
 }
 ```
 
@@ -24,15 +24,15 @@ you are passing.
 
 ```java
 void doThing(int x) {
-    System.out.println(x);
+    IO.println(x);
 }
 
 void doThing(String name) {
-    System.out.println("Hello " + name);
+    IO.println("Hello " + name);
 }
 
 void doThing(int x, int y) {
-    System.out.println(x + y);
+    IO.println(x + y);
 }
 
 void main() {

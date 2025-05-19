@@ -4,11 +4,11 @@ In a method you can call another method.
 
 ```java
 void doOtherThing() {
-    System.out.println("B");
+    IO.println("B");
 }
 
 void doThing() {
-    System.out.println("A");
+    IO.println("A");
 }
 
 void main() {
@@ -23,7 +23,7 @@ What might not be obvious is that you can call the method currently running.
 
 ```java
 void countDown(int value) {
-    System.out.println(value);
+    IO.println(value);
     if (value > 0) {
         countDown(value - 1);
     }

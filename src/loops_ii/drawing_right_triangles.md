@@ -31,7 +31,7 @@ for (int numberOfStars = 1; numberOfStars <= 3; numberOfStars++) {
         System.out.print("*");
     }
     // Same as System.out.print("\n");
-    System.out.println();
+    IO.println();
 }
 ~}
 ```
@@ -45,7 +45,7 @@ for (int numberOfStars = 1; numberOfStars <= height; numberOfStars++) {
     for (int i = 0; i < numberOfStars; i++) {
         System.out.print("*");
     }
-    System.out.println();
+    IO.println();
 }
 ~}
 ```

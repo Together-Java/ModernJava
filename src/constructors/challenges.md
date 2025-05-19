@@ -19,13 +19,13 @@ enum Quality {
 
 void main() {
     Shoe nike = new Shoe("Nikes", Quality.SUB_FINE);
-    System.out.println(
+    IO.println(
         "SHOE: " + nike.name + ", " + nike.quality
     );
 
 
     Shoe moccasin = new Shoe("Moccasins", Quality.SUPA_FINE);
-    System.out.println(
+    IO.println(
         "SHOE: " + moccasin.name + ", " + moccasin.quality
     );
 }
@@ -52,18 +52,18 @@ enum Quality {
 
 void main() {
     Shoe jays = new Shoe("Air Jordans", Quality.FINE, 130.0);
-    System.out.println(
+    IO.println(
         "SHOE: " + jays.name + ", " + jays.quality + ", $" + jays.price
     );
 
     Shoe nike = new Shoe("Nikes", Quality.SUB_FINE, 25);
-    System.out.println(
+    IO.println(
         "SHOE: " + nike.name + ", " + nike.quality + ", $" + jays.price
     );
 
 
     Shoe moccasin = new Shoe("Moccasins", Quality.SUPA_FINE);
-    System.out.println(
+    IO.println(
         "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + jays.price
     );
 }
@@ -89,18 +89,18 @@ enum Quality {
 
 void main() {
     Shoe jays = new Shoe("Air Jordans", Quality.FINE, 130.0);
-    System.out.println(
+    IO.println(
         "SHOE: " + jays.name + ", " + jays.quality + ", $" + jays.price
     );
 
     Shoe nike = new Shoe("Nikes", Quality.SUB_FINE, 25);
-    System.out.println(
+    IO.println(
         "SHOE: " + nike.name + ", " + nike.quality + ", $" + jays.price
     );
 
 
     Shoe moccasin = new Shoe("Moccasins", Quality.SUPA_FINE);
-    System.out.println(
+    IO.println(
         "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + jays.price
     );
 
@@ -127,18 +127,18 @@ enum Quality {
 
 void main() {
     Shoe jays = new Shoe("Air Jordans", Quality.FINE, 130.0);
-    System.out.println(
+    IO.println(
         "SHOE: " + jays.name + ", " + jays.quality + ", $" + jays.price
     );
 
     Shoe nike = new Shoe("Nikes", Quality.SUB_FINE, 25);
-    System.out.println(
+    IO.println(
         "SHOE: " + nike.name + ", " + nike.quality + ", $" + jays.price
     );
 
 
     Shoe moccasin = new Shoe("Moccasins", Quality.SUPA_FINE);
-    System.out.println(
+    IO.println(
         "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + jays.price
     );
 

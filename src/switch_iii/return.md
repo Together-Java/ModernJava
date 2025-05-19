@@ -8,16 +8,16 @@ class Main {
     void sayWhoTheyFought(String name) {
         switch (name) {
             case "Launch":
-                System.out.println("Fought Red Ribbon Army");
-                System.out.println("Fought 3 nameless convicts");
+                IO.println("Fought Red Ribbon Army");
+                IO.println("Fought 3 nameless convicts");
                 return; // This will return from the whole method
             case "Goku":
-                System.out.println("Fought Pilaf");
-                System.out.println("Fought The Red Ribbon Army");
+                IO.println("Fought Pilaf");
+                IO.println("Fought The Red Ribbon Army");
             case "Gohan":
-                System.out.println("Fought Frieza");
-                System.out.println("Fought Cell");
-                System.out.println("Fought Majin Buu");
+                IO.println("Fought Frieza");
+                IO.println("Fought Cell");
+                IO.println("Fought Majin Buu");
         }
     }
 

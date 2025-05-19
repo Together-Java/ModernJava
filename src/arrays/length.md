@@ -8,7 +8,7 @@ String[] veggies = { "brussels", "cabbage", "carrots" };
 int numberOfElements = veggies.length;
 
 // veggies is 3 elements long
-System.out.println(
+IO.println(
     "veggies is " + numberOfElements + " characters long"
 );
 ~}

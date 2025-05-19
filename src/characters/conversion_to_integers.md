@@ -10,7 +10,7 @@ by attempting to assign a `char` to an `int`.
 ~void main() {
 int valueOfA = 'a';
 
-System.out.println(valueOfA);
+IO.println(valueOfA);
 ~}
 ```
 
@@ -23,7 +23,7 @@ char gee = 'g';
 // all the letters from a to z have consecutive numeric values.
 boolean isLetter = gee >= 'a' && gee <= 'z';
 
-System.out.println(isLetter);
+IO.println(isLetter);
 ~}
 ```
 

@@ -31,7 +31,7 @@ class Main {
 
 class Tea {
     public void sip(int numberOfSips) {
-        System.out.println("You made " + numberOfSips + " sips");
+        IO.println("You made " + numberOfSips + " sips");
     }
 }
 ```
@@ -62,7 +62,7 @@ class Main {
 
 class Apple {
     public static void bite(int times) {
-        System.out.println("You took " + times + " bite" + (times < 1 ? "." : "s."));
+        IO.println("You took " + times + " bite" + (times < 1 ? "." : "s."));
     }
 }
 ```

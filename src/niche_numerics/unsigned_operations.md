@@ -12,11 +12,11 @@ to perform operations on them that work as if they were unsigned.
 // Java sees 255 as being out of range for a byte
 // so we have to cast
 byte b = (byte) 255;
-// And by default this will be seen as -127
-System.out.println(b);
+// And by default this will be seen as -1
+IO.println(b);
 // But we can use Byte.toUnsignedInt to see it
 // as 255
-System.out.println(Byte.toUnsignedInt(b));
+IO.println(Byte.toUnsignedInt(b));
 ~}
 ```
 
@@ -27,13 +27,13 @@ to work right when doing "unsigned math."
 ~void main() {
 int i = -1;
 // -1 is actually 4294967295 when viewed as an unsigned int
-System.out.println(Integer.toUnsignedString(i));
+IO.println(Integer.toUnsignedString(i));
 // So normal comparisons won't do what you want
 boolean isFiveBigger = 5 > i;
-System.out.println(isFiveBigger);
+IO.println(isFiveBigger);
 // You'd want to use special unsigned comparisons
 isFiveBigger = Integer.compareUnsigned(5, i) > 0;
-System.out.println(isFiveBigger);
+IO.println(isFiveBigger);
 ~}
 ```
 

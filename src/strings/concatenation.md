@@ -9,7 +9,7 @@ String llo = "llo";
 
 String hello = he + llo;
 
-System.out.println(hello);
+IO.println(hello);
 ~}
 ```
 
@@ -27,6 +27,6 @@ double dollars = 1.52;
 String message = "I have " + numberOfApples +
     " apples and $" + dollars + " in my pocket.";
 
-System.out.println(message);
+IO.println(message);
 ~}
 ```

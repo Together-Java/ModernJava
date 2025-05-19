@@ -8,7 +8,7 @@ and see if that is zero.
 ```java
 void main() {
     String textMessages = "";
-    System.out.println(
+    IO.println(
         textMessages.length() == 0
     );
 }
@@ -19,7 +19,7 @@ But another is to use the explicitly defined `.isEmpty()` method.
 ```java
 void main() {
     String textMessages = "";
-    System.out.println(
+    IO.println(
         textMessages.isEmpty()
     );
 }

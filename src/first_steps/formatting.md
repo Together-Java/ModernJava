@@ -4,7 +4,7 @@ You may have noticed that after each `{` all the code that comes after it is "in
 
 ```java
 void main() {
-    System.out.println("Hello, World!");
+    IO.println("Hello, World!");
 }
 ```
 
@@ -18,7 +18,7 @@ This is easier to show than to explain in detail. Just try to make your code loo
 
 ```java
 void main() {
-    System.out.println("Hello, World!");
+    IO.println("Hello, World!");
 }
 ```
 
@@ -29,7 +29,7 @@ And not like this.
 ```java
 void main()
 {
-System.out.println("Hello, World!");}
+IO.println("Hello, World!");}
 ```
 
 And keep in mind that this rule of thumb applies to every language construct that requires a `{` and `}` many of which I will introduce later.

@@ -7,16 +7,16 @@ As already shown, you can use a case to match `String` values.
 String veggie = "cucumber";
 switch (veggie) {
     case "cabbage" -> {
-        System.out.println("A cabbage");
+        IO.println("A cabbage");
     }
     case "brussel sprout" -> {
-        System.out.println("A brussel sprout");
+        IO.println("A brussel sprout");
     }
     case "cucumber" -> {
-        System.out.println("A cucumber");
+        IO.println("A cucumber");
     }
     default -> {
-        System.out.println("Other");
+        IO.println("Other");
     }
 }
 ~}

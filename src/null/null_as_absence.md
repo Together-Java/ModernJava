@@ -13,7 +13,7 @@ Cher does not have a last name.
 String firstName = "Cher";
 String lastName = null;
 
-System.out.println(firstName);
-System.out.println(lastName);
+IO.println(firstName);
+IO.println(lastName);
 ~}
 ```

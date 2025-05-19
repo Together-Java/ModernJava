@@ -7,6 +7,6 @@ for inferring the type of a global field. You need to explicitly write out the t
 var x = 5;
 
 void main() {
-    System.out.println(x);
+    IO.println(x);
 }
 ```

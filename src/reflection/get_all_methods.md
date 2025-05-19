@@ -18,7 +18,7 @@ class Main {
 
         Method[] methods = teaClass.getMethods();
         for (var method : methods) {
-            System.out.println(method);
+            IO.println(method);
         }
     }
 }
@@ -42,18 +42,18 @@ class Main {
     void main() {
         Class<Fruit> fruitClass = Fruit.class;
 
-        System.out.println("Using getMethods");
+        IO.println("Using getMethods");
         Method[] publicMethods = fruitClass.getMethods();
         for (var method : publicMethods) {
-            System.out.println(method);
+            IO.println(method);
         }
 
-        System.out.println("-------------");
+        IO.println("-------------");
 
-        System.out.println("Using getDeclaredMethods");
+        IO.println("Using getDeclaredMethods");
         Method[] allMethods = fruitClass.getDeclaredMethods();
         for (var method : allMethods) {
-            System.out.println(method);
+            IO.println(method);
         }
     }
 }

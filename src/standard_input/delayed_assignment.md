@@ -14,14 +14,14 @@ void main() {
     while (true) {
         String name = IO.readln("What is your name? ");
         if (name.isBlank()) {
-            System.out.println("Name cannot be blank!");
+            IO.println("Name cannot be blank!");
             continue;
         }
 
         break;
     }
 
-    System.out.println("Hello " + name);
+    IO.println("Hello " + name);
 }
 ```
 
@@ -33,14 +33,14 @@ void main() {
     while (true) {
         String name = IO.readln("What is your name? ");
         if (name.isBlank()) {
-            System.out.println("Name cannot be blank!");
+            IO.println("Name cannot be blank!");
             continue;
         }
 
         break;
     }
 
-    System.out.println("Hello " + name);
+    IO.println("Hello " + name);
 }
 ```
 
@@ -54,13 +54,13 @@ void main() {
     do {
         String name = IO.readln("What is your name? ");
         if (name.isBlank()) {
-            System.out.println("Name cannot be blank!");
+            IO.println("Name cannot be blank!");
             continue;
         }
 
         break;
     } while (true);
 
-    System.out.println("Hello " + name);
+    IO.println("Hello " + name);
 }
 ```

@@ -6,13 +6,13 @@ When a switch is given a `null` value a `NullPointerException` will be thrown im
 void eat(String food) {
     switch (food) {
         case "dog food" -> {
-            System.out.println("Crunch");
+            IO.println("Crunch");
         }
         case "cat food" -> {
-            System.out.println("Slorp");
+            IO.println("Slorp");
         }
         default -> {
-            System.out.println("Other food");
+            IO.println("Other food");
         }
     }
 }
@@ -29,16 +29,16 @@ case labels. `default` will not suffice.
 void eat(String food) {
     switch (food) {
         case "dog food" -> {
-            System.out.println("Crunch");
+            IO.println("Crunch");
         }
         case "cat food" -> {
-            System.out.println("Slorp");
+            IO.println("Slorp");
         }
         case null -> {
-            System.out.println("No food");
+            IO.println("No food");
         }
         default -> {
-            System.out.println("Other food");
+            IO.println("Other food");
         }
     }
 }
@@ -54,13 +54,13 @@ A default branch and a null case can be combined by separating them with a comma
 void eat(String food) {
     switch (food) {
         case "dog food" -> {
-            System.out.println("Crunch");
+            IO.println("Crunch");
         }
         case "cat food" -> {
-            System.out.println("Slorp");
+            IO.println("Slorp");
         }
         case null, default -> {
-            System.out.println("Other food");
+            IO.println("Other food");
         }
     }
 }

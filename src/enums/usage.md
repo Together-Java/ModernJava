@@ -16,7 +16,7 @@ enum StopLight {
 void main() {
     StopLight light = StopLight.RED;
 
-    System.out.println(
+    IO.println(
         "The light is " + light
     );
 }

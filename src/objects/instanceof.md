@@ -8,7 +8,7 @@ of the data stored in it using `instanceof`.
 Object o = "123";
 
 if (o instanceof String) {
-    System.out.println("This object is a String!");
+    IO.println("This object is a String!");
 }
 ~}
 ```
@@ -27,7 +27,7 @@ unavailable when all Java knows is that you have an `Object`.
 Object o = "123";
 
 if (o instanceof String s) {
-    System.out.println(
+    IO.println(
         "Can call String methods after recovering the type: " + s.charAt(0)
     );
 }

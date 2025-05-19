@@ -19,15 +19,15 @@ boolean isSorcerer(String name) {
 }
 
 void main() {
-    System.out.println(
+    IO.println(
         isSorcerer("yuji")
     );
 
-    System.out.println(
+    IO.println(
         isSorcerer("gojo")
     );
 
-    System.out.println(
+    IO.println(
         isSorcerer("yugi") // Wrong series
     );
 }
@@ -47,19 +47,19 @@ boolean didRedSoxWin(int year) {
 }
 
 void main() {
-    System.out.println(
+    IO.println(
         "2004: " + didRedSoxWin(2004)
     );
 
-    System.out.println(
+    IO.println(
         "1998: " + didRedSoxWin(1998)
     );
 
-    System.out.println(
+    IO.println(
         "2013: " + didRedSoxWin(2013)
     );
 
-    System.out.println(
+    IO.println(
         "1903: " + didRedSoxWin(1903)
     );
 }
@@ -92,25 +92,25 @@ StopLight transition(StopLight current) {
 
 void main() {
     var light = StopLight.RED;
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 }
 ```
 
@@ -136,25 +136,25 @@ StopLight transition(StopLight current) {
 
 void main() {
     var light = StopLight.RED;
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 
     light = transition(light);
-    System.out.println(light);
+    IO.println(light);
 }
 ```
 
@@ -189,28 +189,28 @@ Action inCaseOfBearAttack(Bear bear) {
 }
 
 void main() {
-    System.out.println(
+    IO.println(
         inCaseOfBearAttack(Bear.POLAR)
     );
 
-    System.out.println(
+    IO.println(
         inCaseOfBearAttack(Bear.BROWN)
     );
 
 
-    System.out.println(
+    IO.println(
         inCaseOfBearAttack(Bear.BLACK)
     );
 
-    System.out.println(
+    IO.println(
         inCaseOfBearAttack(Bear.PANDA)
     );
 
-    System.out.println(
+    IO.println(
         inCaseOfBearAttack(Bear.KOALA)
     );
 
-    System.out.println(
+    IO.println(
         inCaseOfBearAttack(null)
     );
 }

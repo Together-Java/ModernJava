@@ -1,6 +1,6 @@
 # Printing the Contents of an Array
 
-If you try to use `System.out.println` to output a `String[]`
+If you try to use `IO.println` to output a `String[]`
 you won't see the contents of the array. Instead you will see
 something like `[Ljava.lang.String;@1c655221`.
 
@@ -8,7 +8,7 @@ something like `[Ljava.lang.String;@1c655221`.
 ~void main() {
 String[] shout = { "fus", "ro", "dah" };
 // [Ljava.lang.String;@5a07e868
-System.out.println(shout);
+IO.println(shout);
 ~}
 ```
 
@@ -18,15 +18,15 @@ A similar thing will happen with `int[]`, `boolean[]`, and `double[]`.[^gibberis
 ~void main() {
 int[] nums = { 11, 11, 11 };
 // [I@5a07e868
-System.out.println(nums);
+IO.println(nums);
 
 boolean[] bools = { true, false };
 // [Z@5a07e868
-System.out.println(bools);
+IO.println(bools);
 
 double[] doubles = { 1.1, 1.1, 1.1 };
 // [D@5a07e868
-System.out.println(bools);
+IO.println(bools);
 ~}
 ```
 
@@ -37,7 +37,7 @@ It will be printed as if it were a `String`.
 ~void main() {
 char[] continent = { 'T', 'a', 'm', 'r', 'i', 'e', 'l' };
 // Tamriel
-System.out.println(continent);
+IO.println(continent);
 ~}
 ```
 
@@ -50,7 +50,7 @@ String[] factions = { "empire", "stormcloaks", "dragons" };
 
 int index = 0;
 while (index < factions.length) {
-    System.out.println(factions[index]);
+    IO.println(factions[index]);
     index++;
 }
 ~}

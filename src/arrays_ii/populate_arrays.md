@@ -11,6 +11,6 @@ char[] letters = new char[26];
 for (int i = 0; i < letters.length; i++) {
     letters[i] = (char) ('a' + i);
 }
-System.out.println(letters);
+IO.println(letters);
 ~}
 ```

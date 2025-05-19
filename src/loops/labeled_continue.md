@@ -10,9 +10,9 @@ You just write `continue` followed by the label name.
 // Will keep going back to the top of the outer loop
 outerLoop:
 while (true) {
-    System.out.println("inside outer loop");
+    IO.println("inside outer loop");
     while (true) {
-        System.out.println("inside inner loop");
+        IO.println("inside inner loop");
         continue outerLoop;
     }
 }

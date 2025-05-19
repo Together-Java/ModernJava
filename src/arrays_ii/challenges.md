@@ -16,7 +16,7 @@ void main() {
     String[] empty = ???;
 
     // Should be 0
-    System.out.println(empty.length);
+    IO.println(empty.length);
 }
 ```
 
@@ -44,7 +44,7 @@ void main() {
 
     for (int i = 0; i < prices.length; i++) {
         double price = prices[i];
-        System.out.println(price);
+        IO.println(price);
     }
 }
 ```
@@ -62,7 +62,7 @@ void main() {
     // CODE HERE
     // ----------
 
-    System.out.println(sandwich);
+    IO.println(sandwich);
 }
 ```
 
@@ -85,7 +85,7 @@ void main() {
     // CODE HERE
     // ----------
 
-    System.out.println(triangle);
+    IO.println(triangle);
 }
 ```
 
@@ -102,10 +102,10 @@ char[] buildTriangle(int height) {
 }
 
 void main() {
-    System.out.println(buildTriangle(3));
-    System.out.println("--------------");
-    System.out.println(buildTriangle(5));
-    System.out.println("--------------");
-    System.out.println(buildTriangle(2));
+    IO.println(buildTriangle(3));
+    IO.println("--------------");
+    IO.println(buildTriangle(5));
+    IO.println("--------------");
+    IO.println(buildTriangle(2));
 }
 ```

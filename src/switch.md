@@ -17,16 +17,16 @@ But it can be burdensome if all you are doing is checking if some variable has a
 ```java
 ~void main() {
 if (food.equals("apple")) {
-    System.out.println("Red");
+    IO.println("Red");
 }
 else if (name.equals("grape")) {
-    System.out.println("Purple");
+    IO.println("Purple");
 }
 else if (food.equals("orange")) {
-    System.out.println("Orange");
+    IO.println("Orange");
 }
 else {
-    System.out.println("Other");
+    IO.println("Other");
 }
 ~}
 ```
@@ -36,16 +36,16 @@ For these situations, you can use a `switch`.
 ```java
 switch (fruit) {
     case "apple" -> {
-        System.out.println("Red");
+        IO.println("Red");
     }
     case "grape" -> {
-        System.out.println("Purple");
+        IO.println("Purple");
     }
     case "orange" -> {
-        System.out.println("Orange");
+        IO.println("Orange");
     }
     default -> {
-        System.out.println("Other");
+        IO.println("Other");
     }
 }
 ```

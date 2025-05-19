@@ -9,7 +9,7 @@ int x = 120;
 
 char xAsChar = (char) x;
 
-System.out.println(xAsChar);
+IO.println(xAsChar);
 ~}
 ```
 
@@ -21,6 +21,6 @@ The initial value of a `char` can also be given by an integer literal if the int
 ~void main() {
 char z = 122;
 
-System.out.println(z);
+IO.println(z);
 ~}
 ```

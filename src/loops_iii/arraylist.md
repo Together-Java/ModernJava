@@ -17,7 +17,7 @@ while (donutEatersIterator.hasNext()) {
     // If there is, get it and advance the iterator
     String donutEater = donutEatersIterator.next();
 
-    System.out.println(donutEater + " eats donuts");
+    IO.println(donutEater + " eats donuts");
 }
 ~   }
 ~}
@@ -35,7 +35,7 @@ donutEaters.add("Chief Wiggum");
 donutEaters.add("Homer Simpson");
 
 for (String donutEater : donutEaters) {
-    System.out.println(donutEater + " eats donuts");
+    IO.println(donutEater + " eats donuts");
 }
 ~   }
 ~}

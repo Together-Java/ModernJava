@@ -8,7 +8,7 @@ crash.
 void main() {
     String thing = null;
     // NullPointerException
-    System.out.println(thing.length());
+    IO.println(thing.length());
 }
 ```
 

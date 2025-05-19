@@ -20,7 +20,7 @@ class Main {
     }
 
     void main() {
-        System.out.println(
+        IO.println(
             shouldBeMainCharacter("Goku")
         );
     }

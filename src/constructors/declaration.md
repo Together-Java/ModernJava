@@ -25,7 +25,7 @@ class Muppet {
 
 void main() {
     Muppet gonzo = new Muppet();
-    System.out.println(gonzo.talented);
+    IO.println(gonzo.talented);
 }
 ```
 

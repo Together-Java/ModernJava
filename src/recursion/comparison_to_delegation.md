@@ -9,7 +9,7 @@ version of itself.
 // This method is delegated to
 void seasonFood(int shakes) {
     for (int i = 0; i < shakes; i++) {
-        System.out.println("1 shake of pepper");
+        IO.println("1 shake of pepper");
     }
 }
 

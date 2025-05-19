@@ -9,13 +9,13 @@ import java.util.ArrayList;
 void main() {
     ArrayList<String> names = new ArrayList<>();
 
-    System.out.println(names.size());
+    IO.println(names.size());
 
     names.add("Vincent Bisset de Gramont");
-    System.out.println(names.size());
+    IO.println(names.size());
 
     names.add("Mr. Nobody");
-    System.out.println(names.size());
+    IO.println(names.size());
 }
 ```
 

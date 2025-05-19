@@ -18,7 +18,7 @@ class Main {
 
         List<String> furnitureList = Arrays.asList(furniture);
 
-        System.out.println(furnitureList);
+        IO.println(furnitureList);
     }
 }
 ```
@@ -41,7 +41,7 @@ class Main {
 
         furnitureList.set(0, "Recliner");
 
-        System.out.println(Arrays.toString(furniture));
+        IO.println(Arrays.toString(furniture));
     }
 }
 ```

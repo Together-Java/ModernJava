@@ -13,13 +13,13 @@ Edit the following program so that the output is zero.
 void main() {
     // Only change this line
     String[] words = { "Sam", "I", "Am" };
-    System.out.println(array.length);
+    IO.println(array.length);
 }
 ```
 
 ## Challenge 2
 
-Using only `System.out.println` and array accesses,
+Using only `IO.println` and array accesses,
 print `hello world` to the screen.
 
 ```java,editable
@@ -59,7 +59,7 @@ void main() {
         total += numbers[index];
         index += 1;
     }
-    System.out.println(total);
+    IO.println(total);
 }
 ```
 
@@ -78,6 +78,6 @@ void main() {
 
     // -----------
     char[] toPrint = name;
-    System.out.println(toPrint);
+    IO.println(toPrint);
 }
 ```

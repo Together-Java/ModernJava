@@ -16,8 +16,8 @@ void main() {
     Elmo elmo = new Elmo();
     elmo.age = 3;
 
-    System.out.println("Elmo is " + elmo.age + " right now,");
-    System.out.println("but next year Elmo will be " + elmo.nextAge());
+    IO.println("Elmo is " + elmo.age + " right now,");
+    IO.println("but next year Elmo will be " + elmo.nextAge());
 }
 ```
 

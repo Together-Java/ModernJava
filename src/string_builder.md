@@ -8,7 +8,7 @@ void main() {
     String b = "b";
     String ab = a + b;
 
-    System.out.println(ab);
+    IO.println(ab);
 }
 ```
 

@@ -11,7 +11,7 @@ class Main {
         Class<Drink> drinkClass = Drink.class;
 
         Field nameField = drinkClass.getField("name");
-        System.out.println(nameField);
+        IO.println(nameField);
     }
 }
 
@@ -31,7 +31,7 @@ class Main {
         Class<Soup> soupClass = Soup.class;
 
         Field hasVeggiesField = soupClass.getDeclaredField("hasVeggies");
-        System.out.println(hasVeggiesField);
+        IO.println(hasVeggiesField);
         
         // Will fail. getField won't see hasVeggies
         soupClass.getField("hasVeggies");

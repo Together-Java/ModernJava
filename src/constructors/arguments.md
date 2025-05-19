@@ -19,7 +19,7 @@ void main() {
     Muppet gonzo = new Muppet("Gonzo");
 
     // "Gonzo"
-    System.out.println(gonzo.name);
+    IO.println(gonzo.name);
 }
 ```
 

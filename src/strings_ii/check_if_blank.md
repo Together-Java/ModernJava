@@ -15,9 +15,9 @@ void main() {
         """;
 
     // false
-    System.out.println(brainSounds.isEmpty());
+    IO.println(brainSounds.isEmpty());
 
     // true
-    System.out.println(brainSounds.isBlank());
+    IO.println(brainSounds.isBlank());
 }
 ```

@@ -9,12 +9,12 @@ final String monster = "Dracula";
 
 class Mash {
     void itWasThe() {
-        System.out.println(monster + " and his son");
+        IO.println(monster + " and his son");
     }
 }
 
 void main() {
-    System.out.println(monster + " was there");
+    IO.println(monster + " was there");
 
     Mash mash = new Mash();
     mash.itWasThe();

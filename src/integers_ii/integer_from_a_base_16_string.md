@@ -9,7 +9,7 @@ String text = "C";
 
 int twelve = Integer.parseInt(text, 16);
 
-System.out.println(twelve);
+IO.println(twelve);
 ~}
 ```
 
@@ -25,8 +25,8 @@ If you want to handle both hexadecimal numbers and regular base 10 numbers you s
 
 ```java
 ~void main() {
-System.out.println(Integer.decode("0xC"));
-System.out.println(Integer.decode("0x19"));
-System.out.println(Integer.decode("19"));
+IO.println(Integer.decode("0xC"));
+IO.println(Integer.decode("0x19"));
+IO.println(Integer.decode("19"));
 ~}
 ```

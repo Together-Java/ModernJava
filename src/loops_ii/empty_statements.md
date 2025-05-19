@@ -6,7 +6,7 @@ the end of an iteration there is nothing guaranteed to run.
 ```java
 ~void main() {
 for (int i = 6; i > 2;) {
-    System.out.println(i);
+    IO.println(i);
     i--;
 }
 
@@ -24,14 +24,14 @@ If you leave both the initializer and statement blank, that will be functionally
 ~void main() {
 int number = 1;
 for (;number < 10;) {
-    System.out.println(number);
+    IO.println(number);
     number *= 2;
 }
 
 // Same logic as above
 int number2 = 1;
 while (number2 < 10) {
-    System.out.println(number2);
+    IO.println(number2);
     number2 *= 2;
 }
 ~}
@@ -41,7 +41,7 @@ If you leave the initializer, expression, and statement blank it will be the sam
 
 ```java,no_run
 for (;;) {
-    System.out.println("The people stated singing it...");
+    IO.println("The people stated singing it...");
 }
 // Runs forever
 ```

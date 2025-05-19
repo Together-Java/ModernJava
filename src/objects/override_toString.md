@@ -20,11 +20,11 @@ class Window {
 
 void main() {
     Object o = new Window();
-    System.out.println(o);
+    IO.println(o);
 }
 ```
 
-This is how you can customize the output of `System.out.println`.
+This is how you can customize the output of `IO.println`.
 
 It is common practice for a class holding data to
 include the values of its fields in its `toString` representation.
@@ -47,6 +47,6 @@ class Position {
 
 void main() {
     Object o = new Position(9, 8);
-    System.out.println(o);
+    IO.println(o);
 }
 ```

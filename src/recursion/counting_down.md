@@ -9,10 +9,10 @@ number one lower than you were given. if it isn't you are done.
 ```java
 void countDown(int x) {
     if (x > 0) {
-        System.out.println("DONE");
+        IO.println("DONE");
     }
     else {
-        System.out.println("x: " + x);
+        IO.println("x: " + x);
         countDown(x - 1);
     }
 }
@@ -31,10 +31,10 @@ All of this is equivalent to a `while` loop that looks like the following.
 ```java
 void countDown(int x) {
     while (x > 0) {
-        System.out.println("x: " + x);
+        IO.println("x: " + x);
         x = x - 1;
     }
-    System.out.println("DONE");
+    IO.println("DONE");
 }
 
 void main() {

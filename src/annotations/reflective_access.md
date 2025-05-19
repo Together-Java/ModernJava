@@ -23,13 +23,13 @@ class Main {
 
             Special annotationValue = field.getAnnotation(Special.class);
             if (annotationValue == null) {
-                System.out.println("is not special.");
+                IO.println("is not special.");
             }
             else if (annotationValue.isSuperDuperSpecial()) {
-                System.out.println("is super-duper special.");
+                IO.println("is super-duper special.");
             }
             else {
-                System.out.println("is special.");
+                IO.println("is special.");
             }
         }
     }

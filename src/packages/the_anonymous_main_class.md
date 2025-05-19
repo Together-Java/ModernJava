@@ -6,7 +6,7 @@ inside the default package.
 ```java,no_run
 // Allowed
 void main() {
-    System.out.println("Hello, world");
+    IO.println("Hello, world");
 }
 ```
 
@@ -15,7 +15,7 @@ void main() {
 package myprogram;
 
 void main() {
-    System.out.println("Hello, world");
+    IO.println("Hello, world");
 }
 ```
 
@@ -28,7 +28,7 @@ package myprogram;
 
 class Main {
     void main() {
-        System.out.println("Hello, world");
+        IO.println("Hello, world");
     }
 }
 ```

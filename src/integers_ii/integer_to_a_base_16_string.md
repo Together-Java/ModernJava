@@ -9,6 +9,6 @@ int x = 29411;
 String xStr = Integer.toHexString(x);
 
 // 72e3
-System.out.println(xStr);
+IO.println(xStr);
 ~}
 ```

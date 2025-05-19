@@ -5,9 +5,9 @@ The type to use for a `char` that might be null is `Character`.
 ```java
 ~void main() {
 Character c = null;
-System.out.println(c);
+IO.println(c);
 c = '%';
-System.out.println(c);
+IO.println(c);
 ~}
 ```
 
@@ -17,9 +17,9 @@ shown when printed.
 ```java
 ~void main() {
 char[] c1 = new char[] { 'a', 'b', 'c' };
-System.out.println(c1);
+IO.println(c1);
 
 Character[] c2 = new Character[] { 'a', 'b', 'c' };
-System.out.println(c2);
+IO.println(c2);
 ~}
 ```

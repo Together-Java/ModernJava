@@ -12,11 +12,11 @@ What will this program output when run? Write down your guess and then try runni
 ```java,editable
 void main() {
     String mascot = "The Noid";
-    System.out.println(mascot);
+    IO.println(mascot);
     mascot = "Pizza the Hut";
-    System.out.println(mascot);
+    IO.println(mascot);
     mascot = "Little Caesar";
-    System.out.println(mascot);
+    IO.println(mascot);
 }
 ```
 
@@ -29,18 +29,18 @@ void main() {
     String fruit;
     fruit = "apple";
 
-    System.out.println(fruit);
+    IO.println(fruit);
 
     final String vegetable = "carrot";
 
-    System.out.println(fruit);
-    System.out.println(vegetable);
+    IO.println(fruit);
+    IO.println(vegetable);
 
     fruit = "orange";
     vegetable = "celery";
 
-    System.out.println(fruit);
-    System.out.println(vegetable);
+    IO.println(fruit);
+    IO.println(vegetable);
 }
 ```
 
@@ -58,8 +58,8 @@ void main() {
     b = a;
     a = b;
 
-    System.out.println(a);
-    System.out.println(b);
+    IO.println(a);
+    IO.println(b);
 }
 ```
 
@@ -82,8 +82,8 @@ void main() {
     // You can add code here
 
     // Don't touch below this
-    System.out.println(a);
-    System.out.println(b);
+    IO.println(a);
+    IO.println(b);
 }
 ```
 

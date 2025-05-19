@@ -11,8 +11,8 @@ double x = 1.5;
 double y = 0.2;
 
 // true
-System.out.println(x > y);
+IO.println(x > y);
 // false
-System.out.println(x < y);
+IO.println(x < y);
 ~}
 ```

@@ -12,7 +12,7 @@ class ScopeExample {
 
     static void doStuff() {
         canCall();
-        System.out.println(ScopeExample.CAN_ACCESS);
+        IO.println(ScopeExample.CAN_ACCESS);
     }
 }
 ```
@@ -28,7 +28,7 @@ class ScopeExample2 {
 
     static void doStuff() {
         cannotCall();
-        System.out.println(
+        IO.println(
             CANNOT_ACCESS
         );
     }

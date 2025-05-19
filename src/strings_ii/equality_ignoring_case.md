@@ -9,7 +9,7 @@ void main() {
     String historicalFigureOne = "St. Valentines";
     String historicalFigureTwo = "st. valentines";
 
-    System.out.println(
+    IO.println(
         historicalFigureOne.equalsIgnoreCase(historicalFigureTwo)
     );
 }

@@ -10,7 +10,7 @@ void main() {
     String message = "   Happy Valentines Day.   ";
 
     System.out.print(message.strip());
-    System.out.println("|");
+    IO.println("|");
 }
 ```
 
@@ -21,7 +21,7 @@ void main() {
     String message = "   Happy Valentines Day.   ";
 
     System.out.print(message.stripLeading());
-    System.out.println("|");
+    IO.println("|");
 }
 ```
 
@@ -32,7 +32,7 @@ void main() {
     String message = "   Happy Valentines Day.   ";
 
     System.out.print(message.stripTrailing());
-    System.out.println("|");
+    IO.println("|");
 }
 ```
 

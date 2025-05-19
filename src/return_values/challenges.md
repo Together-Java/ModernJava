@@ -17,7 +17,7 @@ How the value for that int is determined is up to you.
 
 void main() {
     int x = process("abc");
-    System.out.println("Got " + x);
+    IO.println("Got " + x);
 }
 ```
 
@@ -48,11 +48,11 @@ int multiply(int x, int y) {
 }
 
 void main() {
-    System.out.println(multiply(3, 5));
+    IO.println(multiply(3, 5));
 
-    // System.out.println(multiply(-5, 5));
-    // System.out.println(multiply(-5, -2));
-    // System.out.println(multiply(9, -2));
+    // IO.println(multiply(-5, 5));
+    // IO.println(multiply(-5, -2));
+    // IO.println(multiply(9, -2));
 }
 ```
 
@@ -79,7 +79,7 @@ void main() {
     int y = 8;
     int z = subtractInt(add(4, 5), mul(4, 2));
 
-    System.out.println(z);
+    IO.println(z);
 }
 ```
 

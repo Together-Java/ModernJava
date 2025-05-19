@@ -8,7 +8,7 @@ just by having your "current index" be a parameter to the function.
 class Main {
     void printEachTimesEight(int[] nums, int i) {
         if (i < nums.length) {
-            System.out.println(nums[i] * 8);
+            IO.println(nums[i] * 8);
             printEachTimesEight(nums, i + 1);
         }
     }

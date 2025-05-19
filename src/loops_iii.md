@@ -14,7 +14,7 @@ String[] shirts = new String[] {
 for (int i = 0; i < shirts.length; i++) {
     String shirt = shirts[i];
 
-    System.out.println(shirt);
+    IO.println(shirt);
 }
 ~}
 ```
@@ -30,7 +30,7 @@ String[] shirts = new String[] {
 };
 
 for (String shirt : shirts) {
-    System.out.println(shirt);
+    IO.println(shirt);
 }
 ~}
 ```

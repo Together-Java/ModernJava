@@ -18,7 +18,7 @@ class Main {
         // .name() accessor is available
         String name = dog.name();
 
-        System.out.println(name);
+        IO.println(name);
     }
 }
 ```

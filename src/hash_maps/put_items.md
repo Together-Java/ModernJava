@@ -11,7 +11,7 @@ class Main {
         wins.put("Lightning McQueen", 2);
         wins.put("Tow Mater", 0);
         
-        System.out.println(wins);
+        IO.println(wins);
     }
 }
 ```

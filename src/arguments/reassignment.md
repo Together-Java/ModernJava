@@ -6,9 +6,9 @@ within the method body;
 
 ```java
 void eat(String food) {
-    System.out.println("I ate " + food);
+    IO.println("I ate " + food);
     food = "nothing";
-    System.out.println("Now I have " + food);
+    IO.println("Now I have " + food);
 }
 
 void main() {
@@ -21,15 +21,15 @@ any variables passed to the method by the caller.
 
 ```java
 void eat(String food) {
-    System.out.println("I ate " + food);
+    IO.println("I ate " + food);
     food = "nothing";
-    System.out.println("Now I have " + food);
+    IO.println("Now I have " + food);
 }
 
 void main() {
     String fruit = "apple";
     eat(fruit);
-    System.out.println(
+    IO.println(
         "But in the caller I still have an " + fruit
     );
 }

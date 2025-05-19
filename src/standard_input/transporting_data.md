@@ -8,7 +8,7 @@ void main() {
     String firstName = IO.readln("What is your first name? ");
     String lastName = IO.readln("What is your last name? ");
 
-    System.out.println("Hello " + firstName + " " + lastName + ".");
+    IO.println("Hello " + firstName + " " + lastName + ".");
 }
 ```
 
@@ -22,7 +22,7 @@ void main() {
         firstName = IO.readln("What is your first name? ");
 
         if (firstName.isBlank()) {
-            System.out.println("First name cannot be blank.");
+            IO.println("First name cannot be blank.");
         }
         else {
             break;
@@ -34,14 +34,14 @@ void main() {
         lastName = IO.readln("What is your first name? ");
 
         if (lastName.isBlank()) {
-            System.out.println("First name cannot be blank.");
+            IO.println("First name cannot be blank.");
         }
         else {
             break;
         }
     } while (true);
 
-    System.out.println("Hello " + firstName + " " + lastName + ".");
+    IO.println("Hello " + firstName + " " + lastName + ".");
 }
 ```
 
@@ -67,7 +67,7 @@ Person askForName() {
         firstName = IO.readln("What is your first name? ");
         
         if (firstName.isBlank()) {
-            System.out.println("First name cannot be blank.");
+            IO.println("First name cannot be blank.");
         }
         else {
             break;
@@ -79,7 +79,7 @@ Person askForName() {
         lastName = IO.readln("What is your first name? ");
 
         if (lastName.isBlank()) {
-            System.out.println("First name cannot be blank.");
+            IO.println("First name cannot be blank.");
         }
         else {
             break;
@@ -92,7 +92,7 @@ Person askForName() {
 void main() {
     Person person = askForName();
 
-    System.out.println("Hello " + person.firstName + " " + person.lastName + ".");
+    IO.println("Hello " + person.firstName + " " + person.lastName + ".");
 }
 ```
 

@@ -22,7 +22,7 @@ class Main {
         LocalDateTime localDateTime = LocalDateTime.of(jan10, tenTwentyFour);
         ZonedDateTime zonedDateTime = ZonedDateTime.of(localDateTime, est);
 
-        System.out.println(zonedDateTime);
+        IO.println(zonedDateTime);
     }
 }
 ```
@@ -37,7 +37,7 @@ class Main {
     void main() {
         var now = ZonedDateTime.now();
 
-        System.out.println(now);
+        IO.println(now);
     }
 }
 ```
@@ -53,7 +53,7 @@ class Main {
     void main() {
         var now = ZonedDateTime.now(ZoneId.of("US/Eastern"));
 
-        System.out.println(now);
+        IO.println(now);
     }
 }
 ```

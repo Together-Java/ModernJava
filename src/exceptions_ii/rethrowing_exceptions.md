@@ -15,7 +15,7 @@ void sleep() throws Exception {
         dream();
     }
     catch (Exception e) {
-        System.out.println("Something went wrong while dreaming");
+        IO.println("Something went wrong while dreaming");
         throw e;
     }
 }

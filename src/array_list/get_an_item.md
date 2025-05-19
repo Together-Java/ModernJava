@@ -11,7 +11,7 @@ void main() {
     names.add("Winston Scott");
 
     String name = names.get(0);
-    System.out.println(name);
+    IO.println(name);
 }
 ```
 
@@ -26,6 +26,6 @@ void main() {
     names.add("Killa Harkan");
 
     String name = names.get(10);
-    System.out.println(name);
+    IO.println(name);
 }
 ```

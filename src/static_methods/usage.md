@@ -6,7 +6,7 @@ defined followed by `.` and the method name.
 ```java
 class StuffDoer {
     static void doStuff() {
-        System.out.println("Doing stuff");
+        IO.println("Doing stuff");
     }
 }
 ```
@@ -14,7 +14,7 @@ class StuffDoer {
 ```java
 ~class StuffDoer {
 ~    static void doStuff() {
-~        System.out.println("Doing stuff");
+~        IO.println("Doing stuff");
 ~    }
 ~}
 ~

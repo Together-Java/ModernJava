@@ -11,7 +11,7 @@ In "exceptional conditions" code will no longer be able to proceed.
 ```java,panics
 void main() {
     int x = 5 / 0;
-    System.out.println("Won't get here, an exception will occur");
+    IO.println("Won't get here, an exception will occur");
 }
 ```
 

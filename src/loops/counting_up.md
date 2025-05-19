@@ -10,7 +10,7 @@ to stop at, and a line at the bottom of the loop which increments the current nu
 ~void main() {
 int currentNumber = 1;
 while (currentNumber <= 100) {
-    System.out.println(currentNumber);
+    IO.println(currentNumber);
     currentNumber++;
 }
 ~}
@@ -25,7 +25,7 @@ it would stop at `99`.
 int currentNumber = 1;
 // Stops at 99
 while (currentNumber < 100) {
-    System.out.println(currentNumber);
+    IO.println(currentNumber);
     currentNumber++;
 }
 ~}

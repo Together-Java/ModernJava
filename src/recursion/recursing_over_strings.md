@@ -8,7 +8,7 @@ just by having your "current index" be a parameter to the function.
 class Main {
     void printEachUpperCase(String s, int i) {
         if (i < s.length()) {
-            System.out.println(Character.toUpperCase(s.charAt(i)));
+            IO.println(Character.toUpperCase(s.charAt(i)));
             printEachUpperCase(s, i + 1);
         }
     }

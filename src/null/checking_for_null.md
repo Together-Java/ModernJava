@@ -6,10 +6,10 @@ check by using `==`.
 ```java
 void sayHello(String firstName, String lastName) {
     if (lastName == null) {
-        System.out.println("Hello " + firstName);
+        IO.println("Hello " + firstName);
     }
     else {
-        System.out.println("Hello " + firstName + " " + lastName);
+        IO.println("Hello " + firstName + " " + lastName);
     }
 }
 

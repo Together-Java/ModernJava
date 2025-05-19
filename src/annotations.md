@@ -22,8 +22,8 @@ class Main {
     }
 
     int main() {
-        System.out.println(addOne(5));
-        System.out.println(absoluteValue(-25));
+        IO.println(addOne(5));
+        IO.println(absoluteValue(-25));
     }
 }
 ```
@@ -50,8 +50,8 @@ class Main {
     }
 
     int main() {
-        System.out.println(addOne(5));
-        System.out.println(absoluteValue(-25));
+        IO.println(addOne(5));
+        IO.println(absoluteValue(-25));
     }
 }
 ```

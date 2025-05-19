@@ -7,7 +7,7 @@ declared outside of the loop.
 ~void main() {
 int number;
 for (number = 0; number < 5; number++) {
-    System.out.println("At: " + number);
+    IO.println("At: " + number);
 }
 ~}
 ```
@@ -18,11 +18,11 @@ You might choose to do this so that after the loop is finished, you can still ac
 ~void main() {
 int number;
 for (number = 0; number < 5; number++) {
-    System.out.println("At: " + number);
+    IO.println("At: " + number);
 }
 
 // This will work, we can access the variable still.
-System.out.println("Ended at: " + number);
+IO.println("Ended at: " + number);
 ~}
 ```
 
@@ -32,10 +32,10 @@ to use that variable after the loop
 ```java
 ~void main() {
 for (int number = 0; number < 5; number++) {
-    System.out.println("At: " + number);
+    IO.println("At: " + number);
 }
 
 // This will not work. number is no longer available
-System.out.println("Ended at: " + number);
+IO.println("Ended at: " + number);
 ~}
 ```
