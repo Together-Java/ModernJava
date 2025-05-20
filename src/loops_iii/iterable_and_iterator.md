@@ -48,6 +48,6 @@ while (iter.hasNext()) {
 ```
 
 
-[^remove]: There is actually one more method: `remove`. Not all `Iterator`s support it so we'll cover it whonce we've introduced more `Iterable` things.
+[^remove]: There is actually one more method: `remove`. Not all `Iterator`s support it so we'll cover it once we've introduced more `Iterable` things.
 
 [^important]: I think this is important to know because otherwise it won't make sense when you run in to things you can loop over but don't have `.get`/`[]`, `

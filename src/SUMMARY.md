@@ -606,11 +606,15 @@ Make them do one. -->
 # Data Types VI
 
 - [Collections](./collections.md)
-  - [Collection]()
-  - [List]()
-  - [Map]()
-  - [Set]()
+  - [List](./collections/list.md)
+  - [Map](./collections/map.md)
+  - [Set](./collections/set.md)
   - [Arrays](./collections/arrays.md) <!-- Odd duck out, Arrays.asList -->
+  - [UnsupportedOperationException](./collections/unsupported_operation_exception.md)
+  - [Factories](./collections/factories.md)
+  - [Specificity](./collections/specificity.md)
+
+
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
   - [Declaration](./multi_dimensional_arrays/declaration.md)
   - [Array Initializers](./multi_dimensional_arrays/array_initializers.md)
@@ -664,21 +668,22 @@ Make them do one. -->
 # Code Structure VII
 - [Interfaces II](./interfaces_ii.md)
   - [Default Methods](./interfaces_ii/default_methods.md)
-  - [Interface Extension]()
-  - [Static Methods]()
-  - [Private Static Methods]()
+  - [Interface Extension](./interfaces_ii/interface_extension.md)
+  - [Static Methods](./interfaces_ii/static_methods.md)
+  - [Static Fields](./interfaces_ii/static_fields.md)
 - [Class Extension](./class_extension.md)
-  - [Extend a Class]()
-  - [Protected Fields]()
-  - [Protected Methods]()
-  - [Relation to Interfaces]()
-  - [Relation to Encapsulation]()
+  - [Extend a Class](./class_extension/extend_a_class.md)
+  - [Inheritance](./class_extension/inheritance.md)
+  - [Override](./class_extension/override.md)
+  - [Protected](./class_extension/protected.md)
+  - [Abstract Classes](./class_extension/abstract_classes.md)
+  - [Abstract Methods](./class_extension/abstract_methods.md)
+  - [Relation to Interfaces](./class_extension/relation_to_interfaces.md)
+  - [Relation to Encapsulation](./class_extension/relation_to_encapsulation.md)
   - [Final Classes](./class_extension/final_classes.md)
-- [Abstract Classes](./abstract_classes.md)
-  - [Relation to Interfaces]()
 
 
-# Data Types IV
+# Data Types VII
 
 - [Niche Numerics](./niche_numerics.md)
   - [byte](./niche_numerics/byte.md)
@@ -698,6 +703,22 @@ Make them do one. -->
   - [The Unnamed Module](./modules/the_unnamed_module.md)
   - [Module Imports](./modules/module_imports.md)
   - [Multi-Module Directory Layout]()
+- [Lambdas](./lambdas.md)
+  - [Functional Interfaces](./lambdas/functional_interfaces.md)
+  - [@FunctionalInterface](./lambdas/functional_interface_annotation.md)
+- [Streams]()
+
+# Sharing Code
+
+- [Compilation](./compilation.md)
+  - [javac]()
+- [Packaging]()
+  - [jar]()
+- [Documentation]()
+  - [javadoc]()
+  - [Documentation Comments](./documentation/documentation_comments.md)
+- [Distribution]()
+  - [jlink]()
 
 <!--- 
 PROJECT IDEAS:
@@ -763,10 +784,6 @@ PROJECT IDEAS:
 - [Pattern Matching]()
   - [Primitive Patterns]()
   - [Record Patterns]()
-
-# Code Structure VII
-
-- [Modules]()
 
 -->
 <!--
@@ -836,11 +853,9 @@ Generics
 Maven
 XML
 Pom
-byte, short, long
 Multiversal Equality
 Reflection
     Cover Invoking *public* constructs
-Annotations
 Javadoc and Documentation comments
 -->
 
