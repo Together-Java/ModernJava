@@ -706,14 +706,27 @@ Make them do one. -->
 - [Lambdas](./lambdas.md)
   - [Functional Interfaces](./lambdas/functional_interfaces.md)
   - [@FunctionalInterface](./lambdas/functional_interface_annotation.md)
-- [Streams]()
+  - [Lambda Expressions](./lambdas/lambda_expressions.md)
+  - [Method References](./lambdas/method_references.md)
+  - [Runnable]()
+  - [Function]()
+  - [Relation to Checked Exceptions]()
+- [Streams](./streams.md)
+  - [map](./streams/map.md)
+  - [filter](./streams/filter.md)
+  - [Collectors](./streams/collectors.md)
+  - [toList](./streams/toList.md)
+  - [mapMulti](./streams/mapMulti.md)
+  - [Gatherers](./streams/gatherers.md)
 
 # Sharing Code
 
 - [Compilation](./compilation.md)
   - [javac]()
+  - [--release]()
 - [Packaging]()
   - [jar]()
+  - [--main-class]()
 - [Documentation]()
   - [javadoc]()
   - [Documentation Comments](./documentation/documentation_comments.md)
@@ -1001,6 +1014,18 @@ jshell
     - HikariCP for connection pool
 
 The You of today is not the you of tommorow
+
+
+Separate a mobile number given in an international format into parts countrycode, number
+I think its a nice example about a problem which can be solved in a number of ways, and still being very precise and compact in description
+mikamoilanen — 3:53 PM
+Start with a list of few countrycodes, like +1, +358
+Given a phone number eg "+358451252855", separate it into two parts: +358 and 451252855
+The essiest way is to sort country codes by lenght, longest first, and loop through them by asking if the phonenumber.startsWith(cc)
+(this works as codes are common-prefix-free)
+mikamoilanen — 4:01 PM
+Another solution creates a nice opportunity to introduce creating your own datastructure for more efficient solution: Build a tree out of the codes, where each number has N childs, and traverse throught that tree number-by-number of the phonenumber
+THEN you could even introduce packing the data as bitvectors in order to have even more compact data structure
 
 -->
 

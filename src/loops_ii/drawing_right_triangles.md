@@ -16,7 +16,7 @@ If you were to write the code out to print this explicitly it would look like th
 
 ```java
 ~void main() {
-System.out.print("*\n**\n**\n");
+IO.print("*\n**\n**\n");
 ~}
 ```
 
@@ -28,9 +28,9 @@ Since counting up `1 -> 2 -> 3` is easy with `for` loops, you can translate this
 ~void main() {
 for (int numberOfStars = 1; numberOfStars <= 3; numberOfStars++) {
     for (int i = 0; i < numberOfStars; i++) {
-        System.out.print("*");
+        IO.print("*");
     }
-    // Same as System.out.print("\n");
+    // Same as IO.print("\n");
     IO.println();
 }
 ~}
@@ -43,7 +43,7 @@ Which makes it easy to make one of these triangles however tall you want.
 int height = 6;
 for (int numberOfStars = 1; numberOfStars <= height; numberOfStars++) {
     for (int i = 0; i < numberOfStars; i++) {
-        System.out.print("*");
+        IO.print("*");
     }
     IO.println();
 }

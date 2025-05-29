@@ -74,7 +74,7 @@ Call the defined methods in a way that outputs "I did it!"
 
 ```java,editable
 void i() {
-    System.out.print("I");
+    IO.print("I");
 }
 
 void did(String what) {
@@ -82,7 +82,7 @@ void did(String what) {
 }
 
 void space() {
-    System.out.print(" ");
+    IO.print(" ");
 }
 
 void main() {

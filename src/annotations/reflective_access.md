@@ -18,8 +18,8 @@ class Main {
 
         Field[] fields = drinkClass.getFields();
         for (var field : fields) {
-            System.out.print(field.getName());
-            System.out.print(" - ");
+            IO.print(field.getName());
+            IO.print(" - ");
 
             Special annotationValue = field.getAnnotation(Special.class);
             if (annotationValue == null) {

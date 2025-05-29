@@ -20,7 +20,7 @@ can change without reassigning a variable.
 for (final char[] letters = { 'I', 'O', 'U' }; letters[0] != 'A';) {
     for (int i = 0; i < letters.length; i++) {
         letters[i] -= 1;
-        System.out.print(letters[i]);
+        IO.print(letters[i]);
     }
     IO.println();
 }

@@ -33,7 +33,7 @@ int[] numbers = { 1, 2 };
 
 for (int i = 0; i < letters.length; i++) {
     for (int j = 0; j < numbers.length; j++) {
-        System.out.print(letters[i]);
+        IO.print(letters[i]);
         IO.println(numbers[j]);
     }
 }

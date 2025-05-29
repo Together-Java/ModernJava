@@ -34,12 +34,12 @@ This bit of magic here - `IO.println` - is a "statement" that "prints" the text 
 
 **print** with new **l**i**n**e.
 
-If you were to replace it with `System.out.print`, then the output would lack that new line. This makes the following program be functionally identical to the first.
+If you were to replace it with `IO.print`, then the output would lack that new line. This makes the following program be functionally identical to the first.
 
 ```java
 ~void main() {
-System.out.print("Hello, ");
-System.out.print("World");
+IO.print("Hello, ");
+IO.print("World");
 IO.println("!");
 ~}
 ```
@@ -48,8 +48,8 @@ Which, when we add back `void main()`, looks like this.
 
 ```java
 void main() {
-    System.out.print("Hello, ");
-    System.out.print("World");
+    IO.print("Hello, ");
+    IO.print("World");
     IO.println("!");
 }
 ```

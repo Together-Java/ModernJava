@@ -12,8 +12,8 @@ class Elmo {
 
     void sayHello() {
         IO.println("Hi, I'm Elmo");
-        System.out.print("I am ");
-        System.out.print(this.age);
+        IO.print("I am ");
+        IO.print(this.age);
         IO.println(" years old.");
     }
 

@@ -78,17 +78,17 @@ void main() {
 
     int index = 6;
 
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
     IO.println(racecar.charAt(index));
 }
