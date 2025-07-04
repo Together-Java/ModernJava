@@ -116,7 +116,7 @@ void main() {
 
 Write code that will output each character of `name` on its own line.
 
-So for if `name` is equal to `"Bridget"`, I would expect the following as output.
+So if `name` is equal to `"Bridget"`, I would expect the following as output.
 
 ```text
 B
