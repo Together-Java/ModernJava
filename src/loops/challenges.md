@@ -116,7 +116,7 @@ void main() {
 
 Write code that will output each character of `name` on its own line.
 
-So for if `name` is equal to `"Bridget"`, I would expect the following as output.
+So if `name` is equal to `"Bridget"`, I would expect the following as output.
 
 ```text
 B
@@ -201,6 +201,7 @@ If the initial number is `15` you should have this as output.
 10
 5
 16
+8
 4
 2
 1
