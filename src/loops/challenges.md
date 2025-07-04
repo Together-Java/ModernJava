@@ -201,6 +201,7 @@ If the initial number is `15` you should have this as output.
 10
 5
 16
+8
 4
 2
 1
