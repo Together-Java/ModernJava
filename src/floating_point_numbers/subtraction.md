@@ -18,7 +18,7 @@ Because of the previously mentioned inaccuracy, the results of subtractions migh
 ```java
 ~void main() {
 ~double x = 5.1;
-~// y will be 4.1
+~// y will be -4.1
 ~double y = x - 9.2;
 // z will be -4.199999999999999
 double z = y - 0.1;
