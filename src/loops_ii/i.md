@@ -49,4 +49,4 @@ for (int i = 0; i < letters.length; i++) {
 
 Just do not start naming all your variables single letters.
 
-[^jindex]: `j` and `k` standing for jindex an kindex respectfully.
+[^jindex]: `j` and `k` standing for j index an k index respectively.
