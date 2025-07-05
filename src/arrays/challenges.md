@@ -13,7 +13,7 @@ Edit the following program so that the output is zero.
 void main() {
     // Only change this line
     String[] words = { "Sam", "I", "Am" };
-    System.out.println(words.length);
+    IO.println(words.length);
 }
 ```
 
