@@ -12,7 +12,7 @@ final char[] catchphrase = { 'w', 'o', 'a', 'h', '!' };
 System.out.println(catchphrase);
 
 // Cannot reassign
-// catchphrase = { 'e', 'g', 'a', 'd', 's' }
+// catchphrase = new char[] { 'e', 'g', 'a', 'd', 's' }
 // but can set elements directly
 catchphrase[0] = 'e';
 catchphrase[1] = 'g';
