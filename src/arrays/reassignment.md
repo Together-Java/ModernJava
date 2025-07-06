@@ -20,7 +20,7 @@ System.out.println(numbers.length);
 ~}
 ```
 
-This reassignment will not be affect any variables which
+This reassignment will not affect any variables which
 are aliases for the variable's old value.
 
 ```java
