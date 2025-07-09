@@ -77,7 +77,7 @@ double multiply(double x, double y) {
 void main() {
     int x = 5;
     int y = 8;
-    int z = subtractInt(add(4, 5), mul(4, 2));
+    int z = subtractInt(add(4, 5), multiply(4, 2));
 
     System.out.println(z);
 }
