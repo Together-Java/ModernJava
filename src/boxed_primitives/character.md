@@ -11,7 +11,7 @@ System.out.println(c);
 ~}
 ```
 
-Unlike a `char[]`, a `Character[]` will not be have its contents
+Unlike a `char[]`, a `Character[]` will not have its contents
 shown when printed.
 
 ```java
