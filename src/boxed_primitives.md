@@ -24,7 +24,7 @@ void main() {
 }
 ```
 
-We call these primitives which might be null "Boxed Primitives" because you they are made by taking
+We call these primitives which might be null "Boxed Primitives" because they are made by taking
 the underlying thing and putting it in a "box."[^boxing]
 
 

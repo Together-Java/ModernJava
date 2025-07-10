@@ -28,7 +28,7 @@ void main() {
 
 ## Challenge 2.
 
-Write a method which takes in a `Integer[]` representing
+Write a method which takes in an `Integer[]` representing
 a series of distances and prints out every distance
 followed by ` kilometers`.
 
@@ -50,7 +50,7 @@ void printDistances(Integer[] distances) {
 }
 
 void main() {
-    printNames(new String[] {
+    printDistances(new Integer[] {
         45,
         99,
         23
