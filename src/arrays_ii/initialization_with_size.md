@@ -1,4 +1,4 @@
-# Initializion with Size
+# Initialization with Size
 
 The Nintendo GameBoy had a screen resolution of 160 x 144.
 To store the value of each pixel[^bw] you would need an array 23,040 items 
