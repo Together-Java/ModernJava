@@ -8,5 +8,5 @@ The type to use for a `boolean` that might be null is `Boolean`.
 Boolean b = null;
 System.out.println(b);
 b = true;
-System.out.println(true);
+System.out.println(b);
 ~}
