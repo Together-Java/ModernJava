@@ -2,7 +2,7 @@
 
 You can set an initial value for a field in a few ways.
 
-One is to access to assign the field directly on the instance created.
+One is to assign the field directly on the instance created.
 
 ```java
 class Muppet {
