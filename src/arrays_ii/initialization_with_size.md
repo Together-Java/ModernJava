@@ -5,7 +5,7 @@ To store the value of each pixel[^bw] you would need an array 23,040 items
 long.
 
 To support this without you writing the word `false` 23,040 times,
-arrays can be made with just by giving a size and skipping the initializer.
+arrays can be made just by giving a size and skipping the initializer.
 
 ```java,no_run
 boolean[] pixels = new boolean[23040];
