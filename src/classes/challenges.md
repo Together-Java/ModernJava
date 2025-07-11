@@ -105,7 +105,7 @@ class SquareRoot {
     double negativeRoot;
 }
 
-void squareRoot(double value) {
+SquareRoot squareRoot(double value) {
     // -----------
     // CODE HERE
     // -----------

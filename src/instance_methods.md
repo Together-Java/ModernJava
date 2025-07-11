@@ -19,5 +19,5 @@ class Muppet {
 We call these instance methods because you need an instance of the class in order
 to call the method.
 
-[^kermitangry]: If you haven't seen the muppets this might have go over your head,
+[^kermitangry]: If you haven't seen the muppets this might go over your head,
 but Kermit [randomly gets really mad.](https://www.youtube.com/watch?v=SVDgHEg2jnY)
