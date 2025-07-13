@@ -1,7 +1,7 @@
 # UPPERCASE
 
 Similarly, if you have a `String` which potentially contains lower-cased letters, you can get a new `String` with everything
-transformed into lower-case using the `.toUpperCase()` method.
+transformed into upper-case using the `.toUpperCase()` method.
 
 ```java
 void main() {
