@@ -1,6 +1,6 @@
 # Abstractions
 
-The most important jobs of an operating system is to "abstract"
+The most important job of an operating system is to "abstract"
 over the hardware.
 
 You shouldn't need to know what brand network card you have in order
