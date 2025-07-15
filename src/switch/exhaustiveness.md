@@ -45,6 +45,5 @@ boolean isScary(Bird bird) {
             return false;
         }
     }
-    return false;
 }
 ```
