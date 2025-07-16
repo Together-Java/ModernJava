@@ -29,9 +29,9 @@ class Car {
         int speed = 5; 
 
         void saySpeed() {
-            System.out.println(speed); // 5
-            System.out.println(this.speed); // 5
-            System.out.println(Car.this.speed); // 0
+            IO.println(speed); // 5
+            IO.println(this.speed); // 5
+            IO.println(Car.this.speed); // 0
         }
     }
 }
@@ -47,9 +47,9 @@ class Car {
 ~        int speed = 5; 
 ~
 ~        void saySpeed() {
-~            System.out.println(speed); // 5
-~            System.out.println(this.speed); // 5
-~            System.out.println(Car.this.speed); // 0
+~            IO.println(speed); // 5
+~            IO.println(this.speed); // 5
+~            IO.println(Car.this.speed); // 0
 ~        }
 ~    }
 ~}

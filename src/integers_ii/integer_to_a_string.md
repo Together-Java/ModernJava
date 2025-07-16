@@ -9,7 +9,7 @@ One is to "add it" to an empty string.
 int x = 4;
 String xStr = "" + x;
 
-System.out.println(xStr);
+IO.println(xStr);
 ~}
 ```
 
@@ -21,7 +21,7 @@ The other is to use the `toString` static method on `Integer`.
 int x = 4;
 String xStr = Integer.toString(x);
 
-System.out.println(xStr);
+IO.println(xStr);
 ~}
 ```
 

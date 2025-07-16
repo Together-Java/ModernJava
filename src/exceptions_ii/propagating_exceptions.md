@@ -4,7 +4,7 @@ Say we started out with code like this.
 
 ```java
 void dream() {
-    System.out.println("Shin Godzilla's Jaw unhinging like a snake...")
+    IO.println("Shin Godzilla's Jaw unhinging like a snake...")
 }
 
 void sleep() {

@@ -15,17 +15,17 @@ Object o = "123";
 
 // If its already a String, toString() doesn't
 // have to do much work
-System.out.println(o.toString());
+IO.println(o.toString());
 
 o = 123;
 // Integers, Longs, etc. all have a representation
 // which looks the same as they do in literal form.
-System.out.println(o.toString());
+IO.println(o.toString());
 
 o = new Apple();
 // And custom classes will, by default, just have the
 // class name followed by gibberish
-System.out.println(o.toString());
+IO.println(o.toString());
 ~}
 ```
 

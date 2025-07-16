@@ -9,10 +9,10 @@ int y = 3;
 
 while (x != 0) {
     while (y != 0) {
-        System.out.println(
+        IO.println(
             "x is " + x
         );
-        System.out.println(
+        IO.println(
             "y is " + y
         );
 
@@ -36,10 +36,10 @@ while (x != 0) {
             break;
         }
 
-        System.out.println(
+        IO.println(
             "x is " + x
         );
-        System.out.println(
+        IO.println(
             "y is " + y
         );
 
@@ -62,10 +62,10 @@ while (x != 0) {
     while (y != 0) {
 
 
-        System.out.println(
+        IO.println(
             "x is " + x
         );
-        System.out.println(
+        IO.println(
             "y is " + y
         );
 

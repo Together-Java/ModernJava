@@ -16,9 +16,9 @@ be able to reassign the variable holding it when you get some.
 char[] emptyCharArray = {};
 
 // 0
-System.out.println(emptyCharArray.length);
+IO.println(emptyCharArray.length);
 
 // Crash
-System.out.println(emptyCharArray[0]);
+IO.println(emptyCharArray[0]);
 ~}
 ```

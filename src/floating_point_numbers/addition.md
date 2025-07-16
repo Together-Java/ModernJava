@@ -8,7 +8,7 @@ double x = 5.1;
 // y will be 14.2
 double y = x + 9.1;
 
-System.out.println(y);
+IO.println(y);
 ~}
 ```
 
@@ -22,7 +22,7 @@ Because of the previously mentioned inaccuracy, the results of additions might n
 // z will be 19.299999999999997
 double z = x + y;
 
-System.out.println(z);
+IO.println(z);
 ~}
 ```
 
@@ -35,9 +35,9 @@ double y = 4.4;
 // z will be 9.4
 double z = x + y;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```
 
@@ -51,8 +51,8 @@ double y = 4;
 // this will not work. The result of the expression is a double.
 int z = x + y;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```

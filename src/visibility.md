@@ -6,7 +6,7 @@ if there is a method you are always allowed to call it.
 ```java
 class Main {
     void canCallThis() {
-        System.out.println("of course!")
+        IO.println("of course!")
     }
 
     void main() {

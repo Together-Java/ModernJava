@@ -65,7 +65,7 @@ class Position {
 
 Using a static method to create a `Position` - i.e. as a "factory" - is a way around the issue.[^note]
 
-```java,does_not_compile
+```java
 class Position {
     int x;
     int y;
@@ -109,9 +109,9 @@ class Main {
         var p2 = Position.fromX(4);
         var p3 = Position.fromY(5);
 
-        System.out.println(p1.x + ", " + p1.y);
-        System.out.println(p2.x + ", " + p2.y);
-        System.out.println(p3.x + ", " + p3.y);
+        IO.println(p1.x + ", " + p1.y);
+        IO.println(p2.x + ", " + p2.y);
+        IO.println(p3.x + ", " + p3.y);
     }
 }
 ```

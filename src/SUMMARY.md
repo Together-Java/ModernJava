@@ -138,6 +138,10 @@
   - [Initialization with new](./arrays/initialization_with_new.md)
   - [Challenges](./arrays/challenges.md)
 
+# Projects
+
+- [The Boston Molasses Disaster Game]() <!-- Make sure they know it was because of deregulation -->
+
 # Control Flow II
 
 - [Loops II](./loops_ii.md)
@@ -172,7 +176,6 @@
   - [Challenges](./methods/challenges.md)
 
 - [Arguments](./arguments.md)
-
   - [Declaration](./arguments/declaration.md)
   - [Invocation with Arguments](./arguments/invocation_with_arguments.md)
   - [Reassignment](./arguments/reassignment.md)
@@ -191,6 +194,10 @@
   - [Conversion](./return_values/conversion.md)
   - [Unreachable Statements](./return_values/unreachable_statements.md)
   - [Challenges](./return_values/challenges.md)
+
+# Projects
+
+- [Tic-Tac-Toe]()
 
 # Data Types III
 
@@ -214,6 +221,11 @@
   - [Default Values](./arrays_ii/default_values.md)
   - [Populate Arrays](./arrays_ii/populate_arrays.md)
   - [Challenges](./arrays_ii/challenges.md)
+
+# Projects II
+
+<!-- https://michaelxing.com/UltimateTTT/v3/ -->
+- [Ultimate Tic-Tac-Toe]()
 
 # Code Structure II
 
@@ -409,7 +421,7 @@
   - [Conventions](./command_line_arguments/conventions.md)
 
 
-# Code Structure IV
+# Code Structure V
 
 - [Inner Classes](./inner_classes.md)
   - [Type](./inner_classes/type.md)
@@ -475,20 +487,10 @@
 <!--
 # Data Structures & Algorithms II
 
-- [Hash Maps](./hash_maps.md)
-  - [Filing Cabinets](./hash_maps/filing_cabinets.md)
-  - [Hash Functions](./hash_maps/hash_functions.md)
-  - [Function Range](./hash_maps/function_range.md)
-  - [Buckets](./hash_maps/buckets.md)
-  - [Hash Collision](./hash_maps/hash_collision.md)
-  - [Hash Distribution](./hash_maps/hash_distribution.md)
-  - [Growable Buckets](./hash_maps/growable_buckets.md)
-  - [Keys and Values](./hash_maps/keys_and_values.md)
-  - [Put Items](./hash_maps/put_items.md)
-  - [Get Items](./hash_maps/get_items.md)-->
+-->
   
 
-# Code Structure IV
+# Code Structure VI
 
 - [Object](./objects.md)
   - [Subtypes](./objects/subtypes.md)
@@ -529,6 +531,8 @@ Make them do one. -->
   - [Time Zones](./time/time_zones.md)
   - [ZonedDateTime](./time/zoned_date_time.md)
   - [OffsetDateTime](./time/offset_date_time.md)
+  - [Date](./time/date.md)
+  - [Challenges](./time/challenges.md)
 - [ArrayList](./array_list.md)
   - [Ubiquity](./array_list/ubiquity.md)
   - [Add an item](./array_list/add_an_item.md)
@@ -537,37 +541,35 @@ Make them do one. -->
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
-<!--- [HashMap](./hash_map.md)
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
-- [Iterable and Iterator](./iterable_and_iterator.md)
+- [HashMap](./hash_maps.md)
+  - [Filing Cabinets](./hash_maps/filing_cabinets.md)
+  - [Keys and Values](./hash_maps/keys_and_values.md)
+  - [Put Items](./hash_maps/put_items.md)
+  - [Get Items](./hash_maps/get_items.md)
+  - [Hash Functions](./hash_maps/hash_functions.md)
+  - [Hash Collision](./hash_maps/hash_collision.md)
+  - [Hash Distribution](./hash_maps/hash_distribution.md)
+  - [Reference Based Identity](./hash_maps/reference_based_identity.md)
+  - [Value Based Identity](./hash_maps/value_based_identity.md)
+  - [Appropriate Keys](./hash_maps/appropriate_keys.md)
+  - [Ubiquity](./hash_maps/ubiquity.md)
+
+  <!-- - [Function Range](./hash_maps/function_range.md)
+  - [Buckets](./hash_maps/buckets.md) -->
 # Concepts II
 - [Hyrum's Law](./hyrums_law.md)
   - [Authority](./hyrums_law/authority.md)
   - [Validity](./hyrums_law/validity.md)
   - [Emergent Properties](./hyrums_law/emergent_properties.md)
   - [Importance](./hyrums_law/importance.md)
-- [Encapsulation](./encapsulation.md)
-  - [Implementation Details](./encapsulation/implementation_details.md)
-  - [Methods](./encapsulation/methods.md)
-  - [Classes]()(./encapsulation/classes.md)
-  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
-  - [Abstractions](./encapsulation/abstractions.md)
-  - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
-  - [Information Hiding](./encapsulation/information_hiding.md)
 
 # Control Flow V
-- [Loops III](./loops_iii.md)
-  - [For-each loops](./loops_iii/for_each_loops.md)
-  - [Arrays]()
-  - [Iterable]()
-  - [ArrayList]()
-  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
-  - [Reasons to go back]() <!-- 
+
 - [Switch III](./switch_iii.md)
-  - [Fallthrough](./switch_iii/fallthrough.md)
   - [break](./switch_iii/break.md)
-  - [default](./switch_iii/default.md)
+  - [fallthrough](./switch_iii/fallthrough.md)
   - [return](./switch_iii/return.md)
+  - [default](./switch_iii/default.md)
   - [yield](./switch_iii/yield.md)
 - [Recursion](./recursion.md)
   - [Disclaimer](./recursion/disclaimer.md)
@@ -578,6 +580,175 @@ Make them do one. -->
   - [Accumulators](./recursion/accumulators.md)
   - [Recurse Over a String](./recursion/recursing_over_strings.md)
   - [Recurse Over an Array](./recursion/recursing_over_arrays.md)
+
+- [Loops III](./loops_iii.md)
+  - [For-each loops](./loops_iii/for_each_loops.md)
+  - [Arrays](./loops_iii/arrays.md)
+  - [Iterable and Iterator](./loops_iii/iterable_and_iterator.md)
+  - [ArrayList](./loops_iii/arraylist.md)
+  - [String](./loops_iii/string.md)
+  - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
+  - [Inferred Types](./loops_iii/inferred_types.md)
+
+# Concepts II
+
+- [Encapsulation](./encapsulation.md)
+  - [Implementation Details](./encapsulation/implementation_details.md)
+  - [Implicit Interfaces](./encapsulation/implicit_interfaces.md)
+  - [Methods](./encapsulation/methods.md)
+  - [Classes](./encapsulation/classes.md)
+  - [Abstraction](./encapsulation/abstractions.md)
+  - [Coupling](./encapsulation/coupling.md)
+  - [Leaky Abstractions](./encapsulation/leaky_abstractions.md)
+  - [Information Hiding](./encapsulation/information_hiding.md)
+
+
+# Data Types VI
+
+- [Collections](./collections.md)
+  - [List](./collections/list.md)
+  - [Map](./collections/map.md)
+  - [Set](./collections/set.md)
+  - [Arrays](./collections/arrays.md) <!-- Odd duck out, Arrays.asList -->
+  - [UnsupportedOperationException](./collections/unsupported_operation_exception.md)
+  - [Factories](./collections/factories.md)
+  - [Specificity](./collections/specificity.md)
+
+
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+  - [Declaration](./multi_dimensional_arrays/declaration.md)
+  - [Array Initializers](./multi_dimensional_arrays/array_initializers.md)
+  - [Initialization with new](./multi_dimensional_arrays/initialization_with_new.md)
+  - [Access Individual Elements](./multi_dimensional_arrays/access_individual_elements.md)
+  - [Set Individual Elements](./multi_dimensional_arrays/set_individual_elements.md)
+  - [Initialization with Size](./multi_dimensional_arrays/initialize_with_size.md)
+  - [Default Values](./multi_dimensional_arrays/default_values.md)
+  - [Populate Values](./multi_dimensional_arrays/populate_values.md)
+  - [Ragged Arrays](./multi_dimensional_arrays/ragged_arrays.md)
+
+# Metaprogramming
+
+- [Reflection](./reflection.md)
+  - [Class Objects](./reflection/class_objects.md)
+  - [Get all Fields](./reflection/get_all_fields.md)
+  - [Get a Field](./reflection/get_a_field.md)
+  - [Read from a Field](./reflection/read_from_a_field.md)
+  - [Write to a Field](./reflection/write_to_a_field.md)
+  - [Get all Methods](./reflection/get_all_methods.md)
+  - [Get a Method](./reflection/get_a_method.md)
+  - [Invoke a Method](./reflection/invoke_a_method.md)
+  - [Get a Constructor](./reflection/get_a_constructor.md)
+  - [Get all Constructors](./reflection/get_all_constructors.md)
+  - [Invoke a Constructor](./reflection/invoke_a_constructor.md)
+
+- [Annotations](./annotations.md)
+  - [Declaration](./annotations/declaration.md)
+  - [Usage](./annotations/usage.md)
+  - [Elements](./annotations/elements.md)
+  - [Usage with Elements](./annotations/usage_with_elements.md)
+  - [Defaults](./annotations/defaults.md)
+  - [@Target](./annotations/target.md)
+  - [@Retention](./annotations/retention.md)
+  - [Reflective Access](./annotations/reflective_access.md)
+  - [@Override](./annotations/override.md)
+  <!--  - [@Deprecated](./annotations/deprecated)
+  - [@Repeatable]()Note: When doing javadoc, write about @Documented -->
+
+<!-- 
+# Concepts III
+
+- [Abbreviations](./abbreviations.md)
+  - [Niches](./abbreviations/niches.md)
+  - [Usage Contexts](./abbreviations/usage_contexts.md)
+  - [Ambiguity](./abbreviations/ambiguity.md)
+  - [Familiarity](./abbreviations/familiarity.md)
+  - [Elaboration](./abbreviations/elaboration.md)
+-->
+
+# Code Structure VII
+- [Interfaces II](./interfaces_ii.md)
+  - [Default Methods](./interfaces_ii/default_methods.md)
+  - [Interface Extension](./interfaces_ii/interface_extension.md)
+  - [Static Methods](./interfaces_ii/static_methods.md)
+  - [Static Fields](./interfaces_ii/static_fields.md)
+- [Class Extension](./class_extension.md)
+  - [Extend a Class](./class_extension/extend_a_class.md)
+  - [Inheritance](./class_extension/inheritance.md)
+  - [Override](./class_extension/override.md)
+  - [Protected](./class_extension/protected.md)
+  - [Abstract Classes](./class_extension/abstract_classes.md)
+  - [Abstract Methods](./class_extension/abstract_methods.md)
+  - [Relation to Interfaces](./class_extension/relation_to_interfaces.md)
+  - [Relation to Encapsulation](./class_extension/relation_to_encapsulation.md)
+  - [Final Classes](./class_extension/final_classes.md)
+
+
+# Data Types VII
+
+- [Niche Numerics](./niche_numerics.md)
+  - [byte](./niche_numerics/byte.md)
+  - [short](./niche_numerics/short.md)
+  - [long](./niche_numerics/long.md)
+  - [Unsigned Operations](./niche_numerics/unsigned_operations.md)
+  - [float](./niche_numerics/float.md)
+  
+# Code Structure VIII
+
+- [Modules](./modules.md)
+  - [Declaration](./modules/declaration.md)
+  - [Restrictions](./modules/restrictions.md)
+  - [Exports]()
+  - [Integrity]()
+  - [java.base](./modules/java.base.md)
+  - [The Unnamed Module](./modules/the_unnamed_module.md)
+  - [Module Imports](./modules/module_imports.md)
+  - [Multi-Module Directory Layout]()
+- [Lambdas](./lambdas.md)
+  - [Functional Interfaces](./lambdas/functional_interfaces.md)
+  - [@FunctionalInterface](./lambdas/functional_interface_annotation.md)
+  - [Lambda Expressions](./lambdas/lambda_expressions.md)
+  - [Method References](./lambdas/method_references.md)
+  - [Runnable]()
+  - [Function]()
+  - [Relation to Checked Exceptions]()
+- [Streams](./streams.md)
+  - [map](./streams/map.md)
+  - [filter](./streams/filter.md)
+  - [Collectors](./streams/collectors.md)
+  - [toList](./streams/toList.md)
+  - [mapMulti](./streams/mapMulti.md)
+  - [Gatherers](./streams/gatherers.md)
+
+# Sharing Code
+
+- [Compilation](./compilation.md)
+  - [javac]()
+  - [--release]()
+- [Packaging]()
+  - [jar]()
+  - [--main-class]()
+- [Documentation]()
+  - [javadoc]()
+  - [Documentation Comments](./documentation/documentation_comments.md)
+- [Distribution]()
+  - [jlink]()
+
+<!--- 
+PROJECT IDEAS:
+  - Alan Turing Themed one (He was killed by the british government)
+    - Caesar Cipher
+    - Enigma Machine?
+  - Boston Molasses Disaster
+  - Triangle Shirtwaist Fire
+  - Distance from tainted drinking water (K means stats one)
+  - Oregon Trail one. (Find a way to mention the buffalo murders), also manifest destiny
+
+
+
+
+[HashMap](./hash_map.md)
+
+
 
 # Code Structure V
 - [Interface Extension](./interface_extension.md)
@@ -610,27 +781,7 @@ Make them do one. -->
   - [Low Level versus High Level](./tcp_over_ip/low_level_versus_high_level.md)
 - [Data Formats]()
 
-# Metaprogramming
 
-- [Reflection](./reflection.md)
-  - [Class Objects](./reflection/class_objects.md)
-  - [Get all Fields](./reflection/get_all_fields.md)
-  - [Get a Field]()
-  - [Set a Field]()
-  - [Get a Method]()
-  - [Call a Method]()
-  - [Get a Constructor]()
-
-- [Annotations]()
-
-# Concepts III
-
-- [Acronyms](./acronyms.md)
-  - [Niches](./acronyms/niches.md)
-  - [Usage Contexts](./acronyms/usage_contexts.md)
-  - [Ambiguity](./acronyms/ambiguity.md)
-  - [Familiarity](./acronyms/familiarity.md)
-  - [Elaboration](./acronyms/elaboration.md)
 
 # Code Structure VI
 
@@ -646,6 +797,7 @@ Make them do one. -->
 - [Pattern Matching]()
   - [Primitive Patterns]()
   - [Record Patterns]()
+
 -->
 <!--
 
@@ -680,17 +832,11 @@ Make them do one. -->
 
 - [Integers II]()
 - [Paths]()
-- [Iterator and Iterable]()
 - [Exceptions II]()
 
 # Control Flow IV
 
-- [Loops III](./loops_iii.md)
-  - [For Each]()
-
 # Algorithms II
-
-- [Hash Map]()
 
 # Data Types VII
 
@@ -720,11 +866,9 @@ Generics
 Maven
 XML
 Pom
-byte, short, long
 Multiversal Equality
 Reflection
     Cover Invoking *public* constructs
-Annotations
 Javadoc and Documentation comments
 -->
 
@@ -834,11 +978,8 @@ jshell
 ```
 
 - Getting Started
-- [Hello, World]()
 - Data Types
 
-    - Arrays
-multi dimensional arrays
 - Expressions
 - Conditionals
 - Loops
@@ -872,7 +1013,20 @@ multi dimensional arrays
 - Maven before hikaricp
     - HikariCP for connection pool
 
-System.console() over Scanner?
+The You of today is not the you of tommorow
+
+
+Separate a mobile number given in an international format into parts countrycode, number
+I think its a nice example about a problem which can be solved in a number of ways, and still being very precise and compact in description
+mikamoilanen — 3:53 PM
+Start with a list of few countrycodes, like +1, +358
+Given a phone number eg "+358451252855", separate it into two parts: +358 and 451252855
+The essiest way is to sort country codes by lenght, longest first, and loop through them by asking if the phonenumber.startsWith(cc)
+(this works as codes are common-prefix-free)
+mikamoilanen — 4:01 PM
+Another solution creates a nice opportunity to introduce creating your own datastructure for more efficient solution: Build a tree out of the codes, where each number has N childs, and traverse throught that tree number-by-number of the phonenumber
+THEN you could even introduce packing the data as bitvectors in order to have even more compact data structure
+
 -->
 
 

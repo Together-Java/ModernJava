@@ -7,12 +7,12 @@ a given number.
 ~void main() {
 // Goes from 1 to 100
 for (int currentNumber = 1; currentNumber <= 100; currentNumber++) {
-    System.out.println(currentNumber);
+    IO.println(currentNumber);
 }
 
 // Goes from 100 to 1
 for (int currentNumber = 100; currentNumber >= 1; currentNumber--) {
-    System.out.println(currentNumber);
+    IO.println(currentNumber);
 }
 ~}
 ```

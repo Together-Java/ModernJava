@@ -44,10 +44,10 @@ while (x != 0) {
             break xLoop;
         }
 
-        System.out.println(
+        IO.println(
             "x is " + x
         );
-        System.out.println(
+        IO.println(
             "y is " + y
         );
 
@@ -56,7 +56,7 @@ while (x != 0) {
     }
 }
 
-System.out.println("done.");
+IO.println("done.");
 ~}
 ```
 

@@ -5,9 +5,9 @@ After a variable is declared and assigned an initial value, that value can be la
 ```java
 void main() {
     String boss = "Jaqueline";
-    System.out.println(boss);
+    IO.println(boss);
     boss = "Chelsea";
-    System.out.println(boss);
+    IO.println(boss);
 }
 ```
 
@@ -26,9 +26,9 @@ the new value from that point in the program onwards.
 void main() {
     String boss = "Jaqueline";
     // This will output "Jaqueline"
-    System.out.println(boss);
+    IO.println(boss);
     boss = "Chelsea";
     // But this will output "Chelsea"
-    System.out.println(boss);
+    IO.println(boss);
 }
 ```

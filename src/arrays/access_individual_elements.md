@@ -11,13 +11,13 @@ The first element can be accessed by using `0`, the second by using `1`, and so 
 String[] lyrics = { "you", "say", "goodbye" };
 
 String you = lyrics[0];
-System.out.println(you);
+IO.println(you);
 
 String say = lyrics[1];
-System.out.println(say);
+IO.println(say);
 
 String goodbye = lyrics[2];
-System.out.println(goodbye);
+IO.println(goodbye);
 ~}
 ```
 
@@ -28,7 +28,7 @@ The index of the element can also come from a variable.
 int index = 2;
 String[] lyrics = { "I", "say", "hello" };
 
-System.out.println(lyrics[index]);
+IO.println(lyrics[index]);
 ~}
 ```
 
@@ -39,7 +39,7 @@ you will get an error.
 ~void main(){
 String[] lyrics = { "I", "say", "hi" };
 // Crash!
-System.out.println(lyrics[999]);
+IO.println(lyrics[999]);
 ~}
 ```
 
@@ -47,6 +47,6 @@ System.out.println(lyrics[999]);
 ~void main(){
 String[] lyrics = { "you", "say", "low" };
 // Crash!
-System.out.println(lyrics[-1]);
+IO.println(lyrics[-1]);
 ~}
 ```

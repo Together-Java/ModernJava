@@ -14,7 +14,7 @@ import dungeon.Dragon;
 
 void main() {
     var dragon = new Dragon(224.5);
-    System.out.println(
+    IO.println(
         // Method is visible.
         dragon.wingspan()
     );

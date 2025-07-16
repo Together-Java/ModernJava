@@ -27,7 +27,7 @@ class Main {
         var car = new Car();
         var speedometer = car.getSpeedometer();
 
-        System.out.println(speedometer);
+        IO.println(speedometer);
 
         // But this will not work
         // var speedometer = new Car.Speedometer();

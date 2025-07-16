@@ -12,7 +12,7 @@ for (int i = 0; i < 5; i++) {
         // i++ will still run
         continue;
     }
-    System.out.println(i);
+    IO.println(i);
 }
 
 // 0
@@ -31,7 +31,7 @@ while (i < 5) {
     if (i == 2) {
         continue;
     }
-    System.out.println(i);
+    IO.println(i);
 
     i++;
 }
@@ -52,7 +52,7 @@ while (i < 5) {
         i++
         continue;
     }
-    System.out.println(i);
+    IO.println(i);
 
     i++;
 }

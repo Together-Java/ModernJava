@@ -5,7 +5,7 @@ name of the method followed by `()` in a statement.
 
 ```java
 void doThing() {
-    System.out.println("Hello from inside a method!");
+    IO.println("Hello from inside a method!");
 }
 
 void main() {
@@ -19,7 +19,7 @@ You can call a method multiple times. If you do, then the code inside of it will
 
 ```java
 void doThing() {
-    System.out.println("Hello from inside a method!");
+    IO.println("Hello from inside a method!");
 }
 
 void main() {

@@ -6,7 +6,7 @@ One way to make a loop in code is to use `while`.
 ~void main() {
 int x = 5;
 while (x != 0) {
-    System.out.println(x);
+    IO.println(x);
     x--;
 }
 ~}
@@ -30,7 +30,7 @@ This will continue until the code in the condition evaluates to `false`.
 ~void main() {
 int glassesOfMilk = 99;
 while (glassesOfMilk > 0) {
-    System.out.println(
+    IO.println(
         glassesOfMilk + " glasses of milk left"
     );
 

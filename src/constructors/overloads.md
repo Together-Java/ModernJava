@@ -40,14 +40,14 @@ class Muppet {
 }
 
 void announce(Muppet muppet) {
-    System.out.print(muppet.name);
+    IO.print(muppet.name);
     if (muppet.talented) {
-        System.out.print(" is ");
+        IO.print(" is ");
     }
     else {
-        System.out.print(" is not ");
+        IO.print(" is not ");
     }
-    System.out.println("talented.");
+    IO.println("talented.");
 }
 
 void main() {

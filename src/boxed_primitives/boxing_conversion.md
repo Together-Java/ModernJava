@@ -9,8 +9,8 @@ automatically do that conversion.[^obvious]
 int x = 5;
 Integer y = x;
 
-System.out.println(x);
-System.out.println(y);
+IO.println(x);
+IO.println(y);
 ~}
 ```
 

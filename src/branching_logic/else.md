@@ -7,10 +7,10 @@ and another when that same condition evaluates to `false` you can use `else`.
 ~void main() {
 int age = 30; // 🙎‍♀️
 if (age < 25) {
-    System.out.println("You cannot rent a car!");
+    IO.println("You cannot rent a car!");
 }
 else {
-    System.out.println("You might be able to rent a car.");
+    IO.println("You might be able to rent a car.");
 }
 ~}
 ```
@@ -34,7 +34,7 @@ When the condition evaluates to `false`, the code inside of `else`'s `{` and `}`
 ```java,does_not_compile
 ~void main() {
 else {
-    System.out.println("No if.");
+    IO.println("No if.");
 }
 ~}
 ```

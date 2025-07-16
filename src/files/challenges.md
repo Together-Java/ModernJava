@@ -63,9 +63,9 @@ class Main {
 
         people = load(path);
 
-        System.out.println(people[0]);
-        System.out.println(people[1]);
-        System.out.println(people[2]);
+        IO.println(people[0]);
+        IO.println(people[1]);
+        IO.println(people[2]);
 
     }
 

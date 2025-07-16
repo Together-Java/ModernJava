@@ -12,8 +12,8 @@ You can make a `LocalDate` with `LocalDate.of`.
 import java.time.LocalDate;
 
 void main() {
-    var jan10 = LocalDate.of(2024, 10, 1);
-    System.out.println(jan10);
+    var jan10 = LocalDate.of(2024, 1, 10);
+    IO.println(jan10);
 }
 ```
 
@@ -25,6 +25,6 @@ import java.time.LocalDate;
 
 void main() {
     var now = LocalDate.now();
-    System.out.println(now);
+    IO.println(now);
 }
 ```

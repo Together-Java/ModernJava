@@ -12,7 +12,7 @@ String message = age < 25
     ? "You cannot rent a car!"
     : "You might be able to rent a car";
 
-System.out.println(message);
+IO.println(message);
 ~}
 ```
 

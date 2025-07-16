@@ -6,7 +6,7 @@ Mechanically, the next thing to cover is "variables".
 ```java
 void main() {
     String boss = "Jaqueline";
-    System.out.println(boss);
+    IO.println(boss);
 }
 ```
 
@@ -25,8 +25,8 @@ hand side and you can use that name instead of the value.
 
 ```java
 ~void main() {
-// Does the same thing as System.out.println("Jaqueline");
+// Does the same thing as IO.println("Jaqueline");
 String boss = "Jaqueline";
-System.out.println(boss);
+IO.println(boss);
 ~}
 ```

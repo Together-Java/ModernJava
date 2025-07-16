@@ -2,7 +2,7 @@
 
 If you have a class object, you can get all the public
 fields of that class using `getFields`. This gives you
-an array of field objects.
+an array of `Field` objects.
 
 ```java
 import java.lang.reflect.Field;
@@ -13,7 +13,7 @@ class Main {
 
         Field[] fields = drinkClass.getFields();
         for (var field : fields) {
-            System.out.println(field.getName());
+            IO.println(field.getName());
         }
     }
 }
@@ -35,18 +35,18 @@ class Main {
     void main() {
         Class<Soup> soupClass = Soup.class;
 
-        System.out.println("Using getFields");
+        IO.println("Using getFields");
         Field[] publicFields = soupClass.getFields();
         for (var field : publicFields) {
-            System.out.println(field.getName());
+            IO.println(field.getName());
         }
 
-        System.out.println("-------------");
+        IO.println("-------------");
 
-        System.out.println("Using getDeclaredFields");
+        IO.println("Using getDeclaredFields");
         Field[] allFields = soupClass.getDeclaredFields();
         for (var field : allFields) {
-            System.out.println(field.getName());
+            IO.println(field.getName());
         }
     }
 }

@@ -8,10 +8,10 @@ For this reason there are versions of those primitive[^primitive] types which do
 ```java
 void sayAge(Integer age) {
     if (age == null) {
-        System.out.println("Age is not yet known");
+        IO.println("Age is not yet known");
     }
     else {
-        System.out.println("Age is " + age);
+        IO.println("Age is " + age);
     }
 }
 

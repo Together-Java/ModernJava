@@ -10,7 +10,7 @@ by attempting to assign a `char` to an `int`.
 ~void main() {
 int valueOfA = 'a';
 
-System.out.println(valueOfA);
+IO.println(valueOfA);
 ~}
 ```
 
@@ -23,11 +23,11 @@ char gee = 'g';
 // all the letters from a to z have consecutive numeric values.
 boolean isLetter = gee >= 'a' && gee <= 'z';
 
-System.out.println(isLetter);
+IO.println(isLetter);
 ~}
 ```
 
 This can be useful if you are stranded on Mars[^onmars] or
 if you want to see if a character is in some range.
 
-[^onmars]: https://www.youtube.com/watch?v=k-GH3mbvUro
+[^onmars]: https://www.youtube.com/watch?v=0xkP_FQUsuM

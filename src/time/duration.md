@@ -10,10 +10,10 @@ import java.time.Duration;
 
 void main() {
     var fiveMinutes = Duration.ofMinutes(5);
-    System.out.println(fiveMinutes);
+    IO.println(fiveMinutes);
 
     var twelveMilliSeconds = Duration.ofMillis(12);
-    System.out.println(twelveMilliSeconds);
+    IO.println(twelveMilliSeconds);
 }
 ```
 
@@ -26,13 +26,13 @@ import java.time.Duration;
 
 void main() {
     var january2nd = Instant.ofEpochMilli(86400000);
-    System.out.println(january2nd);
+    IO.println(january2nd);
 
     var january3rd = Instant.ofEpochMilli(86400000 * 2);
-    System.out.println(january3rd);
+    IO.println(january3rd);
 
     Duration twentyFourHours = Duration.between(january2nd, january3rd);
-    System.out.println(twentyFourHours);
+    IO.println(twentyFourHours);
 }
 ```
 
@@ -45,13 +45,13 @@ import java.time.Duration;
 
 void main() {
     var january1st = Instant.ofEpochMilli(0);
-    System.out.println(january1st);
+    IO.println(january1st);
 
-    System.out.println(
+    IO.println(
         january1st.plus(Duration.ofHours(45))
     );
 
-    System.out.println(
+    IO.println(
         january1st.minus(Duration.ofHours(1))
     );
 }

@@ -9,7 +9,7 @@ Say we had this code in a file named `Main.java`
 
 ```java
 void main() {
-    System.out.println("Hello");
+    IO.println("Hello");
 }
 ```
 

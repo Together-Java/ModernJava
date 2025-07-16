@@ -6,7 +6,7 @@ One variation on a `while` loop is a "do-while loop."
 ~void main() {
 int x = 0;
 do {
-    System.out.println(x);
+    IO.println(x);
     x++;
 } while(x < 5);
 ~}
@@ -28,11 +28,11 @@ is that the first time the loop is reached the condition for the loop is not che
 ~void main() {
 int x = 0;
 do {
-    System.out.println("this will run");
+    IO.println("this will run");
 } while (x != 0);
 
 while (x != 0) {
-    System.out.println("this will not run");
+    IO.println("this will not run");
 }
 ~}
 ```

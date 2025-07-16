@@ -1,0 +1,72 @@
+# Arrays
+
+Arrays are the odd duck out in the world of collections. They are basically a `List` but aren't `List`s.[^history]
+
+You can make a `List` which is a view over an array with `Arrays.asList`.
+
+```java
+import java.util.List;
+import java.util.Arrays;
+
+class Main {
+    void main() {
+        String[] furniture = new String[] {
+            "Ottoman",
+            "Table",
+            "Dresser"
+        };
+
+        List<String> furnitureList = Arrays.asList(furniture);
+
+        IO.println(furnitureList);
+    }
+}
+```
+
+Changes made to the `List` returned from `Arrays.asList` will be reflected in the underlying array.
+
+```java
+import java.util.List;
+import java.util.Arrays;
+
+class Main {
+    void main() {
+        String[] furniture = new String[] {
+            "Ottoman",
+            "Table",
+            "Dresser"
+        };
+
+        List<String> furnitureList = Arrays.asList(furniture);
+
+        furnitureList.set(0, "Recliner");
+
+        IO.println(Arrays.toString(furniture));
+    }
+}
+```
+
+Accordingly, any methods on `List` which try to perform operations that an array cannot support (such as `.add`) will throw exceptions.
+
+```java,panics
+import java.util.List;
+import java.util.Arrays;
+
+class Main {
+    void main() {
+        String[] furniture = new String[] {
+            "Ottoman",
+            "Table",
+            "Dresser"
+        };
+
+        List<String> furnitureList = Arrays.asList(furniture);
+
+        // Cannot add to an array!
+        furnitureList.add("Shelf");
+    }
+}
+```
+
+[^history]: Arrays are unique beasts. This is true both in Java the language and in the virtual machine Java code runs on.
+This is partially attributable to arrays coming first in the history - `List` and friends were not in the first version of Java.

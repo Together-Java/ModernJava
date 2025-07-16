@@ -17,7 +17,7 @@ void main() {
     elmo.age = 3;
 
     // true
-    System.out.println(elmo.isOlderThan(2));
+    IO.println(elmo.isOlderThan(2));
 }
 ```
 

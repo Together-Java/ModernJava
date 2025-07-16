@@ -13,6 +13,6 @@ void main() {
     kermit.name = "Kermit The Frog";
 
     // The .name accesses the "name" field
-    System.out.println(kermit.name);
+    IO.println(kermit.name);
 }
 ```

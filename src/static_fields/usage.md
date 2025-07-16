@@ -7,7 +7,7 @@ class Main {
     static int count = 0;
 
     void main() {
-        System.out.println(count);
+        IO.println(count);
     }
 }
 ```
@@ -21,7 +21,7 @@ class Main {
     static int count = 0;
 
     void main() {
-        System.out.println(Main.count);
+        IO.println(Main.count);
     }
 }
 ```

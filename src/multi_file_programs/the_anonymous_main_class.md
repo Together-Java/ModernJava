@@ -6,7 +6,7 @@ This includes the code in `Main.java`.
 
 ```java
 void main() {
-    System.out.println("What, really?");
+    IO.println("What, really?");
 }
 ```
 
@@ -20,7 +20,7 @@ If you take any code we've produced up until now and wrap it with `class Main {}
 ```java
 class Main {
     void main() {
-        System.out.println("yep.");
+        IO.println("yep.");
     }
 }
 ```

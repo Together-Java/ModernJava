@@ -56,7 +56,7 @@ class Main {
 
         // And we can loop over it like so
         for (int i = 0; i < array.size(); i++) {
-            System.out.println(array.get(i));
+            IO.println(array.get(i));
         }
     }
 }

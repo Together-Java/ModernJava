@@ -10,14 +10,14 @@ and produces a `boolean` as its result.
 // 1 is never equal to 2
 // this will be false
 boolean universeBroken = 1 == 2;
-System.out.println(universeBroken);
+IO.println(universeBroken);
 
 int loneliestNumber = 1;
 int canBeAsBadAsOne = 2;
 
 // this will be true
 boolean bothLonely = loneliestNumber == (canBeAsBadAsOne - 1);
-System.out.println(bothLonely);
+IO.println(bothLonely);
 ~}
 ```
 
@@ -30,6 +30,6 @@ The opposite check, whether things are not equal, can be done with `!=`.
 // 1 is never equal to 2
 // this will be true
 boolean universeOkay = 1 != 2;
-System.out.println(universeOkay);
+IO.println(universeOkay);
 ~}
 ```

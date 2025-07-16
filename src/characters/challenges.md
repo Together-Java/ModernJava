@@ -15,7 +15,7 @@ Try to work it out on paper before running the program below.
 void main() {
     char x = 'x';
 
-    System.out.println(x * x);
+    IO.println(x * x);
 }
 ```
 
@@ -31,7 +31,7 @@ void main() {
 
     boolean isLetter = ???;
 
-    System.out.println(isLetter);
+    IO.println(isLetter);
 }
 ```
 

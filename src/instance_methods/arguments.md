@@ -9,13 +9,13 @@ class Muppet {
 
     void singLyric(int verse) {
         if (verse == 1) {
-            System.out.println("Why are there so many");
+            IO.println("Why are there so many");
         }
         else if (verse == 2) {
-            System.out.println("Songs about rainbows");
+            IO.println("Songs about rainbows");
         }
         else {
-            System.out.println("And what's on the other side?");
+            IO.println("And what's on the other side?");
         }
     }
 }

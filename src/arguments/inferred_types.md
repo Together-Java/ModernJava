@@ -20,7 +20,7 @@ You must always explicitly write out the types of arguments.
 
 ```java,no_run
 void makeHorchata(double milkFatPercent) {
-    System.out.println(
+    IO.println(
         "Making a horchata with " + milkFatPercent + "% milk."
     );
 }

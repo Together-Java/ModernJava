@@ -14,10 +14,10 @@ void main() {
     StopLight light = StopLight.RED;
     
     if (light == StopLight.RED) {
-        System.out.println("You must stop");
+        IO.println("You must stop");
     }
     else {
-        System.out.println("Full speed ahead!");
+        IO.println("Full speed ahead!");
     }
 }
 ```

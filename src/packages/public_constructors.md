@@ -26,7 +26,7 @@ class Main {
         var skeleton = new Skeleton();
 
         // And we get the right number of bones!
-        System.out.println(skeleton.bones);
+        IO.println(skeleton.bones);
     }
 }
 ```

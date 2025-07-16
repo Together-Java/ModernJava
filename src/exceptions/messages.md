@@ -15,9 +15,9 @@ void crashesOnFive(int x) {
 
 void main() {
     crashesOnFive(1);
-    System.out.println("Made it to step 1");
+    IO.println("Made it to step 1");
 
     crashesOnFive(5);
-    System.out.println("Will not make it to step 2");
+    IO.println("Will not make it to step 2");
 }
 ```

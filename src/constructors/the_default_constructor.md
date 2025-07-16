@@ -16,8 +16,8 @@ void main() {
     Muppet gonzo = new Muppet();
 
     // null
-    System.out.println(gonzo.name);
+    IO.println(gonzo.name);
     // false
-    System.out.println(gonzo.talented);
+    IO.println(gonzo.talented);
 }
 ```

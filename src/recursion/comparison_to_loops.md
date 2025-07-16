@@ -11,21 +11,21 @@ void seasonFoodRecursive(int times) {
         return;
     }
     else {
-        System.out.println("seasoning");
+        IO.println("seasoning");
         seasonFoodRecursive(times - 1);
     }
 }
 
 void seasonFoodIterative(int times) {
     for (int i = 0; i < times; i++) {
-        System.out.println("seasoning");
+        IO.println("seasoning");
     }
 }
 ~
 ~void main() {
-~    System.out.println("Recursive");
+~    IO.println("Recursive");
 ~    seasonFoodRecursive(2);
-~    System.out.println("Iterative");
+~    IO.println("Iterative");
 ~    seasonFoodRecursive(2);
 ~}
 ```

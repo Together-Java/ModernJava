@@ -10,6 +10,6 @@ void main() {
     ArrayList<String> names = new ArrayList<>();
     names.add("John Wick");
 
-    System.out.println(names);
+    IO.println(names);
 }
 ```

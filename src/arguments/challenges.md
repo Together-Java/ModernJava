@@ -16,16 +16,16 @@ The `size` argument should control how big of a square is output.
 
 void main() {
     printSquare(4);
-    System.out.println();
+    IO.println();
 
     printSquare(3);
-    System.out.println();
+    IO.println();
 
     printSquare(2);
-    System.out.println();
+    IO.println();
 
     printSquare(1);
-    System.out.println();
+    IO.println();
 }
 ```
 
@@ -41,13 +41,13 @@ was given.
 
 void main() {
     printSquare(3);
-    System.out.println();
+    IO.println();
     printSquare(-3);
-    System.out.println();
+    IO.println();
 
-    System.out.println();
+    IO.println();
     printSquare(-2);
-    System.out.println();
+    IO.println();
     printSquare(2);
 }
 ```
@@ -74,15 +74,15 @@ Call the defined methods in a way that outputs "I did it!"
 
 ```java,editable
 void i() {
-    System.out.print("I");
+    IO.print("I");
 }
 
 void did(String what) {
-    System.out.println("did " + what);
+    IO.println("did " + what);
 }
 
 void space() {
-    System.out.print(" ");
+    IO.print(" ");
 }
 
 void main() {

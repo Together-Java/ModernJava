@@ -10,4 +10,7 @@ For that scenario, using the first letter of the last name is a non-ideal hash f
 because so when many people have last names starting with the same letter, they will
 not be evenly distributed amongst the buckets.
 
+Making a hash function with a good distribution is hard. `Objects.hash` will do a decent job of it
+and thats why we use it.
+
 [^irish]: "Mc" and "Mac" are common irish surnames and Boston has a sizable irish population.

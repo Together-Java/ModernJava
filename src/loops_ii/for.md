@@ -13,7 +13,7 @@ As with many things, this might be easiest to see by looking at an example.
 ~void main() {
 // Will run 10 times
 for (int number = 0; number < 10; number++) {
-    System.out.println(number);
+    IO.println(number);
 }
 ~}
 ```
@@ -24,7 +24,7 @@ That `for` loop works about the same as this `while` loop.
 ~void main() {
 int number = 0;
 while (number < 10) {
-    System.out.println(number);
+    IO.println(number);
 
     number++;
 }

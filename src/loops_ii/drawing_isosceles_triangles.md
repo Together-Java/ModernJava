@@ -16,7 +16,7 @@ and the second row needs one space character.
 
 ```java
 ~void main() {
-System.out.println("   *\n  ***\n*****");
+IO.println("   *\n  ***\n*****");
 ~}
 ```
 
@@ -27,12 +27,12 @@ So any loop we make needs to take this pattern into account.
 int totalRows = 5;
 for (int row = 1; row <= totalRows; row++) {
     for (int i = 0; i < totalRows - row; i++) {
-        System.out.print(" ");
+        IO.print(" ");
     }
     for (int i = 0; i < row * 2 - 1; i++) {
-        System.out.print("*");
+        IO.print("*");
     }
-    System.out.println();
+    IO.println();
 }
 ~}
 ```

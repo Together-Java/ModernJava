@@ -5,7 +5,7 @@ call it in order to start your programs.
 
 ```java
 void main() {
-    System.out.println("Java will start here");
+    IO.println("Java will start here");
 }
 ```
 
@@ -19,6 +19,6 @@ void main() {
         return;
     }
 
-    System.out.println("WONT RUN");
+    IO.println("WONT RUN");
 }
 ```

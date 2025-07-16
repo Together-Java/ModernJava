@@ -10,7 +10,7 @@ then use that `String` afterwards.
 ~void main() {
 String name = "Alana";
 // l
-System.out.println(name.charAt(1));
+IO.println(name.charAt(1));
 ~}
 ```
 
@@ -19,7 +19,7 @@ But you can also perform those operations using the literal itself, without an i
 ```java
 ~void main() {
 // l
-System.out.println("Alana".charAt(1));
+IO.println("Alana".charAt(1));
 ~}
 ```
 
@@ -30,7 +30,7 @@ the array.
 ~void main() {
 char[] name = { 'A', 'm', 'a', 'n', 'd', 'a' };
 // m
-System.out.println(name[1]);
+IO.println(name[1]);
 ~}
 ```
 
@@ -39,6 +39,6 @@ But they do not work to perform operations on directly.
 ```java
 ~void main() {
 // Will not run
-System.out.println({ 'A', 'm', 'a', 'n', 'd', 'a' }[1]);
+IO.println({ 'A', 'm', 'a', 'n', 'd', 'a' }[1]);
 ~}
 ```

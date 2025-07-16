@@ -17,9 +17,9 @@ class fozzie_the_bear {}
 class MSPIGGY {}
 
 void main() {
-    System.out.println(new gonzo());
-    System.out.println(new fozzie_the_bear());
-    System.out.println(new MSPIGGY());
+    IO.println(new gonzo());
+    IO.println(new fozzie_the_bear());
+    IO.println(new MSPIGGY());
 }
 ```
 
@@ -38,7 +38,7 @@ void main() {
     // CODE HERE
     // ---------------
 
-    System.out.println(
+    IO.println(
         movie.title
     );
 }
@@ -57,7 +57,7 @@ class ThemePark {
 void main() {
     ThemePark themePark = new ThemePark();
 
-    System.out.println(
+    IO.println(
         themePark.entranceFee
     );
 }
@@ -82,7 +82,7 @@ void main() {
     Kermit kermit = new Kermit();
     // ------------------------
 
-    System.out.println(kermit.angry);
+    IO.println(kermit.angry);
 }
 ```
 
@@ -114,15 +114,15 @@ SquareRoot squareRoot(double value) {
 void main() {
     SquareRoot sqrtOfFour = squareRoot(4);
     // 2
-    System.out.println(sqrtOfFour.positiveRoot);
+    IO.println(sqrtOfFour.positiveRoot);
     // -2
-    System.out.println(sqrtOfFour.negativeRoot);
+    IO.println(sqrtOfFour.negativeRoot);
 
     SquareRoot sqrtOfFifteen = squareRoot(15);
     // 3.872983346207417
-    System.out.println(sqrtOfFifteen.positiveRoot);
+    IO.println(sqrtOfFifteen.positiveRoot);
     // -3.872983346207417
-    System.out.println(sqrtOfFifteen.negativeRoot);
+    IO.println(sqrtOfFifteen.negativeRoot);
 }
 ```
 
@@ -145,6 +145,6 @@ void main() {
     // CODE HERE
     // --------------------------
 
-    System.out.println(actor.name);
+    IO.println(actor.name);
 }
 ```

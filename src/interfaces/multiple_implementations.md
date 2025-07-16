@@ -19,7 +19,7 @@ interface Dog {
 class Mutt implements Dog {
     @Override
     public void bark() {
-        System.out.println("Bark");
+        IO.println("Bark");
     }
 
     @Override
@@ -31,7 +31,7 @@ class Mutt implements Dog {
 class Cat implements Dog {
     @Override
     public void bark() {
-        System.out.println("Meow");
+        IO.println("Meow");
     }
 
     @Override
@@ -42,7 +42,7 @@ class Cat implements Dog {
 
 void barkAndFetch(Dog dog) {
     dog.bark();
-    System.out.println(dog.fetch("Ball"));
+    IO.println(dog.fetch("Ball"));
 }
 
 void main() {

@@ -11,7 +11,7 @@ to stop at, and a line at the bottom of the loop which decrements the current nu
 ~void main() {
 int currentNumber = 100;
 while (currentNumber >= 1) {
-    System.out.println(currentNumber);
+    IO.println(currentNumber);
     currentNumber--;
 }
 ~}
@@ -25,7 +25,7 @@ Similar to when counting up if the condition was not `currentNumber >= 1` and in
 int currentNumber = 100;
 // Stops at 2
 while (currentNumber > 1) {
-    System.out.println(currentNumber);
+    IO.println(currentNumber);
     currentNumber--;
 }
 ~}

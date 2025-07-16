@@ -60,16 +60,16 @@ void main() {
     // These two have different hashes but end up in the
     // same bucket
     var sally = new CarsCharacter("Sally", "Carrera");
-    System.out.println(hashFunction(sally));
-    System.out.println(indexFor(hashFunction(sally)));
+    IO.println(hashFunction(sally));
+    IO.println(indexFor(hashFunction(sally)));
 
     var doc = new CarsCharacter("Doc", "Hudson");
-    System.out.println(hashFunction(doc));
-    System.out.println(indexFor(hashFunction(doc)));
+    IO.println(hashFunction(doc));
+    IO.println(indexFor(hashFunction(doc)));
 
     var lightning = new CarsCharacter("Lightning", "McQueen");
-    System.out.println(hashFunction(lightning));
-    System.out.println(indexFor(hashFunction(lightning)));
+    IO.println(hashFunction(lightning));
+    IO.println(indexFor(hashFunction(lightning)));
 
 
 }

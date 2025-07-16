@@ -5,7 +5,7 @@ You are also allowed to leave the expression part of a `for` loop blank.
 ```java
 ~void main() {
 for (int i = 0;;i++) {
-    System.out.println(i);
+    IO.println(i);
 }
 // 0
 // 1
@@ -24,7 +24,7 @@ for (int i = 0;;i++) {
     if (i == 5) {
         break;
     }
-    System.out.println(i);
+    IO.println(i);
 }
 // 0
 // 1

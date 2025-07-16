@@ -2,7 +2,7 @@
 
 The basic concept behind a Hash Map is the same concept as a filing cabinet.
 
-If you grew up in a doctor's office like I did this will make sense. If you didn't, Google
+If you grew up in a doctor's office like I did this will make sense. If you didn't, look up
 what a filing cabinet looks like.
 
 Basically, if you have folders for a bunch of people you can separate them into different cabinets.

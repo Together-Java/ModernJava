@@ -11,7 +11,7 @@ package village;
 
 public class Villager {
     void isNotVisible() {
-        System.out.println("""
+        IO.println("""
             This method can be called from code in the 'village'
             package, but not from other packages.
             """);

@@ -6,10 +6,10 @@ computed value back into the variable.
 ```java
 ~void main() {
 int x = 2;
-System.out.println(x);
+IO.println(x);
 
 x = x * 5; // 10
-System.out.println(x);
+IO.println(x);
 ~}
 ```
 
@@ -40,7 +40,7 @@ x /= 6;
 x %= 3;
 
 // Pop quiz!
-System.out.println(x);
+IO.println(x);
 ~}
 ```
 
@@ -50,18 +50,18 @@ has its own special shorthand.
 ```java
 ~void main() {
 int x = 0;
-System.out.println(x);
+IO.println(x);
 
 // Same as
 // x = x + 1;
 // x += 1;
 x++;
-System.out.println(x);
+IO.println(x);
 
 // Same as
 // x = x - 1;
 // x -= 1;
 x--;
-System.out.println(x);
+IO.println(x);
 ~}
 ```

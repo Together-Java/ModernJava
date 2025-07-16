@@ -13,7 +13,7 @@ interface Dog {
 class Mutt implements Dog {
     @Override
     public void bark() {
-        System.out.println("Bark");
+        IO.println("Bark");
     }
 
     @Override

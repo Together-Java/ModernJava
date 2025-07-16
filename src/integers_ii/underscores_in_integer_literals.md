@@ -11,8 +11,8 @@ between digits in an integer literal.
 int x = 1_000_000_000;
 int y = 10_000_000_000;
 
-System.out.println(x);
-System.out.println(y);
+IO.println(x);
+IO.println(y);
 ~}
 ```
 
@@ -22,6 +22,6 @@ This works with hexadecimal integer literals as well.
 ~void main() {
 int white = 0xFF_FF_FF;
 
-System.out.println(Integer.toHexString(white));
+IO.println(Integer.toHexString(white));
 ~}
 ```

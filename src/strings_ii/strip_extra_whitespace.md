@@ -9,8 +9,8 @@ This will give a new `String` with both the leading and trailing whitespace remo
 void main() {
     String message = "   Happy Valentines Day.   ";
 
-    System.out.print(message.strip());
-    System.out.println("|");
+    IO.print(message.strip());
+    IO.println("|");
 }
 ```
 
@@ -20,8 +20,8 @@ If you want to just remove the leading whitespace, you can use `.stripLeading`.
 void main() {
     String message = "   Happy Valentines Day.   ";
 
-    System.out.print(message.stripLeading());
-    System.out.println("|");
+    IO.print(message.stripLeading());
+    IO.println("|");
 }
 ```
 
@@ -31,8 +31,8 @@ And to remove only trailing whitespace, `.stripTrailing`.
 void main() {
     String message = "   Happy Valentines Day.   ";
 
-    System.out.print(message.stripTrailing());
-    System.out.println("|");
+    IO.print(message.stripTrailing());
+    IO.println("|");
 }
 ```
 

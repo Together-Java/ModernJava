@@ -9,11 +9,11 @@ For primitive types like `int` and `double`, each element will be initialized to
 ~void main() {
 int[] digits = new int[10];
 // 0
-System.out.println(digits[0]);
+IO.println(digits[0]);
 
 double[] readings = new double[5];
 // 0.0
-System.out.println(readings[0]);
+IO.println(readings[0]);
 ~}
 ```
 
@@ -23,7 +23,7 @@ For `boolean`, each element will be initialized to `false`.[^funfact]
 ~void main() {
 boolean[] pokedex = new boolean[10];
 // false
-System.out.println(pokedex[0]);
+IO.println(pokedex[0]);
 ~}
 ```
 
@@ -34,11 +34,11 @@ the default value will be `null`.
 ~void main() {
 String[] names = new String[10];
 // null
-System.out.println(names[0]);
+IO.println(names[0]);
 
 Integer[] scores = new Integer[26];
 // null
-System.out.println(scores[0]);
+IO.println(scores[0]);
 ~}
 ```
 

@@ -13,16 +13,16 @@ and gives you a place to put "default" behavior.
 void sayColor(String fruit) {
     switch (fruit) {
         case "apple" -> {
-            System.out.println("Red");
+            IO.println("Red");
         }
         case "grape" -> {
-            System.out.println("Purple");
+            IO.println("Purple");
         }
         case "orange" -> {
-            System.out.println("Orange");
+            IO.println("Orange");
         }
         default -> {
-            System.out.println("Other");
+            IO.println("Other");
         }
     }
 }

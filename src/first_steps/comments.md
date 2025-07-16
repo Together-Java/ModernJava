@@ -9,7 +9,7 @@ words.
 ```java
 void main() {
     // This prints hello world!
-    System.out.println("Hello, World!");
+    IO.println("Hello, World!");
 }
 ```
 
@@ -20,9 +20,9 @@ If you put `//` in front of something that is "code" and not an English explanat
 
 ```java
 void main() {
-    System.out.println("Hello, World!");
+    IO.println("Hello, World!");
     // The line that prints out goodbye is "commented out"
-    // System.out.println("Goodbye!");
+    // IO.println("Goodbye!");
 }
 ```
 
@@ -50,7 +50,7 @@ void main() {
         so sweet
         and so cold
     */
-    System.out.println("Hello, World!");
+    IO.println("Hello, World!");
 }
 ```
 

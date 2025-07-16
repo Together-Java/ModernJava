@@ -10,7 +10,7 @@ String name = "Avril";
 
 int index = 0;
 while (index < name.length()) {
-    System.out.println(name.charAt(index));
+    IO.println(name.charAt(index));
     index++;
 }
 ~}

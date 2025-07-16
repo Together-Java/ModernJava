@@ -8,8 +8,8 @@ double x = 5.1;
 // y will be 4.1
 double y = x - 9.2;
 
-System.out.println(x);
-System.out.println(y);
+IO.println(x);
+IO.println(y);
 ~}
 ```
 
@@ -23,7 +23,7 @@ Because of the previously mentioned inaccuracy, the results of subtractions migh
 // z will be -4.199999999999999
 double z = y - 0.1;
 
-System.out.println(z);
+IO.println(z);
 ~}
 ```
 
@@ -36,9 +36,9 @@ double y = 4.5;
 // z will be 0.5
 double z = x - y;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```
 

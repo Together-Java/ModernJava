@@ -11,7 +11,7 @@ while (x < 5) {
     // On the 2nd iteration x will be 1
     // ...
     // On the final iteration x will be 4
-    System.out.println(x);
+    IO.println(x);
     x++
 }
 ~}

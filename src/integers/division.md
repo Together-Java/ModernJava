@@ -8,8 +8,8 @@ int x = 8;
 // y will be 4
 int y = x / 2;
 
-System.out.println(x);
-System.out.println(y);
+IO.println(x);
+IO.println(y);
 ~}
 ```
 
@@ -24,7 +24,7 @@ int x = 5 / 2;
 // 13 / 3 is not 4.3333, but instead 4.
 int y = 13 / 3;
 
-System.out.println(x);
-System.out.println(y);
+IO.println(x);
+IO.println(y);
 ~}
 ```

@@ -6,7 +6,7 @@ mark a variable as "final", meaning its value can never be reassigned.
 ```java
 ~void main() {
 final String coolestChef = "Anthony Bourdain";
-System.out.println(coolestChef);
+IO.println(coolestChef);
 ~}
 ```
 
@@ -16,11 +16,11 @@ If you try to reassign a final variable, Java will not accept your program.
 ```java,does_not_compile
 ~void main() {
 final String coolestChef = "Anthony Bourdain";
-System.out.println(coolestChef);
+IO.println(coolestChef);
 
 // I'm sorry, but no. Cool guy, but no.
 coolestChef = "Gordan Ramsey";
-System.out.println(coolestChef);
+IO.println(coolestChef);
 ~}
 ```
 
@@ -41,7 +41,7 @@ final String genie = "Robin Williams";
 // ......
 // You can still be sure "genie"
 // has the value of "Robin Williams"
-System.out.println(genie);
+IO.println(genie);
 ```
 
 Variables whose assignment is delayed can also be marked final.
@@ -50,7 +50,7 @@ Variables whose assignment is delayed can also be marked final.
 ~void main() {
 final String mario;
 mario = "Charles Martinet";
-System.out.println(mario);
+IO.println(mario);
 ~}
 ```
 
@@ -65,7 +65,7 @@ mario = "Charles Martinet";
 // But you cannot reassign it afterwards
 mario = "Chris Pratt";
 
-System.out.println(mario);
+IO.println(mario);
 ~}
 ```
 

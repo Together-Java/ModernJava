@@ -23,7 +23,7 @@ class Main {
         Path tasksPath = Path.of("tasks.txt");
         String tasks = Files.readString(tasksPath);
 
-        System.out.println(tasks);
+        IO.println(tasks);
     }
 }
 ```
@@ -47,7 +47,7 @@ class Main {
             throw new UncheckedIOException(e);
         }
 
-        System.out.println(tasks);
+        IO.println(tasks);
     }
 }
 ```

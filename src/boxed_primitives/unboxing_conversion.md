@@ -11,7 +11,7 @@ Integer x = 5;
 int y = 3;
 int z = x * y;
 
-System.out.println(z);
+IO.println(z);
 ~}
 ```
 
@@ -21,7 +21,7 @@ As well as `Boolean`s in logical expressions.
 ~void main() {
 Boolean hasHat = true;
 if (hasHat) {
-    System.out.println("You have a hat!");
+    IO.println("You have a hat!");
 }
 ~}
 ```

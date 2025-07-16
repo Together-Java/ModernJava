@@ -22,7 +22,7 @@ int compute(int x) {
 }
 
 void main() {
-    System.out.println(compute(5));
+    IO.println(compute(5));
 }
 ```
 
@@ -70,22 +70,22 @@ If the number is less than or equal to zero, return `null`.
 
 void main() {
     // 45
-    System.out.println(
+    IO.println(
         onlyPositive(45)
     );
 
     // 46
-    System.out.println(
+    IO.println(
         onlyPositive(45) + 1
     );
 
     // null
-    System.out.println(
+    IO.println(
         onlyPositive(0)
     );
 
     // null
-    System.out.println(
+    IO.println(
         onlyPositive(-1)
     );
 }
@@ -102,7 +102,7 @@ void main() {
 
     int birds = ducks + sparrows;
 
-    System.out.println(birds);
+    IO.println(birds);
 }
 ```
 
@@ -115,7 +115,7 @@ void main() {
     char[] face = new char[] { ':', ')' };
     Character[] smile = face;
 
-    System.out.println(smile);
+    IO.println(smile);
 }
 ```
 
@@ -132,6 +132,6 @@ void main() {
         smile[i] = face[i];
     }
     
-    System.out.println(smile);
+    IO.println(smile);
 }
 ```

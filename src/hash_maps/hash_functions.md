@@ -19,7 +19,7 @@ void main() {
     var lightning = new CarsCharacter("Lightning", "McQueen");
 
     char firstOfLast = hashFunction(lightning.lastName());
-    System.out.println(firstOfLast);
+    IO.println(firstOfLast);
 }
 ```
 

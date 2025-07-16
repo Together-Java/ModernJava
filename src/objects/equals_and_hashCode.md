@@ -16,15 +16,15 @@ class Main {
         var t1 = new Thing();
         var t2 = new Thing();
 
-        System.out.println(t1 == t1);
-        System.out.println(t1.equals(t1));
+        IO.println(t1 == t1);
+        IO.println(t1.equals(t1));
 
-        System.out.println(t2 == t2);
-        System.out.println(t2.equals(t2));
+        IO.println(t2 == t2);
+        IO.println(t2.equals(t2));
 
 
-        System.out.println(t1 == t2);
-        System.out.println(t1.equals(t2));
+        IO.println(t1 == t2);
+        IO.println(t1.equals(t2));
     }
 }
 ```
@@ -39,8 +39,8 @@ class Main {
         Integer b = 3;
         Integer c = 4;
 
-        System.out.println(a.equals(b));
-        System.out.println(a.equals(c));
+        IO.println(a.equals(b));
+        IO.println(a.equals(c));
     }
 }
 ```
@@ -62,18 +62,18 @@ class Main {
         String b = "abc";
         String c = "bca";
 
-        System.out.println(a.hashCode());
+        IO.println(a.hashCode());
         // a.equals(b) will return true, so they will have the same hash code
-        System.out.println(b.hashCode());
+        IO.println(b.hashCode());
         // a.equals(c) will return false, so they may or may not have the same hash code
-        System.out.println(c.hashCode());
+        IO.println(c.hashCode());
 
         Thing t1 = new Thing();
         Thing t2 = new Thing();
 
         // The default .equals() is the same as ==
-        System.out.println(t1.hashCode());
-        System.out.println(t2.hashCode());
+        IO.println(t1.hashCode());
+        IO.println(t2.hashCode());
     }
 }
 ```

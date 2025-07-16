@@ -14,7 +14,7 @@ Location findTreasureIsland() {
 
 void main() {
     Location treasureIsland = findTreasureIsland();
-    System.out.println(
+    IO.println(
         "Treasure island is located at " +
             treasureIsland.latitude() +
             " " +

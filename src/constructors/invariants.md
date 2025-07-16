@@ -25,7 +25,7 @@ class Muppet {
 
 void main() {
     Muppet bigBird = new Muppet("Big Bird", 6);
-    System.out.println(
+    IO.println(
         bigBird.name + " is " + bigBird.age + " years old."
     );
 }

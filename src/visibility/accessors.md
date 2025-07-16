@@ -28,7 +28,7 @@ class Main {
 
         // dog.name won't work because the name field is private
         // dog.name() will work because the name method is not
-        System.out.println(dog.name());
+        IO.println(dog.name());
     }
 }
 ~class Dog {
@@ -49,7 +49,7 @@ We would also consider things like the `length` method on `String`s to be "acces
 ```java
 void main() {
     String s = "abc";
-    System.out.println(
+    IO.println(
         // We can't see what fields underly this,
         // but we can access the length
         s.length()

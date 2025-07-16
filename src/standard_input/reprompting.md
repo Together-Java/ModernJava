@@ -6,26 +6,17 @@ This is a good use case for loops. You ask a question and, if the answer you get
 you proceed as normal. If it is not then you loop back and ask again.
 
 ```java,no_run
-~import java.util.Scanner;
-~
-~Scanner scanner = new Scanner(System.in);
-~
-~String input(String message) {
-~    System.out.print(message);
-~    return scanner.nextLine();
-~}
-~
 void main() {
     while (true) {
-        String response = input("Answer me: yes or no");
+        String response = IO.readln("Answer me: yes or no");
         if (response.equals("yes")) {
-            System.out.println("okay then!");
+            IO.println("okay then!");
         }
         else if (response.equals("no")) {
-            System.out.println("also fine!");
+            IO.println("also fine!");
         }
         else {
-            System.out.println("Not a valid response");
+            IO.println("Not a valid response");
             // Will go back to the top of the loop
             continue;
         }

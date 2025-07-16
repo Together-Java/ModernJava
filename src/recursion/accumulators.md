@@ -16,7 +16,7 @@ class Main {
     }
 
     void main() {
-        System.out.println(
+        IO.println(
             timesTwo(4)
         );
     }
@@ -46,11 +46,11 @@ class Main {
     }
 
     int timesTwo(int x) {
-        timesTwo(x, 0);
+        return timesTwo(x, 0);
     }
 
     void main() {
-        System.out.println(
+        IO.println(
             timesTwo(4)
         );
     }

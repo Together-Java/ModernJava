@@ -4,7 +4,7 @@ The `;` at the end of each of those lines is a "semicolon".
 
 ```java
 ~void main(){
-System.out.print("Hello, "); // <-- this thing
+IO.print("Hello, "); // <-- this thing
                        //  ^
 ~}
 ```
@@ -15,7 +15,7 @@ more complicated than these examples.
 
 ```java
 ~void main(){
-System.out.print(
+IO.print(
     "Hello, "
 );
 ~}
@@ -29,7 +29,7 @@ If you happen to have an extra semi-colon or two that is technically okay. It ju
 
 ```java
 ~void main() {
-System.out.print(
+IO.print(
     "Hello, "
 );;
 ~}
@@ -39,7 +39,7 @@ Or even
 
 ```java
 ~void main() {
-System.out.print(
+IO.print(
     "Hello, "
 );
 

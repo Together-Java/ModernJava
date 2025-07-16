@@ -10,7 +10,7 @@ you can assign any data you want into it.
 ~void main() {
 String oak = "oak";
 Object tree = oak;
-System.out.println(tree);
+IO.println(tree);
 ~}
 ```
 

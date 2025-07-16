@@ -9,9 +9,9 @@ for (int i = 0; i < 1000; i++) {
     if (i == 5) {
         break;
     }
-    System.out.println(i);
+    IO.println(i);
 }
-System.out.println("Over");
+IO.println("Over");
 
 // 0
 // 1

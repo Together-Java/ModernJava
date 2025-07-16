@@ -30,7 +30,7 @@ void main() {
         }
     };
 
-    System.out.println(action);
+    IO.println(action);
 }
 ```
 

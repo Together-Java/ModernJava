@@ -17,14 +17,14 @@ This applies also to when `while` loops are nested within `for` loops or the oth
 ~void main() {
 outerForLoop:
 for (int i = 0; i < 10; i++) {
-    System.out.println(i);
+    IO.println(i);
     while (i < 100) {
         if (i == 5) {
             break outerForLoop;
         }
         i++;
     }
-    System.out.println(i);
+    IO.println(i);
 }
 
 // 0

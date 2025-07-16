@@ -7,7 +7,7 @@ All the Java code you've written up until now will work if you put it into this 
 
 ```java
 void main() {
-    System.out.println("Hello, world!");
+    IO.println("Hello, world!");
 }
 ```
 

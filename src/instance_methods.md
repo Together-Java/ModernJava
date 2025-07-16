@@ -11,7 +11,7 @@ class Muppet {
     String name;
 
     void freakOut() {
-        System.out.println("**ANGRY KERMIT NOISES**")
+        IO.println("**ANGRY KERMIT NOISES**")
     }
 }
 ```

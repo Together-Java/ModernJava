@@ -17,7 +17,7 @@ else {
     message = "You cannot rent a car!";
 }
 
-System.out.println(message);
+IO.println(message);
 ~}
 ```
 
@@ -35,6 +35,6 @@ if (age > 25) {
 
 // message is not always given an initial value
 // so you cannot use it.
-System.out.println(message);
+IO.println(message);
 ~}
 ```

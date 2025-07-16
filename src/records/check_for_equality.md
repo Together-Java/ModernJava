@@ -13,7 +13,7 @@ class Main {
         var elfOne = new Elf(true);
         var elfTwo = new Elf(true);
         
-        System.out.println(elfOne.equals(elfTwo));
+        IO.println(elfOne.equals(elfTwo));
     }
 }
 ```

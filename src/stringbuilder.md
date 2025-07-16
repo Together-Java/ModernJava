@@ -22,7 +22,7 @@ void main() {
     String screenplay = "5".repeat(1000000);
     // There are 1301 characters in the above text, meaning this method
     // does around that many copies of the string
-    System.out.println(removeAllNumbers(screenplay));
+    IO.println(removeAllNumbers(screenplay));
 }
 ```
 
@@ -42,6 +42,6 @@ void main() {
     String screenplay = "5".repeat(1000000);
     // There are 1301 characters in the above text, meaning this method
     // does around that many copies of the string
-    System.out.println(removeAllNumbers(screenplay));
+    IO.println(removeAllNumbers(screenplay));
 }
 ```

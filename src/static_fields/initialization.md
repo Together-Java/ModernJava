@@ -11,8 +11,8 @@ class Main {
     static String name;
 
     void main() {
-        System.out.println(count); // 0
-        System.out.println(name); // null
+        IO.println(count); // 0
+        IO.println(name); // null
     }
 }
 ```
@@ -28,8 +28,8 @@ class Main {
     static String name = "bob";
 
     void main() {
-        System.out.println(count); // 5
-        System.out.println(name); // bob
+        IO.println(count); // 5
+        IO.println(name); // bob
     }
 }
 ```
@@ -48,8 +48,8 @@ class Main {
     }
 
     void main() {
-        System.out.println(count); // 5
-        System.out.println(name); // bob
+        IO.println(count); // 5
+        IO.println(name); // bob
     }
 }
 ```

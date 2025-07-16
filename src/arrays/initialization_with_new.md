@@ -7,10 +7,10 @@ and an empty `[]`.
 ```java
 ~void main() {
 char[] mainCharacter = { 'A', 'a', 'n', 'g' };
-System.out.println(mainCharacter);
+IO.println(mainCharacter);
 
 char[] sideCharacter = new char[] { 'A', 'a', 'n', 'g' };
-System.out.println(sideCharacter);
+IO.println(sideCharacter);
 ~}
 ```
 
@@ -22,7 +22,7 @@ holding an array.
 char[] element;
 
 element = new char[] { 'f', 'i', 'r', 'e' };
-System.out.println(element);
+IO.println(element);
 
 // This would not work
 // element = { 'f', 'i', 'r', 'e' };
@@ -34,6 +34,6 @@ the initializer coupled with the `new char[]` is akin to an "array expression."
 
 ```java
 ~void main() {
-System.out.println(new char[]{ 'K', 'a', 't', 'a', 'r', 'a' }[1]);
+IO.println(new char[]{ 'K', 'a', 't', 'a', 'r', 'a' }[1]);
 ~}
 ```

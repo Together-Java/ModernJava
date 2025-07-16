@@ -18,6 +18,6 @@ void main() {
 
     String s = boxOfString.data;
 
-    System.out.println(s);
+    IO.println(s);
 }
 ```

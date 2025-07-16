@@ -7,7 +7,7 @@ You then write `.` followed by the name of the instance method and a list of arg
 ```java
 class Elmo {
     void talkAboutRocko() {
-        System.out.println("ROCKO'S NOT ALIVE!!")
+        IO.println("ROCKO'S NOT ALIVE!!")
     }
 }
 

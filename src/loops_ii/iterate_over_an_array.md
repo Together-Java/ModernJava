@@ -8,7 +8,7 @@ you can use it to go through each element in an array.
 int[] numbers = { 4, 1, 6, 9 };
 
 for (int index = 0; index < numbers.length; index++) {
-    System.out.println(numbers[index]);
+    IO.println(numbers[index]);
 }
 ~}
 ```

@@ -8,7 +8,7 @@ void main() {
     String contestWinner;
     contestWinner = "Boaty McBoatface";
 
-    System.out.println(contestWinner);
+    IO.println(contestWinner);
 }
 ```
 
@@ -33,7 +33,7 @@ void main() {
     String contestWinner;
     // This will not run, since Java knows that
     // you never gave contestWinner an initial value.
-    System.out.println(contestWinner);
+    IO.println(contestWinner);
 }
 ```
 

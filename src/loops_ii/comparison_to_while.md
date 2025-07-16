@@ -8,19 +8,19 @@ and the code needed with a `while` loop, there might not seem like much of a dif
 double[] numbers = { 4.4, 1.1, 4.1, 4.7 };
 
 for (int index = 0; index < numbers.length; index++) {
-    System.out.println(numbers[index]);
+    IO.println(numbers[index]);
 }
 
 int index = 0;
 while (index < numbers.length) {
-    System.out.println(numbers[index]);
+    IO.println(numbers[index]);
     index++;
 }
 ~}
 ```
 
 This is doubly true when we are looking at toy examples where the only thing done
-with the element is `System.out.println`.
+with the element is `IO.println`.
 
 The biggest benefit to a `for` is subtle. With a `while` based loop, the initializer and boolean expression
 can potentially be many lines from the statement which updates the variable.

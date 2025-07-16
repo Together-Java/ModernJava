@@ -4,7 +4,7 @@ All the code you have seen up until this point has lived inside of `void main() 
 
 ```java
 void main() {
-    System.out.println("CODE GO HERE");
+    IO.println("CODE GO HERE");
 }
 ```
 

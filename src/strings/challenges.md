@@ -15,7 +15,7 @@ void main() {
     String second = "2";
     String result = first + second;
 
-    System.out.println(result);
+    IO.println(result);
 }
 ```
 
@@ -28,7 +28,7 @@ void main() {
     String first = "1";
     int second = 2;
 
-    System.out.println(first + second);
+    IO.println(first + second);
 }
 ```
 
@@ -43,7 +43,7 @@ void main() {
     String second = "b";
     String third = "ab";
 
-    System.out.println((first + second).equals(third));
+    IO.println((first + second).equals(third));
 }
 ```
 
@@ -59,7 +59,7 @@ void main() {
     char a = 'a';
     char b = 'b';
     char c = 'c';
-    System.out.println(a + b + c);
+    IO.println(a + b + c);
 }
 ```
 
@@ -78,19 +78,19 @@ void main() {
 
     int index = 6;
 
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.print(racecar.charAt(index));
+    IO.print(racecar.charAt(index));
     index += diff;
-    System.out.println(racecar.charAt(index));
+    IO.println(racecar.charAt(index));
 }
 ```
 

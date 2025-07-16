@@ -57,6 +57,6 @@ void main() {
 
     // < YOUR CODE HERE >
 
-    System.out.println(message);
+    IO.println(message);
 }
 ```

@@ -12,7 +12,7 @@ special thing.
 class Main {
     void main() {
         Class<String> stringClass = String.class;
-        System.out.println(stringClass);
+        IO.println(stringClass);
     }
 }
 ```
@@ -29,7 +29,7 @@ class Main {
     void main() {
         String s = "Hello";
         Class<?> stringClass = s.getClass();
-        System.out.println(stringClass);
+        IO.println(stringClass);
     }
 }
 ```

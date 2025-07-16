@@ -15,14 +15,14 @@ import java.time.ZoneId;
 
 class Main {
     void main() {
-        var jan10 = LocalDate.of(2024, 10, 1);
+        var jan10 = LocalDate.of(2024, 1, 10);
         var tenTwentyFour = LocalTime.of(10, 24, 0);
         var est = ZoneId.of("US/Eastern");
 
         LocalDateTime localDateTime = LocalDateTime.of(jan10, tenTwentyFour);
         ZonedDateTime zonedDateTime = ZonedDateTime.of(localDateTime, est);
 
-        System.out.println(zonedDateTime);
+        IO.println(zonedDateTime);
     }
 }
 ```
@@ -37,7 +37,7 @@ class Main {
     void main() {
         var now = ZonedDateTime.now();
 
-        System.out.println(now);
+        IO.println(now);
     }
 }
 ```
@@ -53,7 +53,7 @@ class Main {
     void main() {
         var now = ZonedDateTime.now(ZoneId.of("US/Eastern"));
 
-        System.out.println(now);
+        IO.println(now);
     }
 }
 ```

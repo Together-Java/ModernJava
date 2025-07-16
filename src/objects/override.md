@@ -21,7 +21,7 @@ class Position {
 
 void main() {
     Object o = new Position(9, 8);
-    System.out.println(o);
+    IO.println(o);
 }
 ```
 
@@ -52,6 +52,6 @@ class Position {
 
 void main() {
     Object o = new Position(9, 8);
-    System.out.println(o);
+    IO.println(o);
 }
 ```

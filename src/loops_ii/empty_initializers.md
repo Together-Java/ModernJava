@@ -7,7 +7,7 @@ so long as you still have the `;`.
 ~void main() {
 int number = 0;
 for (;number < 5; number++) {
-    System.out.println(number);
+    IO.println(number);
 }
 ~}
 ```
@@ -21,8 +21,8 @@ This way its initialization and declaration can be on the same line, which might
 ~void main() {
 int number = 0;
 for (;number < 5; number++) {
-    System.out.println(number);
+    IO.println(number);
 }
-System.out.println("Still have number: " + number);
+IO.println("Still have number: " + number);
 ~}
 ```

@@ -36,7 +36,7 @@ void main() {
     try {
         doThing(x);
     } catch (RuntimeException e) {
-        System.out.println("Something went wrong doing a thing.");
+        IO.println("Something went wrong doing a thing.");
     }
 }
 ```
@@ -46,7 +46,7 @@ Just as you cannot have an `else` without an `if`, you cannot have a `catch` wit
 ```java,does_not_compile
 void main() {
     catch (RuntimeException e) {
-        System.out.println("Hello");
+        IO.println("Hello");
     }
 }
 ```
@@ -56,7 +56,7 @@ Nor can you have a `try` without a `catch`.[^trywithresources]
 ```java,does_not_compile
 void main() {
     try {
-        System.out.println("Hello");
+        IO.println("Hello");
     }
 }
 ```

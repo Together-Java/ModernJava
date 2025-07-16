@@ -9,7 +9,7 @@ something like `new ClassName()`, you can make an instance of an
 inner class by using `.new` on a variable that holds an instance
 of the containing class.
 
-Thats a confusing verbal description, but it kinda makes sense once you see it.
+That's a confusing verbal description, but it kinda makes sense once you see it.
 
 ```java
 class Car {
@@ -27,7 +27,7 @@ class Main {
     void main() {
         Car car = new Car();
         Car.Speedometer speedometer = car.new Speedometer();
-        System.out.println(speedometer);
+        IO.println(speedometer);
     }
 }
 ```

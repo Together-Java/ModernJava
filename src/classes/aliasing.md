@@ -19,8 +19,8 @@ void main() {
     kermit.name = "Kermit The Frog";
 
     // Kermit The Frog
-    System.out.println(kermit.name);
+    IO.println(kermit.name);
     // Kermit The Frog
-    System.out.println(darkKermit.name);
+    IO.println(darkKermit.name);
 }
 ```

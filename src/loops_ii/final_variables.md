@@ -6,7 +6,7 @@ The initializer of a `for` loop can also declare `final` variables.
 ~void main() {
 int i = 0;
 for (final String name = "Bob"; i < 5; i++) {
-    System.out.println(name + ": " + i);
+    IO.println(name + ": " + i);
 }
 ~}
 ```
@@ -20,9 +20,9 @@ can change without reassigning a variable.
 for (final char[] letters = { 'I', 'O', 'U' }; letters[0] != 'A';) {
     for (int i = 0; i < letters.length; i++) {
         letters[i] -= 1;
-        System.out.print(letters[i]);
+        IO.print(letters[i]);
     }
-    System.out.println();
+    IO.println();
 }
 
 // HNT

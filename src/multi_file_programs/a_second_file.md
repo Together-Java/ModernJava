@@ -7,7 +7,7 @@ By this I mean, while in `Main.java` you are able to write something like this.
 
 ```java
 void sayHello() {
-    System.out.println("Hello");
+    IO.println("Hello");
 }
 
 void main() {
@@ -36,7 +36,7 @@ Then from `Main.java` you can make an instance of `Ball`
 ```java
 void main() {
     var ball = new Ball(10);
-    System.out.println("The ball is " + ball.size + "cm across");
+    IO.println("The ball is " + ball.size + "cm across");
 }
 ```
 

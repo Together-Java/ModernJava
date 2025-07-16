@@ -9,7 +9,7 @@ import java.time.Instant;
 
 void main() {
     var now = Instant.now();
-    System.out.println(now);
+    IO.println(now);
 }
 ```
 
@@ -21,7 +21,7 @@ import java.time.Instant;
 
 void main() {
     var january2nd = Instant.ofEpochMilli(86400000);
-    System.out.println(january2nd);
+    IO.println(january2nd);
 }
 ```
 

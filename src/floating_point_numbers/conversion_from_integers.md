@@ -9,8 +9,8 @@ by Java when performing an assignment.
 int x = 5;
 double y = x;
 
-System.out.println(x);
-System.out.println(y);
+IO.println(x);
+IO.println(y);
 ~}
 ```
 
@@ -24,7 +24,7 @@ int y = 2;
 // integer division of 7 and 2 gives 3.
 double z = x / y;
 
-System.out.println(z);
+IO.println(z);
 ~}
 ```
 
@@ -39,6 +39,6 @@ int y = 2;
 // so the result will be 3.5.
 double z = (double) x / y;
 
-System.out.println(z);
+IO.println(z);
 ~}
 ```

@@ -19,10 +19,10 @@ To write an integer literal in Java which contains a hexadecimal number you writ
 ```java
 ~void main() {
 int sixteen = 0x10;
-System.out.println(sixteen);
+IO.println(sixteen);
 
 int twoHundredFiftyFive = 0xFF;
-System.out.println(twoHundredFiftyFive);
+IO.println(twoHundredFiftyFive);
 ~}
 ```
 

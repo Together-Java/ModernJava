@@ -51,13 +51,13 @@ void main() {
     view.value = new String[] { "A", "B", "C" };
 
     // 3
-    System.out.println(view.length());
+    IO.println(view.length());
 
     // A
-    System.out.println(view.get(0));
+    IO.println(view.get(0));
 
     // C
-    System.out.println(view.get(2));
+    IO.println(view.get(2));
 }
 ```
 
@@ -90,22 +90,22 @@ void main() {
 
     // "Masako Nozawa"
     String gokuFullName = goku.fullName();
-    System.out.println(gokuFullName);
+    IO.println(gokuFullName);
 
     // "Nozawa"
     goku.firstName = null;
     gokuFullName = goku.fullName();
-    System.out.println(gokuFullName);
+    IO.println(gokuFullName);
 
     // "No Name"
     goku.lastName = null;
     gokuFullName = goku.fullName();
-    System.out.println(gokuFullName);
+    IO.println(gokuFullName);
 
     // "Horikawa"
     VoiceActor vegeta = new VoiceActor();
     vegeta.lastName = "Horikawa";
-    System.out.println(vegeta.fullName());
+    IO.println(vegeta.fullName());
 }
 ```
 
@@ -133,7 +133,7 @@ void main() {
         ***
     */
     char[] c = rectangle.toCharArray();
-    System.out.println(c);
+    IO.println(c);
 }
 ```
 
@@ -178,10 +178,10 @@ void main() {
     var taco = new Taco();
     taco.deluxe();
 
-    System.out.println("Has Beef: " + taco.beef);
-    System.out.println("Has Sour Cream: " + taco.sourCream);
-    System.out.println("Has Cheese: " + taco.cheese);
-    System.out.println("Has Onion: " + taco.onion);
+    IO.println("Has Beef: " + taco.beef);
+    IO.println("Has Sour Cream: " + taco.sourCream);
+    IO.println("Has Cheese: " + taco.cheese);
+    IO.println("Has Onion: " + taco.onion);
 }
 ```
 
@@ -201,6 +201,6 @@ class Oscar {
 void main() {
     var oscar = new Oscar();
     oscar.setGrouchy(true);
-    System.out.println(oscar.grouchy);
+    IO.println(oscar.grouchy);
 }
 ```

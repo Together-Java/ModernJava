@@ -10,9 +10,9 @@ double y = x * 9;
 // z will be 13.5
 double z = y * 0.5;
 
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
+IO.println(x);
+IO.println(y);
+IO.println(z);
 ~}
 ```
 
@@ -23,6 +23,6 @@ multiplication on doubles. So long as any number being used is a `double` the ov
 ~void main() {
 // a will be 3.0
 double a = 1.5 * 2;
-System.out.println(a);
+IO.println(a);
 ~}
 ```

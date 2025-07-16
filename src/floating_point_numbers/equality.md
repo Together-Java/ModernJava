@@ -9,7 +9,7 @@ double numberOfFingers = 10.0;
 
 boolean humanGenerated = numberOfToes == numberOfFingers;
 
-System.out.println(humanGenerated);
+IO.println(humanGenerated);
 ~}
 ```
 
@@ -25,7 +25,7 @@ double z = x + y;
 // this will be false.
 boolean doesWhatYouExpect = z == 0.3;
 
-System.out.println(doesWhatYouExpect);
+IO.println(doesWhatYouExpect);
 ~}
 ```
 
@@ -39,6 +39,6 @@ double y = 5.0;
 // will be true
 boolean fiveIsFive = x == y;
 
-System.out.println(fiveIsFive);
+IO.println(fiveIsFive);
 ~}
 ```

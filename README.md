@@ -55,3 +55,11 @@ first time submitting a PR to an open-source project.
 
 Head over to the [Wiki](https://github.com/Together-Java/ModernJava/wiki) as general
 entry point to the project. It provides lots of tutorials, documentation and other information.
+
+To run this locally you will need `mdbook`. The instructions for doing so are [here](https://rust-lang.github.io/mdBook/guide/installation.html).
+
+Then just run the following.
+
+```
+mdbook serve
+```
