@@ -8,7 +8,7 @@ Another fun shape is the isosceles triangle.
 *****
 ```
 
-For this one, the each row of the triangle needs to have spaces before it to shift it in to the
+For this one, each row of the triangle needs to have spaces before it to shift it in to the
 center. How much each row needs to be shifted depends on how big the trangle will be overall.
 
 In this case with three rows of `*`s, the top `*` needs two space characters before it

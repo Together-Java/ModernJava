@@ -111,7 +111,7 @@ void main() {
 
 ## Challenge 4.
 
-Make a `Rectange` class which has a `width` field and a `height`
+Make a `Rectangle` class which has a `width` field and a `height`
 field. Give it an instance method named `toCharArray` which gives
 a `char[]` that can be printed to display a rectangle of the given
 width and height.

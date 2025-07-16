@@ -20,7 +20,7 @@ walking the dog looks nice.
 
 ## Exclusive vs. Inclusive
 
-It is important too note that this is not an "exclusive" OR.
+It is important to note that this is not an "exclusive" OR.
 
 An exclusive OR would be something like
 a child being allowed to have ice cream _or_ a cookie, but not both.

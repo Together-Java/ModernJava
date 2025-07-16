@@ -15,7 +15,7 @@ We call it anonymous because we never gave it a name.
 
 We call it the main class because you are only allowed to skip naming a class if it is the one you use to start your program, and that requires a `void main()` method.
 
-If you take any code we've produced up until now and put wrap it with `class Main {}` it will continue to work as-is.
+If you take any code we've produced up until now and wrap it with `class Main {}` it will continue to work as-is.
 
 ```java
 class Main {

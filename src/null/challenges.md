@@ -108,7 +108,7 @@ String bigness(String letters) {
         return "small";
     }
     else if (bigness < 10) {
-        return "medium"
+        return "medium";
     }
     else {
         return "big";

@@ -18,7 +18,7 @@ class Position {
 ~void main() {}
 ```
 
-It would be reasonable want to add an overloaded constructor for when `y` is `0`.
+It would be reasonable to want to add an overloaded constructor for when `y` is `0`.
 
 ```java
 class Position {

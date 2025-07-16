@@ -15,7 +15,7 @@ void main() {
 }
 ```
 
-Very similarly to arrays, the output from printing an instance of a class might seem like gibberish (`Main$Muppet@1be6f5c3`).
+Very similar to arrays, the output from printing an instance of a class might seem like gibberish (`Main$Muppet@1be6f5c3`).
 You will learn how to make it nicer later.
 
 [^var]: I haven't used it in many code samples thus far, but if you remember `var` this is one of the times
