@@ -15,7 +15,7 @@ only had text based interfaces. In many practical ways, people were closer to th
 
 So think about that whenever you feel like you have a lot left to learn. A lot of what you do and do not know
 about computers was dictated for you by the fact that you grew up interacting with them on a touch screen
-instead of on a terminal. Things are not as intimiating as they seem.
+instead of on a terminal. Things are not as intimidating as they seem.
 
 [^lawsuit]: https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.
 

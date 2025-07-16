@@ -180,7 +180,7 @@ enum Bear {
 enum Action {
     LAY_DOWN,
     FIGHT_BACK,
-    RUN_AWAY
+    RUN_AWAY,
     YEET
 }
 
