@@ -63,9 +63,9 @@ class Main {
         String c = "bca";
 
         IO.println(a.hashCode());
-        // a.equals(b) will return true, so they will have the same hash code
+        // a.equals(b) will return true, so they may or may not have the same hash code
         IO.println(b.hashCode());
-        // a.equals(c) will return false, so they may or may not have the same hash code
+        // a.equals(c) will return false, so it's assumed they have a different hash code
         IO.println(c.hashCode());
 
         Thing t1 = new Thing();
