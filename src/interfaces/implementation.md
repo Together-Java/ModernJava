@@ -18,7 +18,7 @@ class Mutt implements Dog {
 }
 ```
 
-Then you all you need to do is declare methods which match up with the methods defined in the interface.
+Then all you need to do is declare methods which match up with the methods defined in the interface.
 Keep in mind that while you didn't write `public` in the interface, you need to write `public`
 when implementing a method from an interface.[^all]
 

@@ -33,4 +33,4 @@ deals with colors in RGB - Red, Green, Blue - format. `0xFFFFFF` is white, `0xFF
 
 
 [^everything]: Okay to be real with you, every number system is a base 10 system.
-Even if what you call "10" is what we would call "sixteen", you always wrap around your base when you write "10." If that doesn't make sense it doesn't matter, but its fascinating to me.
+Even if what you call "10" is what we would call "sixteen", you always wrap around your base when you write "10." If that doesn't make sense it doesn't matter, but it's fascinating to me.

@@ -16,4 +16,4 @@ record Pants() {}
 ```
 
 [^astowhy]: As to why you might want to give an empty list of record components,
-its nuanced. For now its just for fun.
+it's nuanced. For now it's just for fun.
