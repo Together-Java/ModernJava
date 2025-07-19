@@ -17,7 +17,7 @@ void main() {
 }
 ```
 
-And similarly you can get the current time your computer thinks it is with `LocalName.now()`
+And similarly you can get the current time your computer thinks it is with `LocalTime.now()`
 
 ```java
 import java.time.LocalTime;
