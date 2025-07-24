@@ -13,8 +13,8 @@ interface Animal {
             // My cousin has a Pig that we were all afraid
             // was going to straight up eat her child.
             //
-            // The child got old enough that its not a concern,
-            // but good god.
+            // The child got old enough that it's not a concern,
+            // but good God.
             return false;
         }
     }
