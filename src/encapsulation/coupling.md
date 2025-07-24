@@ -14,5 +14,5 @@ long as code that is coupled is also "co-located" making changes
 to that code can be easier than if it were spread over multiple files.
 
 A not insignificant part of practice in the coding world is deciding when
-pieces of a program deserve to be abstracted from eachother (to minimize interdependence)
+pieces of a program deserve to be abstracted from each other (to minimize interdependence)
 and when they deserve to be coupled together (to keep logic in one place.)
