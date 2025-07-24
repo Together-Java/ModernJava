@@ -1,6 +1,6 @@
 # Reflection
 
-Reflection is the what we call it when a program
+Reflection is what we call it when a program
 uses information about how it - the program - is structured
 in order to do things while running.
 
