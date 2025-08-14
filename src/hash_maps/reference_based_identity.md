@@ -8,7 +8,7 @@ Instead of making buckets like `A-G` and `H-Z`, it will use ranges of numbers. T
 same though
 
 For classes you make yourself, their `hashCode` will be based on what we call an object's
-"identity." This means that while different instances of a class might give the same 
+"identity." This means that while different instances of a class might give the same (incomplete sentence)
 
 
 ```java
@@ -67,8 +67,8 @@ class Main {
         // Car C is a distinct object with its own identity
         var carC = new LivingRaceCar(10);
         
-        // Car C therefore only equal itself
-        // Car A and B will equal eachother
+        // Car C therefore will only equal itself
+        // Car A and B will equal each other
         IO.println("A.equals(A): " + carA.equals(carA));
         IO.println("A.equals(B): " + carA.equals(carB));
         IO.println("A.equals(C): " + carA.equals(carC));

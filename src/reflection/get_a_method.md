@@ -21,7 +21,7 @@ class Tea {
 ```
 
 
-Unlike fields which can be identified only by their name, methods which are distinct overloads of eachother
+Unlike fields which can be identified only by their name, methods which are distinct overloads of each other
 are distinguised by the arguments they take in.
 
 ```java

@@ -41,5 +41,5 @@ up front you should use a wildcard.
 
 [^ifconfused]: If that seems confusing and useless, you are half
 right. It certainly is confusing, but it is pretty useful sometimes.
-If its still beyond your ken just always write `Class<?>` and we'll
+If it's still beyond your ken just always write `Class<?>` and we'll
 loop back to it.
