@@ -52,7 +52,8 @@ public class ArrayList<E> extends AbstractList<E>
 }
 ```
 
-People who write programs that depend on the calling `.add` on an `ArrayList` do not need
+
+People who write programs that depend on calling `.add` on an `ArrayList` do not need
 to understand how or when the internal `elementData` and `size` fields are updated. Those also
 need not be the only fields that exist. All that is required is "calling `.add` will add an element to the list."
 

@@ -16,7 +16,7 @@ of that - `com.google`.[^thisiswhy]
 
 Nowadays people also tend to accept unique prefixes based on accounts you might have on a site. So you might see things like `com.github.their_username_here` for people who have an account with a service like `Github`.
 
-It isn't perfect, nothing would be, but its socially dominant so you should be aware of it. If the code you are writing won't be shared with others you do not need to do this sort of thing yourself.
+It isn't perfect, nothing would be, but it's socially dominant so you should be aware of it. If the code you are writing won't be shared with others you do not need to do this sort of thing yourself.
 
 
 [^shared]: That might be mixed with other code written by different companies or by different people.

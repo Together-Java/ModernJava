@@ -39,8 +39,7 @@ void main() {
 
 Raw types exist for two basic reasons
 
-1. Every now and then Java isn't smart enough. Trust that there are valid reasons to turn off generics, even
-I haven't shown you any yet. Avoid doing so yourself - at least for awhile.
+1. Every now and then Java isn't smart enough. Trust that there are valid reasons to turn off generics, even if I haven't shown you any yet. Avoid doing so yourself - at least for awhile.
 2. Generics weren't always in Java! Classes that later were made generic had to stay compatible with old "raw"
 usages somehow.
 

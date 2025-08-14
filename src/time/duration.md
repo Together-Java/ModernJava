@@ -17,7 +17,7 @@ void main() {
 }
 ```
 
-You can use these get the duration between two `Instant`s with
+You can use these to get the duration between two `Instant`s with
 `Duration.between`.
 
 ```java

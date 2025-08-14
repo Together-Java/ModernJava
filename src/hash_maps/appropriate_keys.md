@@ -3,7 +3,8 @@
 Both objects with reference based and value based definitions of `equals` and `hashCode` 
 are "appropriate" to use as keys in `HashMap`s.
 
-The most important thing to be careful of using objects where`equals` and `hashCode` 
+
+The most important thing to be careful of is using objects where `equals` and `hashCode` 
 are value based, but the object itself is mutable.
 
 ```java

@@ -8,7 +8,7 @@ number one lower than you were given. if it isn't you are done.
 
 ```java
 void countDown(int x) {
-    if (x > 0) {
+    if (x <= 0) {
         IO.println("DONE");
     }
     else {

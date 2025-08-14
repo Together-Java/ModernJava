@@ -40,7 +40,7 @@ class Position {
 }
 ```
 
-Then you compare the all the fields to make sure they are equal to each other as well.
+Then you compare all the fields to make sure they are equal to each other as well.
 
 ```java,no_run
 class Position {
