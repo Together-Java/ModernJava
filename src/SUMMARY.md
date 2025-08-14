@@ -43,6 +43,10 @@ snake
 2048
 colors
 battleship
+
+CLI Hangman
+Tic Tac Toe AI
+
 -->
 
 # Modern Java
@@ -123,6 +127,16 @@ battleship
   - [Access Individual Characters](./strings/access_individual_characters.md)
   - [Challenges](./strings/challenges.md)
 
+# Interactive Programs
+
+- [Standard Input](./standard_input.md)
+  - [Prompting](./standard_input/prompting.md)
+  - [Interpreting Input](./standard_input/interpreting_input.md)
+  - [Integers](./standard_input/integers.md)
+  - [Floating Point Numbers](./standard_input/floating_point_numbers.md)
+  - [Other Types](./standard_input/other_types.md)
+  - [Challenges](./standard_input/challenges.md)
+
 # Control Flow I
 
 - [Branching Paths](./branching_paths.md)
@@ -153,6 +167,13 @@ battleship
   - [Iterate over a String](./loops/iterate_over_a_string.md)
   - [Challenges](./loops/challenges.md)
 
+# Concepts
+- [Software is an Interdisciplinary Field]()
+
+# Projects
+
+- [Calorie Tracker]()
+
 # Data Types II
 
 - [Arrays](./arrays.md)
@@ -168,10 +189,6 @@ battleship
   - [Difference between Initializer and Literal](./arrays/difference_between_initializer_and_literal.md)
   - [Initialization with new](./arrays/initialization_with_new.md)
   - [Challenges](./arrays/challenges.md)
-
-# Projects
-
-- [The Boston Molasses Disaster Game]() <!-- Make sure they know it was because of deregulation -->
 
 # Control Flow II
 
@@ -196,6 +213,11 @@ battleship
   - [Drawing Right Triangles](./loops_ii/drawing_right_triangles.md)
   - [Drawing Isosceles Triangles](./loops_ii/drawing_isosceles_triangles.md)
   - [Challenges](./loops_ii/challenges.md)
+
+# Projects
+
+- [Calorie Tracker II]()
+- [Can you Build a Snowman?]()
 
 # Code Structure
 
@@ -229,6 +251,7 @@ battleship
 # Projects
 
 - [Tic-Tac-Toe]()
+- [Chicken Nugget Numbers]()
 
 # Data Types III
 
@@ -258,6 +281,7 @@ battleship
 <!-- https://michaelxing.com/UltimateTTT/v3/ -->
 - [Ultimate Tic-Tac-Toe]()
 
+
 # Code Structure II
 
 - [Classes](./classes.md)
@@ -284,6 +308,10 @@ battleship
   - [Disambiguation](./instance_methods/disambiguation.md)
   - [Clarity](./instance_methods/clarity.md)
   - [Challenges](./instance_methods/challenges.md)
+
+# Projects II
+
+- [Monte Carlo Sampling]()
 
 # Data Types IV
 
@@ -352,13 +380,13 @@ battleship
 
 # Interactive Programs
 
-- [Standard Input](./standard_input.md)
-  - [Prompting](./standard_input/prompting.md)
-  - [Interpreting Input](./standard_input/interpreting_input.md)
-  - [Reprompting](./standard_input/reprompting.md)
-  - [Leniency](./standard_input/leniency.md)
-  - [Delayed Assignment](./standard_input/delayed_assignment.md)
-  - [Transporting Data](./standard_input/transporting_data.md)
+- [Standard Input II](./standard_input_ii.md)
+  - [Prompting](./standard_input_ii/prompting.md)
+  - [Interpreting Input](./standard_input_ii/interpreting_input.md)
+  - [Reprompting](./standard_input_ii/reprompting.md)
+  - [Leniency](./standard_input_ii/leniency.md)
+  - [Delayed Assignment](./standard_input_ii/delayed_assignment.md)
+  - [Transporting Data](./standard_input_ii/transporting_data.md)
 
 # The Computing Environment
 
@@ -451,7 +479,6 @@ battleship
   - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
   - [Conventions](./command_line_arguments/conventions.md)
 
-
 # Code Structure V
 
 - [Inner Classes](./inner_classes.md)
@@ -514,7 +541,14 @@ battleship
   - [Challenges](./files/challenges.md)
 
 
+# Projects
 
+<!-- read and write some journal entries -->
+- [Journal Entries]()
+
+<!-- Make a picture in PPM format -->
+- [Draw a Picture]()
+  
 <!--
 # Data Structures & Algorithms II
 
@@ -722,6 +756,11 @@ Make them do one. -->
   - [long](./niche_numerics/long.md)
   - [Unsigned Operations](./niche_numerics/unsigned_operations.md)
   - [float](./niche_numerics/float.md)
+
+# Projects
+
+<!-- Make a WAV file that plays hot cross buns -->
+- [Hot Cross Buns]()
   
 # Code Structure VIII
 

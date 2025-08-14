@@ -99,4 +99,4 @@ void main() {
 
 
 [^dto]: When you make a class just to make objects which transfer data between different parts of your program we
-call those DTOs - data transfer objects. You will learn better ways to make DTOs in the future.
+sometimes call those DTOs - data transfer objects. You will learn better ways to make DTOs in the future.
