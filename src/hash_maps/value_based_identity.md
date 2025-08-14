@@ -1,5 +1,6 @@
 # Value Based Identity
 
+
 While reference based identity can be useful, it's often not what you want for keys in a `HashMap`.
 Ideally if you are looking up `"Tow Mater"` you shouldn't have to be careful to ensure it's the *same*
 instance of `String`, all you care about is that it contains the right characters.
