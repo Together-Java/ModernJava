@@ -12,7 +12,38 @@
     - [Tour of Scala](./examples/tour_of_scala.md)
     - [tutorialspoint](./examples/tutorialspoint.md)
     - [tutorialspoint paid course](./examples/tutorialspoint_paid.md)
-    - [w3schools](./examples/w3schools.md) -->
+    - [w3schools](./examples/w3schools.md)
+    
+Project ideas:
+    calorie tracker
+    tic tac toe
+    chess
+    go
+    CSV
+    image stuff with the PPM format
+
+    swing game - maybe have a simplified game engine
+
+    fixed time loop game
+
+    opengl/ffm
+
+version control
+
+something with statistics
+newton raphston
+
+airplane physics program
+ball throw physics program
+chemical stuff
+
+(after bytes) Make an audio file. Play hot cross buns.
+
+snake
+2048
+colors
+battleship
+-->
 
 # Modern Java
 

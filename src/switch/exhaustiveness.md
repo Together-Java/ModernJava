@@ -23,10 +23,10 @@ String describe(int number) {
 }
 ```
 
-When you have something like an enum you don't need a `default` case
-because you can handle every variant explicitly.
+When you have something like an enum you might think you don't need a `default` case
+because you can handle every variant explicitly.[^sometimes]
 
-```java,no_run
+```java,no_run,does_not_compile
 enum Bird {
     TURKEY,
     EAGLE,
@@ -47,3 +47,40 @@ boolean isScary(Bird bird) {
     }
 }
 ```
+
+This is, unfortunately, not the case for a switch statement. 
+You either need a `default` case or to have an explicit `case null` to handle the
+possibility that the enum value is `null`.[^lies]
+
+```java,no_run,does_not_compile
+enum Bird {
+    TURKEY,
+    EAGLE,
+    WOODPECKER
+}
+
+boolean isScary(Bird bird) {
+    switch (bird) {
+        case TURKEY -> {
+            return true;
+        }
+        case EAGLE -> {
+            return true;
+        }
+        case WOODPECKER -> {
+            return false;
+        }
+        // Need to handle the possibility of null
+        // or give a "default ->"
+        case null -> {
+            // You might want to return a value or just crash
+            return false;
+        }
+    }
+}
+```
+
+[^sometimes]: This is sometimes the case! It is really just this specific form of switch that has this restriction.
+
+[^lies]: Remember at the very start when I said I was going to lie to you? This is one of those lies. The real reason for this restriction has to do with how Java compiles switch statements and a concept called "separate compilation." Basically
+even though we know you covered all the enum variants, Java still makes you account for if a new enum variant was added later on. It doesn't do this for all forms of `switch` though.
