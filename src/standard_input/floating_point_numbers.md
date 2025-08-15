@@ -3,11 +3,11 @@
 If you expect someone to type a floating point value you can turn the `String`
 you get from `IO.readln` into a `double` using `Double.parseDouble`.
 
-```java,do_not_run
+```java,no_run
 void main() {
     String gpaString = IO.readln("What is your GPA? ");
     double gpa = Double.parseDouble(gpaString);
-    IO.println("You are " + age + " years old!");
+    IO.println("You're GPA is " + gpa);
 }
 ```
 

@@ -27,7 +27,7 @@ void main() {
     // 1. Call IO.readln to get their age
     // 2. Interpret their age as an int
     // 3. Add one to that age
-    // 2. Call IO.print/IO.println to say what age they will be next year
+    // 4. Call IO.print/IO.println to say what age they will be next year
 }
 ```
 
@@ -49,7 +49,7 @@ void main() {
 
 ## Challenge 4
 
-["Mad Libs"](https://en.wikipedia.org/wiki/Mad_Libs) are a word game where you ask people for nouns, verbs, and adjectives absent any context
+["Mad Libs"](https://en.wikipedia.org/wiki/Mad_Libs) are a word game where you ask people for nouns, verbs, adjectives, etc. absent any context
 and then fill them in to a template.
 
 For example
@@ -66,5 +66,5 @@ I saw a dog today and flew.
 Unfortunately the clown stopped me at the elephant.
 ```
 
-Make a program that asks a user for some nouns, verbs, etc. and produces
+Make a program that asks a user for some nouns, verbs, etc. and prints
 a Mad Lib using those words.

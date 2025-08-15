@@ -47,6 +47,17 @@ battleship
 CLI Hangman
 Tic Tac Toe AI
 
+TODO App
+
+Task Description - data formats
+
+Approximate PI
+
+Pomodoro timer ()
+Terminal ANKI (might require threads)
+
+Simple REST API
+HTML
 -->
 
 # Modern Java
@@ -55,6 +66,7 @@ Tic Tac Toe AI
   - [Asking for Help](./prelude/asking_for_help.md)
   - [Toy Problems](./prelude/toy_problems.md)
   - [Lies](./prelude/lies.md)
+  - [AI](./prelude/ai.md)
 - [Getting Started](./getting_started.md)
 - [First Steps](./first_steps.md)
   - [Comments](./first_steps/comments.md)
@@ -168,11 +180,12 @@ Tic Tac Toe AI
   - [Challenges](./loops/challenges.md)
 
 # Concepts
-- [Software is an Interdisciplinary Field]()
 
 # Projects
 
-- [Calorie Tracker]()
+<!-- Software is an Interdisciplinary Field -->
+- [Prelude](./projects/prelude.md)
+- [Calorie Tracker](./projects/calorie_tracker.md)
 
 # Data Types II
 

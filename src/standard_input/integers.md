@@ -3,7 +3,7 @@
 If you expect someone to type an integer value you can turn the `String`
 you get from `IO.readln` into an `int` using `Integer.parseInt`.
 
-```java,do_not_run
+```java,no_run
 void main() {
     String ageString = IO.readln("How old are you? ");
     int age = Integer.parseInt(ageString);
