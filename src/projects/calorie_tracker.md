@@ -40,13 +40,14 @@ We will count it as a success if the program you produce at least helps them tra
 
 When you learn enough to do the following, come back to this project and expand it.
 
-* Make it so that they can also track the name of the food
-* Make it so that if the computer running the program is turned off they do not lose information
-* Expand the program to also help them record the macro-nutritional value of the food they ate
-* Make it so that they can more easily track foods they eat often
-* Expand the program to also let them track their weight over time
-* Make it so that they can track their progress over multiple days, months, or years
-* Anything else you can think of
+* Make it so that they can also track a "calorie goal" and see how they are doing with respect to that goal.
+* Make it so that they can also track the name of the food.
+* Make it so that if the computer running the program is turned off they do not lose information.
+* Expand the program to also help them record the macro-nutritional value of the food they ate.
+* Make it so that they can more easily track foods they eat often.
+* Expand the program to also let them track their weight over time.
+* Make it so that they can track their progress over multiple days, months, or years.
+* Anything else you can think of.
 
 
 
