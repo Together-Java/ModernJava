@@ -144,6 +144,7 @@ not a number you don't just crash. This means you might need to reprompt them fo
       ||      
 ```
 
+* Draw both the snowman and a tree. Let the user select which goes on the left and which goes on the right.
 
 * Turn this into a command-line program that works similarly to the [cowsay](https://en.wikipedia.org/wiki/Cowsay#:~:text=cowsay%20is%20a%20program%20that,a%20cow%20with%20a%20message.) tool.
 
@@ -157,3 +158,5 @@ not a number you don't just crash. This means you might need to reprompt them fo
                 ||----w |
                 ||     ||
 ```
+
+* Expand or refocus into drawing other kinds of things.

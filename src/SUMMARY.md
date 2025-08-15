@@ -70,6 +70,19 @@ HTML
 
 Make your own iterator
 
+# Projects II
+
+ https://michaelxing.com/UltimateTTT/v3/
+- [Ultimate Tic-Tac-Toe]()
+
+Circuit Builder Resistance Solver
+
+Draw a circuit.
+
+Adjacency Matrix
+
+BFS
+
 -->
 
 # Modern Java
@@ -279,11 +292,6 @@ Make your own iterator
   - [Unreachable Statements](./return_values/unreachable_statements.md)
   - [Challenges](./return_values/challenges.md)
 
-# Projects
-
-<!-- chicken nugget number type things come up when dispensing change -->
-- [Point of Sale System](./projects/point_of_sale_system.md)
-
 # Data Types III
 
 - [null](./null.md)
@@ -307,10 +315,10 @@ Make your own iterator
   - [Populate Arrays](./arrays_ii/populate_arrays.md)
   - [Challenges](./arrays_ii/challenges.md)
 
-# Projects II
+# Projects
 
-<!-- https://michaelxing.com/UltimateTTT/v3/ -->
-- [Ultimate Tic-Tac-Toe]()
+<!-- chicken nugget number type things come up when dispensing change -->
+- [Point of Sale System](./projects/point_of_sale_system.md)
 
 
 # Code Structure II
