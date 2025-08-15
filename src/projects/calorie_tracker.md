@@ -38,6 +38,8 @@ The intent is to help them be intentional about the number of calories they are 
 
 We will count it as a success if the program you produce at least helps them track the total.
 
+Hint: You will need to use `IO.readln` alongside `Integer.parseInt` and/or `Double.parseDouble`.
+
 ## Future Goals
 
 When you learn enough to do the following, come back to this project and expand it.

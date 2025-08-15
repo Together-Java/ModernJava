@@ -58,6 +58,18 @@ Terminal ANKI (might require threads)
 
 Simple REST API
 HTML
+
+- [Tic-Tac-Toe]()
+- [Chicken Nugget Numbers]()
+
+* Argument Objects (InputArgs)
+* Cursor Objects (sql)
+* Exception Hierarchies
+* Interior Iteration
+* Annotations
+
+Make your own iterator
+
 -->
 
 # Modern Java
@@ -179,6 +191,15 @@ HTML
   - [Iterate over a String](./loops/iterate_over_a_string.md)
   - [Challenges](./loops/challenges.md)
 
+# Interactive Programs II
+
+- [Standard Input II](./standard_input_ii.md)
+  - [Prompting](./standard_input_ii/prompting.md)
+  - [Interpreting Input](./standard_input_ii/interpreting_input.md)
+  - [Reprompting](./standard_input_ii/reprompting.md)
+  - [Leniency](./standard_input_ii/leniency.md)
+  - [Delayed Assignment](./standard_input_ii/delayed_assignment.md)
+
 # Projects
 
 <!-- Software is an Interdisciplinary Field -->
@@ -227,7 +248,7 @@ HTML
 
 # Projects
 
-- [Can you Build a Snowman?]()
+- [ASCII Art Generator](./projects/ascii_art.md)
 
 # Code Structure
 
@@ -260,8 +281,8 @@ HTML
 
 # Projects
 
-- [Tic-Tac-Toe]()
-- [Chicken Nugget Numbers]()
+<!-- chicken nugget number type things come up when dispensing change -->
+- [Point of Sale System](./projects/point_of_sale_system.md)
 
 # Data Types III
 
@@ -318,6 +339,11 @@ HTML
   - [Disambiguation](./instance_methods/disambiguation.md)
   - [Clarity](./instance_methods/clarity.md)
   - [Challenges](./instance_methods/challenges.md)
+
+# Interactive Programs III
+
+- [Standard Input III](./standard_input_iii.md)
+  - [Transporting Data](./standard_input_iii/transporting_data.md)
 
 # Projects II
 
@@ -388,15 +414,7 @@ HTML
   - [Audience](./code_is_read_more_than_written/audience.md)
   - [Practice](./code_is_read_more_than_written/practice.md)
 
-# Interactive Programs
 
-- [Standard Input II](./standard_input_ii.md)
-  - [Prompting](./standard_input_ii/prompting.md)
-  - [Interpreting Input](./standard_input_ii/interpreting_input.md)
-  - [Reprompting](./standard_input_ii/reprompting.md)
-  - [Leniency](./standard_input_ii/leniency.md)
-  - [Delayed Assignment](./standard_input_ii/delayed_assignment.md)
-  - [Transporting Data](./standard_input_ii/transporting_data.md)
 
 # The Computing Environment
 
