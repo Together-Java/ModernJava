@@ -179,8 +179,6 @@ HTML
   - [Iterate over a String](./loops/iterate_over_a_string.md)
   - [Challenges](./loops/challenges.md)
 
-# Concepts
-
 # Projects
 
 <!-- Software is an Interdisciplinary Field -->
@@ -229,7 +227,6 @@ HTML
 
 # Projects
 
-- [Calorie Tracker II]()
 - [Can you Build a Snowman?]()
 
 # Code Structure
