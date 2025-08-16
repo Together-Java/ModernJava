@@ -27,3 +27,29 @@ void main() {
 }
 ```
 
+If the program would normally crash on unexpected input you can use `try` and `catch` to recover
+from this and reprompt the user.
+
+This is applicable to `Integer.parseInt`, `Double.parseDouble`, and any other method that would
+throw an exception on unexpected inputs.
+
+```java,no_run
+void main() {
+    int number;
+    while (true) {
+        String response = IO.readln("What is your least favorite number? ");
+        try {
+            // Here Integer.parseInt might throw an exception,
+            number = Integer.parseInt(response);
+        } catch (RuntimeException e) {
+            // If that happens, go up to the top and reprompt
+            continue;
+        }
+
+        // If a "continue" is not hit, exit the loop
+        break;
+    }
+
+    IO.println("Your least favorite number is " + number);
+}
+```

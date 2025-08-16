@@ -204,15 +204,6 @@ BFS
   - [Iterate over a String](./loops/iterate_over_a_string.md)
   - [Challenges](./loops/challenges.md)
 
-# Interactive Programs II
-
-- [Standard Input II](./standard_input_ii.md)
-  - [Prompting](./standard_input_ii/prompting.md)
-  - [Interpreting Input](./standard_input_ii/interpreting_input.md)
-  - [Reprompting](./standard_input_ii/reprompting.md)
-  - [Leniency](./standard_input_ii/leniency.md)
-  - [Delayed Assignment](./standard_input_ii/delayed_assignment.md)
-
 # Projects
 
 <!-- Software is an Interdisciplinary Field -->
@@ -315,11 +306,6 @@ BFS
   - [Populate Arrays](./arrays_ii/populate_arrays.md)
   - [Challenges](./arrays_ii/challenges.md)
 
-# Projects
-
-<!-- chicken nugget number type things come up when dispensing change -->
-- [Point of Sale System](./projects/point_of_sale_system.md)
-
 
 # Code Structure II
 
@@ -348,14 +334,13 @@ BFS
   - [Clarity](./instance_methods/clarity.md)
   - [Challenges](./instance_methods/challenges.md)
 
-# Interactive Programs III
 
-- [Standard Input III](./standard_input_iii.md)
-  - [Transporting Data](./standard_input_iii/transporting_data.md)
 
-# Projects II
+# Projects
 
-- [Monte Carlo Sampling]()
+<!-- chicken nugget number type things come up when dispensing change -->
+- [Point of Sale System](./projects/point_of_sale_system.md)
+
 
 # Data Types IV
 
@@ -394,6 +379,18 @@ BFS
   - [Combining Cases](./switch/combining_cases.md)
   - [null](./switch/null.md)
   - [Challenges](./switch/challenges.md)
+
+
+# Interactive Programs II
+
+- [Standard Input II](./standard_input_ii.md)
+  - [Reprompting](./standard_input_ii/reprompting.md)
+  - [Enums](./standard_input_ii/enums.md)
+  - [Delayed Assignment](./standard_input_ii/delayed_assignment.md)
+  - [Leniency](./standard_input_ii/leniency.md)
+  - [Aggregating Data](./standard_input_ii/aggregating_data.md)
+  - [Challenges](./standard_input_ii/challenges.md)
+
 
 # Code Structure III
 

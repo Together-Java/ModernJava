@@ -5,5 +5,16 @@ When you call `IO.readln` the human on the other side can type whatever they wan
 This means that, depending on the question you asked, you might need to interpret
 what they typed as something other than a `String`.
 
-The way to do this differs depending on what type you want, but for at least the types we covered so far
-there is a basic-enough process.
+In its most basic form this will look like seeing if one `String` equals another `String`.
+
+```java,no_run
+void main() {
+    String color = IO.readln("What is your favorite color? ");
+    if (color.equals("green")) {
+        IO.println("Me too!");
+    }
+    else {
+        IO.println("neat.")
+    }
+}
+```
