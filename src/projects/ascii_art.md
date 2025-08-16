@@ -98,11 +98,12 @@ And here it is with a height of `1`
 |
 ```
 
-You want to make sure that if the person using your program gives you a negative number, zero, or something that is
-not a number you don't just crash. This means you might need to reprompt them for information.
+
 
 
 ## Future Goals
+
+When you learn enough to do the following, come back to this project and expand it.
 
 * Draw something with more varied parts, like a snowman. You might find it convenient to not directly print to the screen, but instead "draw" what you want to print into an array first then print the contents of that array.
 
@@ -128,7 +129,8 @@ not a number you don't just crash. This means you might need to reprompt them fo
     |         |
     \---------/
 ```
-
+* Make sure that if the person using your program gives you a negative number, zero, or something that is
+not a number you don't just crash. This means you might need to reprompt them for information.
 * Make the christmas tree prettier. This will require "finding the pattern" in a more interesting piece of art, like [this example](https://www.asciiart.eu/holiday-and-events/christmas/trees).
 
 ```

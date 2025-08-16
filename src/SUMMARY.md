@@ -375,9 +375,9 @@ BFS
   - [ints](./switch/ints.md)
   - [Enums](./switch/enums.md)
   - [Omitted Default](./switch/omitted_default.md)
-  - [Exhaustiveness](./switch/exhaustiveness.md)
   - [Combining Cases](./switch/combining_cases.md)
   - [null](./switch/null.md)
+  - [Exhaustiveness](./switch/exhaustiveness.md)
   - [Challenges](./switch/challenges.md)
 
 
@@ -460,11 +460,13 @@ BFS
   - [Exception](./exceptions_ii/exception.md)
   - [RuntimeException](./exceptions_ii/runtime_exception.md)
   - [main](./exceptions_ii/main.md)
+  - [Challenges](./exceptions_ii/challenges.md)
 - [Switch II](./switch_ii.md)
   - [Yield](./switch_ii/yield.md)
   - [Omitted Yield](./switch_ii/omitted_yield.md)
   - [Exhaustiveness](./switch_ii/exhaustiveness.md)
   - [Return a Switch](./switch_ii/return_a_switch.md)
+  - [Challenges](./switch_ii/challenges.md)
 
 # Code Structure IV
 
@@ -475,12 +477,14 @@ BFS
   - [File names](./multi_file_programs/file_names.md)
   - [The Anonymous Main Class](./multi_file_programs/the_anonymous_main_class.md)
   - [Global Fields](./multi_file_programs/global_fields.md)
+  - [Challenges](./multi_file_programs/challenges.md)
 - [Visibility](./visibility.md)
   - [Private Methods](./visibility/private_methods.md)
   - [Private Fields](./visibility/private_fields.md)
   - [Invariants](./visibility/invariants.md)
   - [Accessors](./visibility/accessors.md)
   - [Getters and Setters](./visibility/getter_and_setters.md)
+  - [Challenges](./visibility/challenges.md)
 - [Static Fields](./static_fields.md)
   - [Declaration](./static_fields/declaration.md)
   - [Initialization](./static_fields/initialization.md)
@@ -488,6 +492,7 @@ BFS
   - [Constants](./static_fields/constants.md)
   - [Controversy](./static_fields/controversy.md)
   - [Naming](./static_fields/naming.md)
+  - [Challenges](./static_fields/challenges.md)
 - [Static Methods](./static_methods.md)
   - [Declaration](./static_methods/declaration.md)
   - [Scope](./static_methods/scope.md)
@@ -495,6 +500,7 @@ BFS
   - [Usage](./static_methods/usage.md)
   - [Math](./static_methods/math.md)
   - [Factories](./static_methods/factories.md)
+  - [Challenges](./static_methods/challenges.md)
 
 # Data Structures & Algorithms
 

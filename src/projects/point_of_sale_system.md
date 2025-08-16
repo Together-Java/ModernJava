@@ -51,7 +51,7 @@ The products the produce stand sells are as follows:
 
 Customers may purchase any amount of any items in any combination.
 
-Make sure to:
+Make sure to at least:
 
 * Track the total for an order.
 * Prompt the cashier for the right quantities and weights.
@@ -60,6 +60,8 @@ Make sure to:
 
 ## Future Goals
 
+When you learn enough to do the following, come back to this project and expand it.
+
 * Grow your program to support double or triple the number of available items.
 * Make it so that the cashier has to "log in" to use the system
 * Account for a manager whose job it is to record how much money is in the register before and after a day of operations
@@ -67,8 +69,8 @@ and note any unaccounted for funds.
 * Make the program not lose information if the computer running it turns off then on again.
 * Make the system work for "self check out," where the person entering the items is also the customer. Theft in
 these cases is monitored via security cameras and punished via the might of the police state.
-* Use a camera attached to the computer to scan a bar code which contains the product number
-* Optionally print a receipt for each order to a physical printer.
+* Use a camera attached to the computer to scan a bar code which contains the product number.
+* Optionally print a receipt for each order to a physical printer..
 
 
 
