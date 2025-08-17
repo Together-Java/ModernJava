@@ -514,12 +514,14 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [Performance Problems](./growable_arrays/performance_problems.md)
   - [Performance Solutions](./growable_arrays/performance_solutions.md)
   - [Optimized Implementation](./growable_arrays/optimized_implementation.md)
+  - [Challenges](./growable_arrays/challenges.md)
 
 # Interactive Programs II
 
 - [Command Line Arguments](./command_line_arguments.md)
   - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
   - [Conventions](./command_line_arguments/conventions.md)
+  - [Challenges](./command_line_arguments/challenges.md)
 
 # Code Structure V
 
