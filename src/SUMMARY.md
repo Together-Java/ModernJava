@@ -574,6 +574,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [Integer from a Base 16 String](./integers_ii/integer_from_a_base_16_string.md)
   - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
   - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
+  - [Challenges](./integers_ii/challenges.md)
 
 
 # Interactive Programs III
