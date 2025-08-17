@@ -65,9 +65,12 @@ to accept higher interest rates or take on the debt at all the closer the offer 
 
 ## Your Goal
 
-Never make a program for this.
+Never make a program for a "Buy Now, Pay Later" company.
 
-"Buy Now, Pay Later" is another word for debt. If you make a program that
+The only reason they would be using that term would be to dodge regulations
+set up to protect both parties in the agreement.
+
+"Buy Now, Pay Later" is just another word for debt. If you make a program that
 enables desperate people go deeper and deeper into debt to enrich yourself
 you are a bad person.
 
