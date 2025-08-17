@@ -552,6 +552,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [Package-Private Constructors](./packages/package_private_constructors.md)
   - [Subpackages](./packages/subpackages.md)
   - [Reverse Domain Name Notation](./packages/reverse_domain_name_notation.md)
+  - [Challenges](./packages/challenges.md)
 
 # Data Types IV
 
@@ -564,6 +565,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [Check for Equality](./records/check_for_equality.md)
   - [Return Multiple Values](./records/return_multiple_values.md)
   - [Shorthand](./records/shorthand.md)
+  - [Challenges](./records/challenges.md)
 
 - [Integers II](./integers_ii.md)
   - [Integer from a String](./integers_ii/integer_from_a_string.md)
