@@ -69,7 +69,7 @@ Never make a program for this.
 
 "Buy Now, Pay Later" is another word for debt. If you make a program that
 enables desperate people go deeper and deeper into debt to enrich yourself
-you are a scumbag.
+you are a bad person.
 
 I put this "project" here to tell you that building software is not
 a neutral act. You need to critically consider how what you decide to spend
