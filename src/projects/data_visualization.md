@@ -85,6 +85,7 @@ ability at this point though.[^believe]
 * Visualize some data that comes from a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file.
 * Make the program use a different method of data visualization based on a command-line flag.
 * For scatterplots, allow adding a "line of best fit." Look up "linear regression" for one way to do this.
+* Add labels and axes to your charts. This will require figuring out how to render text in your images.
 * Try to make a spacial map similar to the one that Dr. Snow made. This is likely pretty involved to do
 in a program but it is definitely possible.
 
