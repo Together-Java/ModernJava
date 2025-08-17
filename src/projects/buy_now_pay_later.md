@@ -84,7 +84,7 @@ if it did not exist.
 
 There are real companies - at the time of writing the biggest one is called [Klarna](https://klarna.com/) -
 which are more than happy to offer predatory loans to the desperate and short-sighted. Their existence makes the
-world a worse place and they could not exist without the efforts of people who write software.
+world a worse place. They also could not exist without the efforts of people who write software.
 
 The next project will be a real one.
 
