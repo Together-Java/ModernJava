@@ -11,7 +11,7 @@ organic matter.
 
 If you've ever seen a drawing of [a plague doctor](https://en.wikipedia.org/wiki/Plague_doctor)
 this is part of why they had that long nosed mask. They would fill it with nice smelling herbs
-in order to counter the miasma they though was causing disease.
+in order to counter the miasma they thought was causing disease.
 
 This was basically entirely wrong in terms of the mechanics of disease spread. But it wasn't all bad. Staying
 away from dead bodies and wearing a mask around the sick aren't the worst ideas in the world.
@@ -34,7 +34,7 @@ plotted it, and saw a straight line then that is useful information.
 
 Computers are uniquely suited to making visualizations. Modern data sets
 are often quite large and already stored on a computer. It is easier for a computer
-to turn that visualization into a chart or diagram of some kind than it is
+to turn that data into a chart or diagram of some kind than it is
 for a human to sit down and labor with a sheet of paper and a ruler. 
 
 ## Your Goal
@@ -76,7 +76,7 @@ So if you write text like this into a file and give it a `.ppm` extension your c
 able to show it to you as an image.
 
 You will still need to figure out how you are going to represent image data in your program,
-how to write to produce a file like this, and how to arrange the pixels. That should all be within your
+how to produce a file like this, and how to arrange the pixels. That should all be within your
 ability at this point though.[^believe]
 
 ## Future Goals
