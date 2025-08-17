@@ -54,7 +54,7 @@ see one bar be higher than the others.
 This will require you to learn how to create an image from code. The good news is that this is easier than
 you would expect. There is a file format called "[PPM](https://en.wikipedia.org/wiki/Netpbm)" which represents images like this.
 
-```
+```no_run
 P3
 # "P3" means this is a RGB color image in ASCII
 # "3 2" is the width and height of the image in pixels
