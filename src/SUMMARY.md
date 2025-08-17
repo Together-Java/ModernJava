@@ -534,6 +534,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [The anonymous main class](./inner_classes/the_anonymous_main_class.md)
   - [Static Inner Classes](./inner_classes/static_inner_classes.md)
   - [Private Inner Classes](./inner_classes/private_inner_classes.md)
+  - [Challenges](./inner_classes/challenges.md)
 - [Packages](./packages.md)
   - [Declaration](./packages/declaration.md)
   - [Visibility](./packages/visibility.md)
