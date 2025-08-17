@@ -14,30 +14,30 @@ the United States) medical care is a mandatory expense. You either make that
 purchase or you die. If one does not have some minimum level of food, water, and shelter
 those are also essential expenses.
 
-It comes down to needs and wants. If you need to have something that is an essential purchase.
-If you want to have something that is a non-essential purchase.
+It comes down to needs and wants. If you **need** to have something that is an essential purchase.
+If you **want** to have something that is a non-essential purchase.
 
 Many people do not have enough money for their essential expenses.
 This can be due to any number of reasons, but in the United States minimum wage has
 not kept up with overall inflation since 1968. Add to that rising costs of housing,
-transportation, education, etc. and people's financial
+transportation, education, etc. and times are tough.
 
 Some people have much more money than they could ever need. These people,
 sometimes pooling funds via corporations, often choose to loan this money
-to those that do not have enough for their expenses.
+to those that do not have enough.
 
 The reason they do this is because they can charge fees. If someone can't afford
-a particular expense of ~$100 they can get the money for that expense right away in exchange for agreeing
-to say a 2% interest rate. This would mean that the amount they owe goes up by 2% every month or so that they
-do not pay the loan issuer back.
+a particular expense of ~$100 they could get the money for that expense right away in exchange for agreeing
+to a 5% monthly interest rate. This would mean that the amount they owe goes up by 5% every month that they
+do not pay the loan issuer back. After 5 months they would owe $127.63.[^compound]
 
 Banks work this way. You deposit money in the bank and, while the bank and the government
 guarentee you that you can go at any time and get your money out, they are also turning around
 and lending that money to any number of businesses and individuals.
 
-So long as you assume most people will be able to eventually pay off their debts being a loan issuer
+So long as you assume most people will be able to eventually pay off their debts, loan issuance
 is a very profitable business to be in. It is also something of a public good.[^christmas] But if a large number of people are unable to pay off their debts
-you can get financial collapses. This can be at the level of an indidual loan issuer or entire countries.
+you can get financial collapses. This can be at the level of an individual loan issuer up to entire countries.
 
 Because it is bad when this happens governments generally have laws that restrict the "level of risk"
 loan issuers are allowed to take on. If they "take on too much risk" - meaning loan enough money
@@ -45,7 +45,7 @@ to people who aren't able to pay it back - there will eventually be a collapse.
 
 The level of scrutiny that applies to normal debts does not seem to, at least in the United States,
 apply when you do it via payment plans and call it "Buy Now, Pay Later." This allows for businesses
-to make loans they otherwise wouldn't be allowed to to people that might not otherwise qualify.
+to make loans they otherwise wouldn't be allowed to to people they might not otherwise be allowed to loan to.
 
 This certainly helps people who are struggling to get enough to affort their essential expenses.
 It can also help people make non-essential expenses which they deem essential. Human's are imperfect
@@ -80,12 +80,16 @@ people a lot of money. The world would be a better place
 if it did not exist.
 
 There are real companies - at the time of writing the biggest one is called [Klarna](https://klarna.com/) -
-which are more than happy to offer loans to the desperate and short-sighted. Their existence makes the
+which are more than happy to offer predatory loans to the desperate and short-sighted. Their existence makes the
 world a worse place and they could not exist without the efforts of people who write software.
+
+The next project will be a real one.
 
 ## Future Goals
 
 None.
+
+[^compound]: Compound interest adds up fast.
 
 [^christmas]: Watch "It's A Wonderful Life" sometimes. Banking is not intrinsically evil. Loaning people
 money so they can buy a home to live in can be a great thing.
