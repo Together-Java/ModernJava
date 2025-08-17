@@ -83,6 +83,9 @@ Adjacency Matrix
 
 BFS
 
+Have a project that is just klarna but the your goal is "never write this program."
+
+
 -->
 
 # Modern Java
@@ -456,9 +459,9 @@ BFS
   - [Unchecked Exceptions](./exceptions_ii/unchecked_exceptions.md)
   - [throws](./exceptions_ii/throws.md)
   - [Propagating Exceptions](./exceptions_ii/propagating_exceptions.md)
-  - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
   - [Exception](./exceptions_ii/exception.md)
   - [RuntimeException](./exceptions_ii/runtime_exception.md)
+  - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
   - [main](./exceptions_ii/main.md)
   - [Challenges](./exceptions_ii/challenges.md)
 - [Switch II](./switch_ii.md)
@@ -582,6 +585,8 @@ BFS
 
 # Projects
 
+- [Buy Now, Pay Later](./projects/buy_now_pay_later.md)
+- [Data Visualization](./projects/data_visualization.md)
 <!-- read and write some journal entries -->
 - [Journal Entries]()
 
@@ -1065,6 +1070,8 @@ jshell
     - [Build Tool]
         - [Maven]
             - Dependencies
+
+SDL, Vulkan, IMGUI - the C world
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

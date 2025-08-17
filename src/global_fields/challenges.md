@@ -31,7 +31,7 @@ void main() {
 
 ## Challenge 2
 
-Make a class named `DJKhaled`. If you ask DJ Khaleed to `produceMusic`
+Make a class named `DJKhaled`. If you ask DJ Khaled to `produceMusic`
 some lyrics should be printed out but also `anothaOne` should be called at least 7 times.[^drake]
 
 

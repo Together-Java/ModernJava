@@ -38,6 +38,6 @@ class Person {
 }
 ```
 
-The answer to that is...annoying. We'll get to it, but the short story is that its a bit of a holdover from a very weird period in the 1990s.
+The answer to that is...annoying. We'll get to it, but the short story is that its a bit of a holdover from a very weird period in the early 2000s.
 
 I mention it specifically so that you know that there isn't any important information you are missing and you are not crazy.
