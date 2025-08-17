@@ -63,18 +63,16 @@ to manually keep track of all this info would eat in to the profits from interes
 "Buy Now, Pay Later" programs also want to be embedded into online storefronts. People are much more likely
 to accept higher interest rates or take on the debt at all the closer the offer is made to "the point of sale." This requires not only business deals but a non-trivial amount of code.
 
-## Your Goal
-
 Never make a program for a "Buy Now, Pay Later" company.
 
 The only reason they would be using that term would be to dodge regulations
-set up to protect both parties in the agreement.
+set up to protect both parties in the arrangement.
 
 "Buy Now, Pay Later" is just another word for debt. If you make a program that
 enables desperate people go deeper and deeper into debt to enrich yourself
 you are a bad person.
 
-I put this "project" here to tell you that building software is not
+I put this here to tell you that building software is not
 a neutral act. You need to critically consider how what you decide to spend
 your time on will affect the world around you.
 
@@ -86,7 +84,12 @@ There are real companies - at the time of writing the biggest one is called [Kla
 which are more than happy to offer predatory loans to the desperate and short-sighted. Their existence makes the
 world a worse place. They also could not exist without the efforts of people who write software.
 
-The next project will be a real one.
+But loans are not *intrinsically* a bad thing. What makes a loan bad comes down to the terms of the
+loan and the circumstances under which it is taken out.
+
+## Your Goal
+
+Make a program to track the debts owed by 
 
 ## Future Goals
 
