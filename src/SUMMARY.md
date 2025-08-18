@@ -85,6 +85,9 @@ BFS
 
 Have a project that is just klarna but the your goal is "never write this program."
 
+- [Journal Entries]()
+
+sealed interfaces
 
 -->
 
@@ -95,6 +98,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [Toy Problems](./prelude/toy_problems.md)
   - [Lies](./prelude/lies.md)
   - [AI](./prelude/ai.md)
+  - [Java](./prelude/java.md)
 - [Getting Started](./getting_started.md)
 - [First Steps](./first_steps.md)
   - [Comments](./first_steps/comments.md)
@@ -593,11 +597,8 @@ Have a project that is just klarna but the your goal is "never write this progra
 
 <!-- - [Buy Now, Pay Later](./projects/buy_now_pay_later.md) -->
 - [Data Visualization](./projects/data_visualization.md)
-<!-- read and write some journal entries -->
-- [Journal Entries]()
 
-<!-- Make a picture in PPM format -->
-- [Draw a Picture]()
+
   
 <!--
 # Data Structures & Algorithms II
@@ -615,6 +616,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [@Override](./objects/override.md)
   - [equals and hashCode](./objects/equals_and_hashCode.md)
   - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
+  - [Challenges](./objects/challenges.md)
   <!--- [Variance and Casting](./objects/variance_and_casting.md)
   - [Subclasses](./objects/subclasses.md)-->
 
@@ -625,6 +627,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [Inference](./generics/inference.md)
   - [Soundness](./generics/soundness.md)
   - [Raw Types](./generics/raw_types.md)
+  - [Challenges](./generics/challenges.md)
 - [Interfaces](./interfaces.md)
   - [Interface Declaration](./interfaces/interface_declaration.md)
   - [Implementation](./interfaces/implementation.md)
@@ -632,7 +635,7 @@ Have a project that is just klarna but the your goal is "never write this progra
   - [Naming](./interfaces/naming.md)
   - [Subtypes](./interfaces/subtypes.md)
   - [Multiple Implementations](./interfaces/multiple_implementations.md)
-
+  - [Challenges](./interfaces/challenges.md)
 # Data Types V
 
 <!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
