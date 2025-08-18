@@ -659,6 +659,7 @@ Make them do one. -->
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
+  - [Challenges](./array_list/challenges.md)
 - [HashMap](./hash_maps.md)
   - [Filing Cabinets](./hash_maps/filing_cabinets.md)
   - [Keys and Values](./hash_maps/keys_and_values.md)
@@ -671,6 +672,7 @@ Make them do one. -->
   - [Value Based Identity](./hash_maps/value_based_identity.md)
   - [Appropriate Keys](./hash_maps/appropriate_keys.md)
   - [Ubiquity](./hash_maps/ubiquity.md)
+  - [Challenges](./hash_maps/challenges.md)
 
   <!-- - [Function Range](./hash_maps/function_range.md)
   - [Buckets](./hash_maps/buckets.md) -->

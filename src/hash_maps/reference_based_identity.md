@@ -8,7 +8,8 @@ Instead of making buckets like `A-G` and `H-Z`, it will use ranges of numbers. T
 same though
 
 For classes you make yourself, their `hashCode` will be based on what we call an object's
-"identity." This means that while different instances of a class might give the same (incomplete sentence)
+"identity." This means that every individual instance of a class is likely to give you a different
+value, regardless of if they hold identical fields.
 
 
 ```java
