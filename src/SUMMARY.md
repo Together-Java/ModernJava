@@ -591,7 +591,7 @@ Have a project that is just klarna but the your goal is "never write this progra
 
 # Projects
 
-- [Buy Now, Pay Later](./projects/buy_now_pay_later.md)
+<!-- - [Buy Now, Pay Later](./projects/buy_now_pay_later.md) -->
 - [Data Visualization](./projects/data_visualization.md)
 <!-- read and write some journal entries -->
 - [Journal Entries]()
