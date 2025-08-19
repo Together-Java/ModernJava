@@ -89,6 +89,10 @@ Have a project that is just klarna but the your goal is "never write this progra
 
 sealed interfaces
 
+easy vs. simple
+
+enshittification state machine example (Acquire -> Make good for business bad for users -> Bad for everyone)
+
 -->
 
 # Modern Java
@@ -691,6 +695,7 @@ Make them do one. -->
   - [return](./switch_iii/return.md)
   - [default](./switch_iii/default.md)
   - [yield](./switch_iii/yield.md)
+  - [Challenges](./switch_iii/challenges.md)
 - [Recursion](./recursion.md)
   - [Disclaimer](./recursion/disclaimer.md)
   - [Base Case](./recursion/base_case.md)
@@ -700,6 +705,7 @@ Make them do one. -->
   - [Accumulators](./recursion/accumulators.md)
   - [Recurse Over a String](./recursion/recursing_over_strings.md)
   - [Recurse Over an Array](./recursion/recursing_over_arrays.md)
+  - [Challenges](./recursion/challenges.md)
 
 - [Loops III](./loops_iii.md)
   - [For-each loops](./loops_iii/for_each_loops.md)
@@ -709,6 +715,7 @@ Make them do one. -->
   - [String](./loops_iii/string.md)
   - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
   - [Inferred Types](./loops_iii/inferred_types.md)
+  - [Challenges](./loops_iii/challenges.md)
 
 # Concepts II
 
@@ -733,6 +740,7 @@ Make them do one. -->
   - [UnsupportedOperationException](./collections/unsupported_operation_exception.md)
   - [Factories](./collections/factories.md)
   - [Specificity](./collections/specificity.md)
+  - [Challenges](./collections/challenges.md)
 
 
 - [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
@@ -745,6 +753,7 @@ Make them do one. -->
   - [Default Values](./multi_dimensional_arrays/default_values.md)
   - [Populate Values](./multi_dimensional_arrays/populate_values.md)
   - [Ragged Arrays](./multi_dimensional_arrays/ragged_arrays.md)
+  - [Challenges](./multi_dimensional_arrays/challenges.md)
 
 # Metaprogramming
 
@@ -855,6 +864,10 @@ Make them do one. -->
 - [Documentation]()
   - [javadoc]()
   - [Documentation Comments](./documentation/documentation_comments.md)
+  - [@param]()
+  - [@return]()
+  - [@throws]()
+  - [Markdown]()
 - [Distribution]()
   - [jlink]()
 
