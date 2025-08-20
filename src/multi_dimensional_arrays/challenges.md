@@ -32,8 +32,8 @@ row print a new line.
 void main() {
     char[][] picture = new char[][] {
         new char[] { ' ', ' ', ' ', ' ' },
-        new char[] { ' ', '*', '*', ' ' }
-        new char[] { '\\', ' ', ' ', '/' }
+        new char[] { ' ', '*', '*', ' ' },
+        new char[] { '\\', ' ', ' ', '/' },
         new char[] { ' ', '-', '-', ' ' }
     };
 
@@ -57,7 +57,7 @@ void main() {
 
 
 
-## Challenge 3.
+## Challenge 4.
 
 Write a method named `winner`. It should take in a 2-dimensional
 array of `String`s where each character is either `X`, `O`, or an empty string.
