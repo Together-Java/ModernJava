@@ -78,10 +78,11 @@ void main() {
 
     // -----------
     char[] toPrint = name;
-    IO.print(toPrint[0]);
-    IO.print(toPrint[1]);
-    IO.print(toPrint[2]);
-    IO.print(toPrint[3]);
+    int index = 0;
+    while (index < toPrint.length) {
+        IO.print(toPrint[index]);
+        index++;
+    }
     IO.println();
 }
 ```
