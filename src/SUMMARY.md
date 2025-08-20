@@ -261,10 +261,6 @@ enshittification state machine example (Acquire -> Make good for business bad fo
   - [Drawing Isosceles Triangles](./loops_ii/drawing_isosceles_triangles.md)
   - [Challenges](./loops_ii/challenges.md)
 
-# Projects
-
-- [ASCII Art Generator](./projects/ascii_art.md)
-
 # Code Structure
 
 - [Methods](./methods.md)
@@ -294,7 +290,26 @@ enshittification state machine example (Acquire -> Make good for business bad fo
   - [Unreachable Statements](./return_values/unreachable_statements.md)
   - [Challenges](./return_values/challenges.md)
 
+
 # Data Types III
+
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+  - [Declaration](./multi_dimensional_arrays/declaration.md)
+  - [Array Initializers](./multi_dimensional_arrays/array_initializers.md)
+  - [Initialization with new](./multi_dimensional_arrays/initialization_with_new.md)
+  - [Access Individual Elements](./multi_dimensional_arrays/access_individual_elements.md)
+  - [Set Individual Elements](./multi_dimensional_arrays/set_individual_elements.md)
+  - [Initialization with Size](./multi_dimensional_arrays/initialize_with_size.md)
+  - [Default Values](./multi_dimensional_arrays/default_values.md)
+  - [Populate Values](./multi_dimensional_arrays/populate_values.md)
+  - [Ragged Arrays](./multi_dimensional_arrays/ragged_arrays.md)
+  - [Challenges](./multi_dimensional_arrays/challenges.md)
+
+# Projects
+
+- [ASCII Art Generator](./projects/ascii_art.md)
+
+# Data Types IV
 
 - [null](./null.md)
   - [Null as Absence](./null/null_as_absence.md)
@@ -353,7 +368,7 @@ enshittification state machine example (Acquire -> Make good for business bad fo
 - [Point of Sale System](./projects/point_of_sale_system.md)
 
 
-# Data Types IV
+# Data Types V
 
 - [Enums](./enums.md)
   - [Declaration](./enums/declaration.md)
@@ -562,7 +577,7 @@ enshittification state machine example (Acquire -> Make good for business bad fo
   - [Reverse Domain Name Notation](./packages/reverse_domain_name_notation.md)
   - [Challenges](./packages/challenges.md)
 
-# Data Types IV
+# Data Types VI
 
 - [Records](./records.md)
   - [Declaration](./records/declaration.md)
@@ -640,7 +655,7 @@ enshittification state machine example (Acquire -> Make good for business bad fo
   - [Subtypes](./interfaces/subtypes.md)
   - [Multiple Implementations](./interfaces/multiple_implementations.md)
   - [Challenges](./interfaces/challenges.md)
-# Data Types V
+# Data Types VII
 
 <!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
 Make them do one. -->
@@ -730,7 +745,7 @@ Make them do one. -->
   - [Information Hiding](./encapsulation/information_hiding.md)
 
 
-# Data Types VI
+# Data Types VIII
 
 - [Collections](./collections.md)
   - [List](./collections/list.md)
@@ -742,18 +757,6 @@ Make them do one. -->
   - [Specificity](./collections/specificity.md)
   - [Challenges](./collections/challenges.md)
 
-
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
-  - [Declaration](./multi_dimensional_arrays/declaration.md)
-  - [Array Initializers](./multi_dimensional_arrays/array_initializers.md)
-  - [Initialization with new](./multi_dimensional_arrays/initialization_with_new.md)
-  - [Access Individual Elements](./multi_dimensional_arrays/access_individual_elements.md)
-  - [Set Individual Elements](./multi_dimensional_arrays/set_individual_elements.md)
-  - [Initialization with Size](./multi_dimensional_arrays/initialize_with_size.md)
-  - [Default Values](./multi_dimensional_arrays/default_values.md)
-  - [Populate Values](./multi_dimensional_arrays/populate_values.md)
-  - [Ragged Arrays](./multi_dimensional_arrays/ragged_arrays.md)
-  - [Challenges](./multi_dimensional_arrays/challenges.md)
 
 # Metaprogramming
 
@@ -812,7 +815,7 @@ Make them do one. -->
   - [Final Classes](./class_extension/final_classes.md)
 
 
-# Data Types VII
+# Data Types IX
 
 - [Niche Numerics](./niche_numerics.md)
   - [byte](./niche_numerics/byte.md)
