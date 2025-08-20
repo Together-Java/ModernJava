@@ -6,4 +6,3 @@ Remember the rules for this are
 - Try not to give up until you've given it a solid attempt
 
 ## Challenge 1.
-
