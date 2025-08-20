@@ -88,10 +88,10 @@ void main() {
 
     IO.println(winnerB);
 
-    var winnerC = winner(new Character[][] {
-        new Character[] { "O", "X", "O" },
-        new Character[] { "O", "O", "X" },
-        new Character[] { "O", "X", "O" }
+    var winnerC = winner(new String[][] {
+        new String[] { "O", "X", "O" },
+        new String[] { "O", "O", "X" },
+        new String[] { "O", "X", "O" }
     });
 
     IO.println(winnerC);
