@@ -93,6 +93,8 @@ easy vs. simple
 
 enshittification state machine example (Acquire -> Make good for business bad for users -> Bad for everyone)
 
+Zombie Game
+
 -->
 
 # Modern Java

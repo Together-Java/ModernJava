@@ -30,17 +30,6 @@ IO.println(bools);
 ~}
 ```
 
-The only kind of array which will include its contents when printed is a `char[]`.
-It will be printed as if it were a `String`.
-
-```java
-~void main() {
-char[] continent = { 'T', 'a', 'm', 'r', 'i', 'e', 'l' };
-// Tamriel
-IO.println(continent);
-~}
-```
-
 If you want to actually see the contents of an array, you should
 use a loop.[^future]
 

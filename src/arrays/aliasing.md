@@ -12,23 +12,59 @@ char[] lettersOne = { 'B', 'a', 't', 'm', 'a', 'n' };
 char[] lettersTwo = lettersOne;
 
 // Batman
-IO.println(lettersOne);
+IO.print(lettersOne[0]);
+IO.print(lettersOne[1]);
+IO.print(lettersOne[2]);
+IO.print(lettersOne[3]);
+IO.print(lettersOne[4]);
+IO.print(lettersOne[5]);
+IO.println();
 // Batman
-IO.println(lettersTwo);
+IO.print(lettersTwo[0]);
+IO.print(lettersTwo[1]);
+IO.print(lettersTwo[2]);
+IO.print(lettersTwo[3]);
+IO.print(lettersTwo[4]);
+IO.print(lettersTwo[5]);
+IO.println();
 
 lettersOne[0] = 'C';
 
 // Catman
-IO.println(lettersOne);
+IO.print(lettersOne[0]);
+IO.print(lettersOne[1]);
+IO.print(lettersOne[2]);
+IO.print(lettersOne[3]);
+IO.print(lettersOne[4]);
+IO.print(lettersOne[5]);
+IO.println();
 // Catman
-IO.println(lettersTwo);
+IO.print(lettersTwo[0]);
+IO.print(lettersTwo[1]);
+IO.print(lettersTwo[2]);
+IO.print(lettersTwo[3]);
+IO.print(lettersTwo[4]);
+IO.print(lettersTwo[5]);
+IO.println();
 
 lettersTwo[0] = 'R';
 
 // Ratman
-IO.println(lettersOne);
+IO.print(lettersOne[0]);
+IO.print(lettersOne[1]);
+IO.print(lettersOne[2]);
+IO.print(lettersOne[3]);
+IO.print(lettersOne[4]);
+IO.print(lettersOne[5]);
+IO.println();
 // Ratman
-IO.println(lettersTwo);
+IO.print(lettersTwo[0]);
+IO.print(lettersTwo[1]);
+IO.print(lettersTwo[2]);
+IO.print(lettersTwo[3]);
+IO.print(lettersTwo[4]);
+IO.print(lettersTwo[5]);
+IO.println();
 ~}
 ```
 
