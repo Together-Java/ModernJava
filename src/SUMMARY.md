@@ -890,16 +890,16 @@ Make them do one. -->
 
 # Sharing Code II
 
+<!-- 
+TODO: Wait for hermetic java
 - [Distribution](./distribution.md)
   - [jars](./distribution/jars.md)
-  - [jlink]()
+  - [jlink]() -->
 - [Documentation](./documentation.md)
   - [Documentation Comments](./documentation/documentation_comments.md)
-  - [javadoc]()
-  - [@param]()
-  - [@return]()
-  - [@throws]()
-  - [Markdown]()
+  - [Format](./documentation/format.md)
+  - [javadoc](./documentation/javadoc.md)
+  - [Challenges](./documentation/challenges.md)
 
 
 <!--- 

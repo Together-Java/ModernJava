@@ -9,9 +9,12 @@ You put these documentation comments above different elements of your program
 with text describing what the purpose of those elements are.
 
 ```java
-/// This class represents the i
+/// This class represents a ninja
 public class Ninja {
-
+    /// Says a catchphrase
+    public void forsooth() {
+        // ..
+    }
 }
 ```
 
