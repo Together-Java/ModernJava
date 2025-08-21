@@ -841,7 +841,7 @@ Make them do one. -->
   - [java.base](./modules/java.base.md)
   - [The Unnamed Module](./modules/the_unnamed_module.md)
   - [Module Imports](./modules/module_imports.md)
-  - [Multi-Module Directory Layout]()
+  - [Multi-Module Directory Layout](./modules/multi_module_directory_layout.md)
 - [Lambdas](./lambdas.md)
   - [Functional Interfaces](./lambdas/functional_interfaces.md)
   - [@FunctionalInterface](./lambdas/functional_interface_annotation.md)
@@ -861,20 +861,46 @@ Make them do one. -->
 # Sharing Code
 
 - [Compilation](./compilation.md)
-  - [javac]()
-  - [--release]()
-- [Packaging]()
-  - [jar]()
-  - [--main-class]()
-- [Documentation]()
-  - [javadoc]()
+  - [javac](./compilation/javac.md)
+  - [Class Files](./compilation/class_files.md)
+  - [Modules](./compilation/modules.md)
+  - [Compile Multiple Files](./compilation/multiple_files.md)
+  - [Clean](./compilation/clean.md)
+  - [-g](./compilation/g.md)
+  - [Running Compiled Code](./compilation/running_compiled_code.md)
+  - [Challenges](./compilation/challenges.md)
+- [Packaging](./packaging.md)
+  - [jar](./packaging/jar.md)
+  - [Jar Files](./packaging/jar_files.md)
+  - [--module-path](./packaging/module_path.md)
+  - [--main-class](./packaging/main_class.md)
+  - [Libraries](./packaging/libraries.md)
+  - [Challenges](./packaging/challenges.md)
+
+# Tools
+
+- [just](./just.md)
+  - [Installation](./just/installation.md)
+  - [Justfile](./just/justfile.md)
+  - [Recipes](./just/recipes.md)
+  - [Dependencies](./just/dependencies.md)
+  - [Documentation Comments](./just/documentation_comments.md)
+  - [Further Reading](./just/further_reading.md)
+  - [Challenges](./just/challenges.md)
+
+# Sharing Code II
+
+- [Distribution](./distribution.md)
+  - [jars](./distribution/jars.md)
+  - [jlink]()
+- [Documentation](./documentation.md)
   - [Documentation Comments](./documentation/documentation_comments.md)
+  - [javadoc]()
   - [@param]()
   - [@return]()
   - [@throws]()
   - [Markdown]()
-- [Distribution]()
-  - [jlink]()
+
 
 <!--- 
 PROJECT IDEAS:
