@@ -14,5 +14,5 @@ void doStuff() {
         IO.println(i);
     }
 }
+~void main() {doStuff();}
 ```
-
