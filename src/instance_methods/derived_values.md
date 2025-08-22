@@ -22,3 +22,23 @@ void main() {
 ```
 
 Which is useful for situations like where you store someones first and last name
+but need to ask "what is their full name?"
+
+```java
+class Elmo {
+    String firstName;
+    String lastName;
+
+    String fullName() {
+        return firstName + " " + lastName;
+    }
+}
+
+void main() {
+    Elmo elmo = new Elmo();
+    elmo.firstName = "Elmo";
+    elmo.lastName = "Furchester";
+
+    IO.println("Elmo's full name is " + elmo.fullName());
+}
+```

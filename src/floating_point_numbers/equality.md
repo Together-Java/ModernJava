@@ -29,6 +29,26 @@ IO.println(doesWhatYouExpect);
 ~}
 ```
 
+To account for that you can check if a number is "close enough" to another one
+by seeing if the "absolute value" of the difference is a small number.
+
+```java
+~void main() {
+double x = 0.1;
+double y = 0.2;
+// z will be 0.30000000000000004
+double z = x + y;
+
+double compare = 0.3;
+
+// this will be true.
+boolean doesWhatYouExpect = 
+    Math.abs(z - 0.3) < 0.00001;
+
+IO.println(doesWhatYouExpect);
+~}
+```
+
 A `double` can also be compared to an `int` and, if they represent the same value, they will be reported as equal.
 
 ```java
