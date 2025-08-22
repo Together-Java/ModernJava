@@ -774,7 +774,7 @@ Make them do one. -->
   - [Get a Constructor](./reflection/get_a_constructor.md)
   - [Get all Constructors](./reflection/get_all_constructors.md)
   - [Invoke a Constructor](./reflection/invoke_a_constructor.md)
-
+  - [Challenges](./reflection/challenges.md)
 - [Annotations](./annotations.md)
   - [Declaration](./annotations/declaration.md)
   - [Usage](./annotations/usage.md)
@@ -785,6 +785,7 @@ Make them do one. -->
   - [@Retention](./annotations/retention.md)
   - [Reflective Access](./annotations/reflective_access.md)
   - [@Override](./annotations/override.md)
+  - [Challenges](./annotations/challenges.md)
   <!--  - [@Deprecated](./annotations/deprecated)
   - [@Repeatable]()Note: When doing javadoc, write about @Documented -->
 
@@ -805,6 +806,7 @@ Make them do one. -->
   - [Interface Extension](./interfaces_ii/interface_extension.md)
   - [Static Methods](./interfaces_ii/static_methods.md)
   - [Static Fields](./interfaces_ii/static_fields.md)
+  - [Challenges](./interfaces_ii/challenges.md)
 - [Class Extension](./class_extension.md)
   - [Extend a Class](./class_extension/extend_a_class.md)
   - [Inheritance](./class_extension/inheritance.md)
@@ -815,6 +817,7 @@ Make them do one. -->
   - [Relation to Interfaces](./class_extension/relation_to_interfaces.md)
   - [Relation to Encapsulation](./class_extension/relation_to_encapsulation.md)
   - [Final Classes](./class_extension/final_classes.md)
+  - [Challenges](./class_extension/challenges.md)
 
 
 # Data Types IX
@@ -825,6 +828,7 @@ Make them do one. -->
   - [long](./niche_numerics/long.md)
   - [Unsigned Operations](./niche_numerics/unsigned_operations.md)
   - [float](./niche_numerics/float.md)
+  - [Challenges](./niche_numerics/challenges.md)
 
 # Projects
 

@@ -34,8 +34,3 @@ output/
     Main$1.class
     Main$Thing.class
 ```
-
-To compile multiple files you need to list every `.java` file
-one after another.
-
-```
