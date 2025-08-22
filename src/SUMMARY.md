@@ -549,7 +549,7 @@ battleship
   - [Subtypes](./interfaces/subtypes.md)
   - [Multiple Implementations](./interfaces/multiple_implementations.md)
 
-# Data Types V
+# Data Types VI
 
 <!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
 Make them do one. -->
@@ -621,7 +621,7 @@ Make them do one. -->
   - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
   - [Inferred Types](./loops_iii/inferred_types.md)
 
-# Concepts II
+# Concepts III
 
 - [Encapsulation](./encapsulation.md)
   - [Implementation Details](./encapsulation/implementation_details.md)
@@ -634,7 +634,7 @@ Make them do one. -->
   - [Information Hiding](./encapsulation/information_hiding.md)
 
 
-# Data Types VI
+# Data Types VII
 
 - [Collections](./collections.md)
   - [List](./collections/list.md)
@@ -714,7 +714,7 @@ Make them do one. -->
   - [Final Classes](./class_extension/final_classes.md)
 
 
-# Data Types VII
+# Data Types VIII
 
 - [Niche Numerics](./niche_numerics.md)
   - [byte](./niche_numerics/byte.md)
