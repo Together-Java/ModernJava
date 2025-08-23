@@ -1,5 +1,8 @@
 # Enums
 
+
+<img src="/enums/header.png" height="200px"/>
+
 While you can use `String`, `int`, `boolean`, and friends
 alongside your own custom classes to represent many situations,
 that is not always enough.
