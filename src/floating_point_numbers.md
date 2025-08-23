@@ -1,5 +1,8 @@
 # Floating Point Numbers
 
+
+<img src="/floating_point_numbers/header.png" height="200px"/>
+
 Floating point numbers are used to represent numbers
 which cannot be stored as Integers like `2.5` or `3.14`.
 
