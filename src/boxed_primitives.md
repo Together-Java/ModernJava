@@ -1,5 +1,8 @@
 # Boxed Primitives
 
+
+<img src="/boxed_primitives/header.png" height="200px"/>
+
 The fact that `int`, `double`, `char`, and `boolean` cannot have `null` values
 can be limiting.
 

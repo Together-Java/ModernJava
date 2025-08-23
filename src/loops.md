@@ -1,5 +1,8 @@
 # Loops
 
+
+<img src="/loops/header.png" height="200px"/>
+
 `if` and `else` let you write programs which can take branching paths,
 but they will still run from the beginning to the end.
 
