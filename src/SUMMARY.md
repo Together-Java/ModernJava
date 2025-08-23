@@ -834,7 +834,7 @@ Make them do one. -->
 # Projects
 
 <!-- Make a WAV file that plays hot cross buns -->
-- [Hot Cross Buns]()
+- [Music Maker](./projects/music_maker.md)
   
 # Code Structure VIII
 
