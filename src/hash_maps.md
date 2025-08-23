@@ -1,5 +1,8 @@
 # HashMap
 
+
+<img src="/hash_maps/header.png" height="200px"/>
+
 Arrays and their growable cousin `ArrayList` store a sequence of elements.
 This is often enough, but if you want to find an element in an array you usually
 need to check every element one by one.

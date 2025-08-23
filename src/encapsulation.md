@@ -1,5 +1,7 @@
 # Encapsulation
 
+<img src="/encapsulation/header.png" height="200px"/>
+
 One way of combatting the effects of Hyrum's Law
 is encapsulation.
 

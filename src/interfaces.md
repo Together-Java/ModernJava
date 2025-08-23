@@ -1,5 +1,8 @@
 # Interfaces
 
+
+<img src="/interfaces/header.png" height="200px"/>
+
 Generics let you write code that doesn't care
 what is different between different things - you would accept a `String`
 or an `Integer`, doesn't matter what is diferent between them.

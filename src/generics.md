@@ -1,5 +1,7 @@
 # Generics
 
+<img src="/generics/header.png" height="200px"/>
+
 Certain types of classes, like growable arrays, are simply holders of data.
 
 That is, almost none of how they work has to change to
