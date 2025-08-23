@@ -1,4 +1,5 @@
 # Hardware
+<img src="/hardware/header.png" height="200px"/>
 
 That was a long stretch of Java, so I think you've earned a bit of a detour into
 general computing knowledge.

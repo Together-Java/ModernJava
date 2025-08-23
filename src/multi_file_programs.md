@@ -1,5 +1,7 @@
 # Multi-File Programs
 
+<img src="/multi_file_programs/header.png" height="200px"/>
+
 For many reasons, it makes sense to split programs into multiple files.
 
 This is one of those things that is easier to show than tell, so to follow along
