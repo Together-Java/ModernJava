@@ -8,7 +8,7 @@ Interfaces do a related thing. They let you write code that takes advantage
 of commonalities.
 
 ```java
-inteface Dog {
+interface Dog {
     void bark();
 }
 ```
