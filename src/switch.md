@@ -1,5 +1,8 @@
 # Switch
 
+
+<img src="/switch/header.png" height="200px"/>
+
 `if` and `else` let you branch logic based on whether any arbitrary
 expression that evaluates to a boolean.
 
