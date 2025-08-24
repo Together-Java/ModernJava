@@ -1,5 +1,7 @@
 # Packaging
 
+<img src="/packaging/header.png" height="200px"/>
+
 Once you have a folder full of class files you technically have enough
 to share your code.
 

@@ -1,5 +1,8 @@
 # just
 
+
+<img src="/just/header.png" height="200px"/>
+
 As you might be noticing, commands in the terminal can get quite long.
 
 Not only are you liable to make a mistake typing out `java --module-path a:bunch:of:files --add-modules ALL-MODULE-PATH src/Main.java` for the 20th time, you are also just going to get annoyed doing so.[^nature]

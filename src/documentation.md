@@ -1,5 +1,7 @@
 # Documentation
 
+<img src="/documentation/header.png" height="200px"/>
+
 When sharing code that is intended to be used as a library it is important to explain
 how exactly your code should be used.
 
