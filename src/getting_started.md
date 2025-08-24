@@ -17,13 +17,13 @@ void main() {
 
 ## Windows
 
-Download the "JDK MSI" from [adoptium.net](https://adoptium.net/temurin/releases/?version=22&os=windows).
+Download the "JDK MSI" from [adoptium.net](https://adoptium.net/temurin/releases/?version=25&os=windows).
 
 Run the installer, selecting all the default options.
 
 ## Mac OS
 
-Download the "JDK .pkg" from [adoptium.net](https://adoptium.net/temurin/releases/?version=22&os=mac).
+Download the "JDK .pkg" from [adoptium.net](https://adoptium.net/temurin/releases/?version=25&os=mac).
 
 Run the installer, selecting all the default options.
 
@@ -31,7 +31,7 @@ Run the installer, selecting all the default options.
 ## Linux
 
 Linux is a little annoying. If you are using it you are likely used to it
-by now, but you can use [adoptium.net](https://adoptium.net/temurin/releases/?version=22&os=linux) like everyone else, but there is no universal installer there.
+by now, but you can use [adoptium.net](https://adoptium.net/temurin/releases/?version=25&os=linux) like everyone else, but there is no universal installer there.
 
 You can either download the `.tar.gz` file that matches your machine, extract it,
 and add the `bin` folder to your `PATH`, or you can try to find an installer for your
