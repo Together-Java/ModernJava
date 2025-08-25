@@ -70,7 +70,7 @@ The point of these is to give you code to program against that isn't the direct 
 code, which can change very frequently, and to give your mod a fighting chance of being compatible
 across multiple Minecraft versions.
 
-Of the two this book probably prepared you the best for Forge. 
+Of the two: this book probably prepared you the best for Forge. 
 
 Forge requires you to use Gradle which in turn will require at least a little knowledge of Kotlin.
 You don't need to take a full detour through that to get started, but you should put both of
@@ -94,7 +94,7 @@ For making plugins that run on a custom Minecraft server - so things that handle
 chat commands and things of that nature - you have to use the plugin required by whatever
 server you are using. I am not the most up to date with Minecraft, but I know there
 is both Spigot and PaperMC. I have been told that Spigot is the preferred option
-as it allows for Bedrock players as well.
+as it allows for Bedrock players to play as well.
 
 [Docs for Spigot here](https://www.spigotmc.org/wiki/spigot-plugin-development/)
 
