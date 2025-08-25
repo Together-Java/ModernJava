@@ -1,5 +1,7 @@
 # Streams
 
+<img src="/streams/header.png" height="200px"/>
+
 Programs often have to transform all of the elements in a collection
 in order to produce a new collection.
 
