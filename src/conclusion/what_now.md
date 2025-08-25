@@ -45,6 +45,8 @@ language you will use for Gradle build scripts.
 
 ### Minecraft
 
+<img src="/conclusion/minecraft_duke.png" height="200px"/>
+
 If your age begins with the number `1` you are either near death or statistically
 very interested in Minecraft.
 
@@ -94,15 +96,15 @@ server you are using. I am not the most up to date with Minecraft, but I know th
 is both Spigot and PaperMC. I have been told that Spigot is the preferred option
 as it allows for Bedrock players as well.
 
-[Spigot documentation here](https://www.spigotmc.org/wiki/spigot-plugin-development/)
+[Docs for Spigot here](https://www.spigotmc.org/wiki/spigot-plugin-development/)
 
 [Spigot community Discord here](https://discord.gg/spigotmc)
 
-[PaperMC documentation here](https://docs.papermc.io/)
+[Docs for PaperMC here](https://docs.papermc.io/)
 
 [PaperMC community Discord here](https://discord.gg/papermc)
 
-For Spigot there is a dis
+
 ### Websites
 
 Making websites is a profitable career path. At least it is at the time of writing.
@@ -145,15 +147,18 @@ three paths.
 Path #1 is to learn Java Swing. This is an old crusty GUI framework that is kinda difficult to use
 but has the pro of coming with Java and being able to run on every potato in existence.
 
-[Docs for `java.desktop` here](https://docs.oracle.com/en/java/javase/24/docs/api/jdk.httpserver/module-summary.html)
+[Docs for `java.desktop` (Swing) here](https://docs.oracle.com/en/java/javase/24/docs/api/jdk.httpserver/module-summary.html)
 
 Path #2 is the learn JavaFX. By all accounts JavaFX is better software than Swing, but it was cursed
 by coming out at a point in history where desktop apps were no longer big business to develop. It
 was eventually removed from the JDK and you will need to procure it like any other dependency.
 
-Path #3 is to branch out to a different language. Kotlin and C# are decent choices for this from what I can
-tell.
+[Docs for JavaFX here](https://openjfx.io/openjfx-docs/)
 
+Path #3 is to branch out to a different language. Kotlin and C# are decent choices for this from what I can
+tell. In Kotlin in particular there is a GUI framework called Jetpack Compose.
+
+[Getting Started for Jetpack Compose here](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html)
 
 ## Learn a New Language
 
@@ -167,6 +172,8 @@ Even if you could get away with only using Java, there is significant value in k
 languages. Particuarly languages that are different than Java.
 
 ### JavaScript
+
+<img src="/conclusion/javascript_mascot.png" height="200px"/>
 
 To make highly interactive programs that run inside a browser you
 will need JavaScript. JavaScript and languages that compile to JavaScript 
@@ -189,6 +196,8 @@ but just practically speaking learning JavaScript
 
 ### C#
 
+<img src="/conclusion/csharp_mascot.png" height="200px"/>
+
 C# is a language broadly similar to Java. It has a lot of features Java doesn't - for better or worse -
 but the basics are comparable.
 
@@ -201,6 +210,8 @@ as much unique pull there as it does in game development.
 [Microsoft's C# tutorial here](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/)
 
 ### Kotlin
+
+<img src="/conclusion/kotlin_mascot.png" height="200px"/>
 
 Kotlin is one of a family of languages that try to be a "better Java."
 Better is relative, but you are likely to learn _something_ when diving into it.
