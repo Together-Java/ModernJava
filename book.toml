@@ -1,7 +1,11 @@
 [book]
 title = "Modern Java"
 description = "Book teaching how to write modern and effective Java."
-authors = ["Ethan McCue", "Together Java", "Contributions from the Java Community"]
+authors = [
+    "Ethan McCue",
+    "Together Java",
+    "Contributions from the Java Community",
+]
 language = "en"
 
 [output.html]
@@ -10,10 +14,11 @@ edit-url-template = "https://github.com/Together-Java/ModernJava/edit/develop/{p
 mathjax-support = true
 additional-css = ["ferris.css"]
 additional-js = ["ferris.js"]
+heading-split-level = 2
 
 [output.html.fold]
-enable = true # whether or not to enable section folding
-level = 0     # the depth to start folding
+enable = false # whether or not to enable section folding
+level = 0      # the depth to start folding
 
 [output.html.playground]
 editable = true

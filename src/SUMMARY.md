@@ -953,10 +953,34 @@ TODO: Wait for hermetic java
   - [Collectors](./streams/collectors.md)
   - [Purpose](./streams/purpose.md)
   - [Challenges](./streams/challenges.md)
-<!-- - [Regular Expressions 🚧]()
+- [Regular Expressions 🚧](./regular_expressions.md)
+  - [Theoretical Basis](./regular_expressions/theoretical_basis.md)
+  - [Pattern](./regular_expressions/pattern.md)
+  - [Exact Matches](./regular_expressions/exact_matches.md)
+  - [Character Classes](./regular_expressions/character_classes.md)
+  - [Cardinality Modifiers]()
+  - [Groups]()
+  - [Matcher]()
+  - [Pathological Cases]()
+  - [Power]()
+
+# Conclusion
+
+- [What Now?](./conclusion/what_now.md)
+
+
+<!-- 
 - [Strings III 🚧]()
 
+Streams II
+  - Infinite Streams
+  - takeWhile
+  - limit
+  - dropWhile
 
+Streams III
+  - Gatherers
+  
 # Code Structure IX
 
 - [Sealed Interfaces 🚧]()
