@@ -6,7 +6,7 @@ elements of the stream as they flow by[^metaphor] with `.map`.
 `.map` applies a `Function` to the elements of the stream
 one by one and returns you a new `Stream` containing the new elements.
 
-```java
+```java,no_run
 var numbers = List.of("1", "2", "3");
 
 Stream<Integer> numberStream = numbers.stream()

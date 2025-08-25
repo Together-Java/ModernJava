@@ -945,13 +945,13 @@ TODO: Wait for hermetic java
 
 # Data Types X
 
-- [Streams 🚧](./streams.md)
-  - [Purpose](./streams/purpose.md)
+- [Streams](./streams.md)
   - [stream](./streams/stream.md)
   - [map](./streams/map.md)
   - [filter](./streams/filter.md)
+  - [Terminal Operations](./streams/terminal_operations.md)
   - [Collectors](./streams/collectors.md)
-  - [toList](./streams/toList.md)
+  - [Purpose](./streams/purpose.md)
   - [Challenges](./streams/challenges.md)
 <!-- - [Regular Expressions 🚧]()
 - [Strings III 🚧]()
