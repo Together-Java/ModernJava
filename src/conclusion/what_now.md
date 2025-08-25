@@ -61,8 +61,48 @@ kind of code you would write for most other kinds of software. This is partially
 because of what modding is (adjusting software whose evolution you do not control)
 and partially because of peculiarities around Minecraft in particular.
 
-Now: there are two fa
+With that all said: there are two basic "mod compatibility layers." These are
+"Fabric" and "Forge."
 
+The point of these is to give you code to program against that isn't the direct Minecraft source
+code, which can change very frequently, and to give your mod a fighting chance of being compatible
+across multiple Minecraft versions.
+
+Of the two this book probably prepared you the best for Forge. 
+
+Forge requires you to use Gradle which in turn will require at least a little knowledge of Kotlin.
+You don't need to take a full detour through that to get started, but you should put both of
+those on your list of things to learn.
+
+[Forge Getting Started here](https://docs.minecraftforge.net/en/latest/gettingstarted/)
+
+["Modded Minecraft" Discord here](https://discord.gg/moddedmc)
+
+["Minecraft Mod Development" Discord here](https://discord.com/invite/wpMz4AtAhn)
+
+Fabric pretty quickly requires you to interact with a concept called a "Mixin."
+This is a mechanism the Minecraft modding world made for magically editing the code inside Minecraft
+among other things. If you go this path just be ready for that.
+
+[Fabric Getting Started here](https://docs.fabricmc.net/develop/getting-started/introduction-to-fabric-and-modding)
+
+[Fabric community Discord here]([https://discord.gg/v6v4pMv](https://discord.gg/v6v4pMv))
+
+For making plugins that run on a custom Minecraft server - so things that handle custom
+chat commands and things of that nature - you have to use the plugin required by whatever
+server you are using. I am not the most up to date with Minecraft, but I know there
+is both Spigot and PaperMC. I have been told that Spigot is the preferred option
+as it allows for Bedrock players as well.
+
+[Spigot documentation here](https://www.spigotmc.org/wiki/spigot-plugin-development/)
+
+[Spigot community Discord here](https://discord.gg/spigotmc)
+
+[PaperMC documentation here](https://docs.papermc.io/)
+
+[PaperMC community Discord here](https://discord.gg/papermc)
+
+For Spigot there is a dis
 ### Websites
 
 Making websites is a profitable career path. At least it is at the time of writing.
