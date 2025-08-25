@@ -155,11 +155,6 @@ was eventually removed from the JDK and you will need to procure it like any oth
 
 [Docs for JavaFX here](https://openjfx.io/openjfx-docs/)
 
-Path #3 is to branch out to a different language. Kotlin and C# are decent choices for this from what I can
-tell. In Kotlin in particular there is a GUI framework called Jetpack Compose.
-
-[Getting Started for Jetpack Compose here](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html)
-
 ## Learn a New Language
 
 An unfortunate truth is that you cannot use Java for everything.
@@ -230,6 +225,12 @@ you do to make a full app in it, but it can't hurt.
 [Getting Started with Kotlin tutorial here](https://kotlinlang.org/docs/getting-started.html)
 
 [Kotlin Android Tutorial here](https://kotlinlang.org/docs/android-overview.html)
+
+If you want to make Desktop or Mobile apps in Kotlin it is probably also worth checking out
+Jetpack Compose.
+
+[Getting Started for Jetpack Compose here](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html)
+
 
 ### Others
 
