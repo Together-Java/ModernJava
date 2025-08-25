@@ -15,12 +15,9 @@
     - [w3schools](./examples/w3schools.md)
     
 Project ideas:
-    calorie tracker
     tic tac toe
     chess
     go
-    CSV
-    image stuff with the PPM format
 
     swing game - maybe have a simplified game engine
 
@@ -37,7 +34,6 @@ airplane physics program
 ball throw physics program
 chemical stuff
 
-(after bytes) Make an audio file. Play hot cross buns.
 
 snake
 2048
@@ -66,7 +62,6 @@ HTML
 * Cursor Objects (sql)
 * Exception Hierarchies
 * Interior Iteration
-* Annotations
 
 Make your own iterator
 
@@ -88,6 +83,7 @@ Have a project that is just klarna but the your goal is "never write this progra
 - [Journal Entries]()
 
 sealed interfaces
+lambdas
 
 easy vs. simple
 
@@ -95,6 +91,14 @@ enshittification state machine example (Acquire -> Make good for business bad fo
 
 Zombie Game
 
+try to trick someone into making that.
+LegBeanProviderFactory
+
+
+stuff in mooc i do not have 
+Streams
+Intro to testing
+Gui stuff
 -->
 
 # Modern Java
@@ -438,6 +442,12 @@ Zombie Game
   - [Inferred Types](./global_fields/inferred_types.md)
   - [Challenges](./global_fields/challenges.md)
 
+# Projects
+
+<!-- chicken nugget number type things come up when dispensing change -->
+- [Tic-Tac-Toe]()
+
+
 # Concepts
 
 - [Code is Read more than Written](./code_is_read_more_than_written.md)
@@ -735,7 +745,7 @@ Make them do one. -->
   - [Inferred Types](./loops_iii/inferred_types.md)
   - [Challenges](./loops_iii/challenges.md)
 
-# Concepts II
+# Concepts III
 
 - [Encapsulation](./encapsulation.md)
   - [Implementation Details](./encapsulation/implementation_details.md)
@@ -820,6 +830,13 @@ Make them do one. -->
   - [Final Classes](./class_extension/final_classes.md)
   - [Challenges](./class_extension/challenges.md)
 
+<!--
+# Concepts IV
+
+- [Easy vs. Simple]()
+- [Read the Docs]()
+-->
+
 
 # Data Types IX
 
@@ -849,6 +866,21 @@ Make them do one. -->
   - [Multi-Module Directory Layout](./modules/multi_module_directory_layout.md)
   - [Purpose](./modules/purpose.md)
   - [Challenges](./modules/challenges.md)
+
+- [Lambdas](./lambdas.md)
+  - [Functional Interfaces](./lambdas/functional_interfaces.md)
+  - [@FunctionalInterface](./lambdas/functional_interface_annotation.md)
+  - [Lambda Expressions](./lambdas/lambda_expressions.md)
+  - [Arguments](./lambdas/arguments.md)
+  - [Return](./lambdas/return.md)
+  - [Method References](./lambdas/method_references.md)
+  - [Inference](./lambdas/inference.md)
+  - [Built-In Functional Interfaces](./lambdas/built_in_functional_interfaces.md)
+  - [Runnable](./lambdas/runnable.md)
+  - [Function](./lambdas/function.md)
+  - [Checked Exceptions](./lambdas/checked_exceptions.md)
+  - [Challenges](./lambdas/challenges.md)
+
 <!--
 - [Lambdas](./lambdas.md)
   - [Functional Interfaces](./lambdas/functional_interfaces.md)
@@ -911,6 +943,51 @@ TODO: Wait for hermetic java
   - [javadoc](./documentation/javadoc.md)
   - [Challenges](./documentation/challenges.md)
 
+# Data Types X
+
+- [Streams 🚧](./streams.md)
+  - [Purpose](./streams/purpose.md)
+  - [stream](./streams/stream.md)
+  - [map](./streams/map.md)
+  - [filter](./streams/filter.md)
+  - [Collectors](./streams/collectors.md)
+  - [toList](./streams/toList.md)
+  - [Challenges](./streams/challenges.md)
+<!-- - [Regular Expressions 🚧]()
+- [Strings III 🚧]()
+
+
+# Code Structure IX
+
+- [Sealed Interfaces 🚧]()
+  - [permits]()
+  - [non-sealed]()
+  - [Reflection]()
+- [Generics II 🚧]()
+  - [Bounds]()
+  - [Wildcards]()
+  - [Invariance]()
+
+# Control Flow VI
+
+- [Switch IV 🚧]()
+  - [Patterns]()
+  - [when]()
+
+# Testing
+
+- [Manual Testing 🚧]()
+- [Logging 🚧]()
+
+# Concurrent Programs
+
+- [Threads 🚧]()
+  - [UncaughtExceptionHandler]()
+  - [Races]()
+
+# Concepts IV
+
+- []()  -->
 
 <!--- 
 PROJECT IDEAS:
@@ -925,9 +1002,6 @@ PROJECT IDEAS:
 
 
 
-[HashMap](./hash_map.md)
-
-
 
 # Code Structure V
 - [Interface Extension](./interface_extension.md)
@@ -938,12 +1012,6 @@ PROJECT IDEAS:
 
 # Building
 
-- [Compilation]()
-- [Compile Java Code]()
-  - [Compile a List of Files]()
-  - [Specify Where to Find Sources]()
-  - [Enable Debug Info]()
-- [Package Java Code]()
 - [Consume External Libraries]()
 
 # Data Types VI
@@ -982,11 +1050,6 @@ PROJECT IDEAS:
 
 
 
-# Concepts
-
-
-# Concepts
-
 
 - [The Idiot Game](./the_idiot_game.md)
 
@@ -1009,7 +1072,6 @@ PROJECT IDEAS:
 
 # Data Types VI
 
-- [Integers II]()
 - [Paths]()
 - [Exceptions II]()
 
@@ -1017,12 +1079,7 @@ PROJECT IDEAS:
 
 # Algorithms II
 
-# Data Types VII
 
-- [Maps]()
-  - [HashMap]()
-- [Sets]()
-  - [HashSet]()
 
 <!--
 
@@ -1046,9 +1103,6 @@ Maven
 XML
 Pom
 Multiversal Equality
-Reflection
-    Cover Invoking *public* constructs
-Javadoc and Documentation comments
 -->
 
 <!--
@@ -1056,7 +1110,6 @@ Javadoc and Documentation comments
 - [Legacy Java]()
     - [Prelude]()
     - [Subpar]()
-        - [Short]()
         - [Scanner]()
         - [File]()
         - [Swing]()
@@ -1064,9 +1117,6 @@ Javadoc and Documentation comments
     - [Crusty]()
         - [Vector]()
         - [Hashtable]()
-    - [Already Removed]()
-        - [Applets]()
-        - [Finalization]()
 -->
 
 <!--

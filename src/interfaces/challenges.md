@@ -84,3 +84,28 @@ interface Tarot {
     String standUser();
 }
 ```
+
+## Challenge 5.
+
+Make a method named `promptGeneric` which can prompt the user for information
+but, based on if what they typed is properly interpretable, can reprompt them.
+
+As part of this make a `Parser` interface and at least two implementations: `IntParser`
+and `DoubleParser`.
+
+```java
+// CODE HERE
+
+class Main {
+    // CODE HERE
+
+    void main() {
+        int x = promptGeneric(
+            "Give me an x: ", new IntParser()
+        );
+        double y = promptGeneric(
+            "Give me a floating point y: ", new DoubleParser()
+        );
+    }
+}
+```

@@ -3,10 +3,10 @@
 If an interface has only a one method that needs to be implemented we would call that a "functional interface."[^SAM]
 
 ```java
-interface Runner {
+interface Band {
     // Only one method to implement
     // "single abstract method"
-    void run();
+    void playHitSong();
 }
 ```
 
@@ -14,17 +14,22 @@ interface Runner {
 Any other methods on the interface must be `default` or `static`.
 
 ```java
-interface Runner {
-    void run();
+interface Band {
+    void playHitSong();
 
     // Neither the default or static method are considered
-    default void runTwice() {
-        this.run();
-        this.run();
+    default void encore() {
+        this.playHitSong();
+        this.playHitSong();
     }
 
-    static double milesToKilometers(double distance) {
-        return distance * 1.609;
+    static int turnDial(int level) {
+        if (level == 10) {
+            return 11;
+        }
+        else {
+            return level;
+        }
     }
 }
 ```
