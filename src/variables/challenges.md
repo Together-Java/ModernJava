@@ -88,7 +88,7 @@ void main() {
 }
 ```
 
-You are not allowed to write `b = "A";` or `a = "B";` 
+To be clear: you are not allowed to write `b = "A";` or `a = "B";` 
 
 As a hint: you can always make new variables.
 
