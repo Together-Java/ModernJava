@@ -953,6 +953,7 @@ TODO: Wait for hermetic java
   - [Collectors](./streams/collectors.md)
   - [Purpose](./streams/purpose.md)
   - [Challenges](./streams/challenges.md)
+<!--
 - [Regular Expressions 🚧](./regular_expressions.md)
   - [Theoretical Basis](./regular_expressions/theoretical_basis.md)
   - [Pattern](./regular_expressions/pattern.md)
@@ -963,6 +964,7 @@ TODO: Wait for hermetic java
   - [Matcher]()
   - [Pathological Cases]()
   - [Power]()
+  -->
 
 # Conclusion
 
@@ -980,7 +982,9 @@ Streams II
 
 Streams III
   - Gatherers
-  
+
+varargs
+
 # Code Structure IX
 
 - [Sealed Interfaces 🚧]()

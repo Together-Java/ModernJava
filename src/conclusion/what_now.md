@@ -238,11 +238,27 @@ Other languages you might want to learn that I haven't written up
 context for quite yet:
 
 * C
+
+<img src="/conclusion/cici_c_rat.png" height="200px"/>
+
 * C++
 * Clojure
 * Elm
 * Haskell
 * Python
+
+<img src="/conclusion/python_logo.png" height="200px"/>
+
 * Ruby
 
+
+<img src="/conclusion/ruby_logo.png" height="200px"/>
+
+* Go
+
+
+<img src="/conclusion/go_mascot.png" height="200px"/>
+
+* Rust
+* Zig
 [^wasm]: Fight me, WebAssembly fans.
