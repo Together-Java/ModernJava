@@ -551,7 +551,7 @@ Gui stuff
   - [Optimized Implementation](./growable_arrays/optimized_implementation.md)
   - [Challenges](./growable_arrays/challenges.md)
 
-# Interactive Programs II
+# Interactive Programs III
 
 - [Command Line Arguments](./command_line_arguments.md)
   - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
@@ -613,7 +613,7 @@ Gui stuff
   - [Challenges](./integers_ii/challenges.md)
 
 
-# Interactive Programs III
+# Interactive Programs IV
 
 - [Files](./files.md)
   - [Paths](./files/paths.md)
@@ -876,8 +876,6 @@ Make them do one. -->
   - [Method References](./lambdas/method_references.md)
   - [Inference](./lambdas/inference.md)
   - [Built-In Functional Interfaces](./lambdas/built_in_functional_interfaces.md)
-  - [Runnable](./lambdas/runnable.md)
-  - [Function](./lambdas/function.md)
   - [Checked Exceptions](./lambdas/checked_exceptions.md)
   - [Challenges](./lambdas/challenges.md)
 
@@ -964,7 +962,18 @@ TODO: Wait for hermetic java
   - [Matcher]()
   - [Pathological Cases]()
   - [Power]()
+
+# Interactive Programs IV
+
+- [Files II](./files_ii.md)
+  - [List Files](./files_ii/list_files.md)
+  - [Read Lines](./files_ii/read_lines.md)
+  - [InputStream](./files_ii/input_stream.md)
+  - [OutputStream](./files_ii/output_stream.md)
+  - [Reader](./files_ii/reader.md)
+  - [Writer](./files_ii/writer.md)
   -->
+
 
 # Conclusion
 
@@ -972,6 +981,7 @@ TODO: Wait for hermetic java
 
 
 <!-- 
+
 - [Strings III 🚧]()
 
 Streams II
