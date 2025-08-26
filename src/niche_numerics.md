@@ -1,5 +1,7 @@
 # Niche Numerics
 
+<img src="/niche_numerics/header.png" height="200px"/>
+
 For a surprisingly wide range of programs `int` and `double`
 (along with their boxed counterparts `Integer` and `Double`)
 are the only numeric types you will need.

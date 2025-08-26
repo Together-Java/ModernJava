@@ -1,6 +1,6 @@
 # Size
 
-The you can access the number of elements in an
+Then you can access the number of elements in an
 `ArrayList` with the `.size()` method.
 
 ```java

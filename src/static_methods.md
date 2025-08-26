@@ -1,5 +1,7 @@
 # Static Methods
 
+<img src="/static_methods/header.png" height="200px"/>
+
 If you want to be able to call a method from anywhere in your program you
 can use a `static` method.
 

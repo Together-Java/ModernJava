@@ -1,5 +1,7 @@
 # Exceptions II
 
+<img src="/exceptions_ii/header.png" height="200px"/>
+
 Perhaps unsurprisingly, `RuntimeException` is not the only kind of exception
 that can be thrown.
 

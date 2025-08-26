@@ -15,6 +15,6 @@ Then back within Java there are things which form "an interface"
 which may or may not use the `interface` keyword. The static methods available on a class,
 the constructors that are public, the set of classes that come with a library, etc.
 
-I think a more general concept "the implicit interface." Everything you can observe about a thing forms its "implicit interface."[^implicit]
+I think a more general concept is "the implicit interface." Everything you can observe about a thing forms its "implicit interface."[^implicit]
 
 [^implicit]: I call it "implicit" because there is no place where you write down "all the properties of a thing" that is not the thing itself. And by thing I mean field, method, class, group of classes, package names - everything.

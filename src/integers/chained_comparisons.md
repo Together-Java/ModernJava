@@ -8,7 +8,7 @@ in the middle of both operators like so.
 0 < x < 5
 ```
 
-This does not work in Java. In order to "chain" comparisons like this, you should combine
+This does not work in Java. In order to "chain" comparisons like this, you have to combine
 the results of comparisons using the `&&` operator.
 
 ```java,no_run

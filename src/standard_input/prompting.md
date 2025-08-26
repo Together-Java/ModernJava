@@ -1,4 +1,4 @@
-# input
+# Prompting
 
 To prompt a user for information you use the `IO.readln` function.
 
@@ -15,4 +15,4 @@ void main() {
 }
 ```
 
-`readln` stands for "read line." It reads the next line a person types.
+`readln` stands for "read line." It reads the next line a person types on "standard input".

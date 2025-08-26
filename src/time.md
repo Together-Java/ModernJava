@@ -1,5 +1,7 @@
 # Time
 
+<img src="/time/header.png" height="200px"/>
+
 Wikipedia defines "time" as "The continued sequence of existence and events that occurs in an apparently irreversible succession from the past, through the present, and into the future."[^source]
 
 Most everything that interacts with the real world needs to understand information about time.

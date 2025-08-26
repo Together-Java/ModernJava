@@ -1,5 +1,8 @@
 # Global Fields
 
+
+<img src="/global_fields/header.png" height="200px"/>
+
 You can make field declarations outside of a class.
 This makes these fields "global" to the program.
 

@@ -5,7 +5,7 @@ The `;` at the end of each of those lines is a "semicolon".
 ```java
 ~void main(){
 IO.print("Hello, "); // <-- this thing
-                       //  ^
+               //  ^
 ~}
 ```
 

@@ -1,5 +1,8 @@
 # null
 
+
+<img src="/null/header.png" height="200px"/>
+
 There is a special value called `null` which is assignable to most types.
 
 ```java

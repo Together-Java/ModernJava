@@ -15,8 +15,8 @@ class Location {
 
 Location findTreasureIsland() {
     Location location = new Location();
-    location.latitude = 40.2085;
-    location.longitude = -3.713;
+    location.latitude = 51.4075;
+    location.longitude = 0.4636;
     return location;
 }
 

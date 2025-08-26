@@ -1,5 +1,7 @@
 # Growable Arrays
 
+<img src="/growable_arrays/header.png" height="200px"/>
+
 Arrays are fixed size collections of elements. This means when we make an array
 that is 5 elements big it will always be 5 elements big.
 

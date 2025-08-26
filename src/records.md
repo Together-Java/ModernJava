@@ -1,5 +1,7 @@
 # Records
 
+<img src="/records/header.png" height="200px"/>
+
 If you have a class whose only purpose is to ferry data around,
 you can instead use a `record`.
 

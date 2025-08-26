@@ -1,5 +1,8 @@
 # Exceptions
 
+
+<img src="/exceptions/header.png" height="200px"/>
+
 When you do something that Java doesn't know how to handle, like
 dividing a number by zero, your program will fail.
 

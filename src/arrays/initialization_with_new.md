@@ -7,10 +7,18 @@ and an empty `[]`.
 ```java
 ~void main() {
 char[] mainCharacter = { 'A', 'a', 'n', 'g' };
-IO.println(mainCharacter);
+IO.println(mainCharacter[0]);
+IO.println(mainCharacter[1]);
+IO.println(mainCharacter[2]);
+IO.println(mainCharacter[3]);
+IO.println();
 
 char[] sideCharacter = new char[] { 'A', 'a', 'n', 'g' };
-IO.println(sideCharacter);
+IO.println(sideCharacter[0]);
+IO.println(sideCharacter[1]);
+IO.println(sideCharacter[2]);
+IO.println(sideCharacter[3]);
+IO.println();
 ~}
 ```
 
@@ -22,7 +30,11 @@ holding an array.
 char[] element;
 
 element = new char[] { 'f', 'i', 'r', 'e' };
-IO.println(element);
+IO.println(element[0]);
+IO.println(element[1]);
+IO.println(element[2]);
+IO.println(element[3]);
+IO.println();
 
 // This would not work
 // element = { 'f', 'i', 'r', 'e' };

@@ -9,16 +9,4 @@ void main() {
 }
 ```
 
-This means you can do anything in your `main` method you can do in any other method, including returning early.
-
-```java
-void main() {
-    int x = 5;
-
-    if (x == 5) {
-        return;
-    }
-
-    IO.println("WONT RUN");
-}
-```
+This means you can do anything in your `main` method you can do in any other method.

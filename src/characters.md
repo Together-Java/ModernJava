@@ -1,5 +1,7 @@
 # Characters
 
+<img src="/characters/header.png" height="200px"/>
+
 A character, represented by the data type `char`, is a single
 letter or symbol.
 

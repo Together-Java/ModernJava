@@ -32,5 +32,8 @@ IO.println(beyondLimit);
 ~}
 ```
 
+When a value loops around because it got too big we call that "overflow." When it
+loops around because it got too small we call that "underflow."
+
 There are other types which can represent a larger range of integers, as well as types
 which do not have any limits, but for now `int` is the only one you will need.

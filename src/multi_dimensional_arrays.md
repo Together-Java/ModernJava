@@ -1,5 +1,8 @@
 # Multi-Dimensional Arrays
 
+
+<img src="/multi_dimensional_arrays/header.png" height="200px"/>
+
 When you make an array in which each element is itself an array
 we call that array of arrays a "multi-dimensional array."
 

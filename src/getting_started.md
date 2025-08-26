@@ -17,13 +17,13 @@ void main() {
 
 ## Windows
 
-Download the "JDK MSI" from [adoptium.net](https://adoptium.net/temurin/releases/?version=22&os=windows).
+Download the "JDK MSI" from [adoptium.net](https://adoptium.net/temurin/releases/?version=25&os=windows).
 
 Run the installer, selecting all the default options.
 
 ## Mac OS
 
-Download the "JDK .pkg" from [adoptium.net](https://adoptium.net/temurin/releases/?version=22&os=mac).
+Download the "JDK .pkg" from [adoptium.net](https://adoptium.net/temurin/releases/?version=25&os=mac).
 
 Run the installer, selecting all the default options.
 
@@ -31,74 +31,8 @@ Run the installer, selecting all the default options.
 ## Linux
 
 Linux is a little annoying. If you are using it you are likely used to it
-by now, but you can use [adoptium.net](https://adoptium.net/temurin/releases/?version=22&os=linux) like everyone else, but there is no universal installer there.
+by now, but you can use [adoptium.net](https://adoptium.net/temurin/releases/?version=25&os=linux) like everyone else, but there is no universal installer there.
 
 You can either download the `.tar.gz` file that matches your machine, extract it,
 and add the `bin` folder to your `PATH`, or you can try to find an installer for your
 specific linux distribution.
-
-
-## repl.it
-
-[replit.com](https://replit.com) is a pretty common choice for teachers because
-they will be able to give you assignments and have you share back your results.
-It is also a decent option if your school only provides you with Chromebooks
-or similar.
-
-It requires an internet connection and you will have to make an account, but
-otherwise it is fairly convenient.
-
-If you are in school and your teacher has helped you get set up in some other
-way it is okay to skip this section and just do it the way you were shown.
-
-
-### Step 1. Make an account
-
-Go to [replit.com](https://replit.com) and find the "Sign Up" button.
-Websites change every now and then so these screenshots might be out of date.
-
-<img src="/getting_started/repl_signup_0.png"
-     alt="Picture of the sign up button on replit's website"
-     width = "200">
-
-Click it and sign up for an account.
-
-<img src="/getting_started/repl_signup_1.png"
-     alt="Picture of the sign up form on replit's website"
-     width = "200">
-
-### Step 2. Create a Java REPL
-
-Find the "Create REPL" button and click it.
-
-<img src="/getting_started/repl_1.png"
-     alt="Picture of the create repl button on replit's website"
-     width = "200">
-
-Then you should be presented with a menu that lets you search for the type of REPL to create.
-Find the Java template and click "Create".
-
-<img src="/getting_started/repl_2.png"
-     alt="Unfilled in create from template menu on replit"
-     width = "200">
-
-<img src="/getting_started/repl_3.png"
-     alt="Filled in create from template menu on replit"
-     width = "200">
-
-### Step 3. Run code
-
-You should land on a screen with a big green run button, an open file called
-"Main.java", and a blank window labeled "console".
-
-<img
-src="/getting_started/repl_4_voidmain.png"
-alt="Picture of an unran hello world program"
-width = "800">
-
-Click that run button, and you should see the text `Hello, world!` appear under the console window.
-
-<img
-src="/getting_started/repl_5_voidmain.png"
-alt="Picture of a hello world program after running"
-width = "800">

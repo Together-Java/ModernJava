@@ -1,5 +1,7 @@
 # Local Variables
 
+<img src="/variables/header.png" height="200px"/>
+
 Mechanically, the next thing to cover is "variables".
 
 

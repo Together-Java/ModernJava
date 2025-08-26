@@ -1,5 +1,7 @@
 # Booleans
 
+<img src="/boolean/header.png" height="200px"/>
+
 A `boolean` is either `true` or `false`.
 
 ```java,no_run

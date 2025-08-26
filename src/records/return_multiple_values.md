@@ -9,7 +9,7 @@ A record is likely better for that purpose than a regular class.
 record Location(double latitude, double longitude) {}
 
 Location findTreasureIsland() {
-    return new Location(40.2085, -3.713);
+    return new Location(51.4075, 0.4636);
 }
 
 void main() {
