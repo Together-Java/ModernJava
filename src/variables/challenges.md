@@ -63,6 +63,7 @@ void main() {
 }
 ```
 
+<!-- Count not figure out: https://discord.com/channels/272761734820003841/1409741482293858405/1409779369647276074-->
 ## Challenge 4
 
 Only adding lines in the middle and without writing `"A"` or `"B"` again,
@@ -90,7 +91,24 @@ void main() {
 
 To be clear: you are not allowed to write `b = "A";` or `a = "B";` 
 
-As a hint: you can always make new variables.
+<details>
+    <summary> Hint 1: </summary>
+    <p> You can always make new variables.</p>
+</details>
+
+<details>
+    <summary> Hint 2: </summary>
+    <p> What you need to do is make a "temporary variable" to hold one of the values before you swap them.</p>
+</details>
+
+<details>
+    <summary> Solution </summary>
+    <p><pre>
+String temp = a;
+a = b;
+b = temp;
+</pre></p>
+</details>
 
 ## Challenge 5
 
