@@ -92,10 +92,6 @@ You are not allowed to write `b = "A";` or `a = "B";`
 
 ## Challenge 5
 
-If your solution to the previous challenge was this:
-
-## Challenge 5
-
 Some of the variables in this program are named "wrong."[^byconvention] Fix them.
 
 ```java,editable
