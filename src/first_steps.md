@@ -38,6 +38,8 @@ This bit of magic here - `IO.println` - is a "statement" that "prints" the text 
 
 **print** with new **l**i**n**e.
 
+The "`IO`" part stands for "Input/Output."
+
 If you were to replace it with `IO.print`, then the output would lack that new line. This makes the following program be functionally identical to the first.
 
 ```java
