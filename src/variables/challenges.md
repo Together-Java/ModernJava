@@ -90,6 +90,8 @@ void main() {
 
 You are not allowed to write `b = "A";` or `a = "B";` 
 
+As a hint: you can always make new variables.
+
 ## Challenge 5
 
 Some of the variables in this program are named "wrong."[^byconvention] Fix them.
