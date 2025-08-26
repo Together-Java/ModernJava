@@ -1,5 +1,8 @@
 # Switch III
 
+
+<img src="/switch_iii/header.png" height="200px"/>
+
 The switch statement in Java originally came from a little language you might know
 about called `C`.
 

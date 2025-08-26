@@ -1,5 +1,8 @@
 # Loops III
 
+
+<img src="/loops_iii/header.png" height="200px"/>
+
 Counting indexes of elements is, while effective, a tad
 exhausting to do every time you want to loop through something.
 

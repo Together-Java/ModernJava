@@ -1,5 +1,8 @@
 # Return
 
+
+<img src="/return_values/header.png" height="200px"/>
+
 If the only thing you could do with methods was to call them,
 they would have limited uses.
 

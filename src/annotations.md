@@ -1,5 +1,8 @@
 # Annotations
 
+
+<img src="/annotations/header.png" height="200px"/>
+
 Comments are useful when reading code. Since they can contain any text,
 you can use them to clarify your intent, make note of issues to address
 later, etc.
@@ -21,7 +24,7 @@ class Main {
         }
     }
 
-    int main() {
+    void main() {
         IO.println(addOne(5));
         IO.println(absoluteValue(-25));
     }
@@ -49,7 +52,7 @@ class Main {
         }
     }
 
-    int main() {
+    void main() {
         IO.println(addOne(5));
         IO.println(absoluteValue(-25));
     }

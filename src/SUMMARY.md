@@ -15,12 +15,9 @@
     - [w3schools](./examples/w3schools.md)
     
 Project ideas:
-    calorie tracker
     tic tac toe
     chess
     go
-    CSV
-    image stuff with the PPM format
 
     swing game - maybe have a simplified game engine
 
@@ -37,12 +34,71 @@ airplane physics program
 ball throw physics program
 chemical stuff
 
-(after bytes) Make an audio file. Play hot cross buns.
 
 snake
 2048
 colors
 battleship
+
+CLI Hangman
+Tic Tac Toe AI
+
+TODO App
+
+Task Description - data formats
+
+Approximate PI
+
+Pomodoro timer ()
+Terminal ANKI (might require threads)
+
+Simple REST API
+HTML
+
+- [Tic-Tac-Toe]()
+- [Chicken Nugget Numbers]()
+
+* Argument Objects (InputArgs)
+* Cursor Objects (sql)
+* Exception Hierarchies
+* Interior Iteration
+
+Make your own iterator
+
+# Projects II
+
+ https://michaelxing.com/UltimateTTT/v3/
+- [Ultimate Tic-Tac-Toe]()
+
+Circuit Builder Resistance Solver
+
+Draw a circuit.
+
+Adjacency Matrix
+
+BFS
+
+Have a project that is just klarna but the your goal is "never write this program."
+
+- [Journal Entries]()
+
+sealed interfaces
+lambdas
+
+easy vs. simple
+
+enshittification state machine example (Acquire -> Make good for business bad for users -> Bad for everyone)
+
+Zombie Game
+
+try to trick someone into making that.
+LegBeanProviderFactory
+
+
+stuff in mooc i do not have 
+Streams
+Intro to testing
+Gui stuff
 -->
 
 # Modern Java
@@ -51,6 +107,8 @@ battleship
   - [Asking for Help](./prelude/asking_for_help.md)
   - [Toy Problems](./prelude/toy_problems.md)
   - [Lies](./prelude/lies.md)
+  - [AI](./prelude/ai.md)
+  - [Java](./prelude/java.md)
 - [Getting Started](./getting_started.md)
 - [First Steps](./first_steps.md)
   - [Comments](./first_steps/comments.md)
@@ -123,6 +181,16 @@ battleship
   - [Access Individual Characters](./strings/access_individual_characters.md)
   - [Challenges](./strings/challenges.md)
 
+# Interactive Programs
+
+- [Standard Input](./standard_input.md)
+  - [Prompting](./standard_input/prompting.md)
+  - [Interpreting Input](./standard_input/interpreting_input.md)
+  - [Integers](./standard_input/integers.md)
+  - [Floating Point Numbers](./standard_input/floating_point_numbers.md)
+  - [Other Types](./standard_input/other_types.md)
+  - [Challenges](./standard_input/challenges.md)
+
 # Control Flow I
 
 - [Branching Paths](./branching_paths.md)
@@ -153,6 +221,12 @@ battleship
   - [Iterate over a String](./loops/iterate_over_a_string.md)
   - [Challenges](./loops/challenges.md)
 
+# Projects
+
+<!-- Software is an Interdisciplinary Field -->
+- [Prelude](./projects/prelude.md)
+- [Calorie Tracker](./projects/calorie_tracker.md)
+
 # Data Types II
 
 - [Arrays](./arrays.md)
@@ -168,10 +242,6 @@ battleship
   - [Difference between Initializer and Literal](./arrays/difference_between_initializer_and_literal.md)
   - [Initialization with new](./arrays/initialization_with_new.md)
   - [Challenges](./arrays/challenges.md)
-
-# Projects
-
-- [The Boston Molasses Disaster Game]() <!-- Make sure they know it was because of deregulation -->
 
 # Control Flow II
 
@@ -226,11 +296,26 @@ battleship
   - [Unreachable Statements](./return_values/unreachable_statements.md)
   - [Challenges](./return_values/challenges.md)
 
-# Projects
-
-- [Tic-Tac-Toe]()
 
 # Data Types III
+
+- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
+  - [Declaration](./multi_dimensional_arrays/declaration.md)
+  - [Array Initializers](./multi_dimensional_arrays/array_initializers.md)
+  - [Initialization with new](./multi_dimensional_arrays/initialization_with_new.md)
+  - [Access Individual Elements](./multi_dimensional_arrays/access_individual_elements.md)
+  - [Set Individual Elements](./multi_dimensional_arrays/set_individual_elements.md)
+  - [Initialization with Size](./multi_dimensional_arrays/initialize_with_size.md)
+  - [Default Values](./multi_dimensional_arrays/default_values.md)
+  - [Populate Values](./multi_dimensional_arrays/populate_values.md)
+  - [Ragged Arrays](./multi_dimensional_arrays/ragged_arrays.md)
+  - [Challenges](./multi_dimensional_arrays/challenges.md)
+
+# Projects
+
+- [ASCII Art Generator](./projects/ascii_art.md)
+
+# Data Types IV
 
 - [null](./null.md)
   - [Null as Absence](./null/null_as_absence.md)
@@ -253,10 +338,6 @@ battleship
   - [Populate Arrays](./arrays_ii/populate_arrays.md)
   - [Challenges](./arrays_ii/challenges.md)
 
-# Projects II
-
-<!-- https://michaelxing.com/UltimateTTT/v3/ -->
-- [Ultimate Tic-Tac-Toe]()
 
 # Code Structure II
 
@@ -285,7 +366,15 @@ battleship
   - [Clarity](./instance_methods/clarity.md)
   - [Challenges](./instance_methods/challenges.md)
 
-# Data Types IV
+
+
+# Projects
+
+<!-- chicken nugget number type things come up when dispensing change -->
+- [Point of Sale System](./projects/point_of_sale_system.md)
+
+
+# Data Types V
 
 - [Enums](./enums.md)
   - [Declaration](./enums/declaration.md)
@@ -318,10 +407,22 @@ battleship
   - [ints](./switch/ints.md)
   - [Enums](./switch/enums.md)
   - [Omitted Default](./switch/omitted_default.md)
-  - [Exhaustiveness](./switch/exhaustiveness.md)
   - [Combining Cases](./switch/combining_cases.md)
   - [null](./switch/null.md)
+  - [Exhaustiveness](./switch/exhaustiveness.md)
   - [Challenges](./switch/challenges.md)
+
+
+# Interactive Programs II
+
+- [Standard Input II](./standard_input_ii.md)
+  - [Reprompting](./standard_input_ii/reprompting.md)
+  - [Enums](./standard_input_ii/enums.md)
+  - [Delayed Assignment](./standard_input_ii/delayed_assignment.md)
+  - [Leniency](./standard_input_ii/leniency.md)
+  - [Aggregating Data](./standard_input_ii/aggregating_data.md)
+  - [Challenges](./standard_input_ii/challenges.md)
+
 
 # Code Structure III
 
@@ -341,6 +442,12 @@ battleship
   - [Inferred Types](./global_fields/inferred_types.md)
   - [Challenges](./global_fields/challenges.md)
 
+# Projects
+
+<!-- chicken nugget number type things come up when dispensing change -->
+- [Tic-Tac-Toe]()
+
+
 # Concepts
 
 - [Code is Read more than Written](./code_is_read_more_than_written.md)
@@ -350,15 +457,7 @@ battleship
   - [Audience](./code_is_read_more_than_written/audience.md)
   - [Practice](./code_is_read_more_than_written/practice.md)
 
-# Interactive Programs
 
-- [Standard Input](./standard_input.md)
-  - [Prompting](./standard_input/prompting.md)
-  - [Interpreting Input](./standard_input/interpreting_input.md)
-  - [Reprompting](./standard_input/reprompting.md)
-  - [Leniency](./standard_input/leniency.md)
-  - [Delayed Assignment](./standard_input/delayed_assignment.md)
-  - [Transporting Data](./standard_input/transporting_data.md)
 
 # The Computing Environment
 
@@ -395,15 +494,17 @@ battleship
   - [Unchecked Exceptions](./exceptions_ii/unchecked_exceptions.md)
   - [throws](./exceptions_ii/throws.md)
   - [Propagating Exceptions](./exceptions_ii/propagating_exceptions.md)
-  - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
   - [Exception](./exceptions_ii/exception.md)
   - [RuntimeException](./exceptions_ii/runtime_exception.md)
+  - [Rethrowing Exceptions](./exceptions_ii/rethrowing_exceptions.md)
   - [main](./exceptions_ii/main.md)
+  - [Challenges](./exceptions_ii/challenges.md)
 - [Switch II](./switch_ii.md)
   - [Yield](./switch_ii/yield.md)
   - [Omitted Yield](./switch_ii/omitted_yield.md)
   - [Exhaustiveness](./switch_ii/exhaustiveness.md)
   - [Return a Switch](./switch_ii/return_a_switch.md)
+  - [Challenges](./switch_ii/challenges.md)
 
 # Code Structure IV
 
@@ -414,12 +515,14 @@ battleship
   - [File names](./multi_file_programs/file_names.md)
   - [The Anonymous Main Class](./multi_file_programs/the_anonymous_main_class.md)
   - [Global Fields](./multi_file_programs/global_fields.md)
+  - [Challenges](./multi_file_programs/challenges.md)
 - [Visibility](./visibility.md)
   - [Private Methods](./visibility/private_methods.md)
   - [Private Fields](./visibility/private_fields.md)
   - [Invariants](./visibility/invariants.md)
   - [Accessors](./visibility/accessors.md)
   - [Getters and Setters](./visibility/getter_and_setters.md)
+  - [Challenges](./visibility/challenges.md)
 - [Static Fields](./static_fields.md)
   - [Declaration](./static_fields/declaration.md)
   - [Initialization](./static_fields/initialization.md)
@@ -427,6 +530,7 @@ battleship
   - [Constants](./static_fields/constants.md)
   - [Controversy](./static_fields/controversy.md)
   - [Naming](./static_fields/naming.md)
+  - [Challenges](./static_fields/challenges.md)
 - [Static Methods](./static_methods.md)
   - [Declaration](./static_methods/declaration.md)
   - [Scope](./static_methods/scope.md)
@@ -434,6 +538,7 @@ battleship
   - [Usage](./static_methods/usage.md)
   - [Math](./static_methods/math.md)
   - [Factories](./static_methods/factories.md)
+  - [Challenges](./static_methods/challenges.md)
 
 # Data Structures & Algorithms
 
@@ -444,13 +549,14 @@ battleship
   - [Performance Problems](./growable_arrays/performance_problems.md)
   - [Performance Solutions](./growable_arrays/performance_solutions.md)
   - [Optimized Implementation](./growable_arrays/optimized_implementation.md)
+  - [Challenges](./growable_arrays/challenges.md)
 
 # Interactive Programs II
 
 - [Command Line Arguments](./command_line_arguments.md)
   - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
   - [Conventions](./command_line_arguments/conventions.md)
-
+  - [Challenges](./command_line_arguments/challenges.md)
 
 # Code Structure V
 
@@ -463,12 +569,14 @@ battleship
   - [The anonymous main class](./inner_classes/the_anonymous_main_class.md)
   - [Static Inner Classes](./inner_classes/static_inner_classes.md)
   - [Private Inner Classes](./inner_classes/private_inner_classes.md)
+  - [Challenges](./inner_classes/challenges.md)
 - [Packages](./packages.md)
   - [Declaration](./packages/declaration.md)
   - [Visibility](./packages/visibility.md)
   - [Public Classes](./packages/public_classes.md)
   - [Fully Qualified Class Name](./packages/fully_qualified_class_name.md)
   - [Import](./packages/import.md)
+  - [Package Imports](./packages/package_imports.md)
   - [The Default Package](./packages/the_default_package.md)
   - [The Anonymous Main Class](./packages/the_anonymous_main_class.md)
   - [Public Methods](./packages/public_methods.md)
@@ -480,8 +588,9 @@ battleship
   - [Package-Private Constructors](./packages/package_private_constructors.md)
   - [Subpackages](./packages/subpackages.md)
   - [Reverse Domain Name Notation](./packages/reverse_domain_name_notation.md)
+  - [Challenges](./packages/challenges.md)
 
-# Data Types IV
+# Data Types VI
 
 - [Records](./records.md)
   - [Declaration](./records/declaration.md)
@@ -492,6 +601,7 @@ battleship
   - [Check for Equality](./records/check_for_equality.md)
   - [Return Multiple Values](./records/return_multiple_values.md)
   - [Shorthand](./records/shorthand.md)
+  - [Challenges](./records/challenges.md)
 
 - [Integers II](./integers_ii.md)
   - [Integer from a String](./integers_ii/integer_from_a_string.md)
@@ -500,6 +610,7 @@ battleship
   - [Integer from a Base 16 String](./integers_ii/integer_from_a_base_16_string.md)
   - [Integer to a Base 16 String](./integers_ii/integer_to_a_base_16_string.md)
   - [Underscores in Integer Literals](./integers_ii/underscores_in_integer_literals.md)
+  - [Challenges](./integers_ii/challenges.md)
 
 
 # Interactive Programs III
@@ -514,7 +625,13 @@ battleship
   - [Challenges](./files/challenges.md)
 
 
+# Projects
 
+<!-- - [Buy Now, Pay Later](./projects/buy_now_pay_later.md) -->
+- [Data Visualization](./projects/data_visualization.md)
+
+
+  
 <!--
 # Data Structures & Algorithms II
 
@@ -531,6 +648,7 @@ battleship
   - [@Override](./objects/override.md)
   - [equals and hashCode](./objects/equals_and_hashCode.md)
   - [Override equals and hashCode](./objects/override_equals_and_hashCode.md)
+  - [Challenges](./objects/challenges.md)
   <!--- [Variance and Casting](./objects/variance_and_casting.md)
   - [Subclasses](./objects/subclasses.md)-->
 
@@ -541,6 +659,7 @@ battleship
   - [Inference](./generics/inference.md)
   - [Soundness](./generics/soundness.md)
   - [Raw Types](./generics/raw_types.md)
+  - [Challenges](./generics/challenges.md)
 - [Interfaces](./interfaces.md)
   - [Interface Declaration](./interfaces/interface_declaration.md)
   - [Implementation](./interfaces/implementation.md)
@@ -548,8 +667,8 @@ battleship
   - [Naming](./interfaces/naming.md)
   - [Subtypes](./interfaces/subtypes.md)
   - [Multiple Implementations](./interfaces/multiple_implementations.md)
-
-# Data Types V
+  - [Challenges](./interfaces/challenges.md)
+# Data Types VII
 
 <!-- Note: Put a joke about the "A train leaves chicago at ..." problems.
 Make them do one. -->
@@ -572,6 +691,7 @@ Make them do one. -->
   - [Loop over items](./array_list/loop_over_items.md)
   - [Set an item](./array_list/set_an_item.md)
   - [Remove an item](./array_list/remove_an_item.md)
+  - [Challenges](./array_list/challenges.md)
 - [HashMap](./hash_maps.md)
   - [Filing Cabinets](./hash_maps/filing_cabinets.md)
   - [Keys and Values](./hash_maps/keys_and_values.md)
@@ -584,6 +704,7 @@ Make them do one. -->
   - [Value Based Identity](./hash_maps/value_based_identity.md)
   - [Appropriate Keys](./hash_maps/appropriate_keys.md)
   - [Ubiquity](./hash_maps/ubiquity.md)
+  - [Challenges](./hash_maps/challenges.md)
 
   <!-- - [Function Range](./hash_maps/function_range.md)
   - [Buckets](./hash_maps/buckets.md) -->
@@ -602,6 +723,7 @@ Make them do one. -->
   - [return](./switch_iii/return.md)
   - [default](./switch_iii/default.md)
   - [yield](./switch_iii/yield.md)
+  - [Challenges](./switch_iii/challenges.md)
 - [Recursion](./recursion.md)
   - [Disclaimer](./recursion/disclaimer.md)
   - [Base Case](./recursion/base_case.md)
@@ -611,6 +733,7 @@ Make them do one. -->
   - [Accumulators](./recursion/accumulators.md)
   - [Recurse Over a String](./recursion/recursing_over_strings.md)
   - [Recurse Over an Array](./recursion/recursing_over_arrays.md)
+  - [Challenges](./recursion/challenges.md)
 
 - [Loops III](./loops_iii.md)
   - [For-each loops](./loops_iii/for_each_loops.md)
@@ -620,8 +743,9 @@ Make them do one. -->
   - [String](./loops_iii/string.md)
   - [Concurrent Modifications](./loops_iii/concurrent_modifications.md)
   - [Inferred Types](./loops_iii/inferred_types.md)
+  - [Challenges](./loops_iii/challenges.md)
 
-# Concepts II
+# Concepts III
 
 - [Encapsulation](./encapsulation.md)
   - [Implementation Details](./encapsulation/implementation_details.md)
@@ -634,7 +758,7 @@ Make them do one. -->
   - [Information Hiding](./encapsulation/information_hiding.md)
 
 
-# Data Types VI
+# Data Types VIII
 
 - [Collections](./collections.md)
   - [List](./collections/list.md)
@@ -644,18 +768,8 @@ Make them do one. -->
   - [UnsupportedOperationException](./collections/unsupported_operation_exception.md)
   - [Factories](./collections/factories.md)
   - [Specificity](./collections/specificity.md)
+  - [Challenges](./collections/challenges.md)
 
-
-- [Multi-Dimensional Arrays](./multi_dimensional_arrays.md)
-  - [Declaration](./multi_dimensional_arrays/declaration.md)
-  - [Array Initializers](./multi_dimensional_arrays/array_initializers.md)
-  - [Initialization with new](./multi_dimensional_arrays/initialization_with_new.md)
-  - [Access Individual Elements](./multi_dimensional_arrays/access_individual_elements.md)
-  - [Set Individual Elements](./multi_dimensional_arrays/set_individual_elements.md)
-  - [Initialization with Size](./multi_dimensional_arrays/initialize_with_size.md)
-  - [Default Values](./multi_dimensional_arrays/default_values.md)
-  - [Populate Values](./multi_dimensional_arrays/populate_values.md)
-  - [Ragged Arrays](./multi_dimensional_arrays/ragged_arrays.md)
 
 # Metaprogramming
 
@@ -671,7 +785,7 @@ Make them do one. -->
   - [Get a Constructor](./reflection/get_a_constructor.md)
   - [Get all Constructors](./reflection/get_all_constructors.md)
   - [Invoke a Constructor](./reflection/invoke_a_constructor.md)
-
+  - [Challenges](./reflection/challenges.md)
 - [Annotations](./annotations.md)
   - [Declaration](./annotations/declaration.md)
   - [Usage](./annotations/usage.md)
@@ -682,6 +796,7 @@ Make them do one. -->
   - [@Retention](./annotations/retention.md)
   - [Reflective Access](./annotations/reflective_access.md)
   - [@Override](./annotations/override.md)
+  - [Challenges](./annotations/challenges.md)
   <!--  - [@Deprecated](./annotations/deprecated)
   - [@Repeatable]()Note: When doing javadoc, write about @Documented -->
 
@@ -702,6 +817,7 @@ Make them do one. -->
   - [Interface Extension](./interfaces_ii/interface_extension.md)
   - [Static Methods](./interfaces_ii/static_methods.md)
   - [Static Fields](./interfaces_ii/static_fields.md)
+  - [Challenges](./interfaces_ii/challenges.md)
 - [Class Extension](./class_extension.md)
   - [Extend a Class](./class_extension/extend_a_class.md)
   - [Inheritance](./class_extension/inheritance.md)
@@ -712,9 +828,17 @@ Make them do one. -->
   - [Relation to Interfaces](./class_extension/relation_to_interfaces.md)
   - [Relation to Encapsulation](./class_extension/relation_to_encapsulation.md)
   - [Final Classes](./class_extension/final_classes.md)
+  - [Challenges](./class_extension/challenges.md)
+
+<!--
+# Concepts IV
+
+- [Easy vs. Simple]()
+- [Read the Docs]()
+-->
 
 
-# Data Types VII
+# Data Types IX
 
 - [Niche Numerics](./niche_numerics.md)
   - [byte](./niche_numerics/byte.md)
@@ -722,47 +846,176 @@ Make them do one. -->
   - [long](./niche_numerics/long.md)
   - [Unsigned Operations](./niche_numerics/unsigned_operations.md)
   - [float](./niche_numerics/float.md)
+  - [Challenges](./niche_numerics/challenges.md)
+
+# Projects
+
+<!-- Make a WAV file that plays hot cross buns -->
+- [Music Maker](./projects/music_maker.md)
   
 # Code Structure VIII
 
 - [Modules](./modules.md)
   - [Declaration](./modules/declaration.md)
   - [Restrictions](./modules/restrictions.md)
-  - [Exports]()
-  - [Integrity]()
+  - [Exports](./modules/exports.md)
+  - [Requires](./modules/requires.md)
+  - [Module Imports](./modules/module_imports.md)
   - [java.base](./modules/java.base.md)
   - [The Unnamed Module](./modules/the_unnamed_module.md)
-  - [Module Imports](./modules/module_imports.md)
-  - [Multi-Module Directory Layout]()
+  - [Multi-Module Directory Layout](./modules/multi_module_directory_layout.md)
+  - [Purpose](./modules/purpose.md)
+  - [Challenges](./modules/challenges.md)
+
+- [Lambdas](./lambdas.md)
+  - [Functional Interfaces](./lambdas/functional_interfaces.md)
+  - [@FunctionalInterface](./lambdas/functional_interface_annotation.md)
+  - [Lambda Expressions](./lambdas/lambda_expressions.md)
+  - [Arguments](./lambdas/arguments.md)
+  - [Return](./lambdas/return.md)
+  - [Method References](./lambdas/method_references.md)
+  - [Inference](./lambdas/inference.md)
+  - [Built-In Functional Interfaces](./lambdas/built_in_functional_interfaces.md)
+  - [Runnable](./lambdas/runnable.md)
+  - [Function](./lambdas/function.md)
+  - [Checked Exceptions](./lambdas/checked_exceptions.md)
+  - [Challenges](./lambdas/challenges.md)
+
+<!--
 - [Lambdas](./lambdas.md)
   - [Functional Interfaces](./lambdas/functional_interfaces.md)
   - [@FunctionalInterface](./lambdas/functional_interface_annotation.md)
   - [Lambda Expressions](./lambdas/lambda_expressions.md)
   - [Method References](./lambdas/method_references.md)
-  - [Runnable]()
-  - [Function]()
-  - [Relation to Checked Exceptions]()
+  - [Runnable](./lambdas/runnable.md)
+  - [Function](./lambdas/function.md)
+  - [Checked Exceptions](./lambdas/checked_exceptions.md)
+  - [Challenges](./lambdas/challenges.md)
+
 - [Streams](./streams.md)
   - [map](./streams/map.md)
   - [filter](./streams/filter.md)
   - [Collectors](./streams/collectors.md)
   - [toList](./streams/toList.md)
   - [mapMulti](./streams/mapMulti.md)
-  - [Gatherers](./streams/gatherers.md)
+  - [Gatherers](./streams/gatherers.md) -->
 
 # Sharing Code
 
 - [Compilation](./compilation.md)
-  - [javac]()
-  - [--release]()
-- [Packaging]()
-  - [jar]()
-  - [--main-class]()
-- [Documentation]()
-  - [javadoc]()
+  - [javac](./compilation/javac.md)
+  - [Class Files](./compilation/class_files.md)
+  - [Modules](./compilation/modules.md)
+  - [Compile Multiple Files](./compilation/multiple_files.md)
+  - [Clean](./compilation/clean.md)
+  - [-g](./compilation/g.md)
+  - [Running Compiled Code](./compilation/running_compiled_code.md)
+  - [Challenges](./compilation/challenges.md)
+- [Packaging](./packaging.md)
+  - [jar](./packaging/jar.md)
+  - [Jar Files](./packaging/jar_files.md)
+  - [--module-path](./packaging/module_path.md)
+  - [--main-class](./packaging/main_class.md)
+  - [Libraries](./packaging/libraries.md)
+  - [Challenges](./packaging/challenges.md)
+
+# Tools
+
+- [just](./just.md)
+  - [Installation](./just/installation.md)
+  - [Justfile](./just/justfile.md)
+  - [Recipes](./just/recipes.md)
+  - [Dependencies](./just/dependencies.md)
+  - [Documentation Comments](./just/documentation_comments.md)
+  - [Further Reading](./just/further_reading.md)
+  - [Challenges](./just/challenges.md)
+
+# Sharing Code II
+
+<!-- 
+TODO: Wait for hermetic java
+- [Distribution](./distribution.md)
+  - [jars](./distribution/jars.md)
+  - [jlink]() -->
+- [Documentation](./documentation.md)
   - [Documentation Comments](./documentation/documentation_comments.md)
-- [Distribution]()
-  - [jlink]()
+  - [Format](./documentation/format.md)
+  - [javadoc](./documentation/javadoc.md)
+  - [Challenges](./documentation/challenges.md)
+
+# Data Types X
+
+- [Streams](./streams.md)
+  - [stream](./streams/stream.md)
+  - [map](./streams/map.md)
+  - [filter](./streams/filter.md)
+  - [Terminal Operations](./streams/terminal_operations.md)
+  - [Collectors](./streams/collectors.md)
+  - [Purpose](./streams/purpose.md)
+  - [Challenges](./streams/challenges.md)
+<!--
+- [Regular Expressions 🚧](./regular_expressions.md)
+  - [Theoretical Basis](./regular_expressions/theoretical_basis.md)
+  - [Pattern](./regular_expressions/pattern.md)
+  - [Exact Matches](./regular_expressions/exact_matches.md)
+  - [Character Classes](./regular_expressions/character_classes.md)
+  - [Cardinality Modifiers]()
+  - [Groups]()
+  - [Matcher]()
+  - [Pathological Cases]()
+  - [Power]()
+  -->
+
+# Conclusion
+
+- [What Now?](./conclusion/what_now.md)
+
+
+<!-- 
+- [Strings III 🚧]()
+
+Streams II
+  - Infinite Streams
+  - takeWhile
+  - limit
+  - dropWhile
+
+Streams III
+  - Gatherers
+
+varargs
+
+# Code Structure IX
+
+- [Sealed Interfaces 🚧]()
+  - [permits]()
+  - [non-sealed]()
+  - [Reflection]()
+- [Generics II 🚧]()
+  - [Bounds]()
+  - [Wildcards]()
+  - [Invariance]()
+
+# Control Flow VI
+
+- [Switch IV 🚧]()
+  - [Patterns]()
+  - [when]()
+
+# Testing
+
+- [Manual Testing 🚧]()
+- [Logging 🚧]()
+
+# Concurrent Programs
+
+- [Threads 🚧]()
+  - [UncaughtExceptionHandler]()
+  - [Races]()
+
+# Concepts IV
+
+- []()  -->
 
 <!--- 
 PROJECT IDEAS:
@@ -777,9 +1030,6 @@ PROJECT IDEAS:
 
 
 
-[HashMap](./hash_map.md)
-
-
 
 # Code Structure V
 - [Interface Extension](./interface_extension.md)
@@ -790,12 +1040,6 @@ PROJECT IDEAS:
 
 # Building
 
-- [Compilation]()
-- [Compile Java Code]()
-  - [Compile a List of Files]()
-  - [Specify Where to Find Sources]()
-  - [Enable Debug Info]()
-- [Package Java Code]()
 - [Consume External Libraries]()
 
 # Data Types VI
@@ -834,11 +1078,6 @@ PROJECT IDEAS:
 
 
 
-# Concepts
-
-
-# Concepts
-
 
 - [The Idiot Game](./the_idiot_game.md)
 
@@ -861,7 +1100,6 @@ PROJECT IDEAS:
 
 # Data Types VI
 
-- [Integers II]()
 - [Paths]()
 - [Exceptions II]()
 
@@ -869,12 +1107,7 @@ PROJECT IDEAS:
 
 # Algorithms II
 
-# Data Types VII
 
-- [Maps]()
-  - [HashMap]()
-- [Sets]()
-  - [HashSet]()
 
 <!--
 
@@ -898,9 +1131,6 @@ Maven
 XML
 Pom
 Multiversal Equality
-Reflection
-    Cover Invoking *public* constructs
-Javadoc and Documentation comments
 -->
 
 <!--
@@ -908,7 +1138,6 @@ Javadoc and Documentation comments
 - [Legacy Java]()
     - [Prelude]()
     - [Subpar]()
-        - [Short]()
         - [Scanner]()
         - [File]()
         - [Swing]()
@@ -916,9 +1145,6 @@ Javadoc and Documentation comments
     - [Crusty]()
         - [Vector]()
         - [Hashtable]()
-    - [Already Removed]()
-        - [Applets]()
-        - [Finalization]()
 -->
 
 <!--
@@ -987,6 +1213,8 @@ jshell
     - [Build Tool]
         - [Maven]
             - Dependencies
+
+SDL, Vulkan, IMGUI - the C world
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

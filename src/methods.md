@@ -1,5 +1,8 @@
 # Methods
 
+
+<img src="/methods/header.png" height="200px"/>
+
 All the code you have seen up until this point has lived inside of `void main() {}`.
 
 ```java

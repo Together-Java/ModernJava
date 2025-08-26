@@ -1,5 +1,9 @@
 # First Steps
 
+
+<img src="/first_steps/header.png" height="200px"/>
+
+
 If you made it through the [Getting Started section](./getting_started/hello_world.md) you've successfully run this program.
 
 ```java

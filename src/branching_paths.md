@@ -1,5 +1,7 @@
 # Branching Paths
 
+<img src="/branching_logic/header.png" height="200px"/>
+
 All the code I have shown you so far has run from top to bottom. That is, it has followed a single "path."
 
 Not all programs can follow a single path though.

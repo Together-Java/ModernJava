@@ -2,7 +2,7 @@
 
 If you have a `String` which contains text that can be interpreted
 as an integer you can convert it to an `int` using the `parseInt`
-static method on `Integer`.
+static method on `Integer`.[^already]
 
 ```java
 ~void main() {
@@ -41,3 +41,5 @@ try {
 ~}
 ```
 
+[^already]: You should actually already know this. I just never explained explicitly that parseInt was a static method or showed that you could catch _only_ the `NumberFormatException`. In my defense, `IO.readln`
+at one point came far later in the book.

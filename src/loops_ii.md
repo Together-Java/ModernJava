@@ -1,5 +1,8 @@
 # Loops II
 
+
+<img src="/loops_ii/header.png" height="200px"/>
+
 `while` loops are enough to make any looping logic that you might want, but
 they aren't the only kind of loops you will see.
 

@@ -1,5 +1,8 @@
 # Instance Methods
 
+
+<img src="/instance_methods/header.png" height="200px"/>
+
 In addition to having fields, classes can also have their own method
 definitions.
 

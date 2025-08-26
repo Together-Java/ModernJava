@@ -1,5 +1,7 @@
 # Visibility
 
+<img src="/visibility/header.png" height="200px"/>
+
 When code is all in one file, everything is "visible." This means that
 if there is a method you are always allowed to call it.
 

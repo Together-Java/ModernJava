@@ -28,29 +28,75 @@ are aliases for the variable's old value.
 char[] wordOne = { 'g', 'o' };
 char[] wordTwo = wordOne;
 // go
-IO.println(wordOne);
+IO.print("wordOne Length: ");
+IO.println(wordOne.length);
+IO.print(wordOne[0]);
+IO.print(wordOne[1]);
+IO.println();
 // go
-IO.println(wordTwo);
+IO.print("wordTwo Length: ");
+IO.println(wordTwo.length);
+IO.print(wordTwo[0]);
+IO.print(wordTwo[1]);
+IO.println();
+
+IO.println("-------");
 
 wordOne = new char[] { wordOne[0], wordOne[1], 's', 'h' };
 
 // gosh
-IO.println(wordOne);
+IO.print("wordOne Length: ");
+IO.println(wordOne.length);
+IO.print(wordOne[0]);
+IO.print(wordOne[1]);
+IO.print(wordOne[2]);
+IO.print(wordOne[3]);
+IO.println();
 // go
-IO.println(wordTwo);
+IO.print("wordTwo Length: ");
+IO.println(wordTwo.length);
+IO.print(wordTwo[0]);
+IO.print(wordTwo[1]);
+IO.println();
+
+
+IO.println("-------");
 
 wordTwo[0] = 'n';
 
 // gosh
-IO.println(wordOne);
+IO.print("wordOne Length: ");
+IO.println(wordOne.length);
+IO.print(wordOne[0]);
+IO.print(wordOne[1]);
+IO.print(wordOne[2]);
+IO.print(wordOne[3]);
+IO.println();
 // no
-IO.println(wordTwo);
+IO.print("wordTwo Length: ");
+IO.println(wordTwo.length);
+IO.print(wordTwo[0]);
+IO.print(wordTwo[1]);
+IO.println();
+
+
+IO.println("-------");
 
 wordOne[0] = 'p';
 
 // posh
-IO.println(wordOne);
+IO.print("wordOne Length: ");
+IO.println(wordOne.length);
+IO.print(wordOne[0]);
+IO.print(wordOne[1]);
+IO.print(wordOne[2]);
+IO.print(wordOne[3]);
+IO.println();
 // no
-IO.println(wordTwo);
+IO.print("wordTwo Length: ");
+IO.println(wordTwo.length);
+IO.print(wordTwo[0]);
+IO.print(wordTwo[1]);
+IO.println();
 ~}
 ```

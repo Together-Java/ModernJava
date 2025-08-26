@@ -1,5 +1,7 @@
 # Switch II
 
+<img src="/switch_ii/header.png" height="200px"/>
+
 A common thing to do is have a `switch` statement which assigns a value
 to a variable in each branch.
 

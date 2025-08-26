@@ -1,5 +1,8 @@
 # Strings
 
+
+<img src="/strings/header.png" height="200px"/>
+
 The `String` data type is used to represent text.
 
 ```java,no_run

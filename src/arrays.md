@@ -1,5 +1,8 @@
 # Arrays
 
+
+<img src="/arrays/header.png" height="200px"/>
+
 Arrays are used to represent a fixed-size collection of things.
 
 ```java,no_run

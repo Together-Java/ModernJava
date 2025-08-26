@@ -1,5 +1,8 @@
 # Strings II
 
+
+<img src="/strings_ii/header.png" height="200px"/>
+
 If you haven't already, you will eventually realize that `String`s are
 one of the most common data types you will use.
 

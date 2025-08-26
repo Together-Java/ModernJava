@@ -1,5 +1,7 @@
 # Reflection
 
+<img src="/reflection/header.png" height="200px"/>
+
 Reflection is what we call it when a program
 uses information about how it - the program - is structured
 in order to do things while running.

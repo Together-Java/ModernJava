@@ -1,5 +1,7 @@
 # Command Line Arguments
 
+<img src="/command_line_arguments/header.png" height="200px"/>
+
 When you run a program like so
 
 ```
