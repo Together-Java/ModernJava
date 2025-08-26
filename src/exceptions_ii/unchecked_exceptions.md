@@ -1,6 +1,6 @@
 # Unchecked Exceptions
 
-When a part of your code might throw a "unchecked" exception, other
+When a part of your code might throw an "unchecked" exception, other
 parts of your code do not need to account for that possibility.
 
 ```java
