@@ -32,3 +32,15 @@ String boss = "Jaqueline";
 IO.println(boss);
 ~}
 ```
+
+You may even use that name to give an initial value to another variable.
+
+```java
+~void main() {
+// Does the same thing as IO.println("Jaqueline");
+String boss = "Jaqueline";
+// You can use variables on the right of the = too.
+String person = boss;
+IO.println(person);
+~}
+```
