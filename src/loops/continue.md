@@ -10,6 +10,7 @@ The only other situation this will not happen is if a `continue` statement is re
 int x = 5;
 while (x > 0) {
     if (x == 4) {
+        x--; // Make sure the loop continues to 3
         continue;
     }
     IO.println(x + " is a good number");
