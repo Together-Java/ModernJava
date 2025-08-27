@@ -16,6 +16,7 @@ additional-css = ["ferris.css"]
 additional-js = ["ferris.js"]
 heading-split-level = 2
 default-theme = "light"
+preferred-default-theme = "light"
 
 [output.html.fold]
 enable = false # whether or not to enable section folding
