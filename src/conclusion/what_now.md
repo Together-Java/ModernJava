@@ -226,10 +226,10 @@ you do to make a full app in it, but it can't hurt.
 
 [Kotlin Android Tutorial here](https://kotlinlang.org/docs/android-overview.html)
 
-If you want to make Desktop or Mobile apps in Kotlin it is probably also worth checking out
-Jetpack Compose.
+If you want to make Desktop, Mobile, or Web apps in Kotlin it is probably also worth checking out
+Jetbrains Compose Multiplatfrom.
 
-[Getting Started for Jetpack Compose here](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html)
+[Getting Started for Jetbrains Compose Multiplatfrom here](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html)
 
 
 ### Others
