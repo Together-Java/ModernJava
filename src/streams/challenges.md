@@ -26,7 +26,7 @@ class Main {
 
 Translate the following code using a for-loop to code using streams.
 
-```java
+```java,editable
 import module java.base;
 
 class Main {
@@ -49,7 +49,7 @@ Read the documentation on [`Collector`](https://docs.oracle.com/en/java/javase/2
 
 Make an implementation of `Collector` that can collect elements into `MySpecialList`.
 
-```java
+```java,editable
 import module java.base;
 
 class MySpecialList<T> extends ArrayList<T> {}
