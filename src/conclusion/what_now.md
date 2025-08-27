@@ -187,7 +187,8 @@ learned JavaScript that is a good one to touch next.
 
 There are languages out there like TypeScript that compile to JavaScript -
 and you can find some projects out there that do much the same for Java -
-but just practically speaking learning JavaScript
+but just practically speaking learning JavaScript is going to be something
+you have to do at some point if you get into making websites.
 
 ### C#
 
@@ -261,4 +262,7 @@ context for quite yet:
 
 * Rust
 * Zig
+* Clojure
+
+
 [^wasm]: Fight me, WebAssembly fans.
