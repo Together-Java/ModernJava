@@ -9,7 +9,7 @@ For consuming a stream you use "terminal operations." Terminal operations
 The simplest terminal operation is `.forEach`. It consumes the entire stream and does
 something for each element in the flow.
 
-```java,no_run
+```java
 ~void main() {
 List<String> cities = List.of(
     "St. Louis", "Dallas", "London", "Tokyo"
@@ -24,7 +24,7 @@ cities.stream()
 Once a terminal operation has been performed the stream is no longer
 usable.
 
-```java
+```java,panics
 ~void main() {
 List<String> cities = List.of(
     "St. Louis", "Dallas", "London", "Tokyo"

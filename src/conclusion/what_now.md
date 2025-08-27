@@ -147,7 +147,7 @@ three paths.
 Path #1 is to learn Java Swing. This is an old crusty GUI framework that is kinda difficult to use
 but has the pro of coming with Java and being able to run on every potato in existence.
 
-[Docs for `java.desktop` (Swing) here](https://docs.oracle.com/en/java/javase/24/docs/api/jdk.httpserver/module-summary.html)
+[Docs for `java.desktop` (Swing) here](https://docs.oracle.com/en/java/javase/24/docs/api/java.desktop/module-summary.html)
 
 Path #2 is the learn JavaFX. By all accounts JavaFX is better software than Swing, but it was cursed
 by coming out at a point in history where desktop apps were no longer big business to develop. It
