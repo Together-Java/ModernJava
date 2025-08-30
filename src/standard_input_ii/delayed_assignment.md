@@ -12,7 +12,7 @@ The problem with this is that Java isn't smart enough to know that you always in
 void main() {
     String name;
     while (true) {
-        String name = IO.readln("What is your name? ");
+        name = IO.readln("What is your name? ");
         if (name.isBlank()) {
             IO.println("Name cannot be blank!");
             continue;
@@ -31,7 +31,7 @@ To get around this you can either give an explicit default value.
 void main() {
     String name = null;
     while (true) {
-        String name = IO.readln("What is your name? ");
+        name = IO.readln("What is your name? ");
         if (name.isBlank()) {
             IO.println("Name cannot be blank!");
             continue;
@@ -52,7 +52,7 @@ to see that the code in the loop will run at least once.
 void main() {
     String name;
     do {
-        String name = IO.readln("What is your name? ");
+        name = IO.readln("What is your name? ");
         if (name.isBlank()) {
             IO.println("Name cannot be blank!");
             continue;
