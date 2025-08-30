@@ -60,4 +60,4 @@ class Main {
 }
 ```
 
-[^utc]: UTC stands for "Coordinated Universal Time." No I don't know why the letters are in a different order [and at this point I'm too afraid to ask](https://knowyourmeme.com/memes/afraid-to-ask-andy).
+[^utc]: UTC stands for "Coordinated Universal Time" in English and "Temps Universel Coordonné" in French. The specific letter order of "UTC" (rather than "CUT" or "TUC") was chosen as a compromise between the two languages.
