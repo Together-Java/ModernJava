@@ -34,7 +34,7 @@ class Broom {
 class Witch {
     Object pullFromHat() {
         double r = Math.random();
-        if (Math.random() < 0.25) {
+        if (r < 0.25) {
             return new Spell("Ensmallen");
         }
         else if (r < 0.5) {
