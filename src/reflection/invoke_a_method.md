@@ -37,7 +37,7 @@ class Tea {
 ```
 
 For static methods you do not need an instance of the class to invoke them.
-Instead you need to pass the class itself as the first argument to `.invoke`.
+Instead, the first argument is ignored. You can pass `null`.
 
 ```java
 import java.lang.reflect.InvocationTargetException;
@@ -55,8 +55,8 @@ class Main {
             throw new RuntimeException(e);
         }
 
-        biteMethod.invoke(Apple.class, 5);
-        biteMethod.invoke(Apple.class, 1);
+        biteMethod.invoke(null, 5);
+        biteMethod.invoke(null, 1);
     }
 }
 
