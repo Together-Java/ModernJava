@@ -13,7 +13,7 @@ void main() {
 }
 ```
 
-But if you happen to know a number milliseconds after January 1, 1970 UTC[^epoch] you
+But if you happen to know the number of milliseconds since January 1, 1970 0:00 UTC[^epoch], you
 can get an `Instant` which represents that point in time with `Instant.ofEpochMilli`.
 
 ```java
