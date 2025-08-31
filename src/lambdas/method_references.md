@@ -17,7 +17,7 @@ class Main {
     }
 
     void main() {
-        Drummer drummer = () -> drum();
+        Drummer drummer = () -> doDrum();
         drummer.drum();
     }
 }
