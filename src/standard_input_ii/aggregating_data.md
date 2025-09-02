@@ -55,11 +55,6 @@ you can use a class.[^dto]
 class Person {
     String firstName;
     String lastName;
-
-    Person(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
 }
 
 Person askForName() {
@@ -87,7 +82,10 @@ Person askForName() {
         }
     } while (true);
     
-    return new Person(firstName, lastName);
+    var person = new Person();
+    person.firstName = firstName;
+    person.lastName = lastName;
+    return person;
 }
 
 void main() {
