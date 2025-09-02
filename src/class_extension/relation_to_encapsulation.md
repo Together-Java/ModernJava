@@ -72,7 +72,8 @@ class Airplane {
 
     void bookMany(List<String> passengers) {
         for (var passenger : passengers) {
-            bookOne(passenger);
+            // Only change
+            this.passengers.add(passenger);
         }
     }
 }

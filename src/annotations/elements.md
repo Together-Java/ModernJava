@@ -20,12 +20,18 @@ The method should take no arguments.
 }
 ```
 
-And the return value needs to be one of a few built-in types like `Class`, `String`, `int`, `boolean`, etc.[^fulllist], an `enum`, or an array of one of those.
+And the return value needs to be one of a few built-in types like `Class`, `String`, `int`, `boolean`, etc.[^fulllist], an `enum`, another annotation interface, or an array of one of those.
 
 ```java,no_run,does_not_compile
 enum Priority {
     HIGH,
     LOW
+}
+
+@interface Deadline {
+    int year();
+    int month();
+    int day();
 }
 
 class PersonInCharge {}
@@ -49,7 +55,10 @@ class PersonInCharge {}
     // Enums ✅
     Priority priority();
 
-    // Other Classes ❌
+    // Other annotations ✅
+    Deadline deadline();
+
+    // Other classes ❌
     PersonInCharge personInCharge();
 }
 ```
