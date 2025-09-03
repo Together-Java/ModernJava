@@ -33,7 +33,7 @@ package sky;
 // But classes within other packages of
 // the "reality" module can see it just fine.
 public class Cloud {
-    private final YelloCarpet fabricOfExistence
+    private final YellowCarpet fabricOfExistence
         = new YellowCarpet();
 
     // ...
