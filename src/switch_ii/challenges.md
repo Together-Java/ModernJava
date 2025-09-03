@@ -27,7 +27,7 @@ enum NaturalEnemy {
 }
 
 NaturalEnemy enemy(Profession p) {
-    switch (p) {
+    return switch (p) {
         case FIREFIGHTER -> {
             // CODE HERE
         };
