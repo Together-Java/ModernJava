@@ -32,7 +32,7 @@ enum StopLight {
 void main() {
     StopLight color;
     while (true) {
-    String colorString = IO.readln("What color was the stoplight? ");
+        String colorString = IO.readln("What color was the stoplight? ");
         try {
             color = StopLight.valueOf(colorString);
         } catch (RuntimeException e) {
