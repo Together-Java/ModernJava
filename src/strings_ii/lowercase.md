@@ -18,7 +18,7 @@ This does not change the original `String` in place. It just makes a new `String
 
 What about other languages? Many of them also have a distinction between uppercase and lowercase, and usually, `.toLowerCase()` does the right thing for them too:
 
-```java,no_run
+```java
 ~void main() {
 // Cyrillic
 IO.println("ПРИВЕТ".toLowerCase()); // prints "привет"
