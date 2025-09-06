@@ -34,7 +34,7 @@ interface Band {
 }
 ```
 
-Functions take input and return an output. We call them functional interfaces because with you can treat them as being functions whose input and output are the same as that one method to be implemented.
+Functions take input and return an output. We call them functional interfaces because you can treat them as being functions whose input and output are the same as that one method to be implemented.
 
 
 [^SAM]: You might also see these referred to as SAM interfaces. SAM for Single Abstract Method.
