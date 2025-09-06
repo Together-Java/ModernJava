@@ -32,7 +32,7 @@ module human {
 }
 ```
 
-These `requires` are not allowed form "cycles."
+These `requires` are not allowed to form "cycles."
 This means that `cat` cannot require `dog` if `dog` also
 requires `cat`, indirectly or otherwise.
 
