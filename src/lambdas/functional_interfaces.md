@@ -1,6 +1,6 @@
 # Functional Interfaces
 
-If an interface has only a one method that needs to be implemented we would call that a "functional interface."[^SAM]
+If an interface has only one method that needs to be implemented we would call that a "functional interface."[^SAM]
 
 ```java
 interface Band {
