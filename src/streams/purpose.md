@@ -21,7 +21,7 @@ for (double d : doubles) {
 }
 ```
 
-```java
+```java,no_run
 List<Double> doubles = List.of(1.5, 2.5, 3.9);
 
 List<Double> newDoubles = doubles.stream()

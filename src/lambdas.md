@@ -12,7 +12,7 @@ interface Band {
     void playHitSong();
 }
 
-class Starcadian implements Bank {
+class Starcadian implements Band {
     @Override
     public void playHitSong() {
         IO.println("ultralove");

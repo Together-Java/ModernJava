@@ -101,7 +101,6 @@ Intro to testing
 Gui stuff
 -->
 
-# Modern Java
 
 - [Prelude](./prelude.md)
   - [Asking for Help](./prelude/asking_for_help.md)
@@ -109,7 +108,46 @@ Gui stuff
   - [Lies](./prelude/lies.md)
   - [AI](./prelude/ai.md)
   - [Java](./prelude/java.md)
-- [Getting Started](./getting_started.md)
+
+# The Computing Environment
+
+- [Hardware](./hardware.md)
+  - [CPU](./hardware/cpu.md)
+  - [RAM](./hardware/ram.md)
+  - [Hard Drives](./hardware/hard_drives.md)
+  - [Motherboard](./hardware/motherboard.md)
+- [Operating Systems](./operating_systems.md)
+  - [Personal Computers](./operating_systems/personal_computers.md)
+  - [Servers](./operating_systems/servers.md)
+  - [Mobile Phones](./operating_systems/mobile_phones.md)
+  - [Game Consoles](./operating_systems/game_consoles.md)
+  - [Abstractions](./operating_systems/abstractions.md)
+  - [Defaults](./operating_systems/defaults.md)
+
+# Modern Java
+
+- [Set Up Your Computer](./text_editors/set_up_your_computer.md)
+  - [Text Editors](./text_editors.md)
+  - [IDEs](./text_editors/ides.md)
+  - [VSCodium](./text_editors/vscodium.md)
+  - [Install VSCodium](./text_editors/install_vscodium.md)
+  - [Install Java](./text_editors/install_java.md)
+- [The Terminal](./the_terminal.md)
+  - [Bash](./the_terminal/bash.md)
+  - [Windows Subsystem for Linux](./the_terminal/windows_subsystem_for_linux.md)
+  - [Chromebooks and School Computers](./the_terminal/chromebooks_and_school_computers.md)
+  - [Commands](./the_terminal/commands.md)
+  - [Directories](./the_terminal/directories.md)
+  - [Listing Files](./the_terminal/listing_files.md)
+  - [Creating Directories](./the_terminal/creating_directories.md)
+  - [Changing Directories](./the_terminal/changing_directories.md)
+  - [Creating Files](./the_terminal/creating_files.md)
+  - [Run Java Programs](./the_terminal/run_java_programs.md)
+  - [Getting Used to it](./the_terminal/getting_used_to_it.md)
+  - [Challenges](./the_terminal/challenges.md)
+
+
+<!-- - [Getting Started](./getting_started.md) -->
 - [First Steps](./first_steps.md)
   - [Comments](./first_steps/comments.md)
   - [Semicolons](./first_steps/semicolon.md)
@@ -445,7 +483,7 @@ Gui stuff
 # Projects
 
 <!-- chicken nugget number type things come up when dispensing change -->
-- [Tic-Tac-Toe]()
+- [Tic-Tac-Toe](./projects/tic_tac_toe.md)
 
 
 # Concepts
@@ -456,35 +494,6 @@ Gui stuff
   - [Information Density](./code_is_read_more_than_written/information_density.md)
   - [Audience](./code_is_read_more_than_written/audience.md)
   - [Practice](./code_is_read_more_than_written/practice.md)
-
-
-
-# The Computing Environment
-
-- [Hardware](./hardware.md)
-  - [CPU](./hardware/cpu.md)
-  - [RAM](./hardware/ram.md)
-  - [Hard Drives](./hardware/hard_drives.md)
-  - [Motherboard](./hardware/motherboard.md)
-- [Operating Systems](./operating_systems.md)
-  - [Personal Computers](./operating_systems/personal_computers.md)
-  - [Servers](./operating_systems/servers.md)
-  - [Mobile Phones](./operating_systems/mobile_phones.md)
-  - [Game Consoles](./operating_systems/game_consoles.md)
-  - [Abstractions](./operating_systems/abstractions.md)
-  - [Defaults](./operating_systems/defaults.md)
-- [The Terminal](./the_terminal.md)
-  - [Bash](./the_terminal/bash.md)
-  - [Windows Subsystem for Linux](./the_terminal/windows_subsystem_for_linux.md)
-  - [Chromebooks and School Computers](./the_terminal/chromebooks_and_school_computers.md)
-  - [Commands](./the_terminal/commands.md)
-  - [Directories](./the_terminal/directories.md)
-  - [Listing Files](./the_terminal/listing_files.md)
-  - [Creating Directories](./the_terminal/creating_directories.md)
-  - [Changing Directories](./the_terminal/changing_directories.md)
-  - [Creating Files](./the_terminal/creating_files.md)
-  - [Run Java Programs](./the_terminal/run_java_programs.md)
-  - [Getting Used to it](./the_terminal/getting_used_to_it.md)
 
 
 # Control Flow IV
@@ -551,7 +560,7 @@ Gui stuff
   - [Optimized Implementation](./growable_arrays/optimized_implementation.md)
   - [Challenges](./growable_arrays/challenges.md)
 
-# Interactive Programs II
+# Interactive Programs III
 
 - [Command Line Arguments](./command_line_arguments.md)
   - [Accessing Arguments](./command_line_arguments/accessing_arguments.md)
@@ -613,7 +622,7 @@ Gui stuff
   - [Challenges](./integers_ii/challenges.md)
 
 
-# Interactive Programs III
+# Interactive Programs IV
 
 - [Files](./files.md)
   - [Paths](./files/paths.md)
@@ -874,10 +883,9 @@ Make them do one. -->
   - [Arguments](./lambdas/arguments.md)
   - [Return](./lambdas/return.md)
   - [Method References](./lambdas/method_references.md)
+  - [Constructor References](./lambdas/constructor_references.md)
   - [Inference](./lambdas/inference.md)
   - [Built-In Functional Interfaces](./lambdas/built_in_functional_interfaces.md)
-  - [Runnable](./lambdas/runnable.md)
-  - [Function](./lambdas/function.md)
   - [Checked Exceptions](./lambdas/checked_exceptions.md)
   - [Challenges](./lambdas/challenges.md)
 
@@ -953,7 +961,11 @@ TODO: Wait for hermetic java
   - [Collectors](./streams/collectors.md)
   - [Purpose](./streams/purpose.md)
   - [Challenges](./streams/challenges.md)
+
+
 <!--
+Make a challenge where the solution is to write normal code.
+
 - [Regular Expressions 🚧](./regular_expressions.md)
   - [Theoretical Basis](./regular_expressions/theoretical_basis.md)
   - [Pattern](./regular_expressions/pattern.md)
@@ -964,7 +976,18 @@ TODO: Wait for hermetic java
   - [Matcher]()
   - [Pathological Cases]()
   - [Power]()
+
+# Interactive Programs IV
+
+- [Files II](./files_ii.md)
+  - [List Files](./files_ii/list_files.md)
+  - [Read Lines](./files_ii/read_lines.md)
+  - [InputStream](./files_ii/input_stream.md)
+  - [OutputStream](./files_ii/output_stream.md)
+  - [Reader](./files_ii/reader.md)
+  - [Writer](./files_ii/writer.md)
   -->
+
 
 # Conclusion
 
@@ -972,6 +995,7 @@ TODO: Wait for hermetic java
 
 
 <!-- 
+
 - [Strings III 🚧]()
 
 Streams II
