@@ -4,7 +4,7 @@
 <img src="/first_steps/header.png" height="200px"/>
 
 
-If you made it through the [Getting Started section](./getting_started.md) you've successfully run this program.
+If you made it through the ["Set Up Your Computer" section](./text_editors/set_up_your_computer.md) you've successfully run this program.
 
 ```java
 void main() {

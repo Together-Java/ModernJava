@@ -147,7 +147,7 @@ Gui stuff
   - [Challenges](./the_terminal/challenges.md)
 
 
-- [Getting Started](./getting_started.md)
+<!-- - [Getting Started](./getting_started.md) -->
 - [First Steps](./first_steps.md)
   - [Comments](./first_steps/comments.md)
   - [Semicolons](./first_steps/semicolon.md)
