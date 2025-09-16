@@ -51,7 +51,7 @@ IO.println(b);
 ~}
 ```
 
-You will most often want a `byte` when you are trying to save space in memory.
+You will most often use the `byte` type when working with data as sequences of bytes, such as reading from and writing to binary files. Representing binary data as arrays of `byte` values is more memory-efficient than representing each individual byte as, say, an `int`.
 
 ```java,no_run
 // This array of 4 bytes
