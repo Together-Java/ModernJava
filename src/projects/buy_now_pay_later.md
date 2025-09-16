@@ -5,7 +5,7 @@
 People exchange money for goods and/or services.
 
 Some of these purchases are non-essential. This means that they are,
-strictly speaking, optional. Ordering extra guacamole at a restraunt,
+strictly speaking, optional. Ordering extra guacamole at a restaurant,
 buying a brand new pair of shoes, and buying a diamond ring are all
 examples of non-essential spending.
 

@@ -18,8 +18,7 @@ you would run `java --class-path output chopin.Impromptu`.
 `--class-path` should be self-explanatory. It is the path where `java`
 will look for class files.
 
-But if you do not have any classes in the unnamed package - which will
-be hopefully be the case when you share code with others[^conflicts] -
+But if you do not have any classes in the unnamed package - which will hopefully be the case when you share code with others[^conflicts] -
 you instead want to run your code like this.
 
 ```
