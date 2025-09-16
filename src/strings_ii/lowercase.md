@@ -16,7 +16,7 @@ void main() {
 
 This does not change the original `String` in place. It just makes a new `String` with all lower-case letters.
 
-What about other languages? Many of them also have a distinction between uppercase and lowercase, and usually, `.toLowerCase()` does the right thing for them too:
+Many other languages also have a distinction between upper-case and lower-case and, usually, `.toLowerCase()` does the "right thing" for them too:
 
 ```java
 ~void main() {
@@ -25,4 +25,18 @@ IO.println("ПРИВЕТ".toLowerCase()); // prints "привет"
 ~}
 ```
 
-However, in different languages, the mapping between uppercase and lowercase characters can differ. For example, in Turkish, the lowercase form of the letter `I` is `ı` without a dot. By default, Java uses the rules for the language of the operating system, so `"I".toLowerCase()` will return `"i"` on an English system and `"ı"` on a Turkish one.
+In different languages the mapping between upper-case and lower-case letters can differ. 
+
+For example, in Turkish the lower-case form of the letter `I` is `ı` and not `i`. 
+By default, Java uses the rules for the language of the computer it is running on.
+So `"I".toLowerCase()` will return `"i"` on an English system and `"ı"` on a Turkish one.
+
+To get behavior that is consistent regardless of the machine it is being run on
+you can pass use an explicit `Locale`.
+
+```java
+~void main() {
+IO.println("I".toLowerCase(Locale.US)); // i - on every computer
+IO.println("I".toLowerCase(Locale.forLanguageTag("tr-TR"))); // ı - on every computer
+~}
+```

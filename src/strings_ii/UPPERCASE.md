@@ -13,3 +13,15 @@ void main() {
 ```
 
 This does not change the original `String` in place. It just makes a new `String` with all upper-case letters.
+
+Much like with `.toLowerCase()` you can optionally provide a `Locale` to get consistent behavior
+no matter what language the system is set to.
+
+```java
+void main() {
+    String message = "Happy Valentines Day";
+
+    String upperCased = message.toUpperCase(Locale.US);
+    IO.println(upperCased);
+}
+```
