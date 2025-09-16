@@ -1,6 +1,6 @@
 # lowercase
 
-In English[^otherlangs] letters can be either lower-cased (`a`, `b`, `c`) or upper-cased (`A`, `B`, `C`).
+In English, letters can be either lower-cased (`a`, `b`, `c`) or upper-cased (`A`, `B`, `C`).
 
 If you have a `String` which potentially contains upper-cased letters, you can get a new `String` with everything
 transformed into lower-case using the `.toLowerCase()` method.
@@ -16,6 +16,13 @@ void main() {
 
 This does not change the original `String` in place. It just makes a new `String` with all lower-case letters.
 
+What about other languages? Many of them also have a distinction between uppercase and lowercase, and usually, `.toLowerCase()` does the right thing for them too:
 
-[^otherlangs]: Other languages also have a notion of case. I am not a polyglot though, so I'm not qualified
-to talk about them.
+```java
+~void main() {
+// Cyrillic
+IO.println("ПРИВЕТ".toLowerCase()); // prints "привет"
+~}
+```
+
+However, in different languages, the mapping between uppercase and lowercase characters can differ. For example, in Turkish, the lowercase form of the letter `I` is `ı` without a dot. By default, Java uses the rules for the language of the operating system, so `"I".toLowerCase()` will return `"i"` on an English system and `"ı"` on a Turkish one.
