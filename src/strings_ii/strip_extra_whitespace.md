@@ -1,6 +1,6 @@
 # Strip extra whitespace
 
-If you have a `String` which might contains some extra "trailing" whitespace or extra "leading"
+If you have a `String` which might contains some "trailing" whitespace or "leading"
 whitespace, you can remove that by using the `.strip` method.
 
 This will give a new `String` with both the leading and trailing whitespace removed.
