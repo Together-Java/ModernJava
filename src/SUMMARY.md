@@ -144,7 +144,6 @@ Gui stuff
   - [Creating Files](./the_terminal/creating_files.md)
   - [Run Java Programs](./the_terminal/run_java_programs.md)
   - [Getting Used to it](./the_terminal/getting_used_to_it.md)
-  - [Challenges](./the_terminal/challenges.md)
 
 
 <!-- - [Getting Started](./getting_started.md) -->
