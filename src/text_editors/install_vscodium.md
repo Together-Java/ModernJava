@@ -47,7 +47,46 @@ Then follow the instructions below specific to what kind of computer you have.
 
 <details>
     <summary>Expand</summary>
-If you are on Windows you want to click this link.
+    <p>If you are on Windows you want to click this link.</p>
+
+<img src="/text_editors/windows_download.png" />
+
+<p>This will download a file. Double click it and it will open an installer like this. Follow it through to the end selecting all the default options</p>
+<img src="/text_editors/windows_installer.png" />
+
+
+<p>When you open the program it installs you should see a screen like this.</p>
+<img src="/text_editors/windows_blank.png" />
+
+<p>In the top-left corner select File -> Open Folder </p>
+<img src="/text_editors/windows_open_folder.png" />
+
+<p>Make a folder somewhere on your computer to store your code. It doesn't matter what you call it.</p>
+<img src="/text_editors/windows_new_folder.png" />
+<img src="/text_editors/windows_naming_folder.png" />
+
+<p>Then make a new file named <code>src/Main.java</code></p>
+<img src="/text_editors/windows_new_file.png" />
+<img src="/text_editors/windows_naming_new_file.png"/>
+
+<p>Inside of this file put the following contents. </p>
+
+```java,no_run
+void main() {
+    IO.println("Hello, world");
+}
+```
+
+<p> Now skip ahead to the next section on installing Java. Come back when you are done. </p>
+
+<p> Once you are back you want to open a new terminal. </p>
+
+<img src="/text_editors/windows_new_terminal.png"/>
+
+<p> Type <code>java src/Main.java</code> in the terminal and press enter to run your first program.
+If this doesn't work you might need to restart your computer or you might have messed up a step.</p>
+
+<img src="/text_editors/windows_run_code.png"/>
 </details>
 
 ## MacOS
