@@ -109,6 +109,7 @@ Gui stuff
   - [AI](./prelude/ai.md)
   - [Java](./prelude/java.md)
 
+<!--
 # The Computing Environment
 
 - [Hardware](./hardware.md)
@@ -123,6 +124,7 @@ Gui stuff
   - [Game Consoles](./operating_systems/game_consoles.md)
   - [Abstractions](./operating_systems/abstractions.md)
   - [Defaults](./operating_systems/defaults.md)
+-->
 
 # Modern Java
 
