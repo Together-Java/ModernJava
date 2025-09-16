@@ -21,6 +21,7 @@ no matter what language the system is set to.
 void main() {
     String message = "Happy Valentines Day";
 
+    // Same as above, no matter what.
     String upperCased = message.toUpperCase(Locale.US);
     IO.println(upperCased);
 }
