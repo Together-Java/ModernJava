@@ -17,7 +17,7 @@ other children. A loser, yes - but smart.
 
 Even today when I go to dinner with my siblings or parents we ask for the kids'
 menu and crayons over 50% of the time. We then
-play at least one game of tic-tac-toe at the table of a nice Italian restraunt[^not].
+play at least one game of tic-tac-toe at the table of a nice Italian restaurant[^not].
 
 
 ## Your Goal
