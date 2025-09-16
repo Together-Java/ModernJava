@@ -15,8 +15,9 @@ import module java.base;
 
 class Main {
     void main() {
-        for (int i = 0; i < 10; i++) {
-            IO.println(i);
+        List<Integer> numbers = List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        for (int n : numbers) {
+            IO.println(n);
         }
     }
 }
@@ -63,3 +64,8 @@ class Main {
     }
 }
 ```
+
+<details>
+    <summary> Hint 1 </summary>
+    <p> Look at the `Collector.of` static methods </p>
+</details>

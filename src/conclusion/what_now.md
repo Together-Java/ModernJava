@@ -142,7 +142,7 @@ most employable one of the many HTTP server options out there.
 ### Desktop Applications
 
 If you want to learn how to make desktop applications in Java you have basically
-three paths.
+two paths.
 
 Path #1 is to learn Java Swing. This is an old crusty GUI framework that is kinda difficult to use
 but has the pro of coming with Java and being able to run on every potato in existence.

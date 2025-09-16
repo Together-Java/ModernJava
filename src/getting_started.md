@@ -1,6 +1,21 @@
 # Getting Started
 
-There are a lot of ways to "get set up" to run Java code.
+There are a lot of ways to "get set up" to run Java code. 
+
+
+
+For the first chunk of this book it will only matter that you have the
+ability to run Java code. The guides below will be aiming to get you 
+to that point.
+
+After the section 
+
+## Chromebooks / Mobile Phones
+
+
+
+One is to get set up "for real." This means Java is fully set up on your system
+and all the comman
 
 For at least the first chunk of this, you should be able to get away with using
 the editor on [https://run.mccue.dev](https://run.mccue.dev). That might be the easiest.
@@ -20,6 +35,9 @@ void main() {
 Download the "JDK MSI" from [adoptium.net](https://adoptium.net/temurin/releases/?version=25&os=windows).
 
 Run the installer, selecting all the default options.
+
+Then you should download 
+
 
 ## Mac OS
 
