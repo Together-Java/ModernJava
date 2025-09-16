@@ -142,12 +142,12 @@ most employable one of the many HTTP server options out there.
 ### Desktop Applications
 
 If you want to learn how to make desktop applications in Java you have basically
-three paths.
+two paths.
 
 Path #1 is to learn Java Swing. This is an old crusty GUI framework that is kinda difficult to use
 but has the pro of coming with Java and being able to run on every potato in existence.
 
-[Docs for `java.desktop` (Swing) here](https://docs.oracle.com/en/java/javase/24/docs/api/jdk.httpserver/module-summary.html)
+[Docs for `java.desktop` (Swing) here](https://docs.oracle.com/en/java/javase/24/docs/api/java.desktop/module-summary.html)
 
 Path #2 is the learn JavaFX. By all accounts JavaFX is better software than Swing, but it was cursed
 by coming out at a point in history where desktop apps were no longer big business to develop. It
@@ -187,7 +187,8 @@ learned JavaScript that is a good one to touch next.
 
 There are languages out there like TypeScript that compile to JavaScript -
 and you can find some projects out there that do much the same for Java -
-but just practically speaking learning JavaScript
+but just practically speaking learning JavaScript is going to be something
+you have to do at some point if you get into making websites.
 
 ### C#
 
@@ -226,10 +227,10 @@ you do to make a full app in it, but it can't hurt.
 
 [Kotlin Android Tutorial here](https://kotlinlang.org/docs/android-overview.html)
 
-If you want to make Desktop or Mobile apps in Kotlin it is probably also worth checking out
-Jetpack Compose.
+If you want to make Desktop, Mobile, or Web apps in Kotlin it is probably also worth checking out
+Jetbrains Compose Multiplatfrom.
 
-[Getting Started for Jetpack Compose here](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html)
+[Getting Started for Jetbrains Compose Multiplatfrom here](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html)
 
 
 ### Others
@@ -261,4 +262,7 @@ context for quite yet:
 
 * Rust
 * Zig
+* Clojure
+
+
 [^wasm]: Fight me, WebAssembly fans.

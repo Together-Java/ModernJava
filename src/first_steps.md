@@ -4,7 +4,7 @@
 <img src="/first_steps/header.png" height="200px"/>
 
 
-If you made it through the [Getting Started section](./getting_started/hello_world.md) you've successfully run this program.
+If you made it through the ["Set Up Your Computer" section](./text_editors/set_up_your_computer.md) you've successfully run this program.
 
 ```java
 void main() {
@@ -36,7 +36,7 @@ IO.println("Hello, World!");
 
 This bit of magic here - `IO.println` - is a "statement" that "prints" the text inside the `(` and `)` as well as a "new line" to the screen.
 
-**print** with new **l**i**n**e.
+The "`IO`" part stands for "Input/Output" then it is **print** with new **l**i**n**e.
 
 If you were to replace it with `IO.print`, then the output would lack that new line. This makes the following program be functionally identical to the first.
 

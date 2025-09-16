@@ -17,12 +17,12 @@ if (isLeapYear && !bloodMoon && (age > 30 || catName.equals("fred"))) {
 
 But it can be burdensome if all you are doing is checking if some variable has a particular value.
 
-```java
+```java,no_run
 ~void main() {
 if (food.equals("apple")) {
     IO.println("Red");
 }
-else if (name.equals("grape")) {
+else if (food.equals("grape")) {
     IO.println("Purple");
 }
 else if (food.equals("orange")) {
@@ -36,7 +36,7 @@ else {
 
 For these situations, you can use a `switch`.
 
-```java
+```java,no_run
 switch (fruit) {
     case "apple" -> {
         IO.println("Red");

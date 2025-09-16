@@ -60,4 +60,4 @@ class Main {
 }
 ```
 
-[^utc]: UTC stands for "Coordinated Universal Time" in English and "Temps Universel Coordonné" in French. The specific letter order of "UTC" (rather than "CUT" or "TUC") was chosen as a compromise between the two languages.
+[^utc]: UTC stands for "Coordinated Universal Time" in English and "Temps Universel Coordonné" in French. The specific letter order of "UTC" (rather than "CUT" or "TUC") was chosen as [a compromise between the two languages](https://www.nist.gov/pml/time-and-frequency-division/how-utcnist-related-coordinated-universal-time-utc-international#7114136).
