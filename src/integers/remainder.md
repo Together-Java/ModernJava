@@ -3,13 +3,18 @@
 To get the remainder of the division between two integers you can use the `%` operator.
 This is called the "modulo operator."
 
+With `int`s `7 / 2` will give you `3`. That `3` is the "quotient" from the division
+and is the number of times `2` can be taken out of `7`. This leaves a "remainder" of `1`.
+
+The modulo operator gives you that remainder.
+
 ```java
 ~void main() {
 int x = 5;
-// The remainder of 5 / 2 is 1
+// 5 / 2 is 2 with a remainder of 1
 // y will be 1
 int y = x % 2;
-// The remainder of 5 / 3 is 2
+// 5 / 3 is 1 with a remainder of 2
 // z will be 2
 int z = x % 3;
 
