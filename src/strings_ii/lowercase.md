@@ -16,7 +16,7 @@ void main() {
 
 This does not change the original `String` in place. It just makes a new `String` with all lower-case letters.
 
-Many other languages also have a distinction between upper-case and lower-case and, usually, `.toLowerCase()` does the "right thing" for them too:
+Many other languages also have a distinction between upper-case and lower-case and, usually, `.toLowerCase()` does the "right thing" for them.
 
 ```java
 ~void main() {
