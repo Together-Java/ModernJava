@@ -1,6 +1,6 @@
 # Subtypes
 
-We consider most everything to be a "subtype"
+We consider mostly everything to be a "subtype"
 of `Object`.
 
 This means that if you have a variable or field that holds an `Object`
