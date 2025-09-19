@@ -1,6 +1,6 @@
 # Conversion to Integers
 
-All `char`s have a matching numeric value. `'a'` is `97`, `'b'` is `98`,
+All `char`s have a matching numeric value[^ascii]. `'a'` is `97`, `'b'` is `98`,
 `'&'` is `38`, and so on.
 
 Same as assigning an `int` to a `double`, you can perform a widening conversion
@@ -29,5 +29,7 @@ IO.println(isLetter);
 
 This can be useful if you are stranded on Mars[^onmars] or
 if you want to see if a character is in some range.
+
+[^ascii]: You can find some of these values in an "[ASCII Table](https://www.ascii-code.com/)."
 
 [^onmars]: [https://www.youtube.com/watch?v=0xkP_FQUsuM](https://www.youtube.com/watch?v=0xkP_FQUsuM)
