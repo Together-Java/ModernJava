@@ -57,7 +57,7 @@ while (index < numbers.length) {
 Us humans, with our tiny monkey brains, can get very lost when things that are related to each other are separated
 by long distances.
 
-In this dimension, for loops are superior. All the bits of code that "control the loop" can be right at the top.
+In this dimension, `for` loops are superior. All the bits of code that "control the loop" can be right at the top.
 
 ```java
 ~void main() {
