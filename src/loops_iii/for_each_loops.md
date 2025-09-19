@@ -35,4 +35,4 @@ for (Bread bread : breads) {
 ```
 
 
-[^enhanced]: You might see this referred to as an "enhanced for statement." [That is its name in the language spec](https://docs.oracle.com/javase/specs/jls/se23/html/jls-14.html#jls-14.14.2) but not the name most people will use.
+[^enhanced]: You might see this referred to as an "enhanced for statement." [That is its name in the language spec](https://docs.oracle.com/javase/specs/jls/se25/html/jls-14.html#jls-14.14.2) but not the name most people will use.

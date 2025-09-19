@@ -39,7 +39,7 @@ class Main {
 ## Challenge 2.
 
 Rewrite your `Tree` class from above to instead extend `AbstractList<Apple>`.
-You can find the documentation for `AbstractList` [here](https://docs.oracle.com/javase/8/docs/api/java/util/AbstractList.html).
+You can find the documentation for `AbstractList` [here](https://docs.oracle.com/javase/25/docs/api/java/util/AbstractList.html).
 
 ## Challenge 3.
 

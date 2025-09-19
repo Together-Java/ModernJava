@@ -56,4 +56,4 @@ class Main {
 
 To be clear though, `Date` has problems. We aren't ready to explain all of them yet. Just treat `Date` as haunted, as in by ghosts, and use the `java.time` alternatives when you can.
 
-[^gmt]: You will notice that when we print out the date we get GMT. GMT is basically the same as UTC, though [the documentation for `Date`](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Date.html) explains the difference.
+[^gmt]: You will notice that when we print out the date we get GMT. GMT is basically the same as UTC, though [the documentation for `Date`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Date.html) explains the difference.

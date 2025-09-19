@@ -17,6 +17,6 @@ javadoc \
 This will produce a directory full of HTML files that contain all
 the documentation from the specified modules.
 
-This is what is used to make [the official Java documenation](https://docs.oracle.com/en/java/javase/24/docs/api/index.html) as well as at least part of the documentation for most Java libraries.
+This is what is used to make [the official Java documenation](https://docs.oracle.com/en/java/javase/25/docs/api/index.html) as well as at least part of the documentation for most Java libraries.
 
 [^theme]: As is a theme with command-line tools

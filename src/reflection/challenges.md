@@ -12,7 +12,7 @@ as input and returns if the name of the underlying
 class for that `Object` starts with a vowel.
 
 You might need to consult the documentation
-for [Class](https://docs.oracle.com/en/java/javase/24/docs/api/index.html).
+for [Class](https://docs.oracle.com/en/java/javase/25/docs/api/index.html).
 
 ```java,editable
 class Apple {}
