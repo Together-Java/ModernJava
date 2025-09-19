@@ -30,4 +30,4 @@ IO.println(isLetter);
 This can be useful if you are stranded on Mars[^onmars] or
 if you want to see if a character is in some range.
 
-[^onmars]: https://www.youtube.com/watch?v=0xkP_FQUsuM
+[^onmars]: [https://www.youtube.com/watch?v=0xkP_FQUsuM](https://www.youtube.com/watch?v=0xkP_FQUsuM)
