@@ -48,6 +48,21 @@ IO.println(z);
 ~}
 ```
 
+Negative numbers will also have their decimal part dropped. So numbers like `-7.2`, `-7.6`, and `-7.9` will 
+all be converted into `-7`.
+
+```java
+~void main() {
+int x = (int) -7.2;
+int y = (int) -7.6;
+int z = (int) -7.9;
+
+IO.println(x);
+IO.println(y);
+IO.println(z);
+~}
+```
+
 Any number that is too big to store in an `int` will be converted to the biggest possible `int`, 2<sup>31</sup> - 1.
 
 ```java

@@ -63,4 +63,4 @@ class PersonInCharge {}
 }
 ```
 
-[^fulllist]: You can find the full list [here](https://docs.oracle.com/javase/specs/jls/se23/html/jls-9.html#jls-9.6). It is a short list.
+[^fulllist]: You can find the full list [here](https://docs.oracle.com/javase/specs/jls/se25/html/jls-9.html#jls-9.6). It is a short list.

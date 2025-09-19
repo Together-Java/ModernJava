@@ -37,7 +37,7 @@ class Tea {
 ```
 
 For static methods you do not need an instance of the class to invoke them.
-Instead, the first argument is ignored. You can pass `null`.
+Instead, the first argument is ignored. You can pass `null`[^strange].
 
 ```java
 import java.lang.reflect.InvocationTargetException;
@@ -66,3 +66,5 @@ class Apple {
     }
 }
 ```
+
+[^strange]: I find this strange. It hurts my brain.

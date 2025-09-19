@@ -19,6 +19,6 @@ Fix these by documenting that code enough that `javadoc` no longer gives you war
 
 ## Challenge 3.
 
-Read the [documentation for java.util.StringJoiner](https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/util/StringJoiner.html).
+Read the [documentation for java.util.StringJoiner](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/StringJoiner.html).
 
 If you can, alter one of your projects to use it.

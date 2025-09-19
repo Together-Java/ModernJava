@@ -6,7 +6,7 @@ is an annotation.
 There's not much else to say besides "hey, thats what that was!" but I think its
 worth noting.
 
-```java
+```java,no_run
 interface Num {
     boolean odd();
 

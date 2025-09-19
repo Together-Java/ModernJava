@@ -7,7 +7,7 @@ The first of these "meta-annotations" you are likely to use is `@Target`.
 By default an annotation can mark anything, but you can use `@Target` to
 restrict what can be marked.[^typeuse]
 
-```java
+```java,no_run
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
