@@ -25,7 +25,7 @@ you need to escape the first backslash.[^forwardslash]
 
 ```java
 ~void main() {
-// The first backslash needs to be escaped. ¯\_(ツ)_/¯
+// The backslash needs to be escaped. ¯\_(ツ)_/¯
 String shruggie = "¯\\_(ツ)_/¯";
 ~}
 ```
