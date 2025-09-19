@@ -17,7 +17,7 @@ if (age < 25) {
 When an `if` is inside another `if` we say that it is "nested".
 
 If you find yourself nesting more than a few `if`s that might be a sign that
-you should reach out for help.
+you should reach out for help[^or].
 
 ```java,no_run
 if (...) {
@@ -30,3 +30,5 @@ if (...) {
     }
 }
 ```
+
+[^or]: Or a sign that you should keep reading. There are things I will show you that can help you avoid this - like "methods."
