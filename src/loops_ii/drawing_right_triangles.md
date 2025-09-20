@@ -1,6 +1,6 @@
 # Drawing Right Triangles
 
-One of the more fun things to do with `for` loops[^quiz] is to use them to print out shapes.
+One of the more fun things to do with `for` loops is to use them to print out shapes.
 
 Say you wanted to draw this right triangle.
 
