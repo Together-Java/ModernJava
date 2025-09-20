@@ -50,7 +50,7 @@ IO.println(
         + response[4]
 );
 
-response[2] = "is";
+response[index] = "is";
 IO.println(
     response[0] 
         + " " 
