@@ -62,3 +62,6 @@ You should get in the habit of, whenever you see some bit of code, trying to phy
 tweak it, and play with it.
 
 So try playing around with this program. If you actively engage then you will retain information better.
+
+A lot of the code samples in the book are runnable in your browser. Hover
+your mouse on the one above. You should see a run button in the top right.
