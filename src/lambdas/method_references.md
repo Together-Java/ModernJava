@@ -34,6 +34,10 @@ interface Drummer {
     void drum();
 }
 
+interface Musician {
+    void play();
+}
+
 class Main {
     void doDrum() {
         IO.println("ratatatatat");
@@ -46,7 +50,8 @@ class Main {
         Drummer drummer = this::doDrum;
         drummer.drum();
 
-        Runnable run = drummer::drum;
+        Musician musician = drummer::drum;
+        musician.play();
     }
 }
 ```
