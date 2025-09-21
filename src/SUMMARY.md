@@ -389,6 +389,7 @@ Gui stuff
   - [Field Initialization](./classes/field_initialization.md)
   - [Field Access](./classes/field_access.md)
   - [Field Default Values](./classes/field_default_values.md)
+  - [Multiple Instances](./classes/multiple_instances.md)
   - [Aliasing](./classes/aliasing.md)
   - [Return Multiple Values](./classes/return_multiple_values.md)
   - [Challenges](./classes/challenges.md)
