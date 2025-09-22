@@ -11,6 +11,10 @@ int x = 5;
 while (x > 0) {
     if (x == 4) {
         x--; // Make sure the loop continues to 3
+        // When this line is reached it will skip
+        // all the lines after this in the function
+        // and immediately go back to the top of the
+        // loop
         continue;
     }
     IO.println(x + " is a good number");

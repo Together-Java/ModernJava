@@ -22,3 +22,15 @@ void main() {
     IO.println("You have a " + grade + " in the class.");
 }
 ```
+
+For characters specifically you can get the first character of a `String` with `.charAt(0)`,
+but you might also want to check that said `String` is only one character long. Each type
+will be special.
+
+```java,no_run
+void main() {
+    String gradeString = IO.readln("What is your letter grade? ");
+    char grade = gradeString.charAt(0);
+    IO.println("You have a " + grade + " in the class.");
+}
+```

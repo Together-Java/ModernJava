@@ -24,7 +24,7 @@ So if a file has the following
 
 ```java
 void main() {
-    var names = ArrayList<String>();
+    var names = new ArrayList<String>();
     names.add("Him");
     names.add("Jim");
     names.add("Bim");
@@ -39,7 +39,7 @@ import module java.base;
 
 class Main {
     void main() {
-        var names = ArrayList<String>();
+        var names = new ArrayList<String>();
         names.add("Him");
         names.add("Jim");
         names.add("Bim");

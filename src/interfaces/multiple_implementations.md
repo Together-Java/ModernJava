@@ -50,3 +50,8 @@ void main() {
     barkAndFetch(new Cat());
 }
 ```
+
+<details>
+    <summary>Think a cat won't behave like a dog?</summary>
+    <video style="height: 600px" autoplay muted controls src="/interfaces/cat_dog.mp4"></video>
+</details>

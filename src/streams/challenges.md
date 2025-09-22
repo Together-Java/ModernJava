@@ -46,7 +46,7 @@ class Main {
 
 ## Challenge 3.
 
-Read the documentation on [`Collector`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Collector.html) and [`Collectors`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Collector.html).
+Read the documentation on [`Collector`](https://javadoc.mccue.dev/api/java.base/java/util/stream/Collector.html) and [`Collectors`](https://javadoc.mccue.dev/api/java.base/java/util/stream/Collector.html).
 
 Make an implementation of `Collector` that can collect elements into `MySpecialList`.
 

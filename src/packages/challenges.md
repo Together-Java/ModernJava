@@ -28,7 +28,7 @@ This will require marking the classes and many of the methods within `public`.
 
 ## Challenge 3.
 
-Read through [the list of packages that come with Java](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/module-summary.html). You don't need to understand everything you are looking at; just
+Read through [the list of packages that come with Java](https://javadoc.mccue.dev/api/java.base/module-summary.html). You don't need to understand everything you are looking at; just
 browse and try to find at least one class that interests you.
 
 Import that class and try to use it.

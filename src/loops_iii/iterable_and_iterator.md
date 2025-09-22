@@ -3,7 +3,7 @@
 For things that are not arrays, a for-each loops
 are built on top of two interfaces: `java.lang.Iterable` and `java.lang.Iterator`.
 
-The [`Iterator`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Iterator.html) interface defines two methods: `hasNext` and `next`[^remove]. Iterators let you box up the logic of
+The [`Iterator`](https://javadoc.mccue.dev/api/java.base/java/util/Iterator.html) interface defines two methods: `hasNext` and `next`[^remove]. Iterators let you box up the logic of
 how to loop over something.
 
 ```java,no_run
@@ -17,7 +17,7 @@ public interface Iterator<T> {
 }
 ```
 
-[`Iterable`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Iterable.html) then
+[`Iterable`](https://javadoc.mccue.dev/api/java.base/java/util/Iterable.html) then
 just has one method which gives you an `Iterator`. 
 
 ```java,no_run

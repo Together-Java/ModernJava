@@ -15,6 +15,8 @@ int views() {
 
 // Doesn't return any value.
 void talkAboutVideo() {
+    // Printing something to the screen is different
+    // than returning a value.
     IO.println(title() + " only has " + views() + " views.");
 }
 

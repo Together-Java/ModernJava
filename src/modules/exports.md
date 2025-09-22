@@ -3,7 +3,7 @@
 Inside your `module-info.java` file you declare which packages are
 "exported" from that module.
 
-```java
+```java,no_run
 module reality {
     exports earth;
     exports sea;

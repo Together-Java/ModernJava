@@ -1,6 +1,6 @@
 # Endless Loops
 
-If a while loop will never end, we call that an endless loop.
+If a while loop will never end, we call that an endless loop[^hot].
 
 This can happen if the condition is a constant like `while (true)`
 
@@ -26,3 +26,5 @@ while (x != 1) {
 
 Many games should never really "finish" so at the very start of that sort of program it is not uncommon
 to see a `while (true)`.
+
+[^hot]: If you run an endless loop that does nothing but loop your computer might start overheating. This is a natural part of the process and ultimately healthy for your CPU fans.
