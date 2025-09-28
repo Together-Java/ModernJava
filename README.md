@@ -43,7 +43,7 @@ mix thereof. None of them are actually needed to understand the mechanics of and
 behind what we would call "object oriented" or "functional" techniques. They certainly don't
 work as justification for adding getters and setters to every class.
 
-Feel free to join our [discord server](https://discord.gg/together-java-272761734820003841)
+Feel free to join our [discord server](https://discord.gg/xSdQBHfTun)
 if you have any questions, or require assistance with the project.
 
 ## Getting started
