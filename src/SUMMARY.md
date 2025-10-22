@@ -108,6 +108,7 @@ Gui stuff
   - [Lies](./prelude/lies.md)
   - [AI](./prelude/ai.md)
   - [Java](./prelude/java.md)
+  - [Testimonials](./prelude/testimonials.md)
 
 <!--
 # The Computing Environment
