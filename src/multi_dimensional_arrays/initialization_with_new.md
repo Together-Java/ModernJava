@@ -9,6 +9,6 @@ int[][] numbers;
 numbers = new int[25][25];
 
 // I think 25 is my favorite number
-int length = (new int[25][25] {}).length;
+int length = (new int[25][25]).length;
 ~}
 ```
