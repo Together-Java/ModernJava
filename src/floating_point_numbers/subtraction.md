@@ -5,7 +5,7 @@ You can subtract any two `double`s using the `-` operator.
 ```java
 ~void main() {
 double x = 5.1;
-// y will be 4.1
+// y will be -4.1
 double y = x - 9.2;
 
 IO.println(x);

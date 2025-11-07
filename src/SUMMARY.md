@@ -1313,6 +1313,51 @@ mikamoilanen — 4:01 PM
 Another solution creates a nice opportunity to introduce creating your own datastructure for more efficient solution: Build a tree out of the codes, where each number has N childs, and traverse throught that tree number-by-number of the phonenumber
 THEN you could even introduce packing the data as bitvectors in order to have even more compact data structure
 
+* string processing chapter with string formatting, string splitting, StringJoiner and friends
+* varargs (this might actually be important since we are hinting at JDK methods using varargs occasionally, e.g. List.of and similar)
+* marker interfaces (Interfaces II)
+* anonymous class
+* BigDecimal / BigInteger
+* enums can have fields, constructors and methods as well (a good example that often needs this is a DIRECTION enum (up/down/left/right) with fields for the label/string and the keyboard key or an arrow symbol in either direction)
+* sealed classes and interfaces
+* try-catch-finally. so far the book only talks about catch but leaves out finally
+* try-with-resources and Closeable/AutoCloseable (maybe motivated with Files.lines as example, but that requires streams...)
+* Comparators and Comparable
+* Random, ThreadLocalRandom.current(), seeding, SecureRandom, nextGaussian() and concept of standard deviation and mean, (honorable mention Math.random())
+* UUID
+* Wildcards, bounded wildcards and PECS (the book has a very brief mention of Foo<?> but doesnt go into detail and also doesnt talk about bounds "? extends", "? super" and syntax "? extends A & B & C")
+* type tokens "Class<Foo>" (niche topic but maybe worth mentioning somewhere in the reflection chapter)
+* sorting (List.sorted, Collections.sort, Arrays.sort)
+* Queues (ArrayDeque) and PriorityQueue (needs comparing beforehand)
+* extra chapter on some algodat (trees, graphs, DFS/BFS, mergesort/quicksort, binary search, Tries, potentially also time to make ur own linkedlist and ring buffer/circular array)
+* multithreading (Thread, Runnable, Thread-Pools with ExecutorService, Future-API with CompletableFuture)
+* scheduling and repeated tasks with ScheduledExecutorService
+* short circuit operators &| are never mentioned (probably for good, but perhaps they deserve a small annotation somewhere)
+* Optional (also OptionalInt, ...)
+* Clone API (dont use), copy constructor
+* serialization API (dont use), json with jackson/gson/whatever
+* WeakReference (for use in caches)
+* class loading/loaders
+* environment variables (niche but important for some topics)
+* process api, new ProcessBuilder etc
+* profiling, time measuring on the jvm, mentioning jmh
+* shutdown hooks, "catch/log all"
+* RandomAccessFile (niche topic but when u need it its good to know that it exists)
+* concept of buffering (and BufferedReader/Writer) and flushing
+* useful stuff from the io-stream-api such as BufferedReader/Writer, ByteArrayOutputStream (baos), ByteArrayInputStream (bais)
+* bits and bytes, bit-wise ops (&|^, shifts) and related topics such as BitSet, and EnumSet as readable bit-mask alternative
+* javas Properties class. its a badly designed class but i think its a good starter for simple config-files (when ur not yet ready for json/yaml/...)
+* IDEs
+* junit
+* general intro talk about memory/space and garbage collection on the JVM
+* chapter about "design patterns", even if its just sth like a disclaimer "u might hear about this and that design pattern. can be useful yadayada but dont overdo. learn pros/cons, put it into ur toolbox, use ur own judging." plus maybe an example of a very common pattern plus an antiexample of overusing/abusing that pattern in a way its not helpful (maybe a builder pattern? or a factory...problemfactory joke lol). opportunity to talk about some that people will definitely hear or encounter eventually, such as: DRY, KISS, YAGNI, SOLID, singletons, factories, observer/listener, proxy, delegate, builder
+
+for appendix and extra stuff:
+* http
+* sql, jdbc
+* javafx/swing/awt
+* logging (SLF4J)
+
 -->
 
 

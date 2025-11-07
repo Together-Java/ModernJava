@@ -2,7 +2,7 @@
 
 There are a lot of text editors people use to write programs.
 
-For the purposes of this book I am going to reccomend you use
+For the purposes of this book I am going to recommend you use
 one called "[VSCodium](https://vscodium.com/)."
 
 If you have already been introduced to a different text editor
