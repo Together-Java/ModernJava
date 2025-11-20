@@ -31,8 +31,8 @@ For example, in Turkish the lower-case form of the letter `I` is `ı` and not `i
 By default, Java uses the rules for the language of the computer it is running on.
 So `"I".toLowerCase()` will return `"i"` on an English system and `"ı"` on a Turkish one.
 
-To get behavior that is consistent regardless of the machine it is being run on
-you can pass use an explicit `Locale`.
+To get behavior that is consistent regardless of the machine it is being run on,
+you can use an explicit `Locale`.
 
 ```java
 ~void main() {
