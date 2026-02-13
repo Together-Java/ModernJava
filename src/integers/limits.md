@@ -5,9 +5,9 @@ is "fixed width."
 
 Say you had a piece of paper that was only big enough to write two numbers on.
 
-The only numbers you could write in a [base ten system](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction) would be those from 0 to 99. You could not write 100 or anything larger.
+The only numbers you could write in a [base ten system](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction) would be those from 0 to 9. You could not write 10 or anything larger.
 
-A Java `int` is similar except instead of only being able to write 0 to 99 on a piece of paper, a variable that has
+A Java `int` is similar except instead of only being able to write 0 to 9 on a piece of paper, a variable that has
 the type `int` can represent numbers from -2<sup>31</sup> to 2<sup>31</sup> - 1.
 
 If you try to directly write out a number that is outside of that range, Java will not let you.
