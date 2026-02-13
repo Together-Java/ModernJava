@@ -14,8 +14,8 @@ boolean c = false;
 
 // just as 2 + 5 * 3 "evaluates" 5 * 3 before adding 2
 // first, !b is true
-// second, a && true is true
-// third true || c is true.
+// second, a && !b becomes a && true that is true
+// third a && !b || c becomes true || c that is true.
 boolean result = a && !b || c;
 ```
 
