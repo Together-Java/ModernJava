@@ -103,4 +103,4 @@ a place in the operator precedence order just like `+`, `-`, `==`, etc.
 
 The main difference is that instead of appearing between two expressions like the `+` in `2 + 5`, it appears to the left of a single expression.
 
-[^cast]: https://english.stackexchange.com/questions/220001/etymology-of-type-cast
+[^cast]: [https://english.stackexchange.com/questions/220001/etymology-of-type-cast](https://english.stackexchange.com/questions/220001/etymology-of-type-cast)
