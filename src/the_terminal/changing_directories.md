@@ -22,4 +22,13 @@ $ pwd
 /Users
 ```
 
+If you want to go to your "home" directory, you do not pass any arguments or write `~`.
+```bash
+$ pwd
+/home/user/Documents
+$ cd 
+$ pwd
+/home
+```
+
 [^cd]: Short for "change directory"
