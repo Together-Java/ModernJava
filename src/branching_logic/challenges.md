@@ -26,6 +26,21 @@ if the number is odd.
 
 ## Challenge 3
 
+What will this program output when run? Write down your guess and then try running it.
+
+```java,editable
+void main() {
+  int num = 10;
+
+  if (num > 1)
+    IO.println("It is greater than 1");
+  if (num > 5)
+    IO.println("It is greater than 5");
+}
+```
+
+## Challenge 4
+
 Write code that will output `allowed` if the the `password` variable is equal to
 `"abc123"` and `not allowed` if it isn't.
 
@@ -39,7 +54,7 @@ void main() {
 }
 ```
 
-## Challenge 4
+## Challenge 5
 
 Write code that will assign the string `The number {x} is even` to `message` if `x` is an even number
 and `The number {x} is odd` if `x` is an odd number.
