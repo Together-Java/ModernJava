@@ -38,3 +38,14 @@ if (age < 25) {
 
 If this condition evaluates to `false`, then the code inside of `{` and `}`
 will not run.
+
+NOTE: If you have only one statement, you do not need to put code inside of `{` and `}`. Moreover, the remaining lines will not be considered part of the if block.
+
+```java
+~void main() {
+int age = 20;
+if (age < 25)
+    IO.println("You are too young to rent a car!"); // If condition evaluates to true
+IO.println("Bye bye"); // Always printed
+~}
+```
