@@ -29,8 +29,8 @@ Just like multiple if else statements, we have the concept to "chain" ternary op
 ~void main() {
 int age = 22;
 
-String message = age < 0
-    ? "You are not born yet"
+String message = age <= 0
+    ? "You do not exist yet"
     : age > 100
     ? "Sorry, you are too old."
     : age < 25
