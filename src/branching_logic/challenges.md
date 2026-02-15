@@ -38,6 +38,23 @@ void main() {
     IO.println("It is greater than 5");
 }
 ```
+<details>
+    <summary> Hint 1: </summary>
+    <p>Else if statements only execute if previous condition is false.</p>
+</details>
+
+<details>
+    <summary> Hint 2: </summary>
+    <p>If statements always execute.</p>
+</details>
+
+<details>
+    <summary> Solution </summary>
+    <p><pre>
+It is greater than 1
+It is greater than 5
+</pre></p>
+</details>
 
 ## Challenge 4
 
