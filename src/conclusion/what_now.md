@@ -86,7 +86,7 @@ Fabric pretty quickly requires you to interact with a concept called a "Mixin."
 This is a mechanism the Minecraft modding world made for magically editing the code inside Minecraft
 among other things. If you go this path just be ready for that.
 
-[Fabric Getting Started here](https://docs.fabricmc.net/develop/getting-started/introduction-to-fabric-and-modding)
+[Fabric Getting Started here](https://docs.fabricmc.net/develop/)
 
 [Fabric community Discord here]([https://discord.gg/v6v4pMv](https://discord.gg/v6v4pMv))
 
