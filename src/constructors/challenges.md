@@ -60,13 +60,13 @@ void main() {
 
     Shoe nike = new Shoe("Nikes", Quality.SUB_FINE, 25);
     IO.println(
-        "SHOE: " + nike.name + ", " + nike.quality + ", $" + jays.price
+        "SHOE: " + nike.name + ", " + nike.quality + ", $" + nike.price
     );
 
 
     Shoe moccasin = new Shoe("Moccasins", Quality.SUPA_FINE);
     IO.println(
-        "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + jays.price
+        "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + moccasin.price
     );
 }
 ```
@@ -97,13 +97,13 @@ void main() {
 
     Shoe nike = new Shoe("Nikes", Quality.SUB_FINE, 25);
     IO.println(
-        "SHOE: " + nike.name + ", " + nike.quality + ", $" + jays.price
+        "SHOE: " + nike.name + ", " + nike.quality + ", $" + nike.price
     );
 
 
     Shoe moccasin = new Shoe("Moccasins", Quality.SUPA_FINE);
     IO.println(
-        "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + jays.price
+        "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + moccasin.price
     );
 
     Shoe shouldCrash = new Shoe("Base Ball Cleats", Quality.SUPA_FINE, -10);
@@ -135,13 +135,13 @@ void main() {
 
     Shoe nike = new Shoe("Nikes", Quality.SUB_FINE, 25);
     IO.println(
-        "SHOE: " + nike.name + ", " + nike.quality + ", $" + jays.price
+        "SHOE: " + nike.name + ", " + nike.quality + ", $" + nike.price
     );
 
 
     Shoe moccasin = new Shoe("Moccasins", Quality.SUPA_FINE);
     IO.println(
-        "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + jays.price
+        "SHOE: " + moccasin.name + ", " + moccasin.quality + ", $" + moccasin.price
     );
 
     Shoe shouldCrash = new Shoe("Base Ball Cleats", Quality.SUPA_FINE, -10);
