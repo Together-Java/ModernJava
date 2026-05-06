@@ -19,6 +19,9 @@ class Ratio {
         if (denominator == 0) {
             throw new RuntimeException("Denominator cannot be zero");
         }
+
+        this.numerator = numerator;
+        this.denominator = denominator;
     }
 
     double value() {
