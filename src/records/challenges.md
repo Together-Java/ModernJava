@@ -49,13 +49,13 @@ enum TienMove {
 }
 
 record Chiaotzu(
-    Move memorableMove
+    TienMove memorableMove
 ) {}
 
 record Tien(
     Chiaotzu onlyFriend,
-    Move firstMove,
-    Move secondMove
+    TienMove firstMove,
+    TienMove secondMove
 ) {}
 
 class Main {
