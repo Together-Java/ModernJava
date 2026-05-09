@@ -42,20 +42,20 @@ class Main {
 Make an instance of the `Tien` record and print it out.
 
 ```java,editable
-enum TienMove {
+enum Move {
     DODON_RAY,
     TRI_BEAM,
     EXPLODE
 }
 
 record Chiaotzu(
-    TienMove memorableMove
+    Move memorableMove
 ) {}
 
 record Tien(
     Chiaotzu onlyFriend,
-    TienMove firstMove,
-    TienMove secondMove
+    Move firstMove,
+    Move secondMove
 ) {}
 
 class Main {
