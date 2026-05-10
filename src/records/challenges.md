@@ -42,7 +42,7 @@ class Main {
 Make an instance of the `Tien` record and print it out.
 
 ```java,editable
-enum TienMove {
+enum Move {
     DODON_RAY,
     TRI_BEAM,
     EXPLODE
