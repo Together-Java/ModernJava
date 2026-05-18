@@ -50,10 +50,9 @@ while (x != 0) {
         IO.println(
             "y is " + y
         );
-
-        x--;
         y--;
     }
+    x--;
 }
 
 IO.println("done.");
