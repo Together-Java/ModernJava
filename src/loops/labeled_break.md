@@ -40,7 +40,7 @@ int y = 3;
 xLoop:
 while (x != 0) {
     while (y != 0) {
-        if (x == 2 && y == 2) {
+        if (x == 4 && y == 2) {
             break xLoop;
         }
 
@@ -51,8 +51,8 @@ while (x != 0) {
             "y is " + y
         );
         y--;
+        x--;
     }
-    x--;
 }
 
 IO.println("done.");
