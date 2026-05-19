@@ -18,6 +18,11 @@ IO.println(valueOfA);
 
 ```java
 ~void main() {
+char letter = 'A';
+int result = letter + 3;
+
+IO.println(result); // outputs 68
+
 char gee = 'g';
 
 // all the letters from a to z have consecutive numeric values.
