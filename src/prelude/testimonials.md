@@ -16,7 +16,9 @@
 > Thanks to the book, I understood private constructors and static methods, instead of just writing code without knowing why.
 >
 > Yon
->
+
+
+
 > I stumbled upon this by chance and it has become one of the best descoveries for learning java. It has helped me understand concepts that I did not before and the challenges really make you think and apply the concepts properly.
 >
 >  The author teaches the concepts in a simple manner which are needlessely complicated in other resources. I recommend this to anyone who wants to learn java or wants to understand the modern features for it. Also follow the author's adivice on Ai you will thank your future self for it.
