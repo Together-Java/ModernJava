@@ -28,7 +28,7 @@
 
 
 > "An idiot admires complexity, a genius admires simplicity". While I am no genius by any stretch of the imagination, I agree with Terry A. Davis' sentiment. 
-
+>
 > The effectiveness of this book comes from its simplicity when explaining a topic. It presents you with enough information that you can immediately grasp the idea without
 > overwhelming you with unnecessary information. Topics are then immediately followed with code snippets to help solidify the information you just learned. These code snippets
 >  are well thought out and go a long way in reenforcing key ideas.
@@ -37,4 +37,5 @@
 >
 > The formula for this book is, present a topic, give an example, give you a problem to solve that forces you to apply the concept you just learned. Simple, concise and very well
 > written.
+> 
 > Zohair
