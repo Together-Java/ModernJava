@@ -243,7 +243,6 @@ context for quite yet:
 <img src="/conclusion/cici_c_rat.png" height="200px"/>
 
 * C++
-* Clojure
 * Elm
 * Haskell
 * Python
