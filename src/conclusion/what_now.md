@@ -88,7 +88,7 @@ among other things. If you go this path just be ready for that.
 
 [Fabric Getting Started here](https://docs.fabricmc.net/develop/)
 
-[Fabric community Discord here]([https://discord.gg/v6v4pMv](https://discord.gg/v6v4pMv))
+[Fabric community Discord here](https://discord.fabricmc.net/)
 
 For making plugins that run on a custom Minecraft server - so things that handle custom
 chat commands and things of that nature - you have to use the plugin required by whatever
