@@ -16,11 +16,11 @@ class Person {
         this.name = name;
     }
 
-    String getAge() {
+    int getAge() {
         return this.age;
     }
 
-    void setAge(String age) {
+    void setAge(int age) {
         this.age = age;
     }
 }
