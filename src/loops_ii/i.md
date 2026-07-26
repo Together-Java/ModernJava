@@ -8,7 +8,7 @@ code is that the variable being tracked in a for loop is often called
 ~void main() {
 String word = "bird";
 
-for (int i = 0; i < array.length; i++) {
+for (int i = 0; i < word.length(); i++) {
     char letter = word.charAt(i);
     IO.println(letter);
 }
