@@ -26,5 +26,5 @@ The differences between these mascots are representative of the differences betw
 that is a trademarked symbol of Oracle. If you use it there is a high likelyhood of Oracle
 juicero-ing your first-born.
 
-[^what]: What is that mascot? Well it is named "Duke," but beyond that your guess is as good as mine.
+[^what]: What is that mascot? Well it is named "Duke," but beyond that, your guess is as good as mine.
 I'll be using that ambiguity to its fullest.
